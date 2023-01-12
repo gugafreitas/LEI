@@ -1,0 +1,11 @@
+print("....")
+print(1+1)
+print(2*3)
+print("OLA")
+print("ola")
+print("ola".upper())
+print((2==4-2) or (2==3))
+s = 'olá mundo'
+print(s)
+print(s.upper())
+print(len(s))

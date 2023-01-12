@@ -1,0 +1,2 @@
+s="ola"
+print(s)
