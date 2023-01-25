@@ -64,3 +64,24 @@ type Turma = BTree Aluno -- ´arvore bin´aria de procura (ordenada por n´umero
 inscNum :: Numero -> Turma -> Bool
 inscNum _ Empty = False
 inscNum n (Node (num,_,_,_) l r) = n == num || inscNum n (if n<num then l else r)
+
+
+inscNome :: Nome -> Turma -> Bool
+inscNome _ Empty = False
+inscNome n (Node (_,nome,_,_) l r) = n == nome || inscNome n l || inscNome n r 
+
+trabEst :: Turma -> [(Numero,Nome)]
+trabEst Empty = []
+trabEst (Node (num,nom,TE,_) l r) = trabEst l ++ [(num,nom)] ++ trabEst r
+trabEst (Node _ l r) = trabEst l ++ trabEst r
+
+nota :: Numero -> Turma -> Maybe Classificacao
+nota n (Node (num,_,_,class) l r)
+    | n == num = Just class
+    | n < num = nota n l
+    | otherwise nota n r
+
+-- percFaltas :: Turma -> Float
+-- percFaltas (Node (num,_,_,class) l r)
+--     | class == "FALTOU" = 
+
