@@ -1,0 +1,53 @@
+FICHA 0 - EXPRESSOES REGULARES
+
+EXERCICIO 1
+testar expressoes regulares https://regex101.com/
+
+
+1. podemos ter um 'a' e/ou um 'b' zero ou mais vezes
+    a
+    b
+    ab
+    aaa
+    abab
+
+2. zero ou mais ocorrencias de 'a' ou o conjunto vazio
+    epslon
+    a
+    aa
+    aaa
+
+3. no inicio de cada frase vamos ter 'ab' 1 ou mais vezes seguido de zero ou mais ocorrências de a
+    ababababaaaaaaa
+    abaaaa
+    ab
+
+4. começa obrigatoriamente com a e termina com b (não tem nenhum + nem *) e dentro disso pode haver um 'a' e/ou um 'b' zero ou mais vezes
+    a aaba b
+       a
+       bbb
+    a      b
+
+5. podemos ter 'a' 1 ou mais vezes seguido de b zero ou mais vezes
+
+EXERCICIO 2
+
+1. ou um 'a' zero ou mais vezes ou um 'b' zero ou mais vezes ou 'c' zero ou mais vezes
+    aaabbbbb não pertence
+    aaaa
+    bbb
+    c
+    aacaaa não pertence
+
+2. um 'a' zero ou mais vezes seguido de um 'ba' zero ou mais vezes seguido de um 'b' zero ou mais vezes
+    aabababa
+    bba inválido
+
+3. 'a' zero ou mais vezes seguido de um 'b' ou um 'c' 1 ou mais vezes e acaba com zero ou mais 'a'
+
+ATENÇÃO EX3: no meio, OU um 'b' OU um 'c', não pode existir os 2
+
+EXERCICIO 3
+
+1. 
+
