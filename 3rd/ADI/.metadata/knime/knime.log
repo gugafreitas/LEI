@@ -1,0 +1,82 @@
+2023-02-23 11:25:59,606 : WARN  : ModalContext :  : Node : Color Manager : 3:2 : Column "income" has no nominal values set: execute predecessor or add Binner.
+2023-02-23 11:25:59,656 : WARN  : ModalContext :  : Node : Decision Tree Predictor : 3:4 : Internal model could not be loaded.
+2023-02-23 11:31:33,202 : WARN  : KNIME-Worker-4-File Reader 3:12 :  : DataTableSpec : Decision Tree Predictor : 3:4 : DataColumnSpec already contains a color handler, ignoring color handler from second spec.
+2023-02-23 11:31:33,210 : WARN  : KNIME-Worker-4-File Reader 3:12 :  : DataTableSpec : Decision Tree Predictor : 3:4 : DataColumnSpec already contains a color handler, ignoring color handler from second spec.
+2023-02-23 11:31:33,210 : WARN  : KNIME-Worker-4-File Reader 3:12 :  : DataTableSpec : Decision Tree Predictor : 3:4 : DataColumnSpec already contains a color handler, ignoring color handler from second spec.
+2023-02-23 11:31:33,556 : WARN  : KNIME-Worker-6-Partitioning 3:5 :  : DataTableSpec : Decision Tree Predictor : 3:4 : DataColumnSpec already contains a color handler, ignoring color handler from second spec.
+2023-02-23 11:31:33,558 : WARN  : KNIME-Worker-6-Partitioning 3:5 :  : DataTableSpec : Decision Tree Predictor : 3:4 : DataColumnSpec already contains a color handler, ignoring color handler from second spec.
+2023-02-23 11:31:33,558 : WARN  : KNIME-Worker-6-Partitioning 3:5 :  : DataTableSpec : Decision Tree Predictor : 3:4 : DataColumnSpec already contains a color handler, ignoring color handler from second spec.
+2023-02-23 11:31:34,761 : WARN  : KNIME-Worker-4-Decision Tree Learner 3:10 :  : DataTableSpec : Decision Tree Predictor : 3:4 : DataColumnSpec already contains a color handler, ignoring color handler from second spec.
+2023-02-23 11:31:34,765 : WARN  : KNIME-Worker-4-Decision Tree Learner 3:10 :  : DataTableSpec : Decision Tree Predictor : 3:4 : DataColumnSpec already contains a color handler, ignoring color handler from second spec.
+2023-02-23 11:31:34,766 : WARN  : KNIME-Worker-4-Decision Tree Learner 3:10 :  : DataTableSpec : Decision Tree Predictor : 3:4 : DataColumnSpec already contains a color handler, ignoring color handler from second spec.
+2023-02-23 11:38:06,403 : WARN  : main :  : Node : CSV Reader : 4:1 : Please specify a file
+2023-02-23 11:43:31,970 : WARN  : main :  : Node : CSV Reader : 4:1 : Please specify a file
+2023-02-23 11:52:25,969 : ERROR : KNIME Sync Exec Dispatcher-1 :  : SyncExecQueueDispatcher :  :  : Uncaught exception while queuing events into main thread
+org.eclipse.swt.SWTException: Invalid thread access
+	at org.eclipse.swt.SWT.error(SWT.java:4918)
+	at org.eclipse.swt.SWT.error(SWT.java:4833)
+	at org.eclipse.swt.SWT.error(SWT.java:4804)
+	at org.eclipse.swt.widgets.Display.error(Display.java:1191)
+	at org.eclipse.swt.widgets.Display.createDisplay(Display.java:942)
+	at org.eclipse.swt.widgets.Display.create(Display.java:926)
+	at org.eclipse.swt.graphics.Device.<init>(Device.java:132)
+	at org.eclipse.swt.widgets.Display.<init>(Display.java:753)
+	at org.eclipse.swt.widgets.Display.<init>(Display.java:744)
+	at org.eclipse.swt.widgets.Display.getDefault(Display.java:1525)
+	at org.knime.workbench.ui.SyncExecQueueDispatcher$2.run(SyncExecQueueDispatcher.java:120)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.base/java.lang.Thread.run(Unknown Source)
+2023-02-23 11:52:25,969 : ERROR : KNIME Sync Exec Dispatcher-2 :  : SyncExecQueueDispatcher :  :  : Uncaught exception while queuing events into main thread
+org.eclipse.swt.SWTException: Invalid thread access
+	at org.eclipse.swt.SWT.error(SWT.java:4918)
+	at org.eclipse.swt.SWT.error(SWT.java:4833)
+	at org.eclipse.swt.SWT.error(SWT.java:4804)
+	at org.eclipse.swt.widgets.Display.error(Display.java:1191)
+	at org.eclipse.swt.widgets.Display.createDisplay(Display.java:942)
+	at org.eclipse.swt.widgets.Display.create(Display.java:926)
+	at org.eclipse.swt.graphics.Device.<init>(Device.java:132)
+	at org.eclipse.swt.widgets.Display.<init>(Display.java:753)
+	at org.eclipse.swt.widgets.Display.<init>(Display.java:744)
+	at org.eclipse.swt.widgets.Display.getDefault(Display.java:1525)
+	at org.knime.workbench.ui.SyncExecQueueDispatcher$2.run(SyncExecQueueDispatcher.java:120)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.base/java.lang.Thread.run(Unknown Source)
+2023-02-24 16:49:38,117 : WARN  : ModalContext :  : Node : CSV Reader : 3:1 : Please specify a file
+2023-02-24 16:52:00,906 : WARN  : ModalContext :  : Node : CSV Reader : 3:1 : Please specify a file
+2023-02-24 17:29:52,422 : WARN  : ModalContext :  : Node : CSV Reader : 3:1 : Please specify a file
+2023-02-24 17:42:09,151 : WARN  : ModalContext :  : Node : Color Manager : 4:2 : Column "income" has no nominal values set: execute predecessor or add Binner.
+2023-02-24 17:42:09,160 : WARN  : ModalContext :  : Node : Decision Tree Predictor : 4:4 : Internal model could not be loaded.
+2023-02-24 17:43:31,728 : ERROR : KNIME Sync Exec Dispatcher-1 :  : SyncExecQueueDispatcher :  :  : Uncaught exception while queuing events into main thread
+org.eclipse.swt.SWTException: Invalid thread access
+	at org.eclipse.swt.SWT.error(SWT.java:4918)
+	at org.eclipse.swt.SWT.error(SWT.java:4833)
+	at org.eclipse.swt.SWT.error(SWT.java:4804)
+	at org.eclipse.swt.widgets.Display.error(Display.java:1191)
+	at org.eclipse.swt.widgets.Display.createDisplay(Display.java:942)
+	at org.eclipse.swt.widgets.Display.create(Display.java:926)
+	at org.eclipse.swt.graphics.Device.<init>(Device.java:132)
+	at org.eclipse.swt.widgets.Display.<init>(Display.java:753)
+	at org.eclipse.swt.widgets.Display.<init>(Display.java:744)
+	at org.eclipse.swt.widgets.Display.getDefault(Display.java:1525)
+	at org.knime.workbench.ui.SyncExecQueueDispatcher$2.run(SyncExecQueueDispatcher.java:120)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.base/java.lang.Thread.run(Unknown Source)
+2023-02-24 17:43:31,728 : ERROR : KNIME Sync Exec Dispatcher-2 :  : SyncExecQueueDispatcher :  :  : Uncaught exception while queuing events into main thread
+org.eclipse.swt.SWTException: Invalid thread access
+	at org.eclipse.swt.SWT.error(SWT.java:4918)
+	at org.eclipse.swt.SWT.error(SWT.java:4833)
+	at org.eclipse.swt.SWT.error(SWT.java:4804)
+	at org.eclipse.swt.widgets.Display.error(Display.java:1191)
+	at org.eclipse.swt.widgets.Display.createDisplay(Display.java:942)
+	at org.eclipse.swt.widgets.Display.create(Display.java:926)
+	at org.eclipse.swt.graphics.Device.<init>(Device.java:132)
+	at org.eclipse.swt.widgets.Display.<init>(Display.java:753)
+	at org.eclipse.swt.widgets.Display.<init>(Display.java:744)
+	at org.eclipse.swt.widgets.Display.getDefault(Display.java:1525)
+	at org.knime.workbench.ui.SyncExecQueueDispatcher$2.run(SyncExecQueueDispatcher.java:120)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.base/java.lang.Thread.run(Unknown Source)

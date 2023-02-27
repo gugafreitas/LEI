@@ -47,7 +47,16 @@ EXERCICIO 2
 
 ATENÇÃO EX3: no meio, OU um 'b' OU um 'c', não pode existir os 2
 
-EXERCICIO 3
 
-1. 
 
+---------------------------------------------------------
+
+import re
+
+re.findall(r"hello",line)
+re.findall((?i:teste,line)
+re.findall(r"[hH]ello",line)
+
+re.match (se exp regular estiver no inicio)
+re.search (nao importa posição)
+re.findall (nao importa a posiçaoo e da todas as correspondencias)
