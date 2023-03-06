@@ -60,3 +60,8 @@ re.findall(r"[hH]ello",line)
 re.match (se exp regular estiver no inicio)
 re.search (nao importa posição)
 re.findall (nao importa a posiçaoo e da todas as correspondencias)
+
+
+----------------------------------------------------------
+
+.* apanha TUDO

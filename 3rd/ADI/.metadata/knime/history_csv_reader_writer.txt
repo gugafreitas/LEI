@@ -1,1 +1,2 @@
+/Users/goncalofreitas/Desktop/users_sentiment_analysis.csv
 /Users/goncalofreitas/Downloads/titanic_dataset.csv

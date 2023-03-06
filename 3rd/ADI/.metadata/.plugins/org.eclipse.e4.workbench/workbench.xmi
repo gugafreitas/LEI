@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="ASCII"?>
 <application:Application xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:advanced="http://www.eclipse.org/ui/2010/UIModel/application/ui/advanced" xmlns:application="http://www.eclipse.org/ui/2010/UIModel/application" xmlns:basic="http://www.eclipse.org/ui/2010/UIModel/application/ui/basic" xmlns:menu="http://www.eclipse.org/ui/2010/UIModel/application/ui/menu" xmi:id="_c33sgLNjEe2Tra_Q-HXpLw" elementId="org.eclipse.e4.legacy.ide.application" contributorURI="platform:/plugin/org.eclipse.ui.workbench" selectedElement="_c33sgbNjEe2Tra_Q-HXpLw" bindingContexts="_c33sirNjEe2Tra_Q-HXpLw">
-  <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xA;&lt;workbench>&#xA;&lt;mruList>&#xA;&lt;file factoryID=&quot;org.eclipse.ui.ide.FileStoreEditorInputFactory&quot; id=&quot;org.knime.workbench.editor.WorkflowEditor&quot; name=&quot;workflow.knime&quot; tooltip=&quot;knime://LOCAL/Ficha1/workflow.knime&quot;>&#xA;&lt;persistable uri=&quot;knime://LOCAL/Ficha1/workflow.knime&quot;/>&#xA;&lt;/file>&#xA;&lt;/mruList>&#xA;&lt;/workbench>"/>
+  <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xA;&lt;workbench>&#xA;&lt;mruList>&#xA;&lt;file factoryID=&quot;org.eclipse.ui.ide.FileStoreEditorInputFactory&quot; id=&quot;org.knime.workbench.editor.WorkflowEditor&quot; name=&quot;workflow.knime&quot; tooltip=&quot;knime://LOCAL/Ficha2/workflow.knime&quot;>&#xA;&lt;persistable uri=&quot;knime://LOCAL/Ficha2/workflow.knime&quot;/>&#xA;&lt;/file>&#xA;&lt;file factoryID=&quot;org.eclipse.ui.ide.FileStoreEditorInputFactory&quot; id=&quot;org.knime.workbench.editor.WorkflowEditor&quot; name=&quot;workflow.knime&quot; tooltip=&quot;knime://LOCAL/Example%20Workflows/Ficha2/workflow.knime&quot;>&#xA;&lt;persistable uri=&quot;knime://LOCAL/Example%20Workflows/Ficha2/workflow.knime&quot;/>&#xA;&lt;/file>&#xA;&lt;file factoryID=&quot;org.eclipse.ui.ide.FileStoreEditorInputFactory&quot; id=&quot;org.knime.workbench.editor.WorkflowEditor&quot; name=&quot;workflow.knime&quot; tooltip=&quot;knime://LOCAL/Ficha1/workflow.knime&quot;>&#xA;&lt;persistable uri=&quot;knime://LOCAL/Ficha1/workflow.knime&quot;/>&#xA;&lt;/file>&#xA;&lt;/mruList>&#xA;&lt;/workbench>"/>
   <tags>activeSchemeId:org.eclipse.ui.defaultAcceleratorConfiguration</tags>
   <children xsi:type="basic:TrimmedWindow" xmi:id="_c33sgbNjEe2Tra_Q-HXpLw" elementId="IDEWindow" contributorURI="platform:/plugin/org.eclipse.ui.workbench" selectedElement="_eHfhUbNjEe2Tra_Q-HXpLw" width="1440" height="818">
     <persistedState key="coolBarVisible" value="true"/>
@@ -44,6 +44,7 @@
           <children xsi:type="basic:PartSashContainer" xmi:id="_el-NEbNjEe2Tra_Q-HXpLw" selectedElement="_el-NGrNjEe2Tra_Q-HXpLw" horizontal="true">
             <children xsi:type="basic:PartSashContainer" xmi:id="_el-NErNjEe2Tra_Q-HXpLw" containerData="3000" selectedElement="_el-NFbNjEe2Tra_Q-HXpLw">
               <children xsi:type="basic:PartStack" xmi:id="_el-NE7NjEe2Tra_Q-HXpLw" elementId="org.knime.workbench.explorer.viewMStack" containerData="3000" selectedElement="_el-NFLNjEe2Tra_Q-HXpLw">
+                <tags>noFocus</tags>
                 <children xsi:type="advanced:Placeholder" xmi:id="_el-NFLNjEe2Tra_Q-HXpLw" elementId="org.knime.workbench.explorer.view" ref="_el4tgLNjEe2Tra_Q-HXpLw" closeable="true">
                   <tags>View</tags>
                   <tags>categoryTag:KNIME Views</tags>
@@ -68,7 +69,8 @@
             <children xsi:type="basic:PartSashContainer" xmi:id="_el-NGrNjEe2Tra_Q-HXpLw" containerData="7000" selectedElement="_el-NG7NjEe2Tra_Q-HXpLw">
               <children xsi:type="basic:PartSashContainer" xmi:id="_el-NG7NjEe2Tra_Q-HXpLw" containerData="7000" selectedElement="_el-NHLNjEe2Tra_Q-HXpLw" horizontal="true">
                 <children xsi:type="advanced:Placeholder" xmi:id="_el-NHLNjEe2Tra_Q-HXpLw" elementId="org.eclipse.ui.editorss" containerData="7000" ref="_el1qMLNjEe2Tra_Q-HXpLw"/>
-                <children xsi:type="basic:PartStack" xmi:id="_el-NHbNjEe2Tra_Q-HXpLw" elementId="org.knime.workbench.helpviewMStack" containerData="3000" selectedElement="_el-NHrNjEe2Tra_Q-HXpLw">
+                <children xsi:type="basic:PartStack" xmi:id="_el-NHbNjEe2Tra_Q-HXpLw" elementId="org.knime.workbench.helpviewMStack" visible="false" containerData="3000" selectedElement="_el-NHrNjEe2Tra_Q-HXpLw">
+                  <tags>Minimized</tags>
                   <children xsi:type="advanced:Placeholder" xmi:id="_el-NHrNjEe2Tra_Q-HXpLw" elementId="org.knime.workbench.helpview" ref="_el7JwbNjEe2Tra_Q-HXpLw" closeable="true">
                     <tags>View</tags>
                     <tags>categoryTag:KNIME Views</tags>
@@ -79,14 +81,16 @@
                   </children>
                 </children>
               </children>
-              <children xsi:type="basic:PartSashContainer" xmi:id="_el-NILNjEe2Tra_Q-HXpLw" containerData="3000" horizontal="true">
-                <children xsi:type="basic:PartStack" xmi:id="_el-NIbNjEe2Tra_Q-HXpLw" elementId="org.eclipse.ui.views.ContentOutlineMStack" containerData="3000" selectedElement="_el-NIrNjEe2Tra_Q-HXpLw">
+              <children xsi:type="basic:PartSashContainer" xmi:id="_el-NILNjEe2Tra_Q-HXpLw" visible="false" containerData="3000" selectedElement="_el-NI7NjEe2Tra_Q-HXpLw" horizontal="true">
+                <children xsi:type="basic:PartStack" xmi:id="_el-NIbNjEe2Tra_Q-HXpLw" elementId="org.eclipse.ui.views.ContentOutlineMStack" visible="false" containerData="3000" selectedElement="_el-NIrNjEe2Tra_Q-HXpLw">
+                  <tags>Minimized</tags>
                   <children xsi:type="advanced:Placeholder" xmi:id="_el-NIrNjEe2Tra_Q-HXpLw" elementId="org.eclipse.ui.views.ContentOutline" ref="_el7JwLNjEe2Tra_Q-HXpLw" closeable="true">
                     <tags>View</tags>
                     <tags>categoryTag:General</tags>
                   </children>
                 </children>
-                <children xsi:type="basic:PartStack" xmi:id="_el-NI7NjEe2Tra_Q-HXpLw" elementId="org.eclipse.ui.console.ConsoleViewMStack" containerData="7000" selectedElement="_el-NJLNjEe2Tra_Q-HXpLw">
+                <children xsi:type="basic:PartStack" xmi:id="_el-NI7NjEe2Tra_Q-HXpLw" elementId="org.eclipse.ui.console.ConsoleViewMStack" visible="false" containerData="7000" selectedElement="_el-NJLNjEe2Tra_Q-HXpLw">
+                  <tags>Minimized</tags>
                   <children xsi:type="advanced:Placeholder" xmi:id="_el-NJLNjEe2Tra_Q-HXpLw" elementId="org.eclipse.ui.console.ConsoleView" ref="_el6isLNjEe2Tra_Q-HXpLw" closeable="true">
                     <tags>View</tags>
                     <tags>categoryTag:General</tags>
@@ -125,7 +129,7 @@
       <tags>categoryTag:Other</tags>
     </sharedElements>
     <sharedElements xsi:type="advanced:Area" xmi:id="_el1qMLNjEe2Tra_Q-HXpLw" elementId="org.eclipse.ui.editorss" selectedElement="_el1qMbNjEe2Tra_Q-HXpLw">
-      <children xsi:type="basic:PartStack" xmi:id="_el1qMbNjEe2Tra_Q-HXpLw" elementId="org.eclipse.e4.primaryDataStack" selectedElement="_7nQgELNlEe2Tra_Q-HXpLw">
+      <children xsi:type="basic:PartStack" xmi:id="_el1qMbNjEe2Tra_Q-HXpLw" elementId="org.eclipse.e4.primaryDataStack" selectedElement="_U-a8YLjnEe27qOV5EMtonA">
         <tags>org.eclipse.e4.primaryDataStack</tags>
         <tags>EditorStack</tags>
         <tags>active</tags>
@@ -135,7 +139,14 @@
           <tags>removeOnHide</tags>
           <tags>org.knime.workbench.editor.WorkflowEditor</tags>
           <tags>activeOnClose</tags>
+        </children>
+        <children xsi:type="basic:Part" xmi:id="_U-a8YLjnEe27qOV5EMtonA" elementId="org.eclipse.e4.ui.compatibility.editor" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityEditor" label="3: Ficha2" iconURI="platform:/plugin/org.knime.workbench.editor/icons/knime.png" closeable="true">
+          <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xA;&lt;editor id=&quot;org.knime.workbench.editor.WorkflowEditor&quot; name=&quot;workflow.knime&quot; partName=&quot;3: Ficha2&quot; title=&quot;3: Ficha2&quot; tooltip=&quot;3: Ficha2&quot;>&#xA;&lt;input factoryID=&quot;org.eclipse.ui.ide.FileStoreEditorInputFactory&quot; uri=&quot;knime://LOCAL/Ficha2/workflow.knime&quot;/>&#xA;&lt;/editor>"/>
+          <tags>Editor</tags>
+          <tags>removeOnHide</tags>
+          <tags>org.knime.workbench.editor.WorkflowEditor</tags>
           <tags>active</tags>
+          <tags>activeOnClose</tags>
         </children>
       </children>
     </sharedElements>
@@ -158,6 +169,7 @@
       <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xA;&lt;view/>"/>
       <tags>View</tags>
       <tags>categoryTag:KNIME Views</tags>
+      <tags>activeOnClose</tags>
       <menus xmi:id="_fExB4LNjEe2Tra_Q-HXpLw" elementId="org.knime.workbench.repository.view.RepositoryView">
         <tags>ViewMenu</tags>
         <tags>menuContribution:menu</tags>
@@ -253,7 +265,20 @@
       </children>
     </trimBars>
     <trimBars xmi:id="_c33sh7NjEe2Tra_Q-HXpLw" elementId="org.eclipse.ui.trim.vertical1" contributorURI="platform:/plugin/org.eclipse.ui.workbench" side="Left"/>
-    <trimBars xmi:id="_c33siLNjEe2Tra_Q-HXpLw" elementId="org.eclipse.ui.trim.vertical2" contributorURI="platform:/plugin/org.eclipse.ui.workbench" side="Right"/>
+    <trimBars xmi:id="_c33siLNjEe2Tra_Q-HXpLw" elementId="org.eclipse.ui.trim.vertical2" contributorURI="platform:/plugin/org.eclipse.ui.workbench" side="Right">
+      <children xsi:type="menu:ToolControl" xmi:id="_3EkQYLjpEe2OCaLv7IAxSA" elementId="org.eclipse.ui.views.ContentOutlineMStack(IDEWindow).(org.knime.workbench.ui.ModellerPerspective)" contributionURI="bundleclass://org.eclipse.e4.ui.workbench.addons.swt/org.eclipse.e4.ui.workbench.addons.minmax.TrimStack">
+        <tags>TrimStack</tags>
+        <tags>Draggable</tags>
+      </children>
+      <children xsi:type="menu:ToolControl" xmi:id="_3Wg8ALjpEe2OCaLv7IAxSA" elementId="org.eclipse.ui.console.ConsoleViewMStack(IDEWindow).(org.knime.workbench.ui.ModellerPerspective)" contributionURI="bundleclass://org.eclipse.e4.ui.workbench.addons.swt/org.eclipse.e4.ui.workbench.addons.minmax.TrimStack">
+        <tags>TrimStack</tags>
+        <tags>Draggable</tags>
+      </children>
+      <children xsi:type="menu:ToolControl" xmi:id="_35hicLjpEe2OCaLv7IAxSA" elementId="org.knime.workbench.helpviewMStack(IDEWindow).(org.knime.workbench.ui.ModellerPerspective)" contributionURI="bundleclass://org.eclipse.e4.ui.workbench.addons.swt/org.eclipse.e4.ui.workbench.addons.minmax.TrimStack">
+        <tags>TrimStack</tags>
+        <tags>Draggable</tags>
+      </children>
+    </trimBars>
   </children>
   <handlers xmi:id="_dOvUYrNjEe2Tra_Q-HXpLw" elementId="org.eclipse.e4.ui.workbench.renderers.swt.cocoa.ArrangeWindowHandler" contributorURI="platform:/fragment/org.eclipse.e4.ui.workbench.renderers.swt.cocoa" contributionURI="bundleclass://org.eclipse.e4.ui.workbench.renderers.swt/org.eclipse.e4.ui.workbench.renderers.swt.cocoa.ArrangeWindowHandler" command="_dOvUYbNjEe2Tra_Q-HXpLw"/>
   <handlers xmi:id="_dOv7cbNjEe2Tra_Q-HXpLw" elementId="org.eclipse.e4.ui.workbench.renderers.swt.cocoa.MinimizeWindowHandler" contributorURI="platform:/fragment/org.eclipse.e4.ui.workbench.renderers.swt.cocoa" contributionURI="bundleclass://org.eclipse.e4.ui.workbench.renderers.swt/org.eclipse.e4.ui.workbench.renderers.swt.cocoa.MinimizeWindowHandler" command="_dOv7cLNjEe2Tra_Q-HXpLw"/>
@@ -573,7 +598,7 @@
     <bindings xmi:id="_c8My7bNjEe2Tra_Q-HXpLw" keySequence="COMMAND+G" command="_c7KRFrNjEe2Tra_Q-HXpLw"/>
   </bindingTables>
   <bindingTables xmi:id="_dOv7drNjEe2Tra_Q-HXpLw" contributorURI="platform:/fragment/org.eclipse.e4.ui.workbench.renderers.swt.cocoa" bindingContext="_c33sjbNjEe2Tra_Q-HXpLw">
-    <bindings xmi:id="_cSWNoLRgEe27v_JgN_x23g" keySequence="M1+W" command="_dOv7dLNjEe2Tra_Q-HXpLw"/>
+    <bindings xmi:id="_IMKVYLjoEe2OCaLv7IAxSA" keySequence="M1+W" command="_dOv7dLNjEe2Tra_Q-HXpLw"/>
   </bindingTables>
   <bindingTables xmi:id="_eiBhMbNjEe2Tra_Q-HXpLw" bindingContext="_eiBhMLNjEe2Tra_Q-HXpLw"/>
   <bindingTables xmi:id="_eiCvUbNjEe2Tra_Q-HXpLw" bindingContext="_eiCvULNjEe2Tra_Q-HXpLw"/>
@@ -1364,7 +1389,7 @@
   <addons xmi:id="_c33slrNjEe2Tra_Q-HXpLw" elementId="MinMax Addon" contributorURI="platform:/plugin/org.eclipse.ui.workbench" contributionURI="bundleclass://org.eclipse.e4.ui.workbench.addons.swt/org.eclipse.e4.ui.workbench.addons.minmax.MinMaxAddon"/>
   <addons xmi:id="_c33sl7NjEe2Tra_Q-HXpLw" elementId="org.eclipse.ui.workbench.addon.0" contributorURI="platform:/plugin/org.eclipse.ui.workbench" contributionURI="bundleclass://org.eclipse.e4.ui.workbench/org.eclipse.e4.ui.internal.workbench.addons.HandlerProcessingAddon"/>
   <addons xmi:id="_c4btMLNjEe2Tra_Q-HXpLw" elementId="SplitterAddon" contributionURI="bundleclass://org.eclipse.e4.ui.workbench.addons.swt/org.eclipse.e4.ui.workbench.addons.splitteraddon.SplitterAddon"/>
-  <addons xmi:id="_cRw-0LRgEe27v_JgN_x23g" elementId="org.eclipse.ui.ide.addon.0" contributionURI="bundleclass://org.eclipse.ui.ide/org.eclipse.ui.internal.ide.addons.SaveAllDirtyPartsAddon"/>
+  <addons xmi:id="_ILyh8LjoEe2OCaLv7IAxSA" elementId="org.eclipse.ui.ide.addon.0" contributionURI="bundleclass://org.eclipse.ui.ide/org.eclipse.ui.internal.ide.addons.SaveAllDirtyPartsAddon"/>
   <addons xmi:id="_dz0JgGOlEeSMMaPQU2nlzw" elementId="org.eclipse.ui.ide.application.addon.0" contributorURI="platform:/plugin/org.eclipse.ui.ide.application" contributionURI="bundleclass://org.eclipse.ui.ide.application/org.eclipse.ui.internal.ide.application.addons.ModelCleanupAddon"/>
   <addons xmi:id="_dOakQLNjEe2Tra_Q-HXpLw" elementId="org.knime.product.addon.0" contributorURI="platform:/plugin/org.knime.product" contributionURI="bundleclass://org.knime.product/org.knime.product.rcp.addons.PerspectiveFixAddon"/>
   <addons xmi:id="_dObLULNjEe2Tra_Q-HXpLw" elementId="org.knime.product.addon.1" contributorURI="platform:/plugin/org.knime.product" contributionURI="bundleclass://org.knime.product/org.knime.product.rcp.addons.MenuFixesAddon"/>
