@@ -13,7 +13,6 @@ file_names = [
 
 import re
 
-def validos(file_names):
-  for file in file_names:
-    r = re.match (r'(\w|\.|-)+\.(txt|png|jpg|docx)',file)
-    print(f'(i) -> (r!= Nome')
+for file in file_names:
+  r = re.match (r'(\w|\.|-)+\.(txt|png|jpg|docx)',file)
+  print(f'(i) -> (r!= Nome')
