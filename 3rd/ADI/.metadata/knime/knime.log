@@ -161,3 +161,98 @@ org.knime.core.node.InvalidSettingsException: No nominal column selected (there 
 	at java.desktop/java.awt.EventDispatchThread.pumpEvents(Unknown Source)
 	at java.desktop/java.awt.EventDispatchThread.pumpEvents(Unknown Source)
 	at java.desktop/java.awt.EventDispatchThread.run(Unknown Source)
+2023-03-09 11:18:41,322 : WARN  : main :  : Node : CSV Reader : 3:1 : Please specify a file
+2023-03-09 11:35:41,373 : ERROR : main :  : CEFWizardNodeView :  :  : Uncaught (in promise) TypeError: Failed to execute 'exitFullscreen' on 'Document': Document not active (source: file:///var/folders/y_/6t7hqdp11ms35dkk7dkjvd100000gn/T/knimeViewContainer75377/index_16783616865698445375318328644730.html; line: 1)
+2023-03-09 11:35:41,375 : ERROR : main :  : CEFWizardNodeView :  :  : Uncaught (in promise) TypeError: Failed to execute 'exitFullscreen' on 'Document': Document not active (source: file:///var/folders/y_/6t7hqdp11ms35dkk7dkjvd100000gn/T/knimeViewContainer75377/index_16783616865698445375318328644730.html; line: 1)
+2023-03-09 11:39:29,662 : ERROR : KNIME Sync Exec Dispatcher-1 :  : SyncExecQueueDispatcher :  :  : Uncaught exception while queuing events into main thread
+org.eclipse.swt.SWTException: Invalid thread access
+	at org.eclipse.swt.SWT.error(SWT.java:4918)
+	at org.eclipse.swt.SWT.error(SWT.java:4833)
+	at org.eclipse.swt.SWT.error(SWT.java:4804)
+	at org.eclipse.swt.widgets.Display.error(Display.java:1191)
+	at org.eclipse.swt.widgets.Display.createDisplay(Display.java:942)
+	at org.eclipse.swt.widgets.Display.create(Display.java:926)
+	at org.eclipse.swt.graphics.Device.<init>(Device.java:132)
+	at org.eclipse.swt.widgets.Display.<init>(Display.java:753)
+	at org.eclipse.swt.widgets.Display.<init>(Display.java:744)
+	at org.eclipse.swt.widgets.Display.getDefault(Display.java:1525)
+	at org.knime.workbench.ui.SyncExecQueueDispatcher$2.run(SyncExecQueueDispatcher.java:120)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.base/java.lang.Thread.run(Unknown Source)
+2023-03-09 11:39:29,663 : ERROR : KNIME Sync Exec Dispatcher-2 :  : SyncExecQueueDispatcher :  :  : Uncaught exception while queuing events into main thread
+org.eclipse.swt.SWTException: Invalid thread access
+	at org.eclipse.swt.SWT.error(SWT.java:4918)
+	at org.eclipse.swt.SWT.error(SWT.java:4833)
+	at org.eclipse.swt.SWT.error(SWT.java:4804)
+	at org.eclipse.swt.widgets.Display.error(Display.java:1191)
+	at org.eclipse.swt.widgets.Display.createDisplay(Display.java:942)
+	at org.eclipse.swt.widgets.Display.create(Display.java:926)
+	at org.eclipse.swt.graphics.Device.<init>(Device.java:132)
+	at org.eclipse.swt.widgets.Display.<init>(Display.java:753)
+	at org.eclipse.swt.widgets.Display.<init>(Display.java:744)
+	at org.eclipse.swt.widgets.Display.getDefault(Display.java:1525)
+	at org.knime.workbench.ui.SyncExecQueueDispatcher$2.run(SyncExecQueueDispatcher.java:120)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.base/java.lang.Thread.run(Unknown Source)
+2023-03-09 11:42:34,472 : WARN  : main :  : Node : GroupBy : 3:6 : No grouping column included. Aggregate complete table.
+2023-03-09 11:42:34,481 : WARN  : main :  : Node : GroupBy : 3:6 : No aggregation column defined
+2023-03-09 11:42:34,482 : WARN  : main :  : Node : GroupBy : 3:6 : No aggregation column defined
+2023-03-09 11:42:34,527 : WARN  : main :  : Node : GroupBy : 3:6 : Please select at least one group or aggregation column
+2023-03-09 11:49:13,076 : WARN  : main :  : Node : GroupBy : 3:7 : No grouping column included. Aggregate complete table.
+2023-03-09 11:49:13,083 : WARN  : main :  : Node : GroupBy : 3:7 : No aggregation column defined
+2023-03-09 11:49:13,083 : WARN  : main :  : Node : GroupBy : 3:7 : No aggregation column defined
+2023-03-09 11:49:13,084 : WARN  : main :  : Node : GroupBy : 3:7 : Please select at least one group or aggregation column
+2023-03-09 11:52:37,055 : WARN  : main :  : Node : GroupBy : 3:8 : No grouping column included. Aggregate complete table.
+2023-03-09 11:52:37,057 : WARN  : main :  : Node : GroupBy : 3:8 : No aggregation column defined
+2023-03-09 11:52:37,057 : WARN  : main :  : Node : GroupBy : 3:8 : No aggregation column defined
+2023-03-09 11:52:37,057 : WARN  : main :  : Node : GroupBy : 3:8 : Please select at least one group or aggregation column
+2023-03-09 11:56:47,132 : WARN  : main :  : Node : GroupBy : 3:9 : No grouping column included. Aggregate complete table.
+2023-03-09 11:56:47,138 : WARN  : main :  : Node : GroupBy : 3:9 : No aggregation column defined
+2023-03-09 11:56:47,139 : WARN  : main :  : Node : GroupBy : 3:9 : No aggregation column defined
+2023-03-09 11:56:47,140 : WARN  : main :  : Node : GroupBy : 3:9 : Please select at least one group or aggregation column
+2023-03-09 11:58:10,494 : WARN  : main :  : Node : GroupBy : 3:10 : No grouping column included. Aggregate complete table.
+2023-03-09 11:58:10,498 : WARN  : main :  : Node : GroupBy : 3:10 : No aggregation column defined
+2023-03-09 11:58:10,498 : WARN  : main :  : Node : GroupBy : 3:10 : No aggregation column defined
+2023-03-09 11:58:10,499 : WARN  : main :  : Node : GroupBy : 3:10 : Please select at least one group or aggregation column
+2023-03-16 11:28:37,251 : WARN  : main :  : Node : CSV Reader : 3:1 : Please specify a file
+2023-03-16 11:37:40,082 : WARN  : main :  : Node : Linear Correlation : 3:4 : Auto configuration: Using all suitable columns (in total 5)
+2023-03-16 11:38:35,167 : WARN  : main :  : Node : Rank Correlation : 3:4 : Auto configuration: Using all suitable columns (in total 5)
+2023-03-16 11:44:51,911 : WARN  : main :  : Node : Decision Tree Learner : 3:6 : Guessing target column: "class".
+2023-03-16 11:57:58,255 : WARN  : main :  : Node : Partitioning : 3:10 : No sampling method selected
+2023-03-16 12:00:29,053 : WARN  : main :  : Node : CSV Reader : 4:1 : Please specify a file
+2023-03-16 12:01:47,214 : WARN  : main :  : Node : Linear Correlation : 4:2 : Auto configuration: Using all suitable columns (in total 11)
+2023-03-16 12:04:08,404 : WARN  : main :  : Node : Color Manager : 4:5 : Selected column "Bare_Nuclei" with default nominal color mapping.
+2023-03-16 12:08:19,833 : WARN  : main :  : Node : Partitioning : 4:8 : No sampling method selected
+2023-03-16 12:20:59,762 : WARN  : main :  : Node : Partitioning : 4:16 : No sampling method selected
+2023-03-16 12:21:21,767 : WARN  : main :  : Node : Partitioning : 4:8 : No sampling method selected
+2023-03-16 12:22:01,119 : WARN  : main :  : Node : Number To String : 4:14 : No columns selected
+2023-03-16 12:22:01,125 : WARN  : main :  : Node : Partitioning : 4:8 : No sampling method selected
+2023-03-16 12:22:01,642 : WARN  : main :  : Node : Number To String : 4:14 : No columns selected
+2023-03-16 12:22:01,643 : WARN  : main :  : Node : Partitioning : 4:8 : No sampling method selected
+2023-03-16 12:22:20,867 : WARN  : main :  : Node : Partitioning : 4:8 : No sampling method selected
+2023-03-16 12:22:21,396 : WARN  : main :  : Node : Partitioning : 4:8 : No sampling method selected
+2023-03-16 12:22:44,490 : WARN  : main :  : Node : Decision Tree Learner : 4:9 : Table contains no nominal attribute for classification.
+2023-03-16 12:22:45,341 : WARN  : main :  : Node : Decision Tree Learner : 4:9 : Table contains no nominal attribute for classification.
+2023-03-16 12:23:07,375 : WARN  : main :  : Node : Decision Tree Learner : 4:9 : Guessing target column: "Class".
+2023-03-16 12:23:07,384 : WARN  : main :  : Node : Scorer : 4:11 : No columns selected yet.
+2023-03-16 12:23:07,881 : WARN  : main :  : Node : Scorer : 4:11 : No columns selected yet.
+2023-03-16 12:23:21,221 : WARN  : main :  : Node : Scorer : 4:11 : No columns selected yet.
+2023-03-16 12:23:21,754 : WARN  : main :  : Node : Scorer : 4:11 : No columns selected yet.
+2023-03-16 12:27:33,870 : ERROR : KNIME Sync Exec Dispatcher-1 :  : SyncExecQueueDispatcher :  :  : Uncaught exception while queuing events into main thread
+org.eclipse.swt.SWTException: Invalid thread access
+	at org.eclipse.swt.SWT.error(SWT.java:4918)
+	at org.eclipse.swt.SWT.error(SWT.java:4833)
+	at org.eclipse.swt.SWT.error(SWT.java:4804)
+	at org.eclipse.swt.widgets.Display.error(Display.java:1191)
+	at org.eclipse.swt.widgets.Display.createDisplay(Display.java:942)
+	at org.eclipse.swt.widgets.Display.create(Display.java:926)
+	at org.eclipse.swt.graphics.Device.<init>(Device.java:132)
+	at org.eclipse.swt.widgets.Display.<init>(Display.java:753)
+	at org.eclipse.swt.widgets.Display.<init>(Display.java:744)
+	at org.eclipse.swt.widgets.Display.getDefault(Display.java:1525)
+	at org.knime.workbench.ui.SyncExecQueueDispatcher$2.run(SyncExecQueueDispatcher.java:120)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.base/java.lang.Thread.run(Unknown Source)

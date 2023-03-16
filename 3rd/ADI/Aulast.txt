@@ -1,0 +1,4 @@
+Ficha 4:
+
+csv reader -> column filter -> partitioning 
+
