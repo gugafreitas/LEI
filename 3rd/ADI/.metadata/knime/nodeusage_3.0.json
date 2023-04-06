@@ -78,9 +78,9 @@
             },
             {
                 "id": "org.knime.base.node.preproc.correlation.compute2.CorrelationCompute2NodeFactory#Linear Correlation",
-                "nrexecs": 6,
+                "nrexecs": 7,
                 "nrfails": 0,
-                "exectime": 1148,
+                "exectime": 1470,
                 "nrcreated": 6,
                 "successor": "org.knime.base.node.stats.viz.extended.ExtendedStatisticsNodeFactory#Statistics"
             },
@@ -105,7 +105,7 @@
                 "nrexecs": 2,
                 "nrfails": 0,
                 "exectime": 645,
-                "nrcreated": 1,
+                "nrcreated": 2,
                 "successor": "org.knime.base.node.preproc.autobinner3.AutoBinnerLearnNodeFactory#Auto-Binner"
             },
             {
@@ -118,9 +118,9 @@
             },
             {
                 "id": "org.knime.base.node.stats.correlation.rank2.RankCorrelationCompute2NodeFactory#Rank Correlation",
-                "nrexecs": 2,
+                "nrexecs": 3,
                 "nrfails": 0,
-                "exectime": 1647,
+                "exectime": 2638,
                 "nrcreated": 4,
                 "successor": "n/a"
             },
@@ -235,6 +235,14 @@
                 "exectime": 289,
                 "nrcreated": 1,
                 "successor": "org.knime.dynamic.js.v30.DynamicJSNodeFactory#Bar Chart"
+            },
+            {
+                "id": "org.knime.dynamic.js.v30.DynamicJSNodeFactory#Box Plot",
+                "nrexecs": 0,
+                "nrfails": 0,
+                "exectime": 0,
+                "nrcreated": 1,
+                "successor": "n/a"
             }
         ],
         "metaNodes": {
@@ -242,16 +250,16 @@
         "wrappedNodes": {
         }
     },
-    "uptime": 2,
-    "workflowsOpened": 39,
+    "uptime": 136048,
+    "workflowsOpened": 44,
     "remoteWorkflowsOpened": 2,
     "columnarStorageWorkflowsOpened": 0,
     "workflowsImported": 0,
     "workflowsExported": 0,
     "webUIPerspectiveSwitches": 0,
-    "launches": 17,
+    "launches": 18,
     "lastApplicationID": "org.knime.product.KNIME_APPLICATION",
-    "timeSinceLastStart": 46,
+    "timeSinceLastStart": 2448878,
     "crashes": 1,
     "properlyShutDown": true
 }

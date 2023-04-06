@@ -8,7 +8,7 @@
         <entry key="authored-by" type="xstring" value="goncalofreitas"/>
         <entry key="authored-when" type="xstring" value="2023-03-22 16:54:42 +0000"/>
         <entry key="lastEdited-by" type="xstring" value="goncalofreitas"/>
-        <entry key="lastEdited-when" type="xstring" value="2023-03-29 13:57:52 +0100"/>
+        <entry key="lastEdited-when" type="xstring" value="2023-03-30 16:16:52 +0100"/>
     </config>
     <entry key="customDescription" type="xstring" isnull="true" value=""/>
     <entry key="state" type="xstring" value="IDLE"/>
@@ -232,7 +232,7 @@
                 <config key="extrainfo.node.bounds">
                     <entry key="array-size" type="xint" value="4"/>
                     <entry key="0" type="xint" value="564"/>
-                    <entry key="1" type="xint" value="857"/>
+                    <entry key="1" type="xint" value="797"/>
                     <entry key="2" type="xint" value="79"/>
                     <entry key="3" type="xint" value="89"/>
                 </config>
@@ -247,10 +247,42 @@
             <config key="ui_settings">
                 <config key="extrainfo.node.bounds">
                     <entry key="array-size" type="xint" value="4"/>
-                    <entry key="0" type="xint" value="664"/>
-                    <entry key="1" type="xint" value="857"/>
+                    <entry key="0" type="xint" value="785"/>
+                    <entry key="1" type="xint" value="797"/>
                     <entry key="2" type="xint" value="50"/>
                     <entry key="3" type="xint" value="76"/>
+                </config>
+            </config>
+        </config>
+        <config key="node_16">
+            <entry key="id" type="xint" value="16"/>
+            <entry key="node_settings_file" type="xstring" value="Box Plot (#16)/settings.xml"/>
+            <entry key="node_is_meta" type="xboolean" value="false"/>
+            <entry key="node_type" type="xstring" value="NativeNode"/>
+            <entry key="ui_classname" type="xstring" value="org.knime.core.node.workflow.NodeUIInformation"/>
+            <config key="ui_settings">
+                <config key="extrainfo.node.bounds">
+                    <entry key="array-size" type="xint" value="4"/>
+                    <entry key="0" type="xint" value="845"/>
+                    <entry key="1" type="xint" value="77"/>
+                    <entry key="2" type="xint" value="50"/>
+                    <entry key="3" type="xint" value="76"/>
+                </config>
+            </config>
+        </config>
+        <config key="node_17">
+            <entry key="id" type="xint" value="17"/>
+            <entry key="node_settings_file" type="xstring" value="Duplicate Row Filter (#17)/settings.xml"/>
+            <entry key="node_is_meta" type="xboolean" value="false"/>
+            <entry key="node_type" type="xstring" value="NativeNode"/>
+            <entry key="ui_classname" type="xstring" value="org.knime.core.node.workflow.NodeUIInformation"/>
+            <config key="ui_settings">
+                <config key="extrainfo.node.bounds">
+                    <entry key="array-size" type="xint" value="4"/>
+                    <entry key="0" type="xint" value="825"/>
+                    <entry key="1" type="xint" value="257"/>
+                    <entry key="2" type="xint" value="59"/>
+                    <entry key="3" type="xint" value="89"/>
                 </config>
             </config>
         </config>

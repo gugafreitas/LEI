@@ -8,15 +8,16 @@ def parserError(simb):
 def rec_term(simb):
     global prox_simb
     if prox_simb.type == simb:
-        prox_simb = lexer.token() #peço ao lexer o token seguinte
+        prox_simb = lexer.token()
     else:
-        parserError(prox_simb) #passa a mensagem de erro com o proximo simbolo
+        parserError(prox_simb)
 
 def rec_Conteudo2():
     if prox_simb.type == 'PF':
         pass
     elif prox_simb.type == 'VIRG':
         rec_term('VIRG')
+        rec_Conteudo()
 
 def rec_Conteudo():
     rec_term('NUM')
@@ -27,10 +28,9 @@ def rec_LCont():
         rec_term('PF')
     elif prox_simb.type == 'NUM':
         rec_Conteudo()
-        rec_term(']')
+        rec_term('PF')
     else:
-        parserError(prox_simb) #passa a mensagem de erro com o proximo simbolo
-
+        parserError(prox_simb)
 
 def rec_Lista():
     rec_term('PA')

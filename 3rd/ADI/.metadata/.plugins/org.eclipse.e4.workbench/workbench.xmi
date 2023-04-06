@@ -43,7 +43,7 @@
           <tags>persp.actionSet:org.eclipse.ui.actionSet.openFiles</tags>
           <children xsi:type="basic:PartSashContainer" xmi:id="_z0NGdMiNEe2KHqlM7viqIA" selectedElement="_z0NtgMiNEe2KHqlM7viqIA" horizontal="true">
             <children xsi:type="basic:PartSashContainer" xmi:id="_z0NGdciNEe2KHqlM7viqIA" containerData="1541" selectedElement="_z0NGdsiNEe2KHqlM7viqIA">
-              <children xsi:type="basic:PartSashContainer" xmi:id="_z0NGdsiNEe2KHqlM7viqIA" containerData="3000" selectedElement="_z0NGd8iNEe2KHqlM7viqIA">
+              <children xsi:type="basic:PartSashContainer" xmi:id="_z0NGdsiNEe2KHqlM7viqIA" containerData="3000" selectedElement="_z0NGeciNEe2KHqlM7viqIA">
                 <children xsi:type="basic:PartStack" xmi:id="_z0NGd8iNEe2KHqlM7viqIA" elementId="org.knime.workbench.explorer.viewMStack" containerData="5000" selectedElement="_z0NGeMiNEe2KHqlM7viqIA">
                   <children xsi:type="advanced:Placeholder" xmi:id="_z0NGeMiNEe2KHqlM7viqIA" elementId="org.knime.workbench.explorer.view" ref="_z0OVUciNEe2KHqlM7viqIA" closeable="true">
                     <tags>View</tags>
@@ -126,7 +126,7 @@
       <tags>categoryTag:Other</tags>
     </sharedElements>
     <sharedElements xsi:type="advanced:Area" xmi:id="_z0OVDMiNEe2KHqlM7viqIA" elementId="org.eclipse.ui.editorss" selectedElement="_z0OVDciNEe2KHqlM7viqIA">
-      <children xsi:type="basic:PartStack" xmi:id="_z0OVDciNEe2KHqlM7viqIA" elementId="org.eclipse.e4.primaryDataStack" selectedElement="_b--C8MjKEe2kYfttndiZEg">
+      <children xsi:type="basic:PartStack" xmi:id="_z0OVDciNEe2KHqlM7viqIA" elementId="org.eclipse.e4.primaryDataStack" selectedElement="_g_VTkMs9Ee2ev5xc6faz8w">
         <tags>org.eclipse.e4.primaryDataStack</tags>
         <tags>EditorStack</tags>
         <tags>active</tags>
@@ -136,10 +136,9 @@
           <tags>removeOnHide</tags>
           <tags>org.knime.workbench.editor.WorkflowEditor</tags>
           <tags>activeOnClose</tags>
-          <tags>active</tags>
         </children>
-        <children xsi:type="basic:Part" xmi:id="_5ihroMs0Ee2ev5xc6faz8w" elementId="org.eclipse.e4.ui.compatibility.editor" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityEditor" label="4: Ficha4" iconURI="platform:/plugin/org.knime.workbench.editor/icons/knime.png" closeable="true">
-          <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xA;&lt;editor id=&quot;org.knime.workbench.editor.WorkflowEditor&quot; name=&quot;workflow.knime&quot; partName=&quot;4: Ficha4&quot; title=&quot;4: Ficha4&quot; tooltip=&quot;4: Ficha4&quot;>&#xA;&lt;input factoryID=&quot;org.eclipse.ui.ide.FileStoreEditorInputFactory&quot; uri=&quot;knime://LOCAL/Ficha4/workflow.knime&quot;/>&#xA;&lt;/editor>"/>
+        <children xsi:type="basic:Part" xmi:id="_5ihroMs0Ee2ev5xc6faz8w" elementId="org.eclipse.e4.ui.compatibility.editor" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityEditor" label="6: Ficha4" iconURI="platform:/plugin/org.knime.workbench.editor/icons/knime.png" closeable="true">
+          <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xA;&lt;editor id=&quot;org.knime.workbench.editor.WorkflowEditor&quot; name=&quot;workflow.knime&quot; partName=&quot;6: Ficha4&quot; title=&quot;6: Ficha4&quot; tooltip=&quot;6: Ficha4&quot;>&#xA;&lt;input factoryID=&quot;org.eclipse.ui.ide.FileStoreEditorInputFactory&quot; uri=&quot;knime://LOCAL/Ficha4/workflow.knime&quot;/>&#xA;&lt;/editor>"/>
           <tags>Editor</tags>
           <tags>removeOnHide</tags>
           <tags>org.knime.workbench.editor.WorkflowEditor</tags>
@@ -150,8 +149,8 @@
           <tags>removeOnHide</tags>
           <tags>org.knime.workbench.editor.WorkflowEditor</tags>
         </children>
-        <children xsi:type="basic:Part" xmi:id="_7N8EkMs0Ee2ev5xc6faz8w" elementId="org.eclipse.e4.ui.compatibility.editor" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityEditor" label="6: Ficha2" iconURI="platform:/plugin/org.knime.workbench.editor/icons/knime.png" closeable="true">
-          <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xA;&lt;editor id=&quot;org.knime.workbench.editor.WorkflowEditor&quot; name=&quot;workflow.knime&quot; partName=&quot;6: Ficha2&quot; title=&quot;6: Ficha2&quot; tooltip=&quot;6: Ficha2&quot;>&#xA;&lt;input factoryID=&quot;org.eclipse.ui.ide.FileStoreEditorInputFactory&quot; uri=&quot;knime://LOCAL/Ficha2/workflow.knime&quot;/>&#xA;&lt;/editor>"/>
+        <children xsi:type="basic:Part" xmi:id="_7N8EkMs0Ee2ev5xc6faz8w" elementId="org.eclipse.e4.ui.compatibility.editor" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityEditor" label="7: Ficha2" iconURI="platform:/plugin/org.knime.workbench.editor/icons/knime.png" closeable="true">
+          <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xA;&lt;editor id=&quot;org.knime.workbench.editor.WorkflowEditor&quot; name=&quot;workflow.knime&quot; partName=&quot;7: Ficha2&quot; title=&quot;7: Ficha2&quot; tooltip=&quot;7: Ficha2&quot;>&#xA;&lt;input factoryID=&quot;org.eclipse.ui.ide.FileStoreEditorInputFactory&quot; uri=&quot;knime://LOCAL/Ficha2/workflow.knime&quot;/>&#xA;&lt;/editor>"/>
           <tags>Editor</tags>
           <tags>removeOnHide</tags>
           <tags>org.knime.workbench.editor.WorkflowEditor</tags>
@@ -162,6 +161,7 @@
           <tags>removeOnHide</tags>
           <tags>org.knime.workbench.editor.WorkflowEditor</tags>
           <tags>activeOnClose</tags>
+          <tags>active</tags>
         </children>
       </children>
     </sharedElements>
@@ -270,9 +270,6 @@
       <children xsi:type="menu:ToolBar" xmi:id="_z0OVn8iNEe2KHqlM7viqIA" elementId="additions" toBeRendered="false">
         <tags>toolbarSeparator</tags>
         <children xsi:type="menu:ToolBarSeparator" xmi:id="_z0OVoMiNEe2KHqlM7viqIA" elementId="additions" toBeRendered="false"/>
-      </children>
-      <children xsi:type="menu:ToolBar" xmi:id="_IiEzEM51Ee2-ferG3nUNnQ" elementId="org.knime.workbench.editor.WorkflowEditor">
-        <tags>Draggable</tags>
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_z0OVx8iNEe2KHqlM7viqIA" elementId="group.editor" toBeRendered="false">
         <tags>toolbarSeparator</tags>
@@ -645,7 +642,7 @@
     <bindings xmi:id="_z0O8bciNEe2KHqlM7viqIA" keySequence="COMMAND+G" command="_z0PjjciNEe2KHqlM7viqIA"/>
   </bindingTables>
   <bindingTables xmi:id="_z0O8bsiNEe2KHqlM7viqIA" contributorURI="platform:/fragment/org.eclipse.e4.ui.workbench.renderers.swt.cocoa" bindingContext="_z0O8kMiNEe2KHqlM7viqIA">
-    <bindings xmi:id="_GMI2cM51Ee2-ferG3nUNnQ" keySequence="M1+W" command="_z0Pk5siNEe2KHqlM7viqIA"/>
+    <bindings xmi:id="_AYZGAM8AEe2qBJXcOS_GpA" keySequence="M1+W" command="_z0Pk5siNEe2KHqlM7viqIA"/>
   </bindingTables>
   <bindingTables xmi:id="_z0O8cMiNEe2KHqlM7viqIA" bindingContext="_z0O8k8iNEe2KHqlM7viqIA"/>
   <bindingTables xmi:id="_z0O8cciNEe2KHqlM7viqIA" bindingContext="_z0O8lMiNEe2KHqlM7viqIA"/>

@@ -13,26 +13,26 @@
         <config key="include-list">
             <entry key="filter-type" type="xstring" value="STANDARD"/>
             <config key="included_names">
-                <entry key="array-size" type="xint" value="16"/>
+                <entry key="array-size" type="xint" value="8"/>
+                <entry key="0" type="xstring" value="NA_Sales"/>
+                <entry key="1" type="xstring" value="EU_Sales"/>
+                <entry key="2" type="xstring" value="JP_Sales"/>
+                <entry key="3" type="xstring" value="Other_Sales"/>
+                <entry key="4" type="xstring" value="Global_Sales"/>
+                <entry key="5" type="xstring" value="Critic_Score"/>
+                <entry key="6" type="xstring" value="Critic_Count"/>
+                <entry key="7" type="xstring" value="User_Count"/>
+            </config>
+            <config key="excluded_names">
+                <entry key="array-size" type="xint" value="8"/>
                 <entry key="0" type="xstring" value="Name"/>
                 <entry key="1" type="xstring" value="Platform"/>
                 <entry key="2" type="xstring" value="Year_of_Release"/>
                 <entry key="3" type="xstring" value="Genre"/>
                 <entry key="4" type="xstring" value="Publisher"/>
-                <entry key="5" type="xstring" value="NA_Sales"/>
-                <entry key="6" type="xstring" value="EU_Sales"/>
-                <entry key="7" type="xstring" value="JP_Sales"/>
-                <entry key="8" type="xstring" value="Other_Sales"/>
-                <entry key="9" type="xstring" value="Global_Sales"/>
-                <entry key="10" type="xstring" value="Critic_Score"/>
-                <entry key="11" type="xstring" value="Critic_Count"/>
-                <entry key="12" type="xstring" value="User_Score"/>
-                <entry key="13" type="xstring" value="User_Count"/>
-                <entry key="14" type="xstring" value="Developer"/>
-                <entry key="15" type="xstring" value="Rating"/>
-            </config>
-            <config key="excluded_names">
-                <entry key="array-size" type="xint" value="0"/>
+                <entry key="5" type="xstring" value="User_Score"/>
+                <entry key="6" type="xstring" value="Developer"/>
+                <entry key="7" type="xstring" value="Rating"/>
             </config>
             <entry key="enforce_option" type="xstring" value="EnforceExclusion"/>
             <config key="name_pattern">
@@ -100,21 +100,21 @@
             <entry key="index" type="xint" value="1"/>
             <entry key="port_spec_class" type="xstring" value="org.knime.core.data.DataTableSpec"/>
             <entry key="port_object_class" type="xstring" value="org.knime.core.node.BufferedDataTable"/>
-            <entry key="port_object_summary" type="xstring" value="Rows: 56, Cols: 5"/>
+            <entry key="port_object_summary" type="xstring" value="Rows: 28, Cols: 5"/>
             <entry key="port_dir_location" type="xstring" value="port_1"/>
         </config>
         <config key="port_2">
             <entry key="index" type="xint" value="2"/>
             <entry key="port_spec_class" type="xstring" value="org.knime.core.data.DataTableSpec"/>
             <entry key="port_object_class" type="xstring" value="org.knime.core.node.BufferedDataTable"/>
-            <entry key="port_object_summary" type="xstring" value="Rows: 16, Cols: 16"/>
+            <entry key="port_object_summary" type="xstring" value="Rows: 8, Cols: 8"/>
             <entry key="port_dir_location" type="xstring" value="port_2"/>
         </config>
         <config key="port_3">
             <entry key="index" type="xint" value="3"/>
             <entry key="port_spec_class" type="xstring" value="org.knime.base.node.preproc.correlation.pmcc.PMCCPortObjectAndSpec"/>
             <entry key="port_object_class" type="xstring" value="org.knime.base.node.preproc.correlation.pmcc.PMCCPortObjectAndSpec"/>
-            <entry key="port_object_summary" type="xstring" value="Correlation values on 16 columns"/>
+            <entry key="port_object_summary" type="xstring" value="Correlation values on 8 columns"/>
             <entry key="port_spec_location" type="xstring" value="spec/spec.zip"/>
             <entry key="port_object_location" type="xstring" value="object/portobject.zip"/>
             <entry key="port_dir_location" type="xstring" value="port_3"/>
@@ -132,6 +132,6 @@
     </config>
     <config key="filestores">
         <entry key="file_store_location" type="xstring" isnull="true" value=""/>
-        <entry key="file_store_id" type="xstring" value="8bc04198-d08b-4005-83d3-e3ed80675687"/>
+        <entry key="file_store_id" type="xstring" value="078492a8-9b98-4e5e-bf7f-a56bd0d2a336"/>
     </config>
 </config>
