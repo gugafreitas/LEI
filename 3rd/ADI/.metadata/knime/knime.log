@@ -887,3 +887,315 @@ org.eclipse.swt.SWTException: Invalid thread access
 	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
 	at java.base/java.lang.Thread.run(Unknown Source)
+2023-04-13 11:15:03,309 : WARN  : main :  : Node : CSV Reader : 3:1 : Please specify a file
+2023-04-13 11:15:05,793 : WARN  : main :  : Node : CSV Reader : 3:2 : Please specify a file
+2023-04-13 11:21:14,802 : WARN  : main :  : Node : Linear Correlation : 3:9 : Auto configuration: Using all suitable columns (in total 13)
+2023-04-13 11:21:17,480 : WARN  : main :  : Node : Linear Correlation : 3:10 : Auto configuration: Using all suitable columns (in total 13)
+2023-04-13 11:21:54,491 : WARN  : main :  : Node : GroupBy : 3:11 : No grouping column included. Aggregate complete table.
+2023-04-13 11:21:54,493 : WARN  : main :  : Node : GroupBy : 3:11 : No aggregation column defined
+2023-04-13 11:21:54,493 : WARN  : main :  : Node : GroupBy : 3:11 : No aggregation column defined
+2023-04-13 11:21:54,494 : WARN  : main :  : Node : GroupBy : 3:11 : Please select at least one group or aggregation column
+2023-04-13 11:22:08,521 : WARN  : main :  : Node : GroupBy : 3:12 : No grouping column included. Aggregate complete table.
+2023-04-13 11:22:08,521 : WARN  : main :  : Node : GroupBy : 3:12 : No aggregation column defined
+2023-04-13 11:22:08,521 : WARN  : main :  : Node : GroupBy : 3:12 : No aggregation column defined
+2023-04-13 11:22:08,521 : WARN  : main :  : Node : GroupBy : 3:12 : Please select at least one group or aggregation column
+2023-04-13 11:22:32,831 : WARN  : ModalContext :  : Node : Partitioning : 4:10 : No sampling method selected
+2023-04-13 11:22:58,096 : WARN  : main :  : Node : Rank Correlation : 3:13 : Auto configuration: Using all suitable columns (in total 13)
+2023-04-13 11:23:07,191 : WARN  : main :  : Node : Rank Correlation : 3:14 : Auto configuration: Using all suitable columns (in total 13)
+2023-04-13 11:33:13,559 : WARN  : main :  : Node : Partitioning : 3:15 : No sampling method selected
+2023-04-13 11:33:31,499 : WARN  : main :  : Node : Partitioning : 3:16 : No sampling method selected
+2023-04-13 11:40:30,219 : WARN  : main :  : Node : Partitioning : 3:25 : No sampling method selected
+2023-04-13 11:40:33,459 : WARN  : main :  : Node : Partitioning : 3:26 : No sampling method selected
+2023-04-13 11:43:28,152 : WARN  : main :  : Node : CSV Reader : 7:1 : Please specify a file
+2023-04-13 12:03:51,565 : WARN  : main :  : Node : CSV Reader : 8:1 : Please specify a file
+2023-04-13 12:09:41,337 : WARN  : main :  : Node : Rank Correlation : 8:4 : Auto configuration: Using all suitable columns (in total 13)
+2023-04-13 12:09:41,345 : WARN  : main :  : Node : Partitioning : 8:7 : No sampling method selected
+2023-04-13 12:09:42,702 : WARN  : main :  : Node : Partitioning : 8:7 : No sampling method selected
+2023-04-13 12:10:48,957 : WARN  : main :  : Node : CSV Reader : 8:11 : Please specify a file
+2023-04-13 12:16:57,797 : WARN  : main :  : Node : Partitioning : 8:7 : No sampling method selected
+2023-04-13 12:17:16,434 : WARN  : main :  : Node : Partitioning : 8:7 : No sampling method selected
+2023-04-13 12:17:46,681 : WARN  : main :  : Node : Partitioning : 8:7 : No sampling method selected
+2023-04-13 12:17:48,665 : WARN  : main :  : Node : Partitioning : 8:7 : No sampling method selected
+2023-04-13 12:18:26,596 : WARN  : main :  : Node : Partitioning : 8:7 : No sampling method selected
+2023-04-13 12:19:12,067 : WARN  : main :  : Node : Partitioning : 8:7 : No sampling method selected
+2023-04-13 12:19:12,882 : WARN  : main :  : Node : Partitioning : 8:7 : No sampling method selected
+2023-04-13 12:20:12,911 : WARN  : KNIME-Worker-18-CSV Reader 8:1 :  : Node : Partitioning : 8:7 : No sampling method selected
+2023-04-13 12:20:15,952 : WARN  : KNIME-Worker-20-Rule Engine 8:5 :  : Node : Partitioning : 8:7 : No sampling method selected
+2023-04-13 12:24:10,888 : WARN  : main :  : Node : Decision Tree Learner : 8:8 : Guessing target column: "prediction".
+2023-04-13 12:24:10,893 : WARN  : main :  : Node : Decision Tree Predictor : 8:13 : Learning column "quality_bin" not found in input data to be predicted
+2023-04-13 12:24:18,370 : WARN  : KNIME-Worker-25-CSV Reader 8:11 :  : Node : Decision Tree Predictor : 8:13 : Learning column "quality_bin" not found in input data to be predicted
+2023-04-13 12:24:18,373 : WARN  : KNIME-Worker-27-Column Filter 8:12 :  : Node : Decision Tree Predictor : 8:13 : Learning column "quality_bin" not found in input data to be predicted
+2023-04-13 12:24:18,635 : WARN  : KNIME-Worker-26-Decision Tree Learner 8:8 :  : Node : Decision Tree Predictor : 8:13 : Learning column "quality_bin" not found in input data to be predicted
+2023-04-13 12:24:35,693 : WARN  : main :  : Node : Decision Tree Predictor : 8:13 : Learning column "quality_bin" not found in input data to be predicted
+2023-04-13 12:25:55,737 : WARN  : main :  : Node : Rule Engine : 8:5 : Line: 5: Not a column: quality_bin
+$quality_bin$ = "good" => "good"
+^
+2023-04-13 12:25:56,807 : WARN  : main :  : Node : Rule Engine : 8:5 : Line: 5: Not a column: quality_bin
+$quality_bin$ = "good" => "good"
+^
+2023-04-13 12:25:59,122 : WARN  : KNIME-Worker-29-Column Filter 8:6 :  : Node : Rule Engine : 8:5 : Line: 5: Not a column: quality_bin
+$quality_bin$ = "good" => "good"
+^
+2023-04-13 12:27:03,961 : WARN  : main :  : Node : Decision Tree Predictor : 8:13 : Learning column "quality_bin" not found in input data to be predicted
+2023-04-13 12:27:07,972 : WARN  : main :  : Node : Decision Tree Predictor : 8:13 : Learning column "quality_bin" not found in input data to be predicted
+2023-04-13 12:27:09,778 : WARN  : KNIME-Worker-33-Partitioning 8:7 :  : Node : Decision Tree Predictor : 8:13 : Learning column "quality_bin" not found in input data to be predicted
+2023-04-13 12:27:09,813 : WARN  : KNIME-Worker-34-Decision Tree Learner 8:8 :  : Node : Decision Tree Predictor : 8:13 : Learning column "quality_bin" not found in input data to be predicted
+2023-04-13 12:28:29,371 : WARN  : main :  : Node : Decision Tree Predictor : 8:13 : Learning column "prediction" not found in input data to be predicted
+2023-04-13 12:28:30,518 : WARN  : main :  : Node : Decision Tree Predictor : 8:13 : Learning column "prediction" not found in input data to be predicted
+2023-04-13 12:28:33,536 : WARN  : KNIME-Worker-35-Decision Tree Learner 8:8 :  : Node : Decision Tree Predictor : 8:13 : Learning column "prediction" not found in input data to be predicted
+2023-04-13 12:28:51,521 : WARN  : main :  : Node : Decision Tree Predictor : 8:13 : Learning column "quality_bin" not found in input data to be predicted
+2023-04-13 12:28:52,379 : WARN  : main :  : Node : Decision Tree Predictor : 8:13 : Learning column "quality_bin" not found in input data to be predicted
+2023-04-13 12:28:55,664 : WARN  : KNIME-Worker-36-Decision Tree Learner 8:8 :  : Node : Decision Tree Predictor : 8:13 : Learning column "quality_bin" not found in input data to be predicted
+2023-04-13 12:30:11,971 : WARN  : main :  : Node : Decision Tree Predictor : 8:13 : Learning column "quality_bin" not found in input data to be predicted
+2023-04-13 12:32:11,604 : WARN  : main :  : Node : Decision Tree Predictor : 8:13 : Learning column "quality1_10" not found in input data to be predicted
+2023-04-13 12:32:12,458 : WARN  : main :  : Node : Decision Tree Predictor : 8:13 : Learning column "quality1_10" not found in input data to be predicted
+2023-04-13 12:32:16,514 : WARN  : KNIME-Worker-39-Partitioning 8:7 :  : Node : Decision Tree Predictor : 8:13 : Learning column "quality1_10" not found in input data to be predicted
+2023-04-13 12:32:16,569 : WARN  : KNIME-Worker-40-Decision Tree Learner 8:8 :  : Node : Decision Tree Predictor : 8:13 : Learning column "quality1_10" not found in input data to be predicted
+2023-04-13 12:32:25,323 : WARN  : main :  : Node : Decision Tree Predictor : 8:13 : Learning column "quality_bin" not found in input data to be predicted
+2023-04-13 12:32:26,744 : WARN  : main :  : Node : Decision Tree Predictor : 8:13 : Learning column "quality_bin" not found in input data to be predicted
+2023-04-13 12:32:28,642 : WARN  : KNIME-Worker-43-Partitioning 8:7 :  : Node : Decision Tree Predictor : 8:13 : Learning column "quality_bin" not found in input data to be predicted
+2023-04-13 12:32:28,657 : WARN  : KNIME-Worker-44-Decision Tree Learner 8:8 :  : Node : Decision Tree Predictor : 8:13 : Learning column "quality_bin" not found in input data to be predicted
+2023-04-13 12:32:40,299 : WARN  : main :  : Node : Rule Engine : 8:5 : Line: 5: Not a column: quality_bin
+$quality_bin$ = "good" => "good"
+^
+2023-04-13 12:32:41,097 : WARN  : main :  : Node : Rule Engine : 8:5 : Line: 5: Not a column: quality_bin
+$quality_bin$ = "good" => "good"
+^
+2023-04-13 12:32:42,549 : WARN  : KNIME-Worker-45-Column Filter 8:6 :  : Node : Rule Engine : 8:5 : Line: 5: Not a column: quality_bin
+$quality_bin$ = "good" => "good"
+^
+2023-04-13 12:33:01,010 : WARN  : main :  : Node : Decision Tree Predictor : 8:13 : Learning column "quality_bin" not found in input data to be predicted
+2023-04-13 12:33:02,051 : WARN  : main :  : Node : Decision Tree Predictor : 8:13 : Learning column "quality_bin" not found in input data to be predicted
+2023-04-13 12:33:04,369 : WARN  : KNIME-Worker-37-Partitioning 8:7 :  : Node : Decision Tree Predictor : 8:13 : Learning column "quality_bin" not found in input data to be predicted
+2023-04-13 12:33:04,403 : WARN  : KNIME-Worker-38-Decision Tree Learner 8:8 :  : Node : Decision Tree Predictor : 8:13 : Learning column "quality_bin" not found in input data to be predicted
+2023-04-13 12:33:11,615 : WARN  : main :  : Node : Decision Tree Predictor : 8:13 : Learning column "quality_bin" not found in input data to be predicted
+2023-04-13 12:33:12,726 : WARN  : main :  : Node : Decision Tree Predictor : 8:13 : Learning column "quality_bin" not found in input data to be predicted
+2023-04-13 12:33:14,899 : WARN  : KNIME-Worker-41-Partitioning 8:7 :  : Node : Decision Tree Predictor : 8:13 : Learning column "quality_bin" not found in input data to be predicted
+2023-04-13 12:33:14,909 : WARN  : KNIME-Worker-42-Decision Tree Learner 8:8 :  : Node : Decision Tree Predictor : 8:13 : Learning column "quality_bin" not found in input data to be predicted
+2023-04-13 12:34:47,172 : WARN  : main :  : Node : Decision Tree Predictor : 8:13 : Learning column "quality1_10" not found in input data to be predicted
+2023-04-13 12:34:48,050 : WARN  : main :  : Node : Decision Tree Predictor : 8:13 : Learning column "quality1_10" not found in input data to be predicted
+2023-04-13 12:34:49,812 : WARN  : KNIME-Worker-50-Partitioning 8:7 :  : Node : Decision Tree Predictor : 8:13 : Learning column "quality1_10" not found in input data to be predicted
+2023-04-13 12:34:49,824 : WARN  : KNIME-Worker-51-Decision Tree Learner 8:8 :  : Node : Decision Tree Predictor : 8:13 : Learning column "quality1_10" not found in input data to be predicted
+2023-04-13 12:34:59,037 : WARN  : main :  : Node : Decision Tree Predictor : 8:13 : Learning column "quality_bin" not found in input data to be predicted
+2023-04-13 12:35:00,208 : WARN  : main :  : Node : Decision Tree Predictor : 8:13 : Learning column "quality_bin" not found in input data to be predicted
+2023-04-13 12:35:01,519 : WARN  : KNIME-Worker-55-Decision Tree Learner 8:8 :  : Node : Decision Tree Predictor : 8:13 : Learning column "quality_bin" not found in input data to be predicted
+2023-04-13 12:40:10,461 : WARN  : main :  : Node : Decision Tree Predictor : 8:13 : Learning column "quality_bin" not found in input data to be predicted
+2023-04-13 12:40:11,209 : WARN  : main :  : Node : Decision Tree Predictor : 8:13 : Learning column "quality_bin" not found in input data to be predicted
+2023-04-13 12:40:13,304 : WARN  : KNIME-Worker-56-Partitioning 8:7 :  : Node : Decision Tree Predictor : 8:13 : Learning column "quality_bin" not found in input data to be predicted
+2023-04-13 12:40:13,329 : WARN  : KNIME-Worker-57-Decision Tree Learner 8:8 :  : Node : Decision Tree Predictor : 8:13 : Learning column "quality_bin" not found in input data to be predicted
+2023-04-13 12:40:26,298 : WARN  : main :  : Node : Decision Tree Predictor : 8:13 : Learning column "quality_bin" not found in input data to be predicted
+2023-04-13 12:40:27,302 : WARN  : main :  : Node : Decision Tree Predictor : 8:13 : Learning column "quality_bin" not found in input data to be predicted
+2023-04-13 12:40:29,579 : WARN  : KNIME-Worker-59-Decision Tree Learner 8:8 :  : Node : Decision Tree Predictor : 8:13 : Learning column "quality_bin" not found in input data to be predicted
+2023-04-19 09:42:47,091 : WARN  : ModalContext :  : Node : Decision Tree Predictor : 3:13 : Learning column "quality_bin" not found in input data to be predicted
+2023-04-19 09:43:42,632 : WARN  : main :  : Node : CSV Reader : 3:1 : Please specify a file
+2023-04-19 09:47:05,366 : WARN  : ModalContext :  : Node : Decision Tree Predictor : 4:13 : Learning column "quality_bin" not found in input data to be predicted
+2023-04-19 09:48:13,159 : WARN  : main :  : Node : Rank Correlation : 3:4 : Auto configuration: Using all suitable columns (in total 6)
+2023-04-19 09:50:02,068 : WARN  : main :  : Node : Partitioning : 3:6 : No sampling method selected
+2023-04-19 09:52:56,613 : WARN  : main :  : Node : Partitioning : 3:6 : No sampling method selected
+2023-04-19 09:52:57,655 : WARN  : main :  : Node : Partitioning : 3:6 : No sampling method selected
+2023-04-19 09:53:02,037 : WARN  : KNIME-Worker-14-Column Filter 3:5 :  : Node : Partitioning : 3:6 : No sampling method selected
+2023-04-19 09:56:47,431 : WARN  : main :  : Node : Partitioning : 3:6 : No sampling method selected
+2023-04-19 09:56:48,490 : WARN  : main :  : Node : Partitioning : 3:6 : No sampling method selected
+2023-04-19 09:58:39,186 : WARN  : KNIME-Worker-15-Column Filter 3:5 :  : Node : Partitioning : 3:6 : No sampling method selected
+2023-04-19 10:06:51,320 : WARN  : main :  : Node : k-Medoids : 3:9 : Configuration Missing.
+2023-04-19 10:09:15,878 : WARN  : main :  : Node : Numeric Distances : 3:11 : Guessing column: '"id"' and
+Standard Distance (Euclidean/ Manhattan).
+2023-04-19 10:09:21,503 : WARN  : main :  : Node : k-Medoids : 3:9 : Configuration Missing.
+2023-04-19 10:11:37,099 : WARN  : main :  : Node : k-Medoids : 3:9 : Configuration Missing.
+2023-04-19 10:11:54,487 : WARN  : KNIME-Worker-27-Numeric Distances 3:11 :  : Node : k-Medoids : 3:9 : Configuration Missing.
+2023-04-19 10:21:32,874 : WARN  : main :  : Node : Color Manager : 3:13 : Selected column "Cluster" with default nominal color mapping.
+2023-04-19 10:22:13,153 : WARN  : KNIME-Worker-34-Color Manager 3:13 :  : Node : Color Manager : 3:13 : Selected column "Cluster" with default nominal color mapping.
+2023-04-19 10:27:18,919 : WARN  : main :  : Node : Scorer : 3:15 : No columns selected yet.
+2023-04-19 10:27:21,659 : WARN  : main :  : Node : Scorer : 3:16 : No columns selected yet.
+2023-04-19 10:29:52,688 : WARN  : main :  : Node : Scorer : 3:16 : No columns selected yet.
+2023-04-19 10:29:53,335 : WARN  : main :  : Node : Scorer : 3:16 : No columns selected yet.
+2023-04-19 10:29:56,498 : WARN  : KNIME-Worker-37-Rule Engine 3:10 :  : Node : Scorer : 3:16 : No columns selected yet.
+2023-04-19 10:30:29,862 : WARN  : main :  : Node : Scorer : 3:16 : No columns selected yet.
+2023-04-19 10:30:30,697 : WARN  : main :  : Node : Scorer : 3:16 : No columns selected yet.
+2023-04-19 10:30:34,067 : WARN  : KNIME-Worker-38-Rule Engine 3:10 :  : Node : Scorer : 3:16 : No columns selected yet.
+2023-04-19 10:43:58,008 : ERROR : KNIME Sync Exec Dispatcher-1 :  : SyncExecQueueDispatcher :  :  : Uncaught exception while queuing events into main thread
+org.eclipse.swt.SWTException: Invalid thread access
+	at org.eclipse.swt.SWT.error(SWT.java:4918)
+	at org.eclipse.swt.SWT.error(SWT.java:4833)
+	at org.eclipse.swt.SWT.error(SWT.java:4804)
+	at org.eclipse.swt.widgets.Display.error(Display.java:1191)
+	at org.eclipse.swt.widgets.Display.createDisplay(Display.java:942)
+	at org.eclipse.swt.widgets.Display.create(Display.java:926)
+	at org.eclipse.swt.graphics.Device.<init>(Device.java:132)
+	at org.eclipse.swt.widgets.Display.<init>(Display.java:753)
+	at org.eclipse.swt.widgets.Display.<init>(Display.java:744)
+	at org.eclipse.swt.widgets.Display.getDefault(Display.java:1525)
+	at org.knime.workbench.ui.SyncExecQueueDispatcher$2.run(SyncExecQueueDispatcher.java:120)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.base/java.lang.Thread.run(Unknown Source)
+2023-04-23 15:32:43,205 : WARN  : ModalContext :  : Node : Scorer : 3:16 : No columns selected yet.
+2023-04-23 15:32:43,208 : WARN  : ModalContext :  : Node : Scorer : 3:15 : No columns selected yet.
+2023-04-23 15:32:54,108 : WARN  : ModalContext :  : Node : Partitioning : 3:12 : No sampling method selected
+2023-04-23 15:54:10,197 : WARN  : KNIME-Worker-22-Statistics 3:3 :  : Node : Statistics : 3:3 : Maximum number of unique possible values (1000) exceeds for column(s): "Name","Developer"
+2023-04-23 15:58:32,518 : WARN  : main :  : Node : Crosstab (local) : 3:18 : Auto guessing: using column "Name".
+2023-04-23 15:58:32,519 : WARN  : main :  : Node : Crosstab (local) : 3:18 : Auto guessing: using column "Platform".
+2023-04-23 15:58:32,519 : WARN  : main :  : Node : Crosstab (local) : 3:18 : Auto guessing: using column "NA_Sales" for weights.
+2023-04-23 16:03:11,912 : WARN  : KNIME-Worker-32-Linear Correlation 3:5 :  : Node : Linear Correlation : 3:5 : Some numeric column(s) contained missing values: "Critic_Score", "Critic_Count", "User_Count"
+2023-04-23 16:03:43,880 : WARN  : KNIME-Worker-33-Rank Correlation 3:9 :  : Node : Rank Correlation : 3:9 : Rows containing missing values are filtered. Please resolve them with the Missing Value node.
+2023-04-23 16:05:19,979 : WARN  : KNIME-Worker-34-Missing Value 3:19 :  : Node : Missing Value : 3:19 : Column "Critic_Score" still contains missing values.
+Column "Critic_Count" still contains missing values.
+Column "User_Score" still contains missing values.
+Column "User_Count" still contains missing values.
+Column "Developer" still contains missing values.
+Column "Rating" still contains missing values.
+Column "Name" still contains missing values.
+Column "Genre" still contains missing values.
+2023-04-23 16:05:46,573 : WARN  : KNIME-Worker-35-Missing Value 3:19 :  : Node : Missing Value : 3:19 : The current settings use missing value handling methods that cannot be represented in PMML 4.2
+2023-04-23 18:02:44,873 : WARN  : main :  : Node : GroupBy : 3:20 : No grouping column included. Aggregate complete table.
+2023-04-23 18:02:44,875 : WARN  : main :  : Node : GroupBy : 3:20 : No aggregation column defined
+2023-04-23 18:02:44,876 : WARN  : main :  : Node : GroupBy : 3:20 : No aggregation column defined
+2023-04-23 18:02:44,876 : WARN  : main :  : Node : GroupBy : 3:20 : Please select at least one group or aggregation column
+2023-04-23 18:06:38,374 : WARN  : main :  : Node : GroupBy : 3:21 : No grouping column included. Aggregate complete table.
+2023-04-23 18:06:38,376 : WARN  : main :  : Node : GroupBy : 3:21 : No aggregation column defined
+2023-04-23 18:06:38,377 : WARN  : main :  : Node : GroupBy : 3:21 : No aggregation column defined
+2023-04-23 18:06:38,377 : WARN  : main :  : Node : GroupBy : 3:21 : Please select at least one group or aggregation column
+2023-04-23 18:51:11,648 : WARN  : main :  : Node : Partitioning : 3:12 : No sampling method selected
+2023-04-23 18:51:12,135 : WARN  : main :  : Node : Partitioning : 3:12 : No sampling method selected
+2023-04-23 18:51:14,219 : WARN  : KNIME-Worker-50-Column Filter 3:11 :  : Node : Partitioning : 3:12 : No sampling method selected
+2023-04-23 18:51:46,642 : WARN  : main :  : Node : Partitioning : 3:12 : No sampling method selected
+2023-04-23 18:51:47,025 : WARN  : main :  : Node : Partitioning : 3:12 : No sampling method selected
+2023-04-23 18:51:56,608 : WARN  : main :  : Node : Decision Tree Learner : 3:13 : Guessing target column: "Rating".
+2023-04-23 18:51:56,617 : WARN  : main :  : Node : Scorer : 3:15 : No columns selected yet.
+2023-04-23 18:51:57,168 : WARN  : main :  : Node : Scorer : 3:15 : No columns selected yet.
+2023-04-23 18:52:50,541 : WARN  : main :  : Node : Scorer : 3:15 : No columns selected yet.
+2023-04-23 18:52:51,036 : WARN  : main :  : Node : Scorer : 3:15 : No columns selected yet.
+2023-04-23 18:52:54,051 : WARN  : KNIME-Worker-53-Decision Tree Learner 3:13 :  : Node : Decision Tree Learner : 3:13 : 4702 rows removed due to missing class value;
+2023-04-23 18:53:59,849 : WARN  : main :  : Node : Scorer : 3:15 : No columns selected yet.
+2023-04-23 18:54:00,315 : WARN  : main :  : Node : Scorer : 3:15 : No columns selected yet.
+2023-04-23 18:54:12,905 : WARN  : main :  : Node : Scorer : 3:15 : No columns selected yet.
+2023-04-23 18:54:46,431 : ERROR : KNIME-Worker-55-Decision Tree Predictor 3:14 :  : Node : Decision Tree Predictor : 3:14 : Unable to clone input data at port 1 (Decision Tree Model): Java heap space
+java.lang.OutOfMemoryError: Java heap space
+	at org.apache.xmlbeans.impl.store.CharUtil.allocate(CharUtil.java:364)
+	at org.apache.xmlbeans.impl.store.CharUtil.saveChars(CharUtil.java:405)
+	at org.apache.xmlbeans.impl.store.Cur$CurLoadContext.text(Cur.java:2820)
+	at org.apache.xmlbeans.impl.store.Cur$CurLoadContext.attr(Cur.java:2923)
+	at org.apache.xmlbeans.impl.store.Cur$CurLoadContext.attr(Cur.java:2940)
+	at org.apache.xmlbeans.impl.store.Locale$SaxHandler.startElement(Locale.java:2356)
+	at java.xml/com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser.startElement(Unknown Source)
+	at java.xml/com.sun.org.apache.xerces.internal.parsers.AbstractXMLDocumentParser.emptyElement(Unknown Source)
+	at java.xml/com.sun.org.apache.xerces.internal.impl.XMLNSDocumentScannerImpl.scanStartElement(Unknown Source)
+	at java.xml/com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl$FragmentContentDriver.next(Unknown Source)
+	at java.xml/com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl.next(Unknown Source)
+	at java.xml/com.sun.org.apache.xerces.internal.impl.XMLNSDocumentScannerImpl.next(Unknown Source)
+	at java.xml/com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanDocument(Unknown Source)
+	at java.xml/com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(Unknown Source)
+	at java.xml/com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(Unknown Source)
+	at java.xml/com.sun.org.apache.xerces.internal.parsers.XMLParser.parse(Unknown Source)
+	at java.xml/com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser.parse(Unknown Source)
+	at java.xml/com.sun.org.apache.xerces.internal.jaxp.SAXParserImpl$JAXPSAXParser.parse(Unknown Source)
+	at org.apache.xmlbeans.impl.store.Locale$SaxLoader.load(Locale.java:2525)
+	at org.apache.xmlbeans.impl.store.Locale.lambda$parseToXmlObject$3(Locale.java:715)
+	at org.apache.xmlbeans.impl.store.Locale$$Lambda$911/0x0000000801670000.parse(Unknown Source)
+	at org.apache.xmlbeans.impl.store.Locale.syncWrap(Locale.java:488)
+	at org.apache.xmlbeans.impl.store.Locale.parseToXmlObject(Locale.java:714)
+	at org.apache.xmlbeans.impl.schema.SchemaTypeLoaderBase.parse(SchemaTypeLoaderBase.java:233)
+	at org.apache.xmlbeans.impl.schema.XmlObjectFactory.parse(XmlObjectFactory.java:195)
+	at org.knime.core.node.port.pmml.PMMLPortObject.loadFrom(PMMLPortObject.java:667)
+	at org.knime.core.node.port.pmml.PMMLPortObjectSerializer.loadPortObject(PMMLPortObjectSerializer.java:88)
+	at org.knime.core.node.port.pmml.PMMLPortObjectSerializer.loadPortObject(PMMLPortObjectSerializer.java:1)
+	at org.knime.core.node.Node.copyPortObject(Node.java:1512)
+	at org.knime.core.node.Node.execute(Node.java:1025)
+	at org.knime.core.node.workflow.NativeNodeContainer.performExecuteNode(NativeNodeContainer.java:595)
+	at org.knime.core.node.exec.LocalNodeExecutionJob.mainExecute(LocalNodeExecutionJob.java:98)
+2023-04-23 18:54:46,500 : WARN  : KNIME-Worker-55-Decision Tree Predictor 3:14 :  : Node : Scorer : 3:15 : No columns selected yet.
+2023-04-23 18:57:55,549 : WARN  : main :  : Node : Scorer : 3:15 : No columns selected yet.
+2023-04-23 18:57:55,980 : WARN  : main :  : Node : Scorer : 3:15 : No columns selected yet.
+2023-04-23 18:58:02,794 : WARN  : KNIME-Worker-57-Decision Tree Predictor 3:14 :  : Node : Scorer : 3:15 : No columns selected yet.
+2023-04-23 18:58:40,047 : WARN  : KNIME-Worker-58-Scorer 3:15 :  : Node : Scorer : 3:15 : There were missing values in the reference or in the prediction class columns.
+2023-04-23 19:01:19,613 : WARN  : KNIME-Worker-60-Missing Value 3:22 :  : Node : Missing Value : 3:22 : Column "Critic_Score" still contains missing values.
+Column "Critic_Count" still contains missing values.
+Column "User_Score" still contains missing values.
+Column "User_Count" still contains missing values.
+Column "Developer" still contains missing values.
+Column "Rating" still contains missing values.
+Column "Name" still contains missing values.
+Column "Genre" still contains missing values.
+2023-04-26 16:03:09,789 : WARN  : main :  : Node : GroupBy : 3:23 : No grouping column included. Aggregate complete table.
+2023-04-26 16:03:09,791 : WARN  : main :  : Node : GroupBy : 3:23 : No aggregation column defined
+2023-04-26 16:03:09,791 : WARN  : main :  : Node : GroupBy : 3:23 : No aggregation column defined
+2023-04-26 16:03:09,792 : WARN  : main :  : Node : GroupBy : 3:23 : Please select at least one group or aggregation column
+2023-04-26 16:04:57,525 : WARN  : main :  : Node : GroupBy : 3:24 : No grouping column included. Aggregate complete table.
+2023-04-26 16:04:57,527 : WARN  : main :  : Node : GroupBy : 3:24 : No aggregation column defined
+2023-04-26 16:04:57,527 : WARN  : main :  : Node : GroupBy : 3:24 : No aggregation column defined
+2023-04-26 16:04:57,527 : WARN  : main :  : Node : GroupBy : 3:24 : Please select at least one group or aggregation column
+2023-04-26 16:05:46,992 : WARN  : main :  : Node : GroupBy : 3:25 : No grouping column included. Aggregate complete table.
+2023-04-26 16:05:46,993 : WARN  : main :  : Node : GroupBy : 3:25 : No aggregation column defined
+2023-04-26 16:05:46,994 : WARN  : main :  : Node : GroupBy : 3:25 : No aggregation column defined
+2023-04-26 16:05:46,994 : WARN  : main :  : Node : GroupBy : 3:25 : Please select at least one group or aggregation column
+2023-04-26 16:10:51,018 : WARN  : main :  : Node : GroupBy : 3:26 : No grouping column included. Aggregate complete table.
+2023-04-26 16:10:51,019 : WARN  : main :  : Node : GroupBy : 3:26 : No aggregation column defined
+2023-04-26 16:10:51,019 : WARN  : main :  : Node : GroupBy : 3:26 : No aggregation column defined
+2023-04-26 16:10:51,019 : WARN  : main :  : Node : GroupBy : 3:26 : Please select at least one group or aggregation column
+2023-04-26 16:11:11,381 : WARN  : main :  : WrappedNodeDialog : GroupBy : 3:26 : failed to apply settings: Please select at least one group column or aggregation option
+org.knime.core.node.InvalidSettingsException: Please select at least one group column or aggregation option
+	at org.knime.base.node.preproc.groupby.GroupByNodeModel.validateSettings(GroupByNodeModel.java:428)
+	at org.knime.core.node.Node.validateModelSettings(Node.java:692)
+	at org.knime.core.node.workflow.NativeNodeContainer.performValidateSettings(NativeNodeContainer.java:1184)
+	at org.knime.core.node.workflow.SingleNodeContainer.validateSettings(SingleNodeContainer.java:1000)
+	at org.knime.core.node.workflow.WorkflowManager.loadNodeSettings(WorkflowManager.java:2060)
+	at org.knime.core.node.workflow.NodeContainer.applySettingsFromDialog(NodeContainer.java:1140)
+	at org.knime.core.ui.wrapper.NodeContainerWrapper.applySettingsFromDialog(NodeContainerWrapper.java:264)
+	at org.knime.workbench.ui.wrapper.WrappedNodeDialog.callApplySettingsFromDialog(WrappedNodeDialog.java:672)
+	at org.knime.workbench.ui.wrapper.WrappedNodeDialog.doApply(WrappedNodeDialog.java:644)
+	at org.knime.workbench.ui.wrapper.WrappedNodeDialog.doOK(WrappedNodeDialog.java:559)
+	at org.knime.workbench.ui.wrapper.WrappedNodeDialog$5.widgetSelected(WrappedNodeDialog.java:495)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:252)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4604)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1524)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1547)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1532)
+	at org.eclipse.swt.widgets.Widget.notifyListeners(Widget.java:1325)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4390)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3966)
+	at org.eclipse.jface.window.Window.runEventLoop(Window.java:823)
+	at org.eclipse.jface.window.Window.open(Window.java:799)
+	at org.knime.workbench.ui.wrapper.WrappedNodeDialog.open(WrappedNodeDialog.java:199)
+	at org.knime.workbench.editor2.editparts.NodeContainerEditPart.openDialog(NodeContainerEditPart.java:957)
+	at org.knime.workbench.editor2.editparts.NodeContainerEditPart.openNodeDialog(NodeContainerEditPart.java:864)
+	at org.knime.workbench.editor2.editparts.NodeContainerEditPart.openNodeDialog(NodeContainerEditPart.java:846)
+	at org.knime.workbench.editor2.actions.OpenDialogAction.runOnNodes(OpenDialogAction.java:172)
+	at org.knime.workbench.editor2.actions.AbstractNodeAction.runInSWT(AbstractNodeAction.java:174)
+	at org.knime.workbench.editor2.actions.AbstractNodeAction$1.run(AbstractNodeAction.java:160)
+	at org.eclipse.swt.widgets.Synchronizer.syncExec(Synchronizer.java:183)
+	at org.eclipse.ui.internal.UISynchronizer.syncExec(UISynchronizer.java:133)
+	at org.eclipse.swt.widgets.Display.syncExec(Display.java:5211)
+	at org.knime.workbench.editor2.actions.AbstractNodeAction.run(AbstractNodeAction.java:157)
+	at org.eclipse.jface.action.Action.runWithEvent(Action.java:474)
+	at org.eclipse.jface.action.ActionContributionItem.handleWidgetSelection(ActionContributionItem.java:580)
+	at org.eclipse.jface.action.ActionContributionItem.lambda$4(ActionContributionItem.java:414)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4604)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1524)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1547)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1532)
+	at org.eclipse.swt.widgets.Widget.notifyListeners(Widget.java:1325)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4390)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3966)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1155)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1046)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:644)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:551)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:156)
+	at org.knime.product.rcp.KNIMEApplication.start(KNIMEApplication.java:191)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:136)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:402)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.base/java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:659)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:596)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1467)

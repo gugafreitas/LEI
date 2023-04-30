@@ -226,13 +226,13 @@
             <config key="lower_bound">
                 <entry key="datacell" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
                 <config key="org.knime.core.data.def.DoubleCell">
-                    <entry key="DoubleCell" type="xdouble" value="-0.3016975021782303"/>
+                    <entry key="DoubleCell" type="xdouble" value="-0.555770666372569"/>
                 </config>
             </config>
             <config key="upper_bound">
                 <entry key="datacell" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
                 <config key="org.knime.core.data.def.DoubleCell">
-                    <entry key="DoubleCell" type="xdouble" value="0.9094090988085788"/>
+                    <entry key="DoubleCell" type="xdouble" value="0.8132368541016561"/>
                 </config>
             </config>
         </config>
@@ -259,7 +259,7 @@
             <config key="upper_bound">
                 <entry key="datacell" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
                 <config key="org.knime.core.data.def.DoubleCell">
-                    <entry key="DoubleCell" type="xdouble" value="0.9696433335908561"/>
+                    <entry key="DoubleCell" type="xdouble" value="0.9829228244443269"/>
                 </config>
             </config>
         </config>
@@ -280,13 +280,13 @@
             <config key="lower_bound">
                 <entry key="datacell" type="xstring" value="org.knime.core.data.def.IntCell"/>
                 <config key="org.knime.core.data.def.IntCell">
-                    <entry key="IntCell" type="xint" value="6945"/>
+                    <entry key="IntCell" type="xint" value="16717"/>
                 </config>
             </config>
             <config key="upper_bound">
                 <entry key="datacell" type="xstring" value="org.knime.core.data.def.IntCell"/>
                 <config key="org.knime.core.data.def.IntCell">
-                    <entry key="IntCell" type="xint" value="6945"/>
+                    <entry key="IntCell" type="xint" value="16717"/>
                 </config>
             </config>
         </config>

@@ -1,7 +1,10 @@
+/Users/goncalofreitas/Downloads/iris_data/iris_data.csv
+/Users/goncalofreitas/Downloads/wine quality (new)/winequality-red new.csv
+/Users/goncalofreitas/Downloads/wine quality (1)/winequality-red.csv
+/Users/goncalofreitas/Downloads/win equality (train+test)/winequality-red test.csv
+/Users/goncalofreitas/Downloads/win equality (train+test)/winequality-red train.csv
 /Users/goncalofreitas/Downloads/archive/Raw Data.csv
 /Users/goncalofreitas/Downloads/wine quality/winequality-red.csv
 /Users/goncalofreitas/Downloads/dataset_bcw(1)/breast-cancer-wisconsin.csv
 /Users/goncalofreitas/Downloads/dataset_iris/iris.csv
 /Users/goncalofreitas/Downloads/student_data/student_data.csv
-/Users/goncalofreitas/Desktop/users_sentiment_analysis.csv
-/Users/goncalofreitas/Downloads/titanic_dataset.csv
