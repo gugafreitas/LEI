@@ -1,0 +1,3 @@
+/Users/goncalofreitas/Desktop/LEI/3rd/CG/PL6/build/CMakeFiles/class6.dir
+/Users/goncalofreitas/Desktop/LEI/3rd/CG/PL6/build/CMakeFiles/edit_cache.dir
+/Users/goncalofreitas/Desktop/LEI/3rd/CG/PL6/build/CMakeFiles/rebuild_cache.dir

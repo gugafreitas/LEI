@@ -7,7 +7,7 @@
 #include <math.h>
 #include <vector>
 
-#include <IL/il.h>
+//#include <Users/goncalofreitas/Library/Logs/Homebrew/IL/il.h>
 
 #ifdef __APPLE__
 #include <GLUT/glut.h>
@@ -16,12 +16,17 @@
 #include <GL/glut.h>
 #endif
 
-
-
 float camX = 00, camY = 30, camZ = 40;
 int startX, startY, tracking = 0;
 
 int alpha = 0, beta = 45, r = 50;
+
+unsigned int t;
+int tw, th;
+unsigned char* imageData;
+
+GLuint* vertices;
+double vertexCount;
 
 void changeSize(int w, int h) {
 
@@ -52,10 +57,15 @@ void changeSize(int w, int h) {
 void drawTerrain() {
 
     // colocar aqui o código de desnho do terreno usando VBOs com TRIANGLE_STRIPS
-	glBindBuffer(GL_ARRAY_BUFFER,buffers[0]);
-	glVertexPointer(3,GL_FLOAT,0,0);
+	for (int strip = 0; strip < th - 1; strip++) {
+		glBindBuffer(GL_ARRAY_BUFFER, vertices[strip]);
+		if (strip % 2 == 0) glColor3f(0.5f, 0.35f, 0.05f);
+		else glColor3f(0.5f, 1.0f, 0.0f);
+		glVertexPointer(3, GL_FLOAT, 0, 0);
 
-	glDrawArrays(GL_TRIANGLE_STRIP, first, count);
+		glDrawArrays(GL_TRIANGLE_STRIP, 0, vertexCount);
+	}
+
 }
 
 
@@ -74,11 +84,8 @@ void renderScene(void) {
 
 	drawTerrain();
 
-	// just so that it renders something before the terrain is built
-	// to erase when the terrain is ready
-	glutWireTeapot(2.0);
 
-	// End of frame
+// End of frame
 	glutSwapBuffers();
 }
 
@@ -157,36 +164,52 @@ void processMouseMotion(int xx, int yy) {
 	camY = rAux * 							     sin(betaAux * 3.14 / 180.0);
 }
 
+float h(int i, int j) {
+	float x = imageData[i * tw + j];
+	return x / 255 * 30;
+}
 
 void init() {
-	ilInit();
 
-	unsigned int t, tw, th;
-	unsigned char *imageData;
-
-	ifGenImages(1,&t);
+	// 	Load the height map "terreno.jpg"
+	ilGenImages(1, &t);
 	ilBindImage(t);
-	ilLoadImage((ILstring)"terreno.jpg");
 
+	ilLoadImage((ILstring)"terreno.jpg");
 	ilConvertImage(IL_LUMINANCE, IL_UNSIGNED_BYTE);
 
 	tw = ilGetInteger(IL_IMAGE_WIDTH);
 	th = ilGetInteger(IL_IMAGE_HEIGHT);
+	imageData = ilGetData();
 
-	imageData = ilGetData()
+	// 	Build the vertex arrays
+	vertices = (GLuint*)calloc(th - 1, sizeof(GLuint));
+	glGenBuffers(th - 1, vertices);
 
-	
+	int halfW = tw / 2;
+	int halfH = th / 2;
+
+	vertexCount = 2 * tw;
+
+	for (int n_strip = 0; n_strip < th - 1; n_strip++) {
+		std::vector<float> strip;
+		for (int j = 0; j < tw; j++) {
+			strip.push_back(n_strip - halfH);
+			strip.push_back(h(n_strip, j));
+			strip.push_back(j - halfW);
+
+			strip.push_back(n_strip + 1 - halfH);
+			strip.push_back(h(n_strip + 1, j));
+			strip.push_back(j - halfW);
+		}
+
+		glBindBuffer(GL_ARRAY_BUFFER, vertices[n_strip]);
+		glBufferData(GL_ARRAY_BUFFER, strip.size() * sizeof(float), strip.data(), GL_STATIC_DRAW);
+	}
+
+// 	OpenGL settings
 	glEnable(GL_DEPTH_TEST);
-
-	glDrawArrays(GL_TRIANGLE_STRIP, 0, th-1);
-
-	float *vertexB;
-	glEnableClientState(GL_VERTEX_ARRAY);
-
-	GLuint buffers[1]; 
-	glGenBuffers(1, buffers);
-	glBindBuffer(GL_ARRAY_BUFFER,buffers[0]);
-	glBufferData(GL_ARRAY_BUFFER,arraySize, vertexB, GL_STATIC_DRAW);
+	//glEnable(GL_CULL_FACE);
 }
 
 
@@ -195,7 +218,7 @@ int main(int argc, char **argv) {
 // init GLUT and the window
 	glutInit(&argc, argv);
 	glutInitDisplayMode(GLUT_DEPTH|GLUT_DOUBLE|GLUT_RGBA);
-	glutInitWindowPosition(100,100);
+	glutInitWindowPosition(800,500);
 	glutInitWindowSize(320,320);
 	glutCreateWindow("CG@DI-UM");
 		
@@ -209,6 +232,11 @@ int main(int argc, char **argv) {
 	glutKeyboardFunc(processKeys);
 	glutMouseFunc(processMouseButtons);
 	glutMotionFunc(processMouseMotion);
+
+	glewInit();
+	glEnableClientState(GL_VERTEX_ARRAY);
+
+	ilInit();
 
 	init();	
 

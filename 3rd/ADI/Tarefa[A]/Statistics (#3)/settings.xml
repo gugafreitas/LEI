@@ -18,26 +18,26 @@
         <config key="filter_nominal_columns">
             <entry key="filter-type" type="xstring" value="STANDARD"/>
             <config key="included_names">
-                <entry key="array-size" type="xint" value="16"/>
+                <entry key="array-size" type="xint" value="8"/>
+                <entry key="0" type="xstring" value="NA_Sales"/>
+                <entry key="1" type="xstring" value="EU_Sales"/>
+                <entry key="2" type="xstring" value="JP_Sales"/>
+                <entry key="3" type="xstring" value="Other_Sales"/>
+                <entry key="4" type="xstring" value="Global_Sales"/>
+                <entry key="5" type="xstring" value="Critic_Score"/>
+                <entry key="6" type="xstring" value="Critic_Count"/>
+                <entry key="7" type="xstring" value="User_Count"/>
+            </config>
+            <config key="excluded_names">
+                <entry key="array-size" type="xint" value="8"/>
                 <entry key="0" type="xstring" value="Name"/>
                 <entry key="1" type="xstring" value="Platform"/>
                 <entry key="2" type="xstring" value="Year_of_Release"/>
                 <entry key="3" type="xstring" value="Genre"/>
                 <entry key="4" type="xstring" value="Publisher"/>
-                <entry key="5" type="xstring" value="NA_Sales"/>
-                <entry key="6" type="xstring" value="EU_Sales"/>
-                <entry key="7" type="xstring" value="JP_Sales"/>
-                <entry key="8" type="xstring" value="Other_Sales"/>
-                <entry key="9" type="xstring" value="Global_Sales"/>
-                <entry key="10" type="xstring" value="Critic_Score"/>
-                <entry key="11" type="xstring" value="Critic_Count"/>
-                <entry key="12" type="xstring" value="User_Score"/>
-                <entry key="13" type="xstring" value="User_Count"/>
-                <entry key="14" type="xstring" value="Developer"/>
-                <entry key="15" type="xstring" value="Rating"/>
-            </config>
-            <config key="excluded_names">
-                <entry key="array-size" type="xint" value="0"/>
+                <entry key="5" type="xstring" value="User_Score"/>
+                <entry key="6" type="xstring" value="Developer"/>
+                <entry key="7" type="xstring" value="Rating"/>
             </config>
             <entry key="enforce_option" type="xstring" value="EnforceExclusion"/>
             <config key="name_pattern">
@@ -96,8 +96,8 @@
     <config key="nodeAnnotation">
         <entry key="text" type="xstring" value="Estatísticas"/>
         <entry key="bgcolor" type="xint" value="16777215"/>
-        <entry key="x-coordinate" type="xint" value="588"/>
-        <entry key="y-coordinate" type="xint" value="359"/>
+        <entry key="x-coordinate" type="xint" value="828"/>
+        <entry key="y-coordinate" type="xint" value="559"/>
         <entry key="width" type="xint" value="104"/>
         <entry key="height" type="xint" value="13"/>
         <entry key="alignment" type="xstring" value="CENTER"/>
@@ -108,7 +108,7 @@
         <config key="styles"/>
     </config>
     <entry key="customDescription" type="xstring" isnull="true" value=""/>
-    <entry key="state" type="xstring" value="CONFIGURED"/>
+    <entry key="state" type="xstring" value="IDLE"/>
     <entry key="factory" type="xstring" value="org.knime.base.node.stats.viz.extended.ExtendedStatisticsNodeFactory"/>
     <entry key="node-name" type="xstring" value="Statistics"/>
     <entry key="node-bundle-name" type="xstring" value="KNIME Statistic Nodes"/>

@@ -1199,3 +1199,807 @@ org.knime.core.node.InvalidSettingsException: Please select at least one group c
 	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:659)
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:596)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1467)
+2023-05-02 15:59:21,193 : WARN  : ModalContext :  : Node : GroupBy : 3:26 : No grouping column included. Aggregate complete table.
+2023-05-02 15:59:21,195 : WARN  : ModalContext :  : Node : GroupBy : 3:26 : No aggregation column defined
+2023-05-02 15:59:21,195 : WARN  : ModalContext :  : Node : GroupBy : 3:26 : No aggregation column defined
+2023-05-02 15:59:21,196 : WARN  : ModalContext :  : Node : GroupBy : 3:26 : Please select at least one group or aggregation column
+2023-05-09 17:58:21,562 : WARN  : ModalContext :  : Node : GroupBy : 3:26 : No grouping column included. Aggregate complete table.
+2023-05-09 17:58:21,564 : WARN  : ModalContext :  : Node : GroupBy : 3:26 : No aggregation column defined
+2023-05-09 17:58:21,564 : WARN  : ModalContext :  : Node : GroupBy : 3:26 : No aggregation column defined
+2023-05-09 17:58:21,564 : WARN  : ModalContext :  : Node : GroupBy : 3:26 : Please select at least one group or aggregation column
+2023-05-09 23:45:38,581 : ERROR : main :  : CollapseMetaNodeCommand :  :  : Collapsing to metanode failed: Cannot move nodes - selected set is not closed!
+java.lang.IllegalArgumentException: Cannot move nodes - selected set is not closed!
+	at org.knime.workbench.editor2.commands.CollapseMetaNodeCommand.create(CollapseMetaNodeCommand.java:227)
+	at org.knime.workbench.editor2.actions.CollapseMetaNodeAction.runInSWT(CollapseMetaNodeAction.java:134)
+	at org.knime.workbench.editor2.actions.AbstractNodeAction$1.run(AbstractNodeAction.java:160)
+	at org.eclipse.swt.widgets.Synchronizer.syncExec(Synchronizer.java:183)
+	at org.eclipse.ui.internal.UISynchronizer.syncExec(UISynchronizer.java:133)
+	at org.eclipse.swt.widgets.Display.syncExec(Display.java:5211)
+	at org.knime.workbench.editor2.actions.AbstractNodeAction.run(AbstractNodeAction.java:157)
+	at org.eclipse.jface.action.Action.runWithEvent(Action.java:474)
+	at org.eclipse.jface.action.ActionContributionItem.handleWidgetSelection(ActionContributionItem.java:580)
+	at org.eclipse.jface.action.ActionContributionItem.lambda$4(ActionContributionItem.java:414)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4604)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1524)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1547)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1532)
+	at org.eclipse.swt.widgets.Widget.notifyListeners(Widget.java:1325)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4390)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3966)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1155)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1046)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:644)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:551)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:156)
+	at org.knime.product.rcp.KNIMEApplication.start(KNIMEApplication.java:191)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:136)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:402)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.base/java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:659)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:596)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1467)
+2023-05-10 01:03:07,153 : WARN  : ModalContext :  : Node : Decision Tree Predictor : 5:33 : Internal model could not be loaded.
+2023-05-10 01:03:07,174 : WARN  : ModalContext :  : Node : Scorer (JavaScript) : 5:35 : The columns selected don't contain any values.
+2023-05-10 01:16:00,530 : WARN  : ModalContext :  : Node : Decision Tree Predictor : 6:28 : Internal model could not be loaded.
+2023-05-10 01:16:00,537 : WARN  : ModalContext :  : Node : Decision Tree Predictor : 6:27 : Internal model could not be loaded.
+2023-05-10 01:16:00,544 : WARN  : ModalContext :  : Node : Color Manager : 6:12 : Column "Cluster" has no nominal values set: execute predecessor or add Binner.
+2023-05-10 01:16:14,274 : ERROR : KNIME-Worker-17-CSV Reader 6:1 :  : Node : CSV Reader : 6:1 : Execute failed: The specified file D:\Uminho\ADI\ADI\fase1\madrid.csv does not exist.
+org.knime.core.node.InvalidSettingsException: The specified file D:\Uminho\ADI\ADI\fase1\madrid.csv does not exist.
+	at org.knime.core.node.util.CheckUtils.checkSetting(CheckUtils.java:272)
+	at org.knime.core.node.util.CheckUtils.checkSetting(CheckUtils.java:222)
+	at org.knime.filehandling.core.defaultnodesettings.filechooser.FileChooserPathAccessor.getRootPath(FileChooserPathAccessor.java:297)
+	at org.knime.filehandling.core.defaultnodesettings.filechooser.FileChooserPathAccessor.getFSPaths(FileChooserPathAccessor.java:204)
+	at org.knime.filehandling.core.node.table.reader.paths.PathSettings$1.getItems(PathSettings.java:105)
+	at org.knime.filehandling.core.node.table.reader.TableReaderNodeModel.getPaths(TableReaderNodeModel.java:195)
+	at org.knime.filehandling.core.node.table.reader.TableReaderNodeModel.execute(TableReaderNodeModel.java:158)
+	at org.knime.core.node.NodeModel.executeModel(NodeModel.java:549)
+	at org.knime.core.node.Node.invokeFullyNodeModelExecute(Node.java:1267)
+	at org.knime.core.node.Node.execute(Node.java:1041)
+	at org.knime.core.node.workflow.NativeNodeContainer.performExecuteNode(NativeNodeContainer.java:595)
+	at org.knime.core.node.exec.LocalNodeExecutionJob.mainExecute(LocalNodeExecutionJob.java:98)
+	at org.knime.core.node.workflow.NodeExecutionJob.internalRun(NodeExecutionJob.java:201)
+	at org.knime.core.node.workflow.NodeExecutionJob.run(NodeExecutionJob.java:117)
+	at org.knime.core.util.ThreadUtils$RunnableWithContextImpl.runWithContext(ThreadUtils.java:367)
+	at org.knime.core.util.ThreadUtils$RunnableWithContext.run(ThreadUtils.java:221)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.base/java.util.concurrent.FutureTask.run(Unknown Source)
+	at org.knime.core.util.ThreadPool$MyFuture.run(ThreadPool.java:123)
+	at org.knime.core.util.ThreadPool$Worker.run(ThreadPool.java:246)
+2023-05-10 01:16:49,266 : WARN  : ModalContext :  : Node : Scorer (JavaScript) : 7:45 : The columns selected don't contain any values.
+2023-05-10 01:31:06,589 : WARN  : KNIME-Worker-19-Statistics 3:3 :  : Node : Statistics : 3:3 : Maximum number of unique possible values (1000) exceeds for column(s): "Name","Developer"
+2023-05-10 02:02:40,917 : ERROR : KNIME Sync Exec Dispatcher-1 :  : SyncExecQueueDispatcher :  :  : Uncaught exception while queuing events into main thread
+org.eclipse.swt.SWTException: Invalid thread access
+	at org.eclipse.swt.SWT.error(SWT.java:4918)
+	at org.eclipse.swt.SWT.error(SWT.java:4833)
+	at org.eclipse.swt.SWT.error(SWT.java:4804)
+	at org.eclipse.swt.widgets.Display.error(Display.java:1191)
+	at org.eclipse.swt.widgets.Display.createDisplay(Display.java:942)
+	at org.eclipse.swt.widgets.Display.create(Display.java:926)
+	at org.eclipse.swt.graphics.Device.<init>(Device.java:132)
+	at org.eclipse.swt.widgets.Display.<init>(Display.java:753)
+	at org.eclipse.swt.widgets.Display.<init>(Display.java:744)
+	at org.eclipse.swt.widgets.Display.getDefault(Display.java:1525)
+	at org.knime.workbench.ui.SyncExecQueueDispatcher$2.run(SyncExecQueueDispatcher.java:120)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.base/java.lang.Thread.run(Unknown Source)
+2023-05-10 02:02:40,922 : ERROR : KNIME Sync Exec Dispatcher-5 :  : SyncExecQueueDispatcher :  :  : Uncaught exception while queuing events into main thread
+org.eclipse.swt.SWTException: Invalid thread access
+	at org.eclipse.swt.SWT.error(SWT.java:4918)
+	at org.eclipse.swt.SWT.error(SWT.java:4833)
+	at org.eclipse.swt.SWT.error(SWT.java:4804)
+	at org.eclipse.swt.widgets.Display.error(Display.java:1191)
+	at org.eclipse.swt.widgets.Display.createDisplay(Display.java:942)
+	at org.eclipse.swt.widgets.Display.create(Display.java:926)
+	at org.eclipse.swt.graphics.Device.<init>(Device.java:132)
+	at org.eclipse.swt.widgets.Display.<init>(Display.java:753)
+	at org.eclipse.swt.widgets.Display.<init>(Display.java:744)
+	at org.eclipse.swt.widgets.Display.getDefault(Display.java:1525)
+	at org.knime.workbench.ui.SyncExecQueueDispatcher$2.run(SyncExecQueueDispatcher.java:120)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.base/java.lang.Thread.run(Unknown Source)
+2023-05-10 02:02:40,922 : ERROR : KNIME Sync Exec Dispatcher-4 :  : SyncExecQueueDispatcher :  :  : Uncaught exception while queuing events into main thread
+org.eclipse.swt.SWTException: Invalid thread access
+	at org.eclipse.swt.SWT.error(SWT.java:4918)
+	at org.eclipse.swt.SWT.error(SWT.java:4833)
+	at org.eclipse.swt.SWT.error(SWT.java:4804)
+	at org.eclipse.swt.widgets.Display.error(Display.java:1191)
+	at org.eclipse.swt.widgets.Display.createDisplay(Display.java:942)
+	at org.eclipse.swt.widgets.Display.create(Display.java:926)
+	at org.eclipse.swt.graphics.Device.<init>(Device.java:132)
+	at org.eclipse.swt.widgets.Display.<init>(Display.java:753)
+	at org.eclipse.swt.widgets.Display.<init>(Display.java:744)
+	at org.eclipse.swt.widgets.Display.getDefault(Display.java:1525)
+	at org.knime.workbench.ui.SyncExecQueueDispatcher$2.run(SyncExecQueueDispatcher.java:120)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.base/java.lang.Thread.run(Unknown Source)
+2023-05-10 02:02:40,921 : ERROR : KNIME Sync Exec Dispatcher-3 :  : SyncExecQueueDispatcher :  :  : Uncaught exception while queuing events into main thread
+org.eclipse.swt.SWTException: Invalid thread access
+	at org.eclipse.swt.SWT.error(SWT.java:4918)
+	at org.eclipse.swt.SWT.error(SWT.java:4833)
+	at org.eclipse.swt.SWT.error(SWT.java:4804)
+	at org.eclipse.swt.widgets.Display.error(Display.java:1191)
+	at org.eclipse.swt.widgets.Display.createDisplay(Display.java:942)
+	at org.eclipse.swt.widgets.Display.create(Display.java:926)
+	at org.eclipse.swt.graphics.Device.<init>(Device.java:132)
+	at org.eclipse.swt.widgets.Display.<init>(Display.java:753)
+	at org.eclipse.swt.widgets.Display.<init>(Display.java:744)
+	at org.eclipse.swt.widgets.Display.getDefault(Display.java:1525)
+	at org.knime.workbench.ui.SyncExecQueueDispatcher$2.run(SyncExecQueueDispatcher.java:120)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.base/java.lang.Thread.run(Unknown Source)
+2023-05-10 02:02:40,920 : ERROR : KNIME Sync Exec Dispatcher-2 :  : SyncExecQueueDispatcher :  :  : Uncaught exception while queuing events into main thread
+org.eclipse.swt.SWTException: Invalid thread access
+	at org.eclipse.swt.SWT.error(SWT.java:4918)
+	at org.eclipse.swt.SWT.error(SWT.java:4833)
+	at org.eclipse.swt.SWT.error(SWT.java:4804)
+	at org.eclipse.swt.widgets.Display.error(Display.java:1191)
+	at org.eclipse.swt.widgets.Display.createDisplay(Display.java:942)
+	at org.eclipse.swt.widgets.Display.create(Display.java:926)
+	at org.eclipse.swt.graphics.Device.<init>(Device.java:132)
+	at org.eclipse.swt.widgets.Display.<init>(Display.java:753)
+	at org.eclipse.swt.widgets.Display.<init>(Display.java:744)
+	at org.eclipse.swt.widgets.Display.getDefault(Display.java:1525)
+	at org.knime.workbench.ui.SyncExecQueueDispatcher$2.run(SyncExecQueueDispatcher.java:120)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.base/java.lang.Thread.run(Unknown Source)
+2023-05-10 14:39:04,940 : WARN  : ModalContext :  : Node : GroupBy : 3:26 : No grouping column included. Aggregate complete table.
+2023-05-10 14:39:04,947 : WARN  : ModalContext :  : Node : GroupBy : 3:26 : No aggregation column defined
+2023-05-10 14:39:04,948 : WARN  : ModalContext :  : Node : GroupBy : 3:26 : No aggregation column defined
+2023-05-10 14:39:04,949 : WARN  : ModalContext :  : Node : GroupBy : 3:26 : Please select at least one group or aggregation column
+2023-05-10 14:39:43,584 : WARN  : ModalContext :  : Node : GroupBy : 4:23 : No aggregation column defined
+2023-05-10 14:39:43,585 : WARN  : ModalContext :  : Node : GroupBy : 4:23 : No aggregation column defined
+2023-05-10 14:39:43,588 : WARN  : ModalContext :  : Node : GroupBy : 4:22 : No aggregation column defined
+2023-05-10 14:39:43,588 : WARN  : ModalContext :  : Node : GroupBy : 4:22 : No aggregation column defined
+2023-05-10 14:39:43,589 : WARN  : ModalContext :  : Node : GroupBy : 4:25 : No aggregation column defined
+2023-05-10 14:39:43,589 : WARN  : ModalContext :  : Node : GroupBy : 4:25 : No aggregation column defined
+2023-05-10 14:39:43,589 : WARN  : ModalContext :  : Node : GroupBy : 4:24 : No aggregation column defined
+2023-05-10 14:39:43,589 : WARN  : ModalContext :  : Node : GroupBy : 4:24 : No aggregation column defined
+2023-05-10 14:39:43,589 : WARN  : ModalContext :  : Node : GroupBy : 4:26 : No aggregation column defined
+2023-05-10 14:39:43,590 : WARN  : ModalContext :  : Node : GroupBy : 4:26 : No aggregation column defined
+2023-05-10 14:39:46,106 : WARN  : ModalContext :  : Node : GroupBy : 5:3 : No aggregation column defined
+2023-05-10 14:39:46,107 : WARN  : ModalContext :  : Node : GroupBy : 5:3 : No aggregation column defined
+2023-05-10 14:39:46,192 : WARN  : ModalContext :  : Node : Decision Tree Learner : 5:25 : Table contains no nominal attribute for classification.
+2023-05-10 14:39:46,195 : WARN  : ModalContext :  : Node : Decision Tree Learner : 5:26 : Table contains no nominal attribute for classification.
+2023-05-10 14:39:48,747 : WARN  : ModalContext :  : Node : GroupBy : 6:3 : No aggregation column defined
+2023-05-10 14:39:48,748 : WARN  : ModalContext :  : Node : GroupBy : 6:3 : No aggregation column defined
+2023-05-10 14:57:47,676 : WARN  : ModalContext :  : Node : Decision Tree Predictor : 7:28 : Internal model could not be loaded.
+2023-05-10 14:57:47,687 : WARN  : ModalContext :  : Node : Decision Tree Predictor : 7:27 : Internal model could not be loaded.
+2023-05-10 14:57:47,695 : WARN  : ModalContext :  : Node : Color Manager : 7:12 : Column "Cluster" has no nominal values set: execute predecessor or add Binner.
+2023-05-10 15:09:43,568 : WARN  : KNIME-Worker-13-Statistics 3:3 :  : Node : Statistics : 3:3 : Maximum number of unique possible values (1000) exceeds for column(s): "Name","Developer"
+2023-05-10 15:16:36,368 : WARN  : main :  : Node : CSV Reader : 8:1 : Please specify a file
+2023-05-10 15:19:49,752 : WARN  : KNIME-Worker-34-String To Number 8:3 :  : AbstractStringToNumberNodeModel : String To Number : 8:3 : Values in 89477 cells could not be parsed, first error: The string "Wii Sports" in cell [row "Row0", column "Name"] can not be transformed into a number: For input string: "Wii Sports"
+2023-05-10 15:19:49,763 : WARN  : KNIME-Worker-34-String To Number 8:3 :  : Node : String To Number : 8:3 : Problems occurred, see Console messages.
+2023-05-10 15:24:58,879 : WARN  : KNIME-Worker-47-String To Number 8:3 :  : AbstractStringToNumberNodeModel : String To Number : 8:3 : Values in 12375 cells could not be parsed, first error: The string "E" in cell [row "Row0", column "Rating"] can not be transformed into a number: For input string: "E"
+2023-05-10 15:24:58,883 : WARN  : KNIME-Worker-47-String To Number 8:3 :  : Node : String To Number : 8:3 : Problems occurred, see Console messages.
+2023-05-10 15:26:35,433 : WARN  : ModalContext :  : Node : GroupBy : 9:11 : No grouping column included. Aggregate complete table.
+2023-05-10 15:26:35,435 : WARN  : ModalContext :  : Node : GroupBy : 9:11 : No aggregation column defined
+2023-05-10 15:26:35,435 : WARN  : ModalContext :  : Node : GroupBy : 9:11 : No aggregation column defined
+2023-05-10 15:26:35,435 : WARN  : ModalContext :  : Node : GroupBy : 9:11 : Please select at least one group or aggregation column
+2023-05-10 15:26:35,436 : WARN  : ModalContext :  : Node : Partitioning : 9:15 : No sampling method selected
+2023-05-10 15:26:35,464 : WARN  : ModalContext :  : Node : GroupBy : 9:12 : No grouping column included. Aggregate complete table.
+2023-05-10 15:26:35,464 : WARN  : ModalContext :  : Node : GroupBy : 9:12 : No aggregation column defined
+2023-05-10 15:26:35,464 : WARN  : ModalContext :  : Node : GroupBy : 9:12 : No aggregation column defined
+2023-05-10 15:26:35,464 : WARN  : ModalContext :  : Node : GroupBy : 9:12 : Please select at least one group or aggregation column
+2023-05-10 15:26:35,468 : WARN  : ModalContext :  : Node : Partitioning : 9:16 : No sampling method selected
+2023-05-10 15:26:35,468 : WARN  : ModalContext :  : Node : Partitioning : 9:25 : No sampling method selected
+2023-05-10 15:26:35,469 : WARN  : ModalContext :  : Node : Partitioning : 9:26 : No sampling method selected
+2023-05-10 15:26:47,021 : WARN  : ModalContext :  : Node : CSV Reader : 10:1 : Please specify a file
+2023-05-10 15:26:56,231 : WARN  : ModalContext :  : Node : Scorer : 12:11 : No columns selected yet.
+2023-05-10 15:32:45,815 : WARN  : KNIME-Worker-52-Missing Value 8:5 :  : Node : Missing Value : 8:5 : The current settings use missing value handling methods that cannot be represented in PMML 4.2
+2023-05-10 15:33:07,814 : WARN  : ModalContext :  : Node : Scorer : 9:11 : No columns selected yet.
+2023-05-10 15:34:31,163 : WARN  : KNIME-Worker-55-String To Number 8:3 :  : AbstractStringToNumberNodeModel : String To Number : 8:3 : Values in 25848 cells could not be parsed, first error: The string "E" in cell [row "Row0", column "Rating"] can not be transformed into a number: For input string: "E"
+2023-05-10 15:34:31,169 : WARN  : KNIME-Worker-55-String To Number 8:3 :  : Node : String To Number : 8:3 : Problems occurred, see Console messages.
+2023-05-10 15:45:34,611 : WARN  : ModalContext :  : Node : Decision Tree Predictor : 10:13 : Learning column "quality_bin" not found in input data to be predicted
+2023-05-10 16:08:03,895 : WARN  : KNIME-Worker-70-Statistics 8:8 :  : Node : Statistics : 8:8 : Maximum number of unique possible values (1000) exceeds for column(s): "Name","Developer"
+2023-05-10 16:16:12,666 : WARN  : ModalContext :  : Node : Decision Tree Predictor : 11:33 : Internal model could not be loaded.
+2023-05-10 16:16:12,669 : WARN  : ModalContext :  : Node : Scorer (JavaScript) : 11:35 : The columns selected don't contain any values.
+2023-05-10 16:20:37,627 : WARN  : KNIME-Worker-82-Statistics 8:8 :  : Node : Statistics : 8:8 : Maximum number of unique possible values (1000) exceeds for column(s): "Name","Developer"
+2023-05-10 17:01:06,952 : WARN  : main :  : Node : Linear Correlation : 8:11 : Auto configuration: Using all suitable columns (in total 16)
+2023-05-10 17:01:25,216 : WARN  : ModalContext :  : Node : GroupBy : 12:23 : No aggregation column defined
+2023-05-10 17:01:25,216 : WARN  : ModalContext :  : Node : GroupBy : 12:23 : No aggregation column defined
+2023-05-10 17:01:25,217 : WARN  : ModalContext :  : Node : GroupBy : 12:22 : No aggregation column defined
+2023-05-10 17:01:25,217 : WARN  : ModalContext :  : Node : GroupBy : 12:22 : No aggregation column defined
+2023-05-10 17:01:25,218 : WARN  : ModalContext :  : Node : GroupBy : 12:25 : No aggregation column defined
+2023-05-10 17:01:25,218 : WARN  : ModalContext :  : Node : GroupBy : 12:25 : No aggregation column defined
+2023-05-10 17:01:25,218 : WARN  : ModalContext :  : Node : GroupBy : 12:24 : No aggregation column defined
+2023-05-10 17:01:25,218 : WARN  : ModalContext :  : Node : GroupBy : 12:24 : No aggregation column defined
+2023-05-10 17:01:25,220 : WARN  : ModalContext :  : Node : GroupBy : 12:26 : No aggregation column defined
+2023-05-10 17:01:25,221 : WARN  : ModalContext :  : Node : GroupBy : 12:26 : No aggregation column defined
+2023-05-10 17:02:32,315 : WARN  : ModalContext :  : Node : Scorer (JavaScript) : 13:45 : The columns selected don't contain any values.
+2023-05-10 17:11:32,639 : WARN  : KNIME-Worker-95-Linear Correlation 8:11 :  : Node : Linear Correlation : 8:11 : Some numeric column(s) contained missing values: "Critic_Score", "Critic_Count", "User_Count"
+2023-05-10 17:22:33,299 : WARN  : main :  : Node : Rank Correlation : 8:12 : Auto configuration: Using all suitable columns (in total 16)
+2023-05-10 17:22:56,039 : WARN  : main :  : Node : Rank Correlation : 8:12 : Auto configuration: Using all suitable columns (in total 16)
+2023-05-10 17:23:03,111 : WARN  : KNIME-Worker-96-Rank Correlation 8:12 :  : Node : Rank Correlation : 8:12 : Rows containing missing values are filtered. Please resolve them with the Missing Value node.
+2023-05-10 17:23:54,581 : WARN  : KNIME-Worker-97-Linear Correlation 8:11 :  : Node : Linear Correlation : 8:11 : Some numeric column(s) contained missing values: "Critic_Score", "Critic_Count", "User_Count"
+2023-05-10 17:49:16,026 : WARN  : KNIME-Worker-98-Missing Value 8:10 :  : Node : Missing Value : 8:10 : The current settings use missing value handling methods that cannot be represented in PMML 4.2
+2023-05-10 17:49:16,098 : WARN  : KNIME-Worker-99-Statistics 8:13 :  : Node : Statistics : 8:13 : Maximum number of unique possible values (1000) exceeds for column(s): "Name","Developer"
+2023-05-10 19:03:26,468 : WARN  : ModalContext :  : Node : Decision Tree Predictor : 14:28 : Internal model could not be loaded.
+2023-05-10 19:03:26,490 : WARN  : ModalContext :  : Node : Decision Tree Predictor : 14:27 : Internal model could not be loaded.
+2023-05-10 19:03:26,496 : WARN  : ModalContext :  : Node : Color Manager : 14:12 : Column "Cluster" has no nominal values set: execute predecessor or add Binner.
+2023-05-10 19:51:22,788 : WARN  : ModalContext :  : Node : GroupBy : 16:3 : No aggregation column defined
+2023-05-10 19:51:22,790 : WARN  : ModalContext :  : Node : GroupBy : 16:3 : No aggregation column defined
+2023-05-10 19:51:22,815 : WARN  : ModalContext :  : Node : Decision Tree Learner : 16:25 : Table contains no nominal attribute for classification.
+2023-05-10 19:51:22,815 : WARN  : ModalContext :  : Node : Decision Tree Learner : 16:26 : Table contains no nominal attribute for classification.
+2023-05-10 19:51:33,937 : WARN  : ModalContext :  : Node : GroupBy : 17:3 : No aggregation column defined
+2023-05-10 19:51:33,938 : WARN  : ModalContext :  : Node : GroupBy : 17:3 : No aggregation column defined
+2023-05-10 19:54:08,480 : WARN  : ModalContext :  : Node : Decision Tree Predictor : 18:28 : Internal model could not be loaded.
+2023-05-10 19:54:08,500 : WARN  : ModalContext :  : Node : Decision Tree Predictor : 18:27 : Internal model could not be loaded.
+2023-05-10 19:54:08,503 : WARN  : ModalContext :  : Node : Color Manager : 18:12 : Column "Cluster" has no nominal values set: execute predecessor or add Binner.
+2023-05-10 21:42:46,464 : WARN  : KNIME-Worker-115-Scatter Plot 8:15 :  : Node : Scatter Plot : 8:15 : Only the first 2500 rows are displayed.
+2023-05-10 21:42:46,558 : WARN  : KNIME-Worker-115-Scatter Plot 8:15 :  : Node : Scatter Plot : 8:15 : Table contains missing or unsupported values - these values will be omitted.
+2023-05-10 21:55:11,051 : ERROR : KNIME Sync Exec Dispatcher-2 :  : SyncExecQueueDispatcher :  :  : Uncaught exception while queuing events into main thread
+org.eclipse.swt.SWTException: Invalid thread access
+	at org.eclipse.swt.SWT.error(SWT.java:4918)
+	at org.eclipse.swt.SWT.error(SWT.java:4833)
+	at org.eclipse.swt.SWT.error(SWT.java:4804)
+	at org.eclipse.swt.widgets.Display.error(Display.java:1191)
+	at org.eclipse.swt.widgets.Display.createDisplay(Display.java:942)
+	at org.eclipse.swt.widgets.Display.create(Display.java:926)
+	at org.eclipse.swt.graphics.Device.<init>(Device.java:132)
+	at org.eclipse.swt.widgets.Display.<init>(Display.java:753)
+	at org.eclipse.swt.widgets.Display.<init>(Display.java:744)
+	at org.eclipse.swt.widgets.Display.getDefault(Display.java:1525)
+	at org.knime.workbench.ui.SyncExecQueueDispatcher$2.run(SyncExecQueueDispatcher.java:120)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.base/java.lang.Thread.run(Unknown Source)
+2023-05-10 21:55:11,051 : ERROR : KNIME Sync Exec Dispatcher-3 :  : SyncExecQueueDispatcher :  :  : Uncaught exception while queuing events into main thread
+org.eclipse.swt.SWTException: Invalid thread access
+	at org.eclipse.swt.SWT.error(SWT.java:4918)
+	at org.eclipse.swt.SWT.error(SWT.java:4833)
+	at org.eclipse.swt.SWT.error(SWT.java:4804)
+	at org.eclipse.swt.widgets.Display.error(Display.java:1191)
+	at org.eclipse.swt.widgets.Display.createDisplay(Display.java:942)
+	at org.eclipse.swt.widgets.Display.create(Display.java:926)
+	at org.eclipse.swt.graphics.Device.<init>(Device.java:132)
+	at org.eclipse.swt.widgets.Display.<init>(Display.java:753)
+	at org.eclipse.swt.widgets.Display.<init>(Display.java:744)
+	at org.eclipse.swt.widgets.Display.getDefault(Display.java:1525)
+	at org.knime.workbench.ui.SyncExecQueueDispatcher$2.run(SyncExecQueueDispatcher.java:120)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.base/java.lang.Thread.run(Unknown Source)
+2023-05-10 21:55:11,051 : ERROR : KNIME Sync Exec Dispatcher-1 :  : SyncExecQueueDispatcher :  :  : Uncaught exception while queuing events into main thread
+org.eclipse.swt.SWTException: Invalid thread access
+	at org.eclipse.swt.SWT.error(SWT.java:4918)
+	at org.eclipse.swt.SWT.error(SWT.java:4833)
+	at org.eclipse.swt.SWT.error(SWT.java:4804)
+	at org.eclipse.swt.widgets.Display.error(Display.java:1191)
+	at org.eclipse.swt.widgets.Display.createDisplay(Display.java:942)
+	at org.eclipse.swt.widgets.Display.create(Display.java:926)
+	at org.eclipse.swt.graphics.Device.<init>(Device.java:132)
+	at org.eclipse.swt.widgets.Display.<init>(Display.java:753)
+	at org.eclipse.swt.widgets.Display.<init>(Display.java:744)
+	at org.eclipse.swt.widgets.Display.getDefault(Display.java:1525)
+	at org.knime.workbench.ui.SyncExecQueueDispatcher$2.run(SyncExecQueueDispatcher.java:120)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.base/java.lang.Thread.run(Unknown Source)
+2023-05-10 21:55:11,051 : ERROR : KNIME Sync Exec Dispatcher-6 :  : SyncExecQueueDispatcher :  :  : Uncaught exception while queuing events into main thread
+org.eclipse.swt.SWTException: Invalid thread access
+	at org.eclipse.swt.SWT.error(SWT.java:4918)
+	at org.eclipse.swt.SWT.error(SWT.java:4833)
+	at org.eclipse.swt.SWT.error(SWT.java:4804)
+	at org.eclipse.swt.widgets.Display.error(Display.java:1191)
+	at org.eclipse.swt.widgets.Display.createDisplay(Display.java:942)
+	at org.eclipse.swt.widgets.Display.create(Display.java:926)
+	at org.eclipse.swt.graphics.Device.<init>(Device.java:132)
+	at org.eclipse.swt.widgets.Display.<init>(Display.java:753)
+	at org.eclipse.swt.widgets.Display.<init>(Display.java:744)
+	at org.eclipse.swt.widgets.Display.getDefault(Display.java:1525)
+	at org.knime.workbench.ui.SyncExecQueueDispatcher$2.run(SyncExecQueueDispatcher.java:120)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.base/java.lang.Thread.run(Unknown Source)
+2023-05-10 21:55:11,051 : ERROR : KNIME Sync Exec Dispatcher-5 :  : SyncExecQueueDispatcher :  :  : Uncaught exception while queuing events into main thread
+org.eclipse.swt.SWTException: Invalid thread access
+	at org.eclipse.swt.SWT.error(SWT.java:4918)
+	at org.eclipse.swt.SWT.error(SWT.java:4833)
+	at org.eclipse.swt.SWT.error(SWT.java:4804)
+	at org.eclipse.swt.widgets.Display.error(Display.java:1191)
+	at org.eclipse.swt.widgets.Display.createDisplay(Display.java:942)
+	at org.eclipse.swt.widgets.Display.create(Display.java:926)
+	at org.eclipse.swt.graphics.Device.<init>(Device.java:132)
+	at org.eclipse.swt.widgets.Display.<init>(Display.java:753)
+	at org.eclipse.swt.widgets.Display.<init>(Display.java:744)
+	at org.eclipse.swt.widgets.Display.getDefault(Display.java:1525)
+	at org.knime.workbench.ui.SyncExecQueueDispatcher$2.run(SyncExecQueueDispatcher.java:120)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.base/java.lang.Thread.run(Unknown Source)
+2023-05-10 21:55:11,051 : ERROR : KNIME Sync Exec Dispatcher-4 :  : SyncExecQueueDispatcher :  :  : Uncaught exception while queuing events into main thread
+org.eclipse.swt.SWTException: Invalid thread access
+	at org.eclipse.swt.SWT.error(SWT.java:4918)
+	at org.eclipse.swt.SWT.error(SWT.java:4833)
+	at org.eclipse.swt.SWT.error(SWT.java:4804)
+	at org.eclipse.swt.widgets.Display.error(Display.java:1191)
+	at org.eclipse.swt.widgets.Display.createDisplay(Display.java:942)
+	at org.eclipse.swt.widgets.Display.create(Display.java:926)
+	at org.eclipse.swt.graphics.Device.<init>(Device.java:132)
+	at org.eclipse.swt.widgets.Display.<init>(Display.java:753)
+	at org.eclipse.swt.widgets.Display.<init>(Display.java:744)
+	at org.eclipse.swt.widgets.Display.getDefault(Display.java:1525)
+	at org.knime.workbench.ui.SyncExecQueueDispatcher$2.run(SyncExecQueueDispatcher.java:120)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.base/java.lang.Thread.run(Unknown Source)
+2023-05-10 21:55:11,051 : ERROR : KNIME Sync Exec Dispatcher-8 :  : SyncExecQueueDispatcher :  :  : Uncaught exception while queuing events into main thread
+org.eclipse.swt.SWTException: Invalid thread access
+	at org.eclipse.swt.SWT.error(SWT.java:4918)
+	at org.eclipse.swt.SWT.error(SWT.java:4833)
+	at org.eclipse.swt.SWT.error(SWT.java:4804)
+	at org.eclipse.swt.widgets.Display.error(Display.java:1191)
+	at org.eclipse.swt.widgets.Display.createDisplay(Display.java:942)
+	at org.eclipse.swt.widgets.Display.create(Display.java:926)
+	at org.eclipse.swt.graphics.Device.<init>(Device.java:132)
+	at org.eclipse.swt.widgets.Display.<init>(Display.java:753)
+	at org.eclipse.swt.widgets.Display.<init>(Display.java:744)
+	at org.eclipse.swt.widgets.Display.getDefault(Display.java:1525)
+	at org.knime.workbench.ui.SyncExecQueueDispatcher$2.run(SyncExecQueueDispatcher.java:120)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.base/java.lang.Thread.run(Unknown Source)
+2023-05-10 21:55:11,051 : ERROR : KNIME Sync Exec Dispatcher-7 :  : SyncExecQueueDispatcher :  :  : Uncaught exception while queuing events into main thread
+org.eclipse.swt.SWTException: Invalid thread access
+	at org.eclipse.swt.SWT.error(SWT.java:4918)
+	at org.eclipse.swt.SWT.error(SWT.java:4833)
+	at org.eclipse.swt.SWT.error(SWT.java:4804)
+	at org.eclipse.swt.widgets.Display.error(Display.java:1191)
+	at org.eclipse.swt.widgets.Display.createDisplay(Display.java:942)
+	at org.eclipse.swt.widgets.Display.create(Display.java:926)
+	at org.eclipse.swt.graphics.Device.<init>(Device.java:132)
+	at org.eclipse.swt.widgets.Display.<init>(Display.java:753)
+	at org.eclipse.swt.widgets.Display.<init>(Display.java:744)
+	at org.eclipse.swt.widgets.Display.getDefault(Display.java:1525)
+	at org.knime.workbench.ui.SyncExecQueueDispatcher$2.run(SyncExecQueueDispatcher.java:120)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.base/java.lang.Thread.run(Unknown Source)
+2023-05-11 00:59:02,691 : WARN  : ModalContext :  : Node : Scorer : 4:16 : No columns selected yet.
+2023-05-11 00:59:02,694 : WARN  : ModalContext :  : Node : Scorer : 4:15 : No columns selected yet.
+2023-05-11 01:00:01,775 : WARN  : main :  : Node : Numeric Outliers : 3:22 : Auto configuration: Outlier Selection uses all suitable columns (in total 7).
+2023-05-11 01:00:58,857 : WARN  : main :  : Node : Regression Predictor : 3:26 : The table for prediction does not contain the column "Name".
+2023-05-11 01:01:23,560 : WARN  : main :  : Node : Numeric Scorer : 3:27 : No columns selected for reference
+2023-05-11 01:01:35,394 : WARN  : main :  : Node : Partitioning : 3:28 : No sampling method selected
+2023-05-11 01:03:11,769 : WARN  : main :  : Node : Partitioning : 3:28 : No sampling method selected
+2023-05-11 01:03:11,774 : WARN  : main :  : Node : Numeric Scorer : 3:27 : No columns selected for reference
+2023-05-11 01:03:12,585 : WARN  : main :  : Node : Partitioning : 3:28 : No sampling method selected
+2023-05-11 01:03:12,587 : WARN  : main :  : Node : Numeric Scorer : 3:27 : No columns selected for reference
+2023-05-11 01:03:19,651 : WARN  : KNIME-Worker-13-Missing Value 3:23 :  : Node : Missing Value : 3:23 : Column "NA_Sales" still contains missing values.
+Column "EU_Sales" still contains missing values.
+Column "JP_Sales" still contains missing values.
+Column "Other_Sales" still contains missing values.
+Column "User_Count" still contains missing values.
+Column "Critic_Score" still contains missing values.
+Column "Critic_Count" still contains missing values.
+Column "User_Score" still contains missing values.
+Column "Developer" still contains missing values.
+Column "Rating" still contains missing values.
+Column "Name" still contains missing values.
+Column "Genre" still contains missing values.
+2023-05-11 01:03:19,749 : WARN  : KNIME-Worker-13-Missing Value 3:23 :  : Node : Partitioning : 3:28 : No sampling method selected
+2023-05-11 01:04:46,764 : WARN  : main :  : Node : Partitioning : 3:28 : No sampling method selected
+2023-05-11 01:04:46,767 : WARN  : main :  : Node : Numeric Scorer : 3:27 : No columns selected for reference
+2023-05-11 01:04:48,346 : WARN  : main :  : Node : Partitioning : 3:28 : No sampling method selected
+2023-05-11 01:04:48,347 : WARN  : main :  : Node : Numeric Scorer : 3:27 : No columns selected for reference
+2023-05-11 01:04:50,978 : WARN  : KNIME-Worker-14-Missing Value 3:23 :  : Node : Missing Value : 3:23 : Column "User_Score" still contains missing values.
+Column "Developer" still contains missing values.
+Column "Rating" still contains missing values.
+Column "Name" still contains missing values.
+Column "Genre" still contains missing values.
+2023-05-11 01:04:51,092 : WARN  : KNIME-Worker-14-Missing Value 3:23 :  : Node : Partitioning : 3:28 : No sampling method selected
+2023-05-11 01:06:02,465 : WARN  : ModalContext :  : Node : Scorer (JavaScript) : 6:45 : The columns selected don't contain any values.
+2023-05-11 01:08:53,792 : WARN  : main :  : Node : Partitioning : 3:28 : No sampling method selected
+2023-05-11 01:08:53,796 : WARN  : main :  : Node : Numeric Scorer : 3:27 : No columns selected for reference
+2023-05-11 01:08:56,659 : WARN  : main :  : Node : Partitioning : 3:28 : No sampling method selected
+2023-05-11 01:08:56,660 : WARN  : main :  : Node : Numeric Scorer : 3:27 : No columns selected for reference
+2023-05-11 01:09:01,088 : WARN  : KNIME-Worker-15-Missing Value 3:23 :  : Node : Partitioning : 3:28 : No sampling method selected
+2023-05-11 01:11:12,581 : WARN  : main :  : Node : Numeric Scorer : 3:31 : No columns selected for reference
+2023-05-11 01:11:13,449 : WARN  : main :  : Node : Numeric Scorer : 3:31 : No columns selected for reference
+2023-05-11 01:25:44,190 : WARN  : ModalContext :  : Node : GroupBy : 7:3 : No aggregation column defined
+2023-05-11 01:25:44,194 : WARN  : ModalContext :  : Node : GroupBy : 7:3 : No aggregation column defined
+2023-05-11 01:25:44,224 : WARN  : ModalContext :  : Node : Decision Tree Learner : 7:25 : Table contains no nominal attribute for classification.
+2023-05-11 01:25:44,226 : WARN  : ModalContext :  : Node : Decision Tree Learner : 7:26 : Table contains no nominal attribute for classification.
+2023-05-11 01:25:53,024 : WARN  : ModalContext :  : Node : GroupBy : 8:3 : No aggregation column defined
+2023-05-11 01:25:53,024 : WARN  : ModalContext :  : Node : GroupBy : 8:3 : No aggregation column defined
+2023-05-11 01:26:38,720 : WARN  : ModalContext :  : Node : Scorer : 9:16 : No columns selected yet.
+2023-05-11 01:26:38,721 : WARN  : ModalContext :  : Node : Scorer : 9:15 : No columns selected yet.
+2023-05-11 01:30:59,817 : WARN  : KNIME-Worker-19-String To Number 3:16 :  : AbstractStringToNumberNodeModel : String To Number : 3:16 : Values in 2425 cells could not be parsed, first error: The string "tbd" in cell [row "Row119", column "User_Score"] can not be transformed into a number: tbd is invalid because of its suffix.
+2023-05-11 01:30:59,825 : WARN  : KNIME-Worker-19-String To Number 3:16 :  : Node : String To Number : 3:16 : Problems occurred, see Console messages.
+2023-05-11 01:30:59,867 : WARN  : KNIME-Worker-20-Scatter Plot 3:20 :  : Node : Scatter Plot : 3:20 : Only the first 2500 rows are displayed.
+2023-05-11 01:30:59,984 : WARN  : KNIME-Worker-20-Scatter Plot 3:20 :  : Node : Scatter Plot : 3:20 : Table contains missing or unsupported values - these values will be omitted.
+2023-05-11 01:32:48,500 : WARN  : KNIME-Worker-21-String To Number 3:16 :  : AbstractStringToNumberNodeModel : String To Number : 3:16 : Values in 2694 cells could not be parsed, first error: The string "tbd" in cell [row "Row119", column "User_Score"] can not be transformed into a number: tbd is invalid because of its suffix.
+2023-05-11 01:32:48,507 : WARN  : KNIME-Worker-21-String To Number 3:16 :  : Node : String To Number : 3:16 : Problems occurred, see Console messages.
+2023-05-11 01:32:48,530 : WARN  : KNIME-Worker-22-Scatter Plot 3:20 :  : Node : Scatter Plot : 3:20 : Only the first 2500 rows are displayed.
+2023-05-11 01:32:48,626 : WARN  : KNIME-Worker-22-Scatter Plot 3:20 :  : Node : Scatter Plot : 3:20 : Table contains missing or unsupported values - these values will be omitted.
+2023-05-11 01:35:23,582 : WARN  : KNIME-Worker-23-Scatter Plot 3:20 :  : Node : Scatter Plot : 3:20 : Only the first 2500 rows are displayed.
+2023-05-11 01:35:23,664 : WARN  : KNIME-Worker-23-Scatter Plot 3:20 :  : Node : Scatter Plot : 3:20 : Table contains missing or unsupported values - these values will be omitted.
+2023-05-11 01:36:24,065 : ERROR : main :  : CEFWizardNodeView :  :  : Uncaught (in promise) TypeError: Failed to execute 'exitFullscreen' on 'Document': Document not active (source: file:///var/folders/y_/6t7hqdp11ms35dkk7dkjvd100000gn/T/knimeViewContainer68194/index_168376532375111524452549929379081.html; line: 1)
+2023-05-11 01:36:24,099 : ERROR : main :  : CEFWizardNodeView :  :  : Uncaught (in promise) TypeError: Failed to execute 'exitFullscreen' on 'Document': Document not active (source: file:///var/folders/y_/6t7hqdp11ms35dkk7dkjvd100000gn/T/knimeViewContainer68194/index_168376532375111524452549929379081.html; line: 1)
+2023-05-11 01:37:59,254 : WARN  : KNIME-Worker-24-Scatter Plot 3:20 :  : Node : Scatter Plot : 3:20 : Only the first 2500 rows are displayed.
+2023-05-11 01:37:59,326 : WARN  : KNIME-Worker-24-Scatter Plot 3:20 :  : Node : Scatter Plot : 3:20 : Table contains missing or unsupported values - these values will be omitted.
+2023-05-11 01:38:32,996 : WARN  : KNIME-Worker-25-Scatter Plot 3:20 :  : Node : Scatter Plot : 3:20 : Only the first 2500 rows are displayed.
+2023-05-11 01:38:33,069 : WARN  : KNIME-Worker-25-Scatter Plot 3:20 :  : Node : Scatter Plot : 3:20 : Table contains missing or unsupported values - these values will be omitted.
+2023-05-11 01:39:13,223 : WARN  : KNIME-Worker-26-Scatter Plot 3:20 :  : Node : Scatter Plot : 3:20 : Only the first 2500 rows are displayed.
+2023-05-11 01:39:13,284 : WARN  : KNIME-Worker-26-Scatter Plot 3:20 :  : Node : Scatter Plot : 3:20 : Table contains missing or unsupported values - these values will be omitted.
+2023-05-11 01:47:27,348 : WARN  : main :  : Node : Numeric Scorer : 3:27 : No columns selected for reference
+2023-05-11 01:47:27,351 : WARN  : main :  : Node : Numeric Scorer : 3:31 : No columns selected for reference
+2023-05-11 01:47:30,367 : WARN  : main :  : Node : Numeric Scorer : 3:27 : No columns selected for reference
+2023-05-11 01:47:30,367 : WARN  : main :  : Node : Numeric Scorer : 3:31 : No columns selected for reference
+2023-05-11 01:47:32,314 : WARN  : main :  : Node : Numeric Scorer : 3:27 : No columns selected for reference
+2023-05-11 01:47:32,314 : WARN  : main :  : Node : Numeric Scorer : 3:31 : No columns selected for reference
+2023-05-11 02:03:27,785 : WARN  : KNIME-Worker-33-Linear Regression Learner 3:29 :  : LinReg2Learner : Linear Regression Learner : 3:29 : Column "User_Score" has too many different values - will be ignored during training
+2023-05-11 02:03:27,926 : WARN  : KNIME-Worker-33-Linear Regression Learner 3:29 :  : Node : Linear Regression Learner : 3:29 : Column "User_Score" has too many different values - will be ignored during training
+2023-05-11 02:04:20,025 : WARN  : main :  : Node : Numeric Scorer : 3:31 : No columns selected for reference
+2023-05-11 02:04:20,666 : WARN  : main :  : Node : Numeric Scorer : 3:31 : No columns selected for reference
+2023-05-11 02:04:42,676 : WARN  : main :  : Node : Numeric Scorer : 3:31 : No columns selected for reference
+2023-05-11 02:04:43,657 : WARN  : main :  : Node : Numeric Scorer : 3:31 : No columns selected for reference
+2023-05-11 02:05:14,112 : WARN  : main :  : Node : Numeric Scorer : 3:27 : No columns selected for reference
+2023-05-11 02:05:14,118 : WARN  : main :  : Node : Numeric Scorer : 3:31 : No columns selected for reference
+2023-05-11 02:05:35,696 : WARN  : main :  : Node : Numeric Scorer : 3:31 : No columns selected for reference
+2023-05-11 02:05:36,241 : WARN  : main :  : Node : Numeric Scorer : 3:31 : No columns selected for reference
+2023-05-11 02:05:45,031 : WARN  : main :  : Node : Numeric Scorer : 3:27 : No columns selected for reference
+2023-05-11 02:05:45,031 : WARN  : main :  : Node : Numeric Scorer : 3:31 : No columns selected for reference
+2023-05-11 02:05:45,706 : WARN  : main :  : Node : Numeric Scorer : 3:27 : No columns selected for reference
+2023-05-11 02:05:45,706 : WARN  : main :  : Node : Numeric Scorer : 3:31 : No columns selected for reference
+2023-05-11 02:05:49,721 : WARN  : KNIME-Worker-34-String To Number 3:32 :  : AbstractStringToNumberNodeModel : String To Number : 3:32 : Values in 2694 cells could not be parsed, first error: The string "tbd" in cell [row "Row119", column "User_Score"] can not be transformed into a number: tbd is invalid because of its suffix.
+2023-05-11 02:05:49,722 : WARN  : KNIME-Worker-34-String To Number 3:32 :  : Node : String To Number : 3:32 : Problems occurred, see Console messages.
+2023-05-11 02:05:49,726 : WARN  : KNIME-Worker-34-String To Number 3:32 :  : Node : Numeric Scorer : 3:27 : No columns selected for reference
+2023-05-11 02:05:49,726 : WARN  : KNIME-Worker-34-String To Number 3:32 :  : Node : Numeric Scorer : 3:31 : No columns selected for reference
+2023-05-11 02:05:53,386 : WARN  : KNIME-Worker-40-Regression Predictor 3:30 :  : Node : Numeric Scorer : 3:31 : No columns selected for reference
+2023-05-11 02:06:08,558 : WARN  : main :  : Node : Numeric Scorer : 3:31 : No columns selected for reference
+2023-05-11 02:08:36,141 : WARN  : main :  : Node : Scorer : 3:33 : No columns selected yet.
+2023-05-11 02:15:05,911 : ERROR : KNIME Sync Exec Dispatcher-7 :  : SyncExecQueueDispatcher :  :  : Uncaught exception while queuing events into main thread
+org.eclipse.swt.SWTException: Invalid thread access
+	at org.eclipse.swt.SWT.error(SWT.java:4918)
+	at org.eclipse.swt.SWT.error(SWT.java:4833)
+	at org.eclipse.swt.SWT.error(SWT.java:4804)
+	at org.eclipse.swt.widgets.Display.error(Display.java:1191)
+	at org.eclipse.swt.widgets.Display.createDisplay(Display.java:942)
+	at org.eclipse.swt.widgets.Display.create(Display.java:926)
+	at org.eclipse.swt.graphics.Device.<init>(Device.java:132)
+	at org.eclipse.swt.widgets.Display.<init>(Display.java:753)
+	at org.eclipse.swt.widgets.Display.<init>(Display.java:744)
+	at org.eclipse.swt.widgets.Display.getDefault(Display.java:1525)
+	at org.knime.workbench.ui.SyncExecQueueDispatcher$2.run(SyncExecQueueDispatcher.java:120)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.base/java.lang.Thread.run(Unknown Source)
+2023-05-11 02:15:05,912 : ERROR : KNIME Sync Exec Dispatcher-6 :  : SyncExecQueueDispatcher :  :  : Uncaught exception while queuing events into main thread
+org.eclipse.swt.SWTException: Invalid thread access
+	at org.eclipse.swt.SWT.error(SWT.java:4918)
+	at org.eclipse.swt.SWT.error(SWT.java:4833)
+	at org.eclipse.swt.SWT.error(SWT.java:4804)
+	at org.eclipse.swt.widgets.Display.error(Display.java:1191)
+	at org.eclipse.swt.widgets.Display.createDisplay(Display.java:942)
+	at org.eclipse.swt.widgets.Display.create(Display.java:926)
+	at org.eclipse.swt.graphics.Device.<init>(Device.java:132)
+	at org.eclipse.swt.widgets.Display.<init>(Display.java:753)
+	at org.eclipse.swt.widgets.Display.<init>(Display.java:744)
+	at org.eclipse.swt.widgets.Display.getDefault(Display.java:1525)
+	at org.knime.workbench.ui.SyncExecQueueDispatcher$2.run(SyncExecQueueDispatcher.java:120)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.base/java.lang.Thread.run(Unknown Source)
+2023-05-11 02:15:05,912 : ERROR : KNIME Sync Exec Dispatcher-3 :  : SyncExecQueueDispatcher :  :  : Uncaught exception while queuing events into main thread
+org.eclipse.swt.SWTException: Invalid thread access
+	at org.eclipse.swt.SWT.error(SWT.java:4918)
+	at org.eclipse.swt.SWT.error(SWT.java:4833)
+	at org.eclipse.swt.SWT.error(SWT.java:4804)
+	at org.eclipse.swt.widgets.Display.error(Display.java:1191)
+	at org.eclipse.swt.widgets.Display.createDisplay(Display.java:942)
+	at org.eclipse.swt.widgets.Display.create(Display.java:926)
+	at org.eclipse.swt.graphics.Device.<init>(Device.java:132)
+	at org.eclipse.swt.widgets.Display.<init>(Display.java:753)
+	at org.eclipse.swt.widgets.Display.<init>(Display.java:744)
+	at org.eclipse.swt.widgets.Display.getDefault(Display.java:1525)
+	at org.knime.workbench.ui.SyncExecQueueDispatcher$2.run(SyncExecQueueDispatcher.java:120)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.base/java.lang.Thread.run(Unknown Source)
+2023-05-11 02:15:05,911 : ERROR : KNIME Sync Exec Dispatcher-4 :  : SyncExecQueueDispatcher :  :  : Uncaught exception while queuing events into main thread
+org.eclipse.swt.SWTException: Invalid thread access
+	at org.eclipse.swt.SWT.error(SWT.java:4918)
+	at org.eclipse.swt.SWT.error(SWT.java:4833)
+	at org.eclipse.swt.SWT.error(SWT.java:4804)
+	at org.eclipse.swt.widgets.Display.error(Display.java:1191)
+	at org.eclipse.swt.widgets.Display.createDisplay(Display.java:942)
+	at org.eclipse.swt.widgets.Display.create(Display.java:926)
+	at org.eclipse.swt.graphics.Device.<init>(Device.java:132)
+	at org.eclipse.swt.widgets.Display.<init>(Display.java:753)
+	at org.eclipse.swt.widgets.Display.<init>(Display.java:744)
+	at org.eclipse.swt.widgets.Display.getDefault(Display.java:1525)
+	at org.knime.workbench.ui.SyncExecQueueDispatcher$2.run(SyncExecQueueDispatcher.java:120)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.base/java.lang.Thread.run(Unknown Source)
+2023-05-11 02:15:05,911 : ERROR : KNIME Sync Exec Dispatcher-1 :  : SyncExecQueueDispatcher :  :  : Uncaught exception while queuing events into main thread
+org.eclipse.swt.SWTException: Invalid thread access
+	at org.eclipse.swt.SWT.error(SWT.java:4918)
+	at org.eclipse.swt.SWT.error(SWT.java:4833)
+	at org.eclipse.swt.SWT.error(SWT.java:4804)
+	at org.eclipse.swt.widgets.Display.error(Display.java:1191)
+	at org.eclipse.swt.widgets.Display.createDisplay(Display.java:942)
+	at org.eclipse.swt.widgets.Display.create(Display.java:926)
+	at org.eclipse.swt.graphics.Device.<init>(Device.java:132)
+	at org.eclipse.swt.widgets.Display.<init>(Display.java:753)
+	at org.eclipse.swt.widgets.Display.<init>(Display.java:744)
+	at org.eclipse.swt.widgets.Display.getDefault(Display.java:1525)
+	at org.knime.workbench.ui.SyncExecQueueDispatcher$2.run(SyncExecQueueDispatcher.java:120)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.base/java.lang.Thread.run(Unknown Source)
+2023-05-11 02:15:05,911 : ERROR : KNIME Sync Exec Dispatcher-5 :  : SyncExecQueueDispatcher :  :  : Uncaught exception while queuing events into main thread
+org.eclipse.swt.SWTException: Invalid thread access
+	at org.eclipse.swt.SWT.error(SWT.java:4918)
+	at org.eclipse.swt.SWT.error(SWT.java:4833)
+	at org.eclipse.swt.SWT.error(SWT.java:4804)
+	at org.eclipse.swt.widgets.Display.error(Display.java:1191)
+	at org.eclipse.swt.widgets.Display.createDisplay(Display.java:942)
+	at org.eclipse.swt.widgets.Display.create(Display.java:926)
+	at org.eclipse.swt.graphics.Device.<init>(Device.java:132)
+	at org.eclipse.swt.widgets.Display.<init>(Display.java:753)
+	at org.eclipse.swt.widgets.Display.<init>(Display.java:744)
+	at org.eclipse.swt.widgets.Display.getDefault(Display.java:1525)
+	at org.knime.workbench.ui.SyncExecQueueDispatcher$2.run(SyncExecQueueDispatcher.java:120)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.base/java.lang.Thread.run(Unknown Source)
+2023-05-11 02:15:05,911 : ERROR : KNIME Sync Exec Dispatcher-8 :  : SyncExecQueueDispatcher :  :  : Uncaught exception while queuing events into main thread
+org.eclipse.swt.SWTException: Invalid thread access
+	at org.eclipse.swt.SWT.error(SWT.java:4918)
+	at org.eclipse.swt.SWT.error(SWT.java:4833)
+	at org.eclipse.swt.SWT.error(SWT.java:4804)
+	at org.eclipse.swt.widgets.Display.error(Display.java:1191)
+	at org.eclipse.swt.widgets.Display.createDisplay(Display.java:942)
+	at org.eclipse.swt.widgets.Display.create(Display.java:926)
+	at org.eclipse.swt.graphics.Device.<init>(Device.java:132)
+	at org.eclipse.swt.widgets.Display.<init>(Display.java:753)
+	at org.eclipse.swt.widgets.Display.<init>(Display.java:744)
+	at org.eclipse.swt.widgets.Display.getDefault(Display.java:1525)
+	at org.knime.workbench.ui.SyncExecQueueDispatcher$2.run(SyncExecQueueDispatcher.java:120)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.base/java.lang.Thread.run(Unknown Source)
+2023-05-11 02:15:05,911 : ERROR : KNIME Sync Exec Dispatcher-2 :  : SyncExecQueueDispatcher :  :  : Uncaught exception while queuing events into main thread
+org.eclipse.swt.SWTException: Invalid thread access
+	at org.eclipse.swt.SWT.error(SWT.java:4918)
+	at org.eclipse.swt.SWT.error(SWT.java:4833)
+	at org.eclipse.swt.SWT.error(SWT.java:4804)
+	at org.eclipse.swt.widgets.Display.error(Display.java:1191)
+	at org.eclipse.swt.widgets.Display.createDisplay(Display.java:942)
+	at org.eclipse.swt.widgets.Display.create(Display.java:926)
+	at org.eclipse.swt.graphics.Device.<init>(Device.java:132)
+	at org.eclipse.swt.widgets.Display.<init>(Display.java:753)
+	at org.eclipse.swt.widgets.Display.<init>(Display.java:744)
+	at org.eclipse.swt.widgets.Display.getDefault(Display.java:1525)
+	at org.knime.workbench.ui.SyncExecQueueDispatcher$2.run(SyncExecQueueDispatcher.java:120)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.base/java.lang.Thread.run(Unknown Source)
+2023-05-11 11:23:56,635 : WARN  : ModalContext :  : Node : Numeric Scorer : 3:27 : No columns selected for reference
+2023-05-11 11:24:03,491 : WARN  : KNIME-Worker-2-X-Partitioner 3:24 :  : Node : Numeric Scorer : 3:27 : No columns selected for reference
+2023-05-11 11:24:03,561 : WARN  : KNIME-Worker-3-Missing Value 3:10 :  : Node : Missing Value : 3:10 : The current settings use missing value handling methods that cannot be represented in PMML 4.2
+2023-05-11 11:24:03,969 : WARN  : KNIME-Worker-10-Statistics 3:17 :  : Node : Statistics : 3:17 : Maximum number of unique possible values (1000) exceeds for column(s): "Name","Developer"
+2023-05-11 11:24:04,151 : WARN  : KNIME-Worker-5-Linear Correlation 3:11 :  : Node : Linear Correlation : 3:11 : Some numeric column(s) contained missing values: "Critic_Score", "Critic_Count", "User_Score", "User_Count", <1 more>...
+2023-05-11 11:24:04,310 : WARN  : KNIME-Worker-6-Statistics 3:13 :  : Node : Statistics : 3:13 : Maximum number of unique possible values (1000) exceeds for column(s): "Name","Developer"
+2023-05-11 11:24:07,410 : WARN  : KNIME-Worker-9-Regression Predictor 3:26 :  : Node : Numeric Scorer : 3:27 : No columns selected for reference
+2023-05-11 11:24:35,870 : WARN  : KNIME-Worker-1-Statistics 3:13 :  : Node : Statistics : 3:13 : Maximum number of unique possible values (1000) exceeds for column(s): "Name","Developer"
+2023-05-11 11:25:52,643 : WARN  : KNIME-Worker-18-String To Number 3:16 :  : AbstractStringToNumberNodeModel : String To Number : 3:16 : Values in 9401 cells could not be parsed, first error: The string "8.3" in cell [row "Row2", column "User_Score"] can not be transformed into a number: For input string: "8.3"
+2023-05-11 11:25:52,650 : WARN  : KNIME-Worker-18-String To Number 3:16 :  : Node : String To Number : 3:16 : Problems occurred, see Console messages.
+2023-05-11 11:26:21,070 : WARN  : KNIME-Worker-19-String To Number 3:16 :  : AbstractStringToNumberNodeModel : String To Number : 3:16 : Values in 9401 cells could not be parsed, first error: The string "8.3" in cell [row "Row2", column "User_Score"] can not be transformed into a number: For input string: "8.3"
+2023-05-11 11:26:21,073 : WARN  : KNIME-Worker-19-String To Number 3:16 :  : Node : String To Number : 3:16 : Problems occurred, see Console messages.
+2023-05-11 11:26:31,561 : WARN  : KNIME-Worker-20-String To Number 3:16 :  : AbstractStringToNumberNodeModel : String To Number : 3:16 : Values in 2694 cells could not be parsed, first error: The string "tbd" in cell [row "Row119", column "User_Score"] can not be transformed into a number: tbd is invalid because of its suffix.
+2023-05-11 11:26:31,563 : WARN  : KNIME-Worker-20-String To Number 3:16 :  : Node : String To Number : 3:16 : Problems occurred, see Console messages.
+2023-05-11 11:28:05,367 : WARN  : KNIME-Worker-21-Linear Correlation 3:11 :  : Node : Linear Correlation : 3:11 : Some numeric column(s) contained missing values: "Critic_Score", "Critic_Count", "User_Score", "User_Count", <1 more>...
+2023-05-11 11:28:08,849 : WARN  : KNIME-Worker-22-Statistics 3:17 :  : Node : Statistics : 3:17 : Maximum number of unique possible values (1000) exceeds for column(s): "Name","Developer"
+2023-05-11 11:28:19,735 : WARN  : KNIME-Worker-37-Scatter Plot 3:20 :  : Node : Scatter Plot : 3:20 : Only the first 2500 rows are displayed.
+2023-05-11 11:28:19,879 : WARN  : KNIME-Worker-37-Scatter Plot 3:20 :  : Node : Scatter Plot : 3:20 : Table contains missing or unsupported values - these values will be omitted.
+2023-05-11 11:28:19,931 : WARN  : KNIME-Worker-38-Statistics 3:13 :  : Node : Statistics : 3:13 : Maximum number of unique possible values (1000) exceeds for column(s): "Name","Developer"
+2023-05-11 11:29:34,317 : WARN  : main :  : Node : Numeric Scorer : 3:27 : No columns selected for reference
+2023-05-11 11:29:38,896 : WARN  : main :  : Node : Numeric Scorer : 3:27 : No columns selected for reference
+2023-05-11 11:30:51,653 : WARN  : ModalContext :  : Node : Scorer : 5:16 : No columns selected yet.
+2023-05-11 11:30:51,655 : WARN  : ModalContext :  : Node : Scorer : 5:15 : No columns selected yet.
+2023-05-11 11:30:57,502 : WARN  : ModalContext :  : Node : Decision Tree Predictor : 6:13 : Learning column "quality_bin" not found in input data to be predicted
+2023-05-11 11:31:04,004 : WARN  : ModalContext :  : Node : CSV Reader : 7:1 : Please specify a file
+2023-05-11 11:31:06,506 : WARN  : ModalContext :  : Node : GroupBy : 8:11 : No grouping column included. Aggregate complete table.
+2023-05-11 11:31:06,507 : WARN  : ModalContext :  : Node : GroupBy : 8:11 : No aggregation column defined
+2023-05-11 11:31:06,508 : WARN  : ModalContext :  : Node : GroupBy : 8:11 : No aggregation column defined
+2023-05-11 11:31:06,532 : WARN  : ModalContext :  : Node : GroupBy : 8:11 : Please select at least one group or aggregation column
+2023-05-11 11:31:06,533 : WARN  : ModalContext :  : Node : Partitioning : 8:15 : No sampling method selected
+2023-05-11 11:31:06,538 : WARN  : ModalContext :  : Node : GroupBy : 8:12 : No grouping column included. Aggregate complete table.
+2023-05-11 11:31:06,538 : WARN  : ModalContext :  : Node : GroupBy : 8:12 : No aggregation column defined
+2023-05-11 11:31:06,538 : WARN  : ModalContext :  : Node : GroupBy : 8:12 : No aggregation column defined
+2023-05-11 11:31:06,538 : WARN  : ModalContext :  : Node : GroupBy : 8:12 : Please select at least one group or aggregation column
+2023-05-11 11:31:06,540 : WARN  : ModalContext :  : Node : Partitioning : 8:16 : No sampling method selected
+2023-05-11 11:31:06,542 : WARN  : ModalContext :  : Node : Partitioning : 8:25 : No sampling method selected
+2023-05-11 11:31:06,542 : WARN  : ModalContext :  : Node : Partitioning : 8:26 : No sampling method selected
+2023-05-11 11:31:29,682 : WARN  : KNIME-Worker-58-CSV Reader 8:2 :  : Node : GroupBy : 8:12 : No grouping column included. Aggregate complete table.
+2023-05-11 11:31:29,683 : WARN  : KNIME-Worker-58-CSV Reader 8:2 :  : Node : GroupBy : 8:12 : No aggregation column defined
+2023-05-11 11:31:29,683 : WARN  : KNIME-Worker-58-CSV Reader 8:2 :  : Node : GroupBy : 8:12 : No aggregation column defined
+2023-05-11 11:31:29,683 : WARN  : KNIME-Worker-58-CSV Reader 8:2 :  : Node : GroupBy : 8:12 : Please select at least one group or aggregation column
+2023-05-11 11:31:29,684 : WARN  : KNIME-Worker-58-CSV Reader 8:2 :  : Node : Partitioning : 8:16 : No sampling method selected
+2023-05-11 11:31:29,685 : WARN  : KNIME-Worker-58-CSV Reader 8:2 :  : Node : Partitioning : 8:26 : No sampling method selected
+2023-05-11 11:31:29,689 : WARN  : KNIME-Worker-57-CSV Reader 8:1 :  : Node : GroupBy : 8:11 : No grouping column included. Aggregate complete table.
+2023-05-11 11:31:29,690 : WARN  : KNIME-Worker-57-CSV Reader 8:1 :  : Node : GroupBy : 8:11 : No aggregation column defined
+2023-05-11 11:31:29,690 : WARN  : KNIME-Worker-57-CSV Reader 8:1 :  : Node : GroupBy : 8:11 : No aggregation column defined
+2023-05-11 11:31:29,690 : WARN  : KNIME-Worker-57-CSV Reader 8:1 :  : Node : GroupBy : 8:11 : Please select at least one group or aggregation column
+2023-05-11 11:31:29,690 : WARN  : KNIME-Worker-57-CSV Reader 8:1 :  : Node : Partitioning : 8:15 : No sampling method selected
+2023-05-11 11:31:29,694 : WARN  : KNIME-Worker-57-CSV Reader 8:1 :  : Node : Partitioning : 8:25 : No sampling method selected
+2023-05-11 11:31:29,701 : WARN  : KNIME-Worker-68-Column Filter 8:23 :  : Node : Partitioning : 8:25 : No sampling method selected
+2023-05-11 11:31:29,720 : WARN  : KNIME-Worker-63-Column Filter 8:24 :  : Node : Partitioning : 8:26 : No sampling method selected
+2023-05-11 11:31:29,733 : ERROR : KNIME-Worker-60-Bar Chart 8:7 :  : Node : Bar Chart : 8:7 : Execute failed: No column selected for category values.
+java.lang.IllegalArgumentException: No column selected for category values.
+	at org.knime.dynamic.js.base.grouped.GroupedProcessor.processInputObjects(GroupedProcessor.java:83)
+	at org.knime.dynamic.js.base.grouped.GroupedProcessor.processInputObjects(GroupedProcessor.java:57)
+	at org.knime.dynamic.js.v30.DynamicJSNodeModel.performExecuteCreateView(DynamicJSNodeModel.java:655)
+	at org.knime.js.core.node.AbstractImageWizardNodeModel.performExecute(AbstractImageWizardNodeModel.java:102)
+	at org.knime.js.core.node.AbstractWizardNodeModel.execute(AbstractWizardNodeModel.java:137)
+	at org.knime.core.node.NodeModel.executeModel(NodeModel.java:549)
+	at org.knime.core.node.Node.invokeFullyNodeModelExecute(Node.java:1267)
+	at org.knime.core.node.Node.execute(Node.java:1041)
+	at org.knime.core.node.workflow.NativeNodeContainer.performExecuteNode(NativeNodeContainer.java:595)
+	at org.knime.core.node.exec.LocalNodeExecutionJob.mainExecute(LocalNodeExecutionJob.java:98)
+	at org.knime.core.node.workflow.NodeExecutionJob.internalRun(NodeExecutionJob.java:201)
+	at org.knime.core.node.workflow.NodeExecutionJob.run(NodeExecutionJob.java:117)
+	at org.knime.core.util.ThreadUtils$RunnableWithContextImpl.runWithContext(ThreadUtils.java:367)
+	at org.knime.core.util.ThreadUtils$RunnableWithContext.run(ThreadUtils.java:221)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.base/java.util.concurrent.FutureTask.run(Unknown Source)
+	at org.knime.core.util.ThreadPool$MyFuture.run(ThreadPool.java:123)
+	at org.knime.core.util.ThreadPool$Worker.run(ThreadPool.java:246)
+2023-05-11 11:31:29,733 : ERROR : KNIME-Worker-66-Bar Chart 8:8 :  : Node : Bar Chart : 8:8 : Execute failed: No column selected for category values.
+java.lang.IllegalArgumentException: No column selected for category values.
+	at org.knime.dynamic.js.base.grouped.GroupedProcessor.processInputObjects(GroupedProcessor.java:83)
+	at org.knime.dynamic.js.base.grouped.GroupedProcessor.processInputObjects(GroupedProcessor.java:57)
+	at org.knime.dynamic.js.v30.DynamicJSNodeModel.performExecuteCreateView(DynamicJSNodeModel.java:655)
+	at org.knime.js.core.node.AbstractImageWizardNodeModel.performExecute(AbstractImageWizardNodeModel.java:102)
+	at org.knime.js.core.node.AbstractWizardNodeModel.execute(AbstractWizardNodeModel.java:137)
+	at org.knime.core.node.NodeModel.executeModel(NodeModel.java:549)
+	at org.knime.core.node.Node.invokeFullyNodeModelExecute(Node.java:1267)
+	at org.knime.core.node.Node.execute(Node.java:1041)
+	at org.knime.core.node.workflow.NativeNodeContainer.performExecuteNode(NativeNodeContainer.java:595)
+	at org.knime.core.node.exec.LocalNodeExecutionJob.mainExecute(LocalNodeExecutionJob.java:98)
+	at org.knime.core.node.workflow.NodeExecutionJob.internalRun(NodeExecutionJob.java:201)
+	at org.knime.core.node.workflow.NodeExecutionJob.run(NodeExecutionJob.java:117)
+	at org.knime.core.util.ThreadUtils$RunnableWithContextImpl.runWithContext(ThreadUtils.java:367)
+	at org.knime.core.util.ThreadUtils$RunnableWithContext.run(ThreadUtils.java:221)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.base/java.util.concurrent.FutureTask.run(Unknown Source)
+	at org.knime.core.util.ThreadPool$MyFuture.run(ThreadPool.java:123)
+	at org.knime.core.util.ThreadPool$Worker.run(ThreadPool.java:246)
+2023-05-11 11:31:44,342 : WARN  : main :  : Node : Decision Tree Learner : 8:17 : Guessing target column: "quality_bin".
+2023-05-11 11:31:44,349 : WARN  : main :  : Node : Scorer : 8:22 : No columns selected yet.
+2023-05-11 11:31:45,081 : WARN  : main :  : Node : Scorer : 8:22 : No columns selected yet.
+2023-05-11 11:31:47,786 : WARN  : KNIME-Worker-73-Partitioning 8:15 :  : Node : Scorer : 8:22 : No columns selected yet.
+2023-05-11 11:33:55,924 : WARN  : KNIME-Worker-75-String To Number 3:32 :  : AbstractStringToNumberNodeModel : String To Number : 3:32 : Values in 2425 cells could not be parsed, first error: The string "tbd" in cell [row "Row119", column "User_Score"] can not be transformed into a number: tbd is invalid because of its suffix.
+2023-05-11 11:33:55,932 : WARN  : KNIME-Worker-75-String To Number 3:32 :  : Node : String To Number : 3:32 : Problems occurred, see Console messages.
+2023-05-11 11:48:47,057 : WARN  : main :  : Node : String Replacer : 3:33 : Selected column 'null' does not exist in input table
+2023-05-11 12:04:59,311 : WARN  : KNIME-Worker-119-String To Number 3:16 :  : AbstractStringToNumberNodeModel : String To Number : 3:16 : Values in 269 cells could not be parsed, first error: The string "N/A" in cell [row "Row183", column "Year_of_Release"] can not be transformed into a number: For input string: "N/A"
+2023-05-11 12:04:59,317 : WARN  : KNIME-Worker-119-String To Number 3:16 :  : Node : String To Number : 3:16 : Problems occurred, see Console messages.
+2023-05-11 12:04:59,355 : WARN  : KNIME-Worker-124-Scatter Plot 3:20 :  : Node : Scatter Plot : 3:20 : Only the first 2500 rows are displayed.
+2023-05-11 12:04:59,744 : WARN  : KNIME-Worker-124-Scatter Plot 3:20 :  : Node : Scatter Plot : 3:20 : Table contains missing or unsupported values - these values will be omitted.
+2023-05-11 12:04:59,885 : WARN  : KNIME-Worker-127-Linear Correlation 3:11 :  : Node : Linear Correlation : 3:11 : Some numeric column(s) contained missing values: "Critic_Score", "Critic_Count", "User_Score", "User_Count", <1 more>...
+2023-05-11 12:04:59,904 : WARN  : KNIME-Worker-122-Statistics 3:17 :  : Node : Statistics : 3:17 : Maximum number of unique possible values (1000) exceeds for column(s): "Name","Developer"
+2023-05-11 12:05:00,224 : WARN  : KNIME-Worker-131-Statistics 3:13 :  : Node : Statistics : 3:13 : Maximum number of unique possible values (1000) exceeds for column(s): "Name","Developer"
+2023-05-11 12:05:09,961 : WARN  : KNIME-Worker-135-Scatter Plot 3:20 :  : Node : Scatter Plot : 3:20 : Only the first 2500 rows are displayed.
+2023-05-11 12:05:10,225 : WARN  : KNIME-Worker-135-Scatter Plot 3:20 :  : Node : Scatter Plot : 3:20 : Table contains missing or unsupported values - these values will be omitted.
+2023-05-11 12:05:10,298 : WARN  : KNIME-Worker-129-Linear Correlation 3:11 :  : Node : Linear Correlation : 3:11 : Some numeric column(s) contained missing values: "Critic_Score", "Critic_Count", "User_Score", "User_Count"
+2023-05-11 12:05:10,299 : WARN  : KNIME-Worker-126-Statistics 3:17 :  : Node : Statistics : 3:17 : Maximum number of unique possible values (1000) exceeds for column(s): "Name","Developer"
+2023-05-11 12:05:10,391 : WARN  : KNIME-Worker-127-Statistics 3:13 :  : Node : Statistics : 3:13 : Maximum number of unique possible values (1000) exceeds for column(s): "Name","Developer"
+2023-05-11 12:06:05,970 : WARN  : KNIME-Worker-131-String To Number 3:16 :  : AbstractStringToNumberNodeModel : String To Number : 3:16 : Values in 269 cells could not be parsed, first error: The string "N/A" in cell [row "Row183", column "Year_of_Release"] can not be transformed into a number: For input string: "N/A"
+2023-05-11 12:06:05,975 : WARN  : KNIME-Worker-131-String To Number 3:16 :  : Node : String To Number : 3:16 : Problems occurred, see Console messages.
+2023-05-11 12:06:05,995 : WARN  : KNIME-Worker-119-Scatter Plot 3:20 :  : Node : Scatter Plot : 3:20 : Only the first 2500 rows are displayed.
+2023-05-11 12:06:06,225 : WARN  : KNIME-Worker-129-Statistics 3:17 :  : Node : Statistics : 3:17 : Maximum number of unique possible values (1000) exceeds for column(s): "Name","Developer"
+2023-05-11 12:06:06,233 : WARN  : KNIME-Worker-119-Scatter Plot 3:20 :  : Node : Scatter Plot : 3:20 : Table contains missing or unsupported values - these values will be omitted.
+2023-05-11 12:06:06,486 : WARN  : KNIME-Worker-130-Linear Correlation 3:11 :  : Node : Linear Correlation : 3:11 : Some numeric column(s) contained missing values: "Critic_Score", "Critic_Count", "User_Score", "User_Count", <1 more>...
+2023-05-11 12:06:06,540 : WARN  : KNIME-Worker-123-Statistics 3:13 :  : Node : Statistics : 3:13 : Maximum number of unique possible values (1000) exceeds for column(s): "Name","Developer"
+2023-05-11 12:07:36,022 : WARN  : KNIME-Worker-135-String To Number 3:16 :  : AbstractStringToNumberNodeModel : String To Number : 3:16 : Values in 2425 cells could not be parsed, first error: The string "tbd" in cell [row "Row119", column "User_Score"] can not be transformed into a number: tbd is invalid because of its suffix.
+2023-05-11 12:07:36,025 : WARN  : KNIME-Worker-135-String To Number 3:16 :  : Node : String To Number : 3:16 : Problems occurred, see Console messages.
+2023-05-11 12:07:36,037 : WARN  : KNIME-Worker-130-Scatter Plot 3:20 :  : Node : Scatter Plot : 3:20 : Only the first 2500 rows are displayed.
+2023-05-11 12:07:36,189 : WARN  : KNIME-Worker-130-Scatter Plot 3:20 :  : Node : Scatter Plot : 3:20 : Table contains missing or unsupported values - these values will be omitted.
+2023-05-11 12:07:36,231 : WARN  : KNIME-Worker-134-Statistics 3:17 :  : Node : Statistics : 3:17 : Maximum number of unique possible values (1000) exceeds for column(s): "Name","Developer"
+2023-05-11 12:07:36,394 : WARN  : KNIME-Worker-133-Linear Correlation 3:11 :  : Node : Linear Correlation : 3:11 : Some numeric column(s) contained missing values: "Critic_Score", "Critic_Count", "User_Score", "User_Count", <1 more>...
+2023-05-11 12:07:36,430 : WARN  : KNIME-Worker-120-Statistics 3:13 :  : Node : Statistics : 3:13 : Maximum number of unique possible values (1000) exceeds for column(s): "Name","Developer"
+2023-05-11 12:15:16,945 : WARN  : KNIME-Worker-141-Scatter Plot 3:20 :  : Node : Scatter Plot : 3:20 : Only the first 2500 rows are displayed.
+2023-05-11 12:15:17,069 : WARN  : KNIME-Worker-141-Scatter Plot 3:20 :  : Node : Scatter Plot : 3:20 : Table contains missing or unsupported values - these values will be omitted.
+2023-05-11 12:15:17,125 : WARN  : KNIME-Worker-139-Statistics 3:17 :  : Node : Statistics : 3:17 : Maximum number of unique possible values (1000) exceeds for column(s): "Name","Developer"
+2023-05-11 12:15:17,390 : WARN  : KNIME-Worker-144-Linear Correlation 3:11 :  : Node : Linear Correlation : 3:11 : Some numeric column(s) contained missing values: "Critic_Score", "Critic_Count", "User_Score", "User_Count", <1 more>...
+2023-05-11 12:15:17,895 : WARN  : KNIME-Worker-138-Statistics 3:13 :  : Node : Statistics : 3:13 : Maximum number of unique possible values (1000) exceeds for column(s): "Name","Developer"
+2023-05-11 12:18:16,640 : WARN  : KNIME-Worker-166-String To Number 3:16 :  : AbstractStringToNumberNodeModel : String To Number : 3:16 : Values in 6707 cells could not be parsed, first error: The string "8.3" in cell [row "Row2", column "User_Score"] can not be transformed into a number: For input string: "8.3"
+2023-05-11 12:18:16,646 : WARN  : KNIME-Worker-166-String To Number 3:16 :  : Node : String To Number : 3:16 : Problems occurred, see Console messages.
+2023-05-11 12:18:16,686 : WARN  : KNIME-Worker-169-Scatter Plot 3:20 :  : Node : Scatter Plot : 3:20 : Only the first 2500 rows are displayed.
+2023-05-11 12:18:16,766 : WARN  : KNIME-Worker-169-Scatter Plot 3:20 :  : Node : Scatter Plot : 3:20 : Table contains missing or unsupported values - these values will be omitted.
+2023-05-11 12:18:16,861 : WARN  : KNIME-Worker-167-Statistics 3:17 :  : Node : Statistics : 3:17 : Maximum number of unique possible values (1000) exceeds for column(s): "Name","Developer"
+2023-05-11 12:18:16,997 : WARN  : KNIME-Worker-172-Linear Correlation 3:11 :  : Node : Linear Correlation : 3:11 : Some numeric column(s) contained missing values: "Critic_Score", "Critic_Count", "User_Score", "User_Count", <1 more>...
+2023-05-11 12:20:17,839 : WARN  : KNIME-Worker-177-Scatter Plot 3:20 :  : Node : Scatter Plot : 3:20 : Only the first 2500 rows are displayed.
+2023-05-11 12:20:17,934 : WARN  : KNIME-Worker-177-Scatter Plot 3:20 :  : Node : Scatter Plot : 3:20 : Table contains missing or unsupported values - these values will be omitted.
+2023-05-11 12:20:18,032 : WARN  : KNIME-Worker-175-Statistics 3:17 :  : Node : Statistics : 3:17 : Maximum number of unique possible values (1000) exceeds for column(s): "Name","Developer"
+2023-05-11 12:20:18,254 : WARN  : KNIME-Worker-180-Linear Correlation 3:11 :  : Node : Linear Correlation : 3:11 : Some numeric column(s) contained missing values: "Critic_Score", "Critic_Count", "User_Score", "User_Count", <1 more>...
+2023-05-11 12:20:44,308 : WARN  : main :  : WrappedNodeDialog : String To Number : 3:16 : failed to apply settings: Decimal and thousands separator must not be the same.
+org.knime.core.node.InvalidSettingsException: Decimal and thousands separator must not be the same.
+	at org.knime.base.node.preproc.colconvert.stringtonumber2.AbstractStringToNumberNodeModel.validateSettings(AbstractStringToNumberNodeModel.java:418)
+	at org.knime.core.node.Node.validateModelSettings(Node.java:692)
+	at org.knime.core.node.workflow.NativeNodeContainer.performValidateSettings(NativeNodeContainer.java:1184)
+	at org.knime.core.node.workflow.SingleNodeContainer.validateSettings(SingleNodeContainer.java:1000)
+	at org.knime.core.node.workflow.WorkflowManager.loadNodeSettings(WorkflowManager.java:2060)
+	at org.knime.core.node.workflow.NodeContainer.applySettingsFromDialog(NodeContainer.java:1140)
+	at org.knime.core.ui.wrapper.NodeContainerWrapper.applySettingsFromDialog(NodeContainerWrapper.java:264)
+	at org.knime.workbench.ui.wrapper.WrappedNodeDialog.callApplySettingsFromDialog(WrappedNodeDialog.java:672)
+	at org.knime.workbench.ui.wrapper.WrappedNodeDialog.doApply(WrappedNodeDialog.java:635)
+	at org.knime.workbench.ui.wrapper.WrappedNodeDialog$6.widgetSelected(WrappedNodeDialog.java:510)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:252)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4604)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1524)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1547)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1532)
+	at org.eclipse.swt.widgets.Widget.notifyListeners(Widget.java:1325)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4390)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3966)
+	at org.eclipse.jface.window.Window.runEventLoop(Window.java:823)
+	at org.eclipse.jface.window.Window.open(Window.java:799)
+	at org.knime.workbench.ui.wrapper.WrappedNodeDialog.open(WrappedNodeDialog.java:199)
+	at org.knime.workbench.editor2.editparts.NodeContainerEditPart.openDialog(NodeContainerEditPart.java:957)
+	at org.knime.workbench.editor2.editparts.NodeContainerEditPart.openNodeDialog(NodeContainerEditPart.java:864)
+	at org.knime.workbench.editor2.editparts.NodeContainerEditPart.openNodeDialog(NodeContainerEditPart.java:846)
+	at org.knime.workbench.editor2.actions.OpenDialogAction.runOnNodes(OpenDialogAction.java:172)
+	at org.knime.workbench.editor2.actions.AbstractNodeAction.runInSWT(AbstractNodeAction.java:174)
+	at org.knime.workbench.editor2.actions.AbstractNodeAction$1.run(AbstractNodeAction.java:160)
+	at org.eclipse.swt.widgets.Synchronizer.syncExec(Synchronizer.java:183)
+	at org.eclipse.ui.internal.UISynchronizer.syncExec(UISynchronizer.java:133)
+	at org.eclipse.swt.widgets.Display.syncExec(Display.java:5211)
+	at org.knime.workbench.editor2.actions.AbstractNodeAction.run(AbstractNodeAction.java:157)
+	at org.eclipse.jface.action.Action.runWithEvent(Action.java:474)
+	at org.eclipse.jface.action.ActionContributionItem.handleWidgetSelection(ActionContributionItem.java:580)
+	at org.eclipse.jface.action.ActionContributionItem.lambda$4(ActionContributionItem.java:414)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4604)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1524)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1547)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1532)
+	at org.eclipse.swt.widgets.Widget.notifyListeners(Widget.java:1325)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4390)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3966)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1155)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1046)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:644)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:551)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:156)
+	at org.knime.product.rcp.KNIMEApplication.start(KNIMEApplication.java:191)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:136)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:402)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.base/java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:659)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:596)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1467)
+2023-05-11 12:22:11,154 : WARN  : KNIME-Worker-194-Scatter Plot 3:20 :  : Node : Scatter Plot : 3:20 : Only the first 2500 rows are displayed.
+2023-05-11 12:22:11,241 : WARN  : KNIME-Worker-194-Scatter Plot 3:20 :  : Node : Scatter Plot : 3:20 : Table contains missing or unsupported values - these values will be omitted.
+2023-05-11 12:22:11,325 : WARN  : KNIME-Worker-192-Statistics 3:17 :  : Node : Statistics : 3:17 : Maximum number of unique possible values (1000) exceeds for column(s): "Name","Developer"
+2023-05-11 12:22:11,438 : WARN  : KNIME-Worker-195-Linear Correlation 3:11 :  : Node : Linear Correlation : 3:11 : Some numeric column(s) contained missing values: "Critic_Score", "Critic_Count", "User_Score", "User_Count", <1 more>...
+2023-05-11 12:22:55,612 : WARN  : KNIME-Worker-197-Scatter Plot 3:20 :  : Node : Scatter Plot : 3:20 : Only the first 2500 rows are displayed.
+2023-05-11 16:18:49,904 : WARN  : KNIME-Worker-220-Missing Value 3:23 :  : Node : Missing Value : 3:23 : The current settings use missing value handling methods that cannot be represented in PMML 4.2
