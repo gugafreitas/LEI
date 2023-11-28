@@ -1,0 +1,289 @@
+\hypertarget{parser_8c}{}\doxysection{parser.\+c File Reference}
+\label{parser_8c}\index{parser.c@{parser.c}}
+{\ttfamily \#include $<$stdio.\+h$>$}\newline
+{\ttfamily \#include $<$stdlib.\+h$>$}\newline
+{\ttfamily \#include $<$string.\+h$>$}\newline
+{\ttfamily \#include $<$assert.\+h$>$}\newline
+{\ttfamily \#include $<$math.\+h$>$}\newline
+{\ttfamily \#include \char`\"{}stack.\+h\char`\"{}}\newline
+{\ttfamily \#include \char`\"{}parser.\+h\char`\"{}}\newline
+\doxysubsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{parser_8c_a2d3e743c974b5aff881f7b049874d97a}{mais}} (\mbox{\hyperlink{stack_8h_ade8bb1f37e07eb511f3873082665d739}{STACK}} $\ast$s)
+\begin{DoxyCompactList}\small\item\em Função que define a operação da soma para gerar um output adequado ao input e à operação correspondente. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{parser_8c_a6815ed3f8fe712c5bdb27f97d6a58092}{menos}} (\mbox{\hyperlink{stack_8h_ade8bb1f37e07eb511f3873082665d739}{STACK}} $\ast$s)
+\begin{DoxyCompactList}\small\item\em Função que define a operação da subtração para gerar um output adequado ao input e à operação correspondente. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{parser_8c_a01f39a9be2db07a3342c585d8f11d745}{divide}} (\mbox{\hyperlink{stack_8h_ade8bb1f37e07eb511f3873082665d739}{STACK}} $\ast$s)
+\begin{DoxyCompactList}\small\item\em Função que define a operação da divisão para gerar um output adequado ao input e à operação correspondente. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{parser_8c_a1a83e81a0989cfe6e96090f7fc2d2198}{multiplica}} (\mbox{\hyperlink{stack_8h_ade8bb1f37e07eb511f3873082665d739}{STACK}} $\ast$s)
+\begin{DoxyCompactList}\small\item\em Função que define a operação da multiplicação para gerar um output adequado ao input e à operação correspondente. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{parser_8c_a75c6a0a9fe82a3362175dded8dbfc992}{elogico}} (\mbox{\hyperlink{stack_8h_ade8bb1f37e07eb511f3873082665d739}{STACK}} $\ast$s)
+\begin{DoxyCompactList}\small\item\em Função que define a operação lógica de E para gerar um output adequado ao input e à operação correspondente. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{parser_8c_af811a8cc8016b38c389fd710ff7f3bda}{oulogico}} (\mbox{\hyperlink{stack_8h_ade8bb1f37e07eb511f3873082665d739}{STACK}} $\ast$s)
+\begin{DoxyCompactList}\small\item\em Função que define a operação lógica de OU para gerar um output adequado ao input e à operação correspondente. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{parser_8c_a3e2167481212f6aa26ccf40bd072a01a}{xorlogico}} (\mbox{\hyperlink{stack_8h_ade8bb1f37e07eb511f3873082665d739}{STACK}} $\ast$s)
+\begin{DoxyCompactList}\small\item\em Função que define a operação lógica de XOR para gerar um output adequado ao input e à operação correspondente. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{parser_8c_a70bedbe23516e3d15245991ddd83e45e}{negacaologica}} (\mbox{\hyperlink{stack_8h_ade8bb1f37e07eb511f3873082665d739}{STACK}} $\ast$s)
+\begin{DoxyCompactList}\small\item\em Função que define a operação lógica de negação para gerar um output adequado ao input e à operação correspondente. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{parser_8c_a10508636af2171860e5d038a7d07f7e0}{incrementa}} (\mbox{\hyperlink{stack_8h_ade8bb1f37e07eb511f3873082665d739}{STACK}} $\ast$s)
+\begin{DoxyCompactList}\small\item\em Função que define a operação de incrementação para gerar um output adequado ao input e à operação correspondente. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{parser_8c_a954e9383095a145d1cb6a1a2d26aa451}{decrementa}} (\mbox{\hyperlink{stack_8h_ade8bb1f37e07eb511f3873082665d739}{STACK}} $\ast$s)
+\begin{DoxyCompactList}\small\item\em Função que define a operação de decrementação para gerar um output adequado ao input e à operação correspondente. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{parser_8c_ac47c510fef88bce38e48b07b6017c54e}{modulo}} (\mbox{\hyperlink{stack_8h_ade8bb1f37e07eb511f3873082665d739}{STACK}} $\ast$s)
+\begin{DoxyCompactList}\small\item\em Função que define a operação de módulo para gerar um output adequado ao input e à operação correspondente. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{parser_8c_a2018e1ff46f8973d959bc80a83bbd47d}{elevado}} (\mbox{\hyperlink{stack_8h_ade8bb1f37e07eb511f3873082665d739}{STACK}} $\ast$s)
+\begin{DoxyCompactList}\small\item\em Função que define a operação de elevação da base para gerar um output adequado ao input e à operação correspondente. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{parser_8c_ac431214cf5e5f8f4d7ca7183305d8689}{roda\+Stack}} (\mbox{\hyperlink{stack_8h_ade8bb1f37e07eb511f3873082665d739}{STACK}} $\ast$s)
+\begin{DoxyCompactList}\small\item\em Função que define a operação que roda a stack para gerar um output adequado ao input e à operação correspondente. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{parser_8c_a16e11b0991e7e27883dd3feeb7b7542c}{topo\+Stack}} (\mbox{\hyperlink{stack_8h_ade8bb1f37e07eb511f3873082665d739}{STACK}} $\ast$s)
+\begin{DoxyCompactList}\small\item\em Função que define a operação que altera o topo da stack para gerar um output adequado ao input e à operação correspondente. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{parser_8c_a6fa63cab9d7d96acf78f8dff5d4f782f}{duplica}} (\mbox{\hyperlink{stack_8h_ade8bb1f37e07eb511f3873082665d739}{STACK}} $\ast$s)
+\begin{DoxyCompactList}\small\item\em Função que define a operação que duplica um elemento para gerar um output adequado ao input e à operação correspondente. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{parser_8c_a57d211b8e9a936de147036fa372acda2}{troca}} (\mbox{\hyperlink{stack_8h_ade8bb1f37e07eb511f3873082665d739}{STACK}} $\ast$s)
+\begin{DoxyCompactList}\small\item\em Função que define a operação de troca de elementos para gerar um output adequado ao input e à operação correspondente. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{parser_8c_a8498db9760c39488016d653f66de90c0}{copiaelemento}} (\mbox{\hyperlink{stack_8h_ade8bb1f37e07eb511f3873082665d739}{STACK}} $\ast$s)
+\begin{DoxyCompactList}\small\item\em Função que define a operação que copia elementos para gerar um output adequado ao input e à operação correspondente. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{parser_8c_ac8a22c308a7e937485bfa055227ac0f0}{para\+Long}} (\mbox{\hyperlink{stack_8h_ade8bb1f37e07eb511f3873082665d739}{STACK}} $\ast$s)
+\begin{DoxyCompactList}\small\item\em Função que converte vários tipos de inputs para long. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{parser_8c_a9dc8218d6a0e9086a131ef43e95edf05}{para\+Double}} (\mbox{\hyperlink{stack_8h_ade8bb1f37e07eb511f3873082665d739}{STACK}} $\ast$s)
+\begin{DoxyCompactList}\small\item\em Função que converte vários tipos de inputs para double. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{parser_8c_a405425b4730316e0d4d2eddcda3e9bf2}{para\+Char}} (\mbox{\hyperlink{stack_8h_ade8bb1f37e07eb511f3873082665d739}{STACK}} $\ast$s)
+\begin{DoxyCompactList}\small\item\em Função que converte vários tipos de inputs para char. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{parser_8c_a1fd34b4c4b7a79e17514db2da4004359}{le\+Linha}} (\mbox{\hyperlink{stack_8h_ade8bb1f37e07eb511f3873082665d739}{STACK}} $\ast$s)
+\begin{DoxyCompactList}\small\item\em Função que lê um input de uma string e devolve a mesma. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{parser_8c_ae7e45a1b0f2ce3ff1c34eccdff425637}{parse}} (char $\ast$line)
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Module \+: Guião1 + Guião2 Description \+: Parser -\/$>$ (Guião1 e Guião2) -\/ Trabalho de LI2 2020/2021
+
+Este ficheiro tem como objetivo criar programas capazes de ler inputs e devolver outputs adequados às operações implementadas no próprio programa e assim relacioná-\/las com a stack criada noutro ficheiro. 
+
+\doxysubsection{Function Documentation}
+\mbox{\Hypertarget{parser_8c_a8498db9760c39488016d653f66de90c0}\label{parser_8c_a8498db9760c39488016d653f66de90c0}} 
+\index{parser.c@{parser.c}!copiaelemento@{copiaelemento}}
+\index{copiaelemento@{copiaelemento}!parser.c@{parser.c}}
+\doxysubsubsection{\texorpdfstring{copiaelemento()}{copiaelemento()}}
+{\footnotesize\ttfamily void copiaelemento (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{stack_8h_ade8bb1f37e07eb511f3873082665d739}{STACK}} $\ast$}]{s }\end{DoxyParamCaption})}
+
+
+
+Função que define a operação que copia elementos para gerar um output adequado ao input e à operação correspondente. 
+
+\mbox{\Hypertarget{parser_8c_a954e9383095a145d1cb6a1a2d26aa451}\label{parser_8c_a954e9383095a145d1cb6a1a2d26aa451}} 
+\index{parser.c@{parser.c}!decrementa@{decrementa}}
+\index{decrementa@{decrementa}!parser.c@{parser.c}}
+\doxysubsubsection{\texorpdfstring{decrementa()}{decrementa()}}
+{\footnotesize\ttfamily void decrementa (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{stack_8h_ade8bb1f37e07eb511f3873082665d739}{STACK}} $\ast$}]{s }\end{DoxyParamCaption})}
+
+
+
+Função que define a operação de decrementação para gerar um output adequado ao input e à operação correspondente. 
+
+\mbox{\Hypertarget{parser_8c_a01f39a9be2db07a3342c585d8f11d745}\label{parser_8c_a01f39a9be2db07a3342c585d8f11d745}} 
+\index{parser.c@{parser.c}!divide@{divide}}
+\index{divide@{divide}!parser.c@{parser.c}}
+\doxysubsubsection{\texorpdfstring{divide()}{divide()}}
+{\footnotesize\ttfamily void divide (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{stack_8h_ade8bb1f37e07eb511f3873082665d739}{STACK}} $\ast$}]{s }\end{DoxyParamCaption})}
+
+
+
+Função que define a operação da divisão para gerar um output adequado ao input e à operação correspondente. 
+
+\mbox{\Hypertarget{parser_8c_a6fa63cab9d7d96acf78f8dff5d4f782f}\label{parser_8c_a6fa63cab9d7d96acf78f8dff5d4f782f}} 
+\index{parser.c@{parser.c}!duplica@{duplica}}
+\index{duplica@{duplica}!parser.c@{parser.c}}
+\doxysubsubsection{\texorpdfstring{duplica()}{duplica()}}
+{\footnotesize\ttfamily void duplica (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{stack_8h_ade8bb1f37e07eb511f3873082665d739}{STACK}} $\ast$}]{s }\end{DoxyParamCaption})}
+
+
+
+Função que define a operação que duplica um elemento para gerar um output adequado ao input e à operação correspondente. 
+
+\mbox{\Hypertarget{parser_8c_a2018e1ff46f8973d959bc80a83bbd47d}\label{parser_8c_a2018e1ff46f8973d959bc80a83bbd47d}} 
+\index{parser.c@{parser.c}!elevado@{elevado}}
+\index{elevado@{elevado}!parser.c@{parser.c}}
+\doxysubsubsection{\texorpdfstring{elevado()}{elevado()}}
+{\footnotesize\ttfamily void elevado (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{stack_8h_ade8bb1f37e07eb511f3873082665d739}{STACK}} $\ast$}]{s }\end{DoxyParamCaption})}
+
+
+
+Função que define a operação de elevação da base para gerar um output adequado ao input e à operação correspondente. 
+
+\mbox{\Hypertarget{parser_8c_a75c6a0a9fe82a3362175dded8dbfc992}\label{parser_8c_a75c6a0a9fe82a3362175dded8dbfc992}} 
+\index{parser.c@{parser.c}!elogico@{elogico}}
+\index{elogico@{elogico}!parser.c@{parser.c}}
+\doxysubsubsection{\texorpdfstring{elogico()}{elogico()}}
+{\footnotesize\ttfamily void elogico (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{stack_8h_ade8bb1f37e07eb511f3873082665d739}{STACK}} $\ast$}]{s }\end{DoxyParamCaption})}
+
+
+
+Função que define a operação lógica de E para gerar um output adequado ao input e à operação correspondente. 
+
+\mbox{\Hypertarget{parser_8c_a10508636af2171860e5d038a7d07f7e0}\label{parser_8c_a10508636af2171860e5d038a7d07f7e0}} 
+\index{parser.c@{parser.c}!incrementa@{incrementa}}
+\index{incrementa@{incrementa}!parser.c@{parser.c}}
+\doxysubsubsection{\texorpdfstring{incrementa()}{incrementa()}}
+{\footnotesize\ttfamily void incrementa (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{stack_8h_ade8bb1f37e07eb511f3873082665d739}{STACK}} $\ast$}]{s }\end{DoxyParamCaption})}
+
+
+
+Função que define a operação de incrementação para gerar um output adequado ao input e à operação correspondente. 
+
+\mbox{\Hypertarget{parser_8c_a1fd34b4c4b7a79e17514db2da4004359}\label{parser_8c_a1fd34b4c4b7a79e17514db2da4004359}} 
+\index{parser.c@{parser.c}!leLinha@{leLinha}}
+\index{leLinha@{leLinha}!parser.c@{parser.c}}
+\doxysubsubsection{\texorpdfstring{leLinha()}{leLinha()}}
+{\footnotesize\ttfamily void le\+Linha (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{stack_8h_ade8bb1f37e07eb511f3873082665d739}{STACK}} $\ast$}]{s }\end{DoxyParamCaption})}
+
+
+
+Função que lê um input de uma string e devolve a mesma. 
+
+\mbox{\Hypertarget{parser_8c_a2d3e743c974b5aff881f7b049874d97a}\label{parser_8c_a2d3e743c974b5aff881f7b049874d97a}} 
+\index{parser.c@{parser.c}!mais@{mais}}
+\index{mais@{mais}!parser.c@{parser.c}}
+\doxysubsubsection{\texorpdfstring{mais()}{mais()}}
+{\footnotesize\ttfamily void mais (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{stack_8h_ade8bb1f37e07eb511f3873082665d739}{STACK}} $\ast$}]{s }\end{DoxyParamCaption})}
+
+
+
+Função que define a operação da soma para gerar um output adequado ao input e à operação correspondente. 
+
+\mbox{\Hypertarget{parser_8c_a6815ed3f8fe712c5bdb27f97d6a58092}\label{parser_8c_a6815ed3f8fe712c5bdb27f97d6a58092}} 
+\index{parser.c@{parser.c}!menos@{menos}}
+\index{menos@{menos}!parser.c@{parser.c}}
+\doxysubsubsection{\texorpdfstring{menos()}{menos()}}
+{\footnotesize\ttfamily void menos (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{stack_8h_ade8bb1f37e07eb511f3873082665d739}{STACK}} $\ast$}]{s }\end{DoxyParamCaption})}
+
+
+
+Função que define a operação da subtração para gerar um output adequado ao input e à operação correspondente. 
+
+\mbox{\Hypertarget{parser_8c_ac47c510fef88bce38e48b07b6017c54e}\label{parser_8c_ac47c510fef88bce38e48b07b6017c54e}} 
+\index{parser.c@{parser.c}!modulo@{modulo}}
+\index{modulo@{modulo}!parser.c@{parser.c}}
+\doxysubsubsection{\texorpdfstring{modulo()}{modulo()}}
+{\footnotesize\ttfamily void modulo (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{stack_8h_ade8bb1f37e07eb511f3873082665d739}{STACK}} $\ast$}]{s }\end{DoxyParamCaption})}
+
+
+
+Função que define a operação de módulo para gerar um output adequado ao input e à operação correspondente. 
+
+\mbox{\Hypertarget{parser_8c_a1a83e81a0989cfe6e96090f7fc2d2198}\label{parser_8c_a1a83e81a0989cfe6e96090f7fc2d2198}} 
+\index{parser.c@{parser.c}!multiplica@{multiplica}}
+\index{multiplica@{multiplica}!parser.c@{parser.c}}
+\doxysubsubsection{\texorpdfstring{multiplica()}{multiplica()}}
+{\footnotesize\ttfamily void multiplica (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{stack_8h_ade8bb1f37e07eb511f3873082665d739}{STACK}} $\ast$}]{s }\end{DoxyParamCaption})}
+
+
+
+Função que define a operação da multiplicação para gerar um output adequado ao input e à operação correspondente. 
+
+\mbox{\Hypertarget{parser_8c_a70bedbe23516e3d15245991ddd83e45e}\label{parser_8c_a70bedbe23516e3d15245991ddd83e45e}} 
+\index{parser.c@{parser.c}!negacaologica@{negacaologica}}
+\index{negacaologica@{negacaologica}!parser.c@{parser.c}}
+\doxysubsubsection{\texorpdfstring{negacaologica()}{negacaologica()}}
+{\footnotesize\ttfamily void negacaologica (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{stack_8h_ade8bb1f37e07eb511f3873082665d739}{STACK}} $\ast$}]{s }\end{DoxyParamCaption})}
+
+
+
+Função que define a operação lógica de negação para gerar um output adequado ao input e à operação correspondente. 
+
+\mbox{\Hypertarget{parser_8c_af811a8cc8016b38c389fd710ff7f3bda}\label{parser_8c_af811a8cc8016b38c389fd710ff7f3bda}} 
+\index{parser.c@{parser.c}!oulogico@{oulogico}}
+\index{oulogico@{oulogico}!parser.c@{parser.c}}
+\doxysubsubsection{\texorpdfstring{oulogico()}{oulogico()}}
+{\footnotesize\ttfamily void oulogico (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{stack_8h_ade8bb1f37e07eb511f3873082665d739}{STACK}} $\ast$}]{s }\end{DoxyParamCaption})}
+
+
+
+Função que define a operação lógica de OU para gerar um output adequado ao input e à operação correspondente. 
+
+\mbox{\Hypertarget{parser_8c_a405425b4730316e0d4d2eddcda3e9bf2}\label{parser_8c_a405425b4730316e0d4d2eddcda3e9bf2}} 
+\index{parser.c@{parser.c}!paraChar@{paraChar}}
+\index{paraChar@{paraChar}!parser.c@{parser.c}}
+\doxysubsubsection{\texorpdfstring{paraChar()}{paraChar()}}
+{\footnotesize\ttfamily void para\+Char (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{stack_8h_ade8bb1f37e07eb511f3873082665d739}{STACK}} $\ast$}]{s }\end{DoxyParamCaption})}
+
+
+
+Função que converte vários tipos de inputs para char. 
+
+\begin{DoxyReturn}{Returns}
+x.\+type = CHAR 
+\end{DoxyReturn}
+\mbox{\Hypertarget{parser_8c_a9dc8218d6a0e9086a131ef43e95edf05}\label{parser_8c_a9dc8218d6a0e9086a131ef43e95edf05}} 
+\index{parser.c@{parser.c}!paraDouble@{paraDouble}}
+\index{paraDouble@{paraDouble}!parser.c@{parser.c}}
+\doxysubsubsection{\texorpdfstring{paraDouble()}{paraDouble()}}
+{\footnotesize\ttfamily void para\+Double (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{stack_8h_ade8bb1f37e07eb511f3873082665d739}{STACK}} $\ast$}]{s }\end{DoxyParamCaption})}
+
+
+
+Função que converte vários tipos de inputs para double. 
+
+\begin{DoxyReturn}{Returns}
+x.\+type = DOUBLE 
+\end{DoxyReturn}
+\mbox{\Hypertarget{parser_8c_ac8a22c308a7e937485bfa055227ac0f0}\label{parser_8c_ac8a22c308a7e937485bfa055227ac0f0}} 
+\index{parser.c@{parser.c}!paraLong@{paraLong}}
+\index{paraLong@{paraLong}!parser.c@{parser.c}}
+\doxysubsubsection{\texorpdfstring{paraLong()}{paraLong()}}
+{\footnotesize\ttfamily void para\+Long (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{stack_8h_ade8bb1f37e07eb511f3873082665d739}{STACK}} $\ast$}]{s }\end{DoxyParamCaption})}
+
+
+
+Função que converte vários tipos de inputs para long. 
+
+\begin{DoxyReturn}{Returns}
+x.\+type = LONG 
+\end{DoxyReturn}
+\mbox{\Hypertarget{parser_8c_ae7e45a1b0f2ce3ff1c34eccdff425637}\label{parser_8c_ae7e45a1b0f2ce3ff1c34eccdff425637}} 
+\index{parser.c@{parser.c}!parse@{parse}}
+\index{parse@{parse}!parser.c@{parser.c}}
+\doxysubsubsection{\texorpdfstring{parse()}{parse()}}
+{\footnotesize\ttfamily void parse (\begin{DoxyParamCaption}\item[{char $\ast$}]{line }\end{DoxyParamCaption})}
+
+Esta função vai identificar todos os nossos tokens e realizar as operações correspondentes aos mesmos. Esta dá ainda print da stack final, stack esta que foi atualizada conforme as operações feitas nela. \mbox{\Hypertarget{parser_8c_ac431214cf5e5f8f4d7ca7183305d8689}\label{parser_8c_ac431214cf5e5f8f4d7ca7183305d8689}} 
+\index{parser.c@{parser.c}!rodaStack@{rodaStack}}
+\index{rodaStack@{rodaStack}!parser.c@{parser.c}}
+\doxysubsubsection{\texorpdfstring{rodaStack()}{rodaStack()}}
+{\footnotesize\ttfamily void roda\+Stack (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{stack_8h_ade8bb1f37e07eb511f3873082665d739}{STACK}} $\ast$}]{s }\end{DoxyParamCaption})}
+
+
+
+Função que define a operação que roda a stack para gerar um output adequado ao input e à operação correspondente. 
+
+\mbox{\Hypertarget{parser_8c_a16e11b0991e7e27883dd3feeb7b7542c}\label{parser_8c_a16e11b0991e7e27883dd3feeb7b7542c}} 
+\index{parser.c@{parser.c}!topoStack@{topoStack}}
+\index{topoStack@{topoStack}!parser.c@{parser.c}}
+\doxysubsubsection{\texorpdfstring{topoStack()}{topoStack()}}
+{\footnotesize\ttfamily void topo\+Stack (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{stack_8h_ade8bb1f37e07eb511f3873082665d739}{STACK}} $\ast$}]{s }\end{DoxyParamCaption})}
+
+
+
+Função que define a operação que altera o topo da stack para gerar um output adequado ao input e à operação correspondente. 
+
+\mbox{\Hypertarget{parser_8c_a57d211b8e9a936de147036fa372acda2}\label{parser_8c_a57d211b8e9a936de147036fa372acda2}} 
+\index{parser.c@{parser.c}!troca@{troca}}
+\index{troca@{troca}!parser.c@{parser.c}}
+\doxysubsubsection{\texorpdfstring{troca()}{troca()}}
+{\footnotesize\ttfamily void troca (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{stack_8h_ade8bb1f37e07eb511f3873082665d739}{STACK}} $\ast$}]{s }\end{DoxyParamCaption})}
+
+
+
+Função que define a operação de troca de elementos para gerar um output adequado ao input e à operação correspondente. 
+
+\mbox{\Hypertarget{parser_8c_a3e2167481212f6aa26ccf40bd072a01a}\label{parser_8c_a3e2167481212f6aa26ccf40bd072a01a}} 
+\index{parser.c@{parser.c}!xorlogico@{xorlogico}}
+\index{xorlogico@{xorlogico}!parser.c@{parser.c}}
+\doxysubsubsection{\texorpdfstring{xorlogico()}{xorlogico()}}
+{\footnotesize\ttfamily void xorlogico (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{stack_8h_ade8bb1f37e07eb511f3873082665d739}{STACK}} $\ast$}]{s }\end{DoxyParamCaption})}
+
+
+
+Função que define a operação lógica de XOR para gerar um output adequado ao input e à operação correspondente. 
+

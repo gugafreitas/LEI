@@ -1,6 +1,0 @@
-- year of release
-- genre
-- publisher
-- EU sales
-- global sales
-- critic score

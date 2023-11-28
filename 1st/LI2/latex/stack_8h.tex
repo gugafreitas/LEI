@@ -1,0 +1,236 @@
+\hypertarget{stack_8h}{}\doxysection{stack.\+h File Reference}
+\label{stack_8h}\index{stack.h@{stack.h}}
+{\ttfamily \#include $<$assert.\+h$>$}\newline
+\doxysubsection*{Classes}
+\begin{DoxyCompactItemize}
+\item 
+struct \mbox{\hyperlink{structdata}{data}}
+\item 
+struct \mbox{\hyperlink{structstack}{stack}}
+\begin{DoxyCompactList}\small\item\em Representação da estrutura da stack. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Macros}
+\begin{DoxyCompactItemize}
+\item 
+\#define \mbox{\hyperlink{stack_8h_a91d43eadec33c80149f92e5abf5df58c}{INTEGER}}~(\mbox{\hyperlink{stack_8h_a0bc6723d5d4776ab7cdc646728b775f7aaee055c4a5aba7d55774e4f1c01dacea}{LONG}} $\vert$ \mbox{\hyperlink{stack_8h_a0bc6723d5d4776ab7cdc646728b775f7a4618cf21306b3c647741afa7ebefcab8}{CHAR}})
+\item 
+\#define \mbox{\hyperlink{stack_8h_abc544a4ed22112e62773c113652c5063}{NUMBER}}~(\mbox{\hyperlink{stack_8h_a91d43eadec33c80149f92e5abf5df58c}{INTEGER}} $\vert$ \mbox{\hyperlink{stack_8h_a0bc6723d5d4776ab7cdc646728b775f7a33465d1d419b1074fb259ef444609e92}{DOUBLE}})
+\item 
+\#define \mbox{\hyperlink{stack_8h_aa7e195e1283260f6225089d9c6e4f184}{STACK\+\_\+\+OPERATION\+\_\+\+PROTO}}(\+\_\+type,  \+\_\+name)
+\end{DoxyCompactItemize}
+\doxysubsection*{Typedefs}
+\begin{DoxyCompactItemize}
+\item 
+typedef struct \mbox{\hyperlink{structdata}{data}} \mbox{\hyperlink{stack_8h_a4e41b34fb87c918e012cde5b33af31bf}{DATA}}
+\item 
+typedef struct \mbox{\hyperlink{structstack}{stack}} \mbox{\hyperlink{stack_8h_ade8bb1f37e07eb511f3873082665d739}{STACK}}
+\begin{DoxyCompactList}\small\item\em Representação da estrutura da stack. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Enumerations}
+\begin{DoxyCompactItemize}
+\item 
+enum \mbox{\hyperlink{stack_8h_a0bc6723d5d4776ab7cdc646728b775f7}{TYPE}} \{ \mbox{\hyperlink{stack_8h_a0bc6723d5d4776ab7cdc646728b775f7aaee055c4a5aba7d55774e4f1c01dacea}{LONG}} = 1
+, \mbox{\hyperlink{stack_8h_a0bc6723d5d4776ab7cdc646728b775f7a33465d1d419b1074fb259ef444609e92}{DOUBLE}} = 2
+, \mbox{\hyperlink{stack_8h_a0bc6723d5d4776ab7cdc646728b775f7a4618cf21306b3c647741afa7ebefcab8}{CHAR}} = 4
+, \mbox{\hyperlink{stack_8h_a0bc6723d5d4776ab7cdc646728b775f7aee847e634a4297b274316de8a8ca9921}{STRING}} = 8
+ \}
+\end{DoxyCompactItemize}
+\doxysubsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+int \mbox{\hyperlink{stack_8h_aae9dbe2826c50633f609d0a71b5fbcd3}{has\+\_\+type}} (\mbox{\hyperlink{stack_8h_a4e41b34fb87c918e012cde5b33af31bf}{DATA}} elem, int mask)
+\item 
+\mbox{\hyperlink{stack_8h_ade8bb1f37e07eb511f3873082665d739}{STACK}} $\ast$ \mbox{\hyperlink{stack_8h_ab37b0d083f873fbdc37d708bb9f40efc}{create\+\_\+stack}} ()
+\begin{DoxyCompactList}\small\item\em Esta função está responsável pela criação de uma stack vazia. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{stack_8h_a1e86b7a7ef501bffae1ec8c82a0220eb}{push}} (\mbox{\hyperlink{stack_8h_ade8bb1f37e07eb511f3873082665d739}{STACK}} $\ast$s, \mbox{\hyperlink{stack_8h_a4e41b34fb87c918e012cde5b33af31bf}{DATA}} elem)
+\begin{DoxyCompactList}\small\item\em Esta função adiciona elementos ao topo da stack (push). \end{DoxyCompactList}\item 
+\mbox{\hyperlink{stack_8h_a4e41b34fb87c918e012cde5b33af31bf}{DATA}} \mbox{\hyperlink{stack_8h_a28bdc96407c992586646198197537cd1}{pop}} (\mbox{\hyperlink{stack_8h_ade8bb1f37e07eb511f3873082665d739}{STACK}} $\ast$s)
+\begin{DoxyCompactList}\small\item\em Esta função remove o elemento que está no topo da stack (pop). \end{DoxyCompactList}\item 
+\mbox{\hyperlink{stack_8h_a4e41b34fb87c918e012cde5b33af31bf}{DATA}} \mbox{\hyperlink{stack_8h_a1c8a0d720a37d9d2a5844e6013c915c2}{top}} (\mbox{\hyperlink{stack_8h_ade8bb1f37e07eb511f3873082665d739}{STACK}} $\ast$s)
+\begin{DoxyCompactList}\small\item\em Esta função aponta o topo da stack. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{stack_8h_ae31d2a4c10db0d5b01ecd8a8aab01cfc}{is\+\_\+empty}} (\mbox{\hyperlink{stack_8h_ade8bb1f37e07eb511f3873082665d739}{STACK}} $\ast$s)
+\begin{DoxyCompactList}\small\item\em Esta função verifica se a stack está, ou não, vazia. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{stack_8h_a42b87bab2d601cb02900935c9b80fc23}{print\+\_\+stack}} (\mbox{\hyperlink{stack_8h_ade8bb1f37e07eb511f3873082665d739}{STACK}} $\ast$s)
+\begin{DoxyCompactList}\small\item\em Esta função está encarregue de imprimir a stack. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Module \+: Guião1 + Guião2 Description \+: Stack -\/$>$ (Guião1 e Guião2) -\/ Trabalho de LI2 2020/2021
+
+A Stack é uma estrutura específica de manipulação de dados linear na ordem {\bfseries{Last In First Out}}, sendo nessa ordem que são realizadas as operações e é dado um empilhamento de dados. Este ficheiro tem então como objetivo, a implementação de uma Stack. Agora no Guião 2, aprende a trabalhar com novos e diferentes tipos de dados. 
+
+\doxysubsection{Macro Definition Documentation}
+\mbox{\Hypertarget{stack_8h_a91d43eadec33c80149f92e5abf5df58c}\label{stack_8h_a91d43eadec33c80149f92e5abf5df58c}} 
+\index{stack.h@{stack.h}!INTEGER@{INTEGER}}
+\index{INTEGER@{INTEGER}!stack.h@{stack.h}}
+\doxysubsubsection{\texorpdfstring{INTEGER}{INTEGER}}
+{\footnotesize\ttfamily \#define INTEGER~(\mbox{\hyperlink{stack_8h_a0bc6723d5d4776ab7cdc646728b775f7aaee055c4a5aba7d55774e4f1c01dacea}{LONG}} $\vert$ \mbox{\hyperlink{stack_8h_a0bc6723d5d4776ab7cdc646728b775f7a4618cf21306b3c647741afa7ebefcab8}{CHAR}})}
+
+\mbox{\Hypertarget{stack_8h_abc544a4ed22112e62773c113652c5063}\label{stack_8h_abc544a4ed22112e62773c113652c5063}} 
+\index{stack.h@{stack.h}!NUMBER@{NUMBER}}
+\index{NUMBER@{NUMBER}!stack.h@{stack.h}}
+\doxysubsubsection{\texorpdfstring{NUMBER}{NUMBER}}
+{\footnotesize\ttfamily \#define NUMBER~(\mbox{\hyperlink{stack_8h_a91d43eadec33c80149f92e5abf5df58c}{INTEGER}} $\vert$ \mbox{\hyperlink{stack_8h_a0bc6723d5d4776ab7cdc646728b775f7a33465d1d419b1074fb259ef444609e92}{DOUBLE}})}
+
+\mbox{\Hypertarget{stack_8h_aa7e195e1283260f6225089d9c6e4f184}\label{stack_8h_aa7e195e1283260f6225089d9c6e4f184}} 
+\index{stack.h@{stack.h}!STACK\_OPERATION\_PROTO@{STACK\_OPERATION\_PROTO}}
+\index{STACK\_OPERATION\_PROTO@{STACK\_OPERATION\_PROTO}!stack.h@{stack.h}}
+\doxysubsubsection{\texorpdfstring{STACK\_OPERATION\_PROTO}{STACK\_OPERATION\_PROTO}}
+{\footnotesize\ttfamily \#define STACK\+\_\+\+OPERATION\+\_\+\+PROTO(\begin{DoxyParamCaption}\item[{}]{\+\_\+type,  }\item[{}]{\+\_\+name }\end{DoxyParamCaption})}
+
+{\bfseries Value\+:}
+\begin{DoxyCode}{0}
+\DoxyCodeLine{  \textcolor{keywordtype}{void} push\_\#\#\_name(\mbox{\hyperlink{structstack}{STACK}} *s, \_type val);     \(\backslash\)}
+\DoxyCodeLine{  \_type pop\_\#\#\_name(\mbox{\hyperlink{structstack}{STACK}} *s);}
+
+\end{DoxyCode}
+
+
+\doxysubsection{Typedef Documentation}
+\mbox{\Hypertarget{stack_8h_a4e41b34fb87c918e012cde5b33af31bf}\label{stack_8h_a4e41b34fb87c918e012cde5b33af31bf}} 
+\index{stack.h@{stack.h}!DATA@{DATA}}
+\index{DATA@{DATA}!stack.h@{stack.h}}
+\doxysubsubsection{\texorpdfstring{DATA}{DATA}}
+{\footnotesize\ttfamily typedef struct \mbox{\hyperlink{structdata}{data}} \mbox{\hyperlink{stack_8h_a4e41b34fb87c918e012cde5b33af31bf}{DATA}}}
+
+\mbox{\Hypertarget{stack_8h_ade8bb1f37e07eb511f3873082665d739}\label{stack_8h_ade8bb1f37e07eb511f3873082665d739}} 
+\index{stack.h@{stack.h}!STACK@{STACK}}
+\index{STACK@{STACK}!stack.h@{stack.h}}
+\doxysubsubsection{\texorpdfstring{STACK}{STACK}}
+{\footnotesize\ttfamily typedef struct \mbox{\hyperlink{structstack}{stack}} \mbox{\hyperlink{stack_8h_ade8bb1f37e07eb511f3873082665d739}{STACK}}}
+
+
+
+Representação da estrutura da stack. 
+
+É aqui definido o array que vai conter os elementos da Stack, a capacidade total da Stack e também o apontador da Stack, pela ordem de menção. 
+
+\doxysubsection{Enumeration Type Documentation}
+\mbox{\Hypertarget{stack_8h_a0bc6723d5d4776ab7cdc646728b775f7}\label{stack_8h_a0bc6723d5d4776ab7cdc646728b775f7}} 
+\index{stack.h@{stack.h}!TYPE@{TYPE}}
+\index{TYPE@{TYPE}!stack.h@{stack.h}}
+\doxysubsubsection{\texorpdfstring{TYPE}{TYPE}}
+{\footnotesize\ttfamily enum \mbox{\hyperlink{stack_8h_a0bc6723d5d4776ab7cdc646728b775f7}{TYPE}}}
+
+\begin{DoxyEnumFields}{Enumerator}
+\raisebox{\heightof{T}}[0pt][0pt]{\index{LONG@{LONG}!stack.h@{stack.h}}\index{stack.h@{stack.h}!LONG@{LONG}}}\mbox{\Hypertarget{stack_8h_a0bc6723d5d4776ab7cdc646728b775f7aaee055c4a5aba7d55774e4f1c01dacea}\label{stack_8h_a0bc6723d5d4776ab7cdc646728b775f7aaee055c4a5aba7d55774e4f1c01dacea}} 
+LONG&\\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{DOUBLE@{DOUBLE}!stack.h@{stack.h}}\index{stack.h@{stack.h}!DOUBLE@{DOUBLE}}}\mbox{\Hypertarget{stack_8h_a0bc6723d5d4776ab7cdc646728b775f7a33465d1d419b1074fb259ef444609e92}\label{stack_8h_a0bc6723d5d4776ab7cdc646728b775f7a33465d1d419b1074fb259ef444609e92}} 
+DOUBLE&\\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{CHAR@{CHAR}!stack.h@{stack.h}}\index{stack.h@{stack.h}!CHAR@{CHAR}}}\mbox{\Hypertarget{stack_8h_a0bc6723d5d4776ab7cdc646728b775f7a4618cf21306b3c647741afa7ebefcab8}\label{stack_8h_a0bc6723d5d4776ab7cdc646728b775f7a4618cf21306b3c647741afa7ebefcab8}} 
+CHAR&\\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{STRING@{STRING}!stack.h@{stack.h}}\index{stack.h@{stack.h}!STRING@{STRING}}}\mbox{\Hypertarget{stack_8h_a0bc6723d5d4776ab7cdc646728b775f7aee847e634a4297b274316de8a8ca9921}\label{stack_8h_a0bc6723d5d4776ab7cdc646728b775f7aee847e634a4297b274316de8a8ca9921}} 
+STRING&\\
+\hline
+
+\end{DoxyEnumFields}
+
+
+\doxysubsection{Function Documentation}
+\mbox{\Hypertarget{stack_8h_ab37b0d083f873fbdc37d708bb9f40efc}\label{stack_8h_ab37b0d083f873fbdc37d708bb9f40efc}} 
+\index{stack.h@{stack.h}!create\_stack@{create\_stack}}
+\index{create\_stack@{create\_stack}!stack.h@{stack.h}}
+\doxysubsubsection{\texorpdfstring{create\_stack()}{create\_stack()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{stack_8h_ade8bb1f37e07eb511f3873082665d739}{STACK}}$\ast$ create\+\_\+stack (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Esta função está responsável pela criação de uma stack vazia. 
+
+\begin{DoxyReturn}{Returns}
+s , Stack 
+\end{DoxyReturn}
+\mbox{\Hypertarget{stack_8h_aae9dbe2826c50633f609d0a71b5fbcd3}\label{stack_8h_aae9dbe2826c50633f609d0a71b5fbcd3}} 
+\index{stack.h@{stack.h}!has\_type@{has\_type}}
+\index{has\_type@{has\_type}!stack.h@{stack.h}}
+\doxysubsubsection{\texorpdfstring{has\_type()}{has\_type()}}
+{\footnotesize\ttfamily int has\+\_\+type (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{stack_8h_a4e41b34fb87c918e012cde5b33af31bf}{DATA}}}]{elem,  }\item[{int}]{mask }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{stack_8h_ae31d2a4c10db0d5b01ecd8a8aab01cfc}\label{stack_8h_ae31d2a4c10db0d5b01ecd8a8aab01cfc}} 
+\index{stack.h@{stack.h}!is\_empty@{is\_empty}}
+\index{is\_empty@{is\_empty}!stack.h@{stack.h}}
+\doxysubsubsection{\texorpdfstring{is\_empty()}{is\_empty()}}
+{\footnotesize\ttfamily int is\+\_\+empty (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{stack_8h_ade8bb1f37e07eb511f3873082665d739}{STACK}} $\ast$}]{s }\end{DoxyParamCaption})}
+
+
+
+Esta função verifica se a stack está, ou não, vazia. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em s} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+s-\/$>$n\+\_\+elems == 0 
+\end{DoxyReturn}
+\mbox{\Hypertarget{stack_8h_a28bdc96407c992586646198197537cd1}\label{stack_8h_a28bdc96407c992586646198197537cd1}} 
+\index{stack.h@{stack.h}!pop@{pop}}
+\index{pop@{pop}!stack.h@{stack.h}}
+\doxysubsubsection{\texorpdfstring{pop()}{pop()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{stack_8h_a4e41b34fb87c918e012cde5b33af31bf}{DATA}} pop (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{stack_8h_ade8bb1f37e07eb511f3873082665d739}{STACK}} $\ast$}]{s }\end{DoxyParamCaption})}
+
+
+
+Esta função remove o elemento que está no topo da stack (pop). 
+
+
+\begin{DoxyParams}{Parameters}
+{\em s} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+s-\/$>$stack\mbox{[}s-\/$>$n\+\_\+elems\mbox{]} , Stack sem o elemento do topo e com o pointer atualizado. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{stack_8h_a42b87bab2d601cb02900935c9b80fc23}\label{stack_8h_a42b87bab2d601cb02900935c9b80fc23}} 
+\index{stack.h@{stack.h}!print\_stack@{print\_stack}}
+\index{print\_stack@{print\_stack}!stack.h@{stack.h}}
+\doxysubsubsection{\texorpdfstring{print\_stack()}{print\_stack()}}
+{\footnotesize\ttfamily void print\+\_\+stack (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{stack_8h_ade8bb1f37e07eb511f3873082665d739}{STACK}} $\ast$}]{s }\end{DoxyParamCaption})}
+
+
+
+Esta função está encarregue de imprimir a stack. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em s} & \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{stack_8h_a1e86b7a7ef501bffae1ec8c82a0220eb}\label{stack_8h_a1e86b7a7ef501bffae1ec8c82a0220eb}} 
+\index{stack.h@{stack.h}!push@{push}}
+\index{push@{push}!stack.h@{stack.h}}
+\doxysubsubsection{\texorpdfstring{push()}{push()}}
+{\footnotesize\ttfamily void push (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{stack_8h_ade8bb1f37e07eb511f3873082665d739}{STACK}} $\ast$}]{s,  }\item[{\mbox{\hyperlink{stack_8h_a4e41b34fb87c918e012cde5b33af31bf}{DATA}}}]{elem }\end{DoxyParamCaption})}
+
+
+
+Esta função adiciona elementos ao topo da stack (push). 
+
+
+\begin{DoxyParams}{Parameters}
+{\em s} & e elem , Stack e elemento que sofre o push (que será adicionado ao topo da stack). \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{stack_8h_a1c8a0d720a37d9d2a5844e6013c915c2}\label{stack_8h_a1c8a0d720a37d9d2a5844e6013c915c2}} 
+\index{stack.h@{stack.h}!top@{top}}
+\index{top@{top}!stack.h@{stack.h}}
+\doxysubsubsection{\texorpdfstring{top()}{top()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{stack_8h_a4e41b34fb87c918e012cde5b33af31bf}{DATA}} top (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{stack_8h_ade8bb1f37e07eb511f3873082665d739}{STACK}} $\ast$}]{s }\end{DoxyParamCaption})}
+
+
+
+Esta função aponta o topo da stack. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em s} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+s-\/$>$stack\mbox{[}s-\/$>$n\+\_\+elems\mbox{]} , Elemento apontado pelo pointer 
+\end{DoxyReturn}

@@ -1,0 +1,166 @@
+\hypertarget{stack_8c}{}\doxysection{stack.\+c File Reference}
+\label{stack_8c}\index{stack.c@{stack.c}}
+{\ttfamily \#include $<$stdio.\+h$>$}\newline
+{\ttfamily \#include $<$stdlib.\+h$>$}\newline
+{\ttfamily \#include \char`\"{}stack.\+h\char`\"{}}\newline
+\doxysubsection*{Macros}
+\begin{DoxyCompactItemize}
+\item 
+\#define \mbox{\hyperlink{stack_8c_a9903082d211359e185d2b31f64dc02bd}{STACK\+\_\+\+OPERATION}}(\+\_\+type,  \+\_\+name)
+\begin{DoxyCompactList}\small\item\em Sequência de macros para as operações a que a stack se pode sujeitar. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+int \mbox{\hyperlink{stack_8c_aae9dbe2826c50633f609d0a71b5fbcd3}{has\+\_\+type}} (\mbox{\hyperlink{stack_8h_a4e41b34fb87c918e012cde5b33af31bf}{DATA}} elem, int mask)
+\item 
+\mbox{\hyperlink{stack_8h_ade8bb1f37e07eb511f3873082665d739}{STACK}} $\ast$ \mbox{\hyperlink{stack_8c_ab37b0d083f873fbdc37d708bb9f40efc}{create\+\_\+stack}} ()
+\begin{DoxyCompactList}\small\item\em Esta função está responsável pela criação de uma stack vazia. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{stack_8c_a1e86b7a7ef501bffae1ec8c82a0220eb}{push}} (\mbox{\hyperlink{stack_8h_ade8bb1f37e07eb511f3873082665d739}{STACK}} $\ast$s, \mbox{\hyperlink{stack_8h_a4e41b34fb87c918e012cde5b33af31bf}{DATA}} elem)
+\begin{DoxyCompactList}\small\item\em Esta função adiciona elementos ao topo da stack (push). \end{DoxyCompactList}\item 
+\mbox{\hyperlink{stack_8h_a4e41b34fb87c918e012cde5b33af31bf}{DATA}} \mbox{\hyperlink{stack_8c_a28bdc96407c992586646198197537cd1}{pop}} (\mbox{\hyperlink{stack_8h_ade8bb1f37e07eb511f3873082665d739}{STACK}} $\ast$s)
+\begin{DoxyCompactList}\small\item\em Esta função remove o elemento que está no topo da stack (pop). \end{DoxyCompactList}\item 
+\mbox{\hyperlink{stack_8h_a4e41b34fb87c918e012cde5b33af31bf}{DATA}} \mbox{\hyperlink{stack_8c_a1c8a0d720a37d9d2a5844e6013c915c2}{top}} (\mbox{\hyperlink{stack_8h_ade8bb1f37e07eb511f3873082665d739}{STACK}} $\ast$s)
+\begin{DoxyCompactList}\small\item\em Esta função aponta o topo da stack. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{stack_8c_ae31d2a4c10db0d5b01ecd8a8aab01cfc}{is\+\_\+empty}} (\mbox{\hyperlink{stack_8h_ade8bb1f37e07eb511f3873082665d739}{STACK}} $\ast$s)
+\begin{DoxyCompactList}\small\item\em Esta função verifica se a stack está, ou não, vazia. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{stack_8c_a42b87bab2d601cb02900935c9b80fc23}{print\+\_\+stack}} (\mbox{\hyperlink{stack_8h_ade8bb1f37e07eb511f3873082665d739}{STACK}} $\ast$s)
+\begin{DoxyCompactList}\small\item\em Esta função está encarregue de imprimir a stack. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Module \+: Guião1 + Guião2 Description \+: Stack -\/$>$ (Guião1 e Guião2) -\/ Trabalho de LI2 2020/2021
+
+Neste ficheiro é dada a criação e iniciação da manobragem da Stack para que depois se possa então, manipular os dados através das operações feitas na mesma. 
+
+\doxysubsection{Macro Definition Documentation}
+\mbox{\Hypertarget{stack_8c_a9903082d211359e185d2b31f64dc02bd}\label{stack_8c_a9903082d211359e185d2b31f64dc02bd}} 
+\index{stack.c@{stack.c}!STACK\_OPERATION@{STACK\_OPERATION}}
+\index{STACK\_OPERATION@{STACK\_OPERATION}!stack.c@{stack.c}}
+\doxysubsubsection{\texorpdfstring{STACK\_OPERATION}{STACK\_OPERATION}}
+{\footnotesize\ttfamily \#define STACK\+\_\+\+OPERATION(\begin{DoxyParamCaption}\item[{}]{\+\_\+type,  }\item[{}]{\+\_\+name }\end{DoxyParamCaption})}
+
+{\bfseries Value\+:}
+\begin{DoxyCode}{0}
+\DoxyCodeLine{  \textcolor{keywordtype}{void} push\_\#\#\_name(\mbox{\hyperlink{structstack}{STACK}} *s, \_type val) \{    \(\backslash\)}
+\DoxyCodeLine{    DATA elem;                                \(\backslash\)}
+\DoxyCodeLine{    elem.type = \_name;                        \(\backslash\)}
+\DoxyCodeLine{    elem.\_name = val;                         \(\backslash\)}
+\DoxyCodeLine{    push(s, elem);                            \(\backslash\)}
+\DoxyCodeLine{  \}                                           \(\backslash\)}
+\DoxyCodeLine{  \_type pop\_\#\#\_name(\mbox{\hyperlink{structstack}{STACK}} *s) \{               \(\backslash\)}
+\DoxyCodeLine{    DATA elem = \mbox{\hyperlink{stack_8c_a28bdc96407c992586646198197537cd1}{pop}}(s);                       \(\backslash\)}
+\DoxyCodeLine{    assert(elem.type == \_name);               \(\backslash\)}
+\DoxyCodeLine{    return elem.\_name;                        \(\backslash\)}
+\DoxyCodeLine{  \}}
+
+\end{DoxyCode}
+
+
+Sequência de macros para as operações a que a stack se pode sujeitar. 
+
+
+
+\doxysubsection{Function Documentation}
+\mbox{\Hypertarget{stack_8c_ab37b0d083f873fbdc37d708bb9f40efc}\label{stack_8c_ab37b0d083f873fbdc37d708bb9f40efc}} 
+\index{stack.c@{stack.c}!create\_stack@{create\_stack}}
+\index{create\_stack@{create\_stack}!stack.c@{stack.c}}
+\doxysubsubsection{\texorpdfstring{create\_stack()}{create\_stack()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{stack_8h_ade8bb1f37e07eb511f3873082665d739}{STACK}}$\ast$ create\+\_\+stack (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Esta função está responsável pela criação de uma stack vazia. 
+
+\begin{DoxyReturn}{Returns}
+s , Stack 
+\end{DoxyReturn}
+\mbox{\Hypertarget{stack_8c_aae9dbe2826c50633f609d0a71b5fbcd3}\label{stack_8c_aae9dbe2826c50633f609d0a71b5fbcd3}} 
+\index{stack.c@{stack.c}!has\_type@{has\_type}}
+\index{has\_type@{has\_type}!stack.c@{stack.c}}
+\doxysubsubsection{\texorpdfstring{has\_type()}{has\_type()}}
+{\footnotesize\ttfamily int has\+\_\+type (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{stack_8h_a4e41b34fb87c918e012cde5b33af31bf}{DATA}}}]{elem,  }\item[{int}]{mask }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{stack_8c_ae31d2a4c10db0d5b01ecd8a8aab01cfc}\label{stack_8c_ae31d2a4c10db0d5b01ecd8a8aab01cfc}} 
+\index{stack.c@{stack.c}!is\_empty@{is\_empty}}
+\index{is\_empty@{is\_empty}!stack.c@{stack.c}}
+\doxysubsubsection{\texorpdfstring{is\_empty()}{is\_empty()}}
+{\footnotesize\ttfamily int is\+\_\+empty (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{stack_8h_ade8bb1f37e07eb511f3873082665d739}{STACK}} $\ast$}]{s }\end{DoxyParamCaption})}
+
+
+
+Esta função verifica se a stack está, ou não, vazia. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em s} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+s-\/$>$n\+\_\+elems == 0 
+\end{DoxyReturn}
+\mbox{\Hypertarget{stack_8c_a28bdc96407c992586646198197537cd1}\label{stack_8c_a28bdc96407c992586646198197537cd1}} 
+\index{stack.c@{stack.c}!pop@{pop}}
+\index{pop@{pop}!stack.c@{stack.c}}
+\doxysubsubsection{\texorpdfstring{pop()}{pop()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{stack_8h_a4e41b34fb87c918e012cde5b33af31bf}{DATA}} pop (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{stack_8h_ade8bb1f37e07eb511f3873082665d739}{STACK}} $\ast$}]{s }\end{DoxyParamCaption})}
+
+
+
+Esta função remove o elemento que está no topo da stack (pop). 
+
+
+\begin{DoxyParams}{Parameters}
+{\em s} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+s-\/$>$stack\mbox{[}s-\/$>$n\+\_\+elems\mbox{]} , Stack sem o elemento do topo e com o pointer atualizado. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{stack_8c_a42b87bab2d601cb02900935c9b80fc23}\label{stack_8c_a42b87bab2d601cb02900935c9b80fc23}} 
+\index{stack.c@{stack.c}!print\_stack@{print\_stack}}
+\index{print\_stack@{print\_stack}!stack.c@{stack.c}}
+\doxysubsubsection{\texorpdfstring{print\_stack()}{print\_stack()}}
+{\footnotesize\ttfamily void print\+\_\+stack (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{stack_8h_ade8bb1f37e07eb511f3873082665d739}{STACK}} $\ast$}]{s }\end{DoxyParamCaption})}
+
+
+
+Esta função está encarregue de imprimir a stack. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em s} & \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{stack_8c_a1e86b7a7ef501bffae1ec8c82a0220eb}\label{stack_8c_a1e86b7a7ef501bffae1ec8c82a0220eb}} 
+\index{stack.c@{stack.c}!push@{push}}
+\index{push@{push}!stack.c@{stack.c}}
+\doxysubsubsection{\texorpdfstring{push()}{push()}}
+{\footnotesize\ttfamily void push (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{stack_8h_ade8bb1f37e07eb511f3873082665d739}{STACK}} $\ast$}]{s,  }\item[{\mbox{\hyperlink{stack_8h_a4e41b34fb87c918e012cde5b33af31bf}{DATA}}}]{elem }\end{DoxyParamCaption})}
+
+
+
+Esta função adiciona elementos ao topo da stack (push). 
+
+
+\begin{DoxyParams}{Parameters}
+{\em s} & e elem , Stack e elemento que sofre o push (que será adicionado ao topo da stack). \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{stack_8c_a1c8a0d720a37d9d2a5844e6013c915c2}\label{stack_8c_a1c8a0d720a37d9d2a5844e6013c915c2}} 
+\index{stack.c@{stack.c}!top@{top}}
+\index{top@{top}!stack.c@{stack.c}}
+\doxysubsubsection{\texorpdfstring{top()}{top()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{stack_8h_a4e41b34fb87c918e012cde5b33af31bf}{DATA}} top (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{stack_8h_ade8bb1f37e07eb511f3873082665d739}{STACK}} $\ast$}]{s }\end{DoxyParamCaption})}
+
+
+
+Esta função aponta o topo da stack. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em s} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+s-\/$>$stack\mbox{[}s-\/$>$n\+\_\+elems\mbox{]} , Elemento apontado pelo pointer 
+\end{DoxyReturn}

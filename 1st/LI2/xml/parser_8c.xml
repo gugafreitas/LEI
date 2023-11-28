@@ -1,0 +1,735 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="parser_8c" kind="file" language="C++">
+    <compoundname>parser.c</compoundname>
+    <includes local="no">stdio.h</includes>
+    <includes local="no">stdlib.h</includes>
+    <includes local="no">string.h</includes>
+    <includes local="no">assert.h</includes>
+    <includes local="no">math.h</includes>
+    <includes refid="stack_8h" local="yes">stack.h</includes>
+    <includes refid="parser_8h" local="yes">parser.h</includes>
+    <incdepgraph>
+      <node id="5">
+        <label>assert.h</label>
+      </node>
+      <node id="3">
+        <label>stdlib.h</label>
+      </node>
+      <node id="1">
+        <label>parser.c</label>
+        <link refid="parser_8c"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="8" relation="include">
+        </childnode>
+      </node>
+      <node id="8">
+        <label>parser.h</label>
+        <link refid="parser_8h"/>
+      </node>
+      <node id="4">
+        <label>string.h</label>
+      </node>
+      <node id="6">
+        <label>math.h</label>
+      </node>
+      <node id="7">
+        <label>stack.h</label>
+        <link refid="stack_8h"/>
+        <childnode refid="5" relation="include">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>stdio.h</label>
+      </node>
+    </incdepgraph>
+      <sectiondef kind="func">
+      <memberdef kind="function" id="parser_8c_1a2d3e743c974b5aff881f7b049874d97a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void mais</definition>
+        <argsstring>(STACK *s)</argsstring>
+        <name>mais</name>
+        <param>
+          <type><ref refid="stack_8h_1ade8bb1f37e07eb511f3873082665d739" kindref="member">STACK</ref> *</type>
+          <declname>s</declname>
+        </param>
+        <briefdescription>
+<para>Função que define a operação da soma para gerar um output adequado ao input e à operação correspondente. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="parser.c" line="23" column="6" bodyfile="parser.c" bodystart="23" bodyend="31"/>
+      </memberdef>
+      <memberdef kind="function" id="parser_8c_1a6815ed3f8fe712c5bdb27f97d6a58092" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void menos</definition>
+        <argsstring>(STACK *s)</argsstring>
+        <name>menos</name>
+        <param>
+          <type><ref refid="stack_8h_1ade8bb1f37e07eb511f3873082665d739" kindref="member">STACK</ref> *</type>
+          <declname>s</declname>
+        </param>
+        <briefdescription>
+<para>Função que define a operação da subtração para gerar um output adequado ao input e à operação correspondente. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="parser.c" line="36" column="6" bodyfile="parser.c" bodystart="36" bodyend="44"/>
+      </memberdef>
+      <memberdef kind="function" id="parser_8c_1a01f39a9be2db07a3342c585d8f11d745" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void divide</definition>
+        <argsstring>(STACK *s)</argsstring>
+        <name>divide</name>
+        <param>
+          <type><ref refid="stack_8h_1ade8bb1f37e07eb511f3873082665d739" kindref="member">STACK</ref> *</type>
+          <declname>s</declname>
+        </param>
+        <briefdescription>
+<para>Função que define a operação da divisão para gerar um output adequado ao input e à operação correspondente. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="parser.c" line="49" column="6" bodyfile="parser.c" bodystart="49" bodyend="57"/>
+      </memberdef>
+      <memberdef kind="function" id="parser_8c_1a1a83e81a0989cfe6e96090f7fc2d2198" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void multiplica</definition>
+        <argsstring>(STACK *s)</argsstring>
+        <name>multiplica</name>
+        <param>
+          <type><ref refid="stack_8h_1ade8bb1f37e07eb511f3873082665d739" kindref="member">STACK</ref> *</type>
+          <declname>s</declname>
+        </param>
+        <briefdescription>
+<para>Função que define a operação da multiplicação para gerar um output adequado ao input e à operação correspondente. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="parser.c" line="62" column="6" bodyfile="parser.c" bodystart="62" bodyend="70"/>
+      </memberdef>
+      <memberdef kind="function" id="parser_8c_1a75c6a0a9fe82a3362175dded8dbfc992" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void elogico</definition>
+        <argsstring>(STACK *s)</argsstring>
+        <name>elogico</name>
+        <param>
+          <type><ref refid="stack_8h_1ade8bb1f37e07eb511f3873082665d739" kindref="member">STACK</ref> *</type>
+          <declname>s</declname>
+        </param>
+        <briefdescription>
+<para>Função que define a operação lógica de E para gerar um output adequado ao input e à operação correspondente. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="parser.c" line="75" column="6" bodyfile="parser.c" bodystart="75" bodyend="80"/>
+      </memberdef>
+      <memberdef kind="function" id="parser_8c_1af811a8cc8016b38c389fd710ff7f3bda" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void oulogico</definition>
+        <argsstring>(STACK *s)</argsstring>
+        <name>oulogico</name>
+        <param>
+          <type><ref refid="stack_8h_1ade8bb1f37e07eb511f3873082665d739" kindref="member">STACK</ref> *</type>
+          <declname>s</declname>
+        </param>
+        <briefdescription>
+<para>Função que define a operação lógica de OU para gerar um output adequado ao input e à operação correspondente. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="parser.c" line="85" column="6" bodyfile="parser.c" bodystart="85" bodyend="90"/>
+      </memberdef>
+      <memberdef kind="function" id="parser_8c_1a3e2167481212f6aa26ccf40bd072a01a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void xorlogico</definition>
+        <argsstring>(STACK *s)</argsstring>
+        <name>xorlogico</name>
+        <param>
+          <type><ref refid="stack_8h_1ade8bb1f37e07eb511f3873082665d739" kindref="member">STACK</ref> *</type>
+          <declname>s</declname>
+        </param>
+        <briefdescription>
+<para>Função que define a operação lógica de XOR para gerar um output adequado ao input e à operação correspondente. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="parser.c" line="95" column="6" bodyfile="parser.c" bodystart="95" bodyend="100"/>
+      </memberdef>
+      <memberdef kind="function" id="parser_8c_1a70bedbe23516e3d15245991ddd83e45e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void negacaologica</definition>
+        <argsstring>(STACK *s)</argsstring>
+        <name>negacaologica</name>
+        <param>
+          <type><ref refid="stack_8h_1ade8bb1f37e07eb511f3873082665d739" kindref="member">STACK</ref> *</type>
+          <declname>s</declname>
+        </param>
+        <briefdescription>
+<para>Função que define a operação lógica de negação para gerar um output adequado ao input e à operação correspondente. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="parser.c" line="105" column="6" bodyfile="parser.c" bodystart="105" bodyend="109"/>
+      </memberdef>
+      <memberdef kind="function" id="parser_8c_1a10508636af2171860e5d038a7d07f7e0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void incrementa</definition>
+        <argsstring>(STACK *s)</argsstring>
+        <name>incrementa</name>
+        <param>
+          <type><ref refid="stack_8h_1ade8bb1f37e07eb511f3873082665d739" kindref="member">STACK</ref> *</type>
+          <declname>s</declname>
+        </param>
+        <briefdescription>
+<para>Função que define a operação de incrementação para gerar um output adequado ao input e à operação correspondente. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="parser.c" line="114" column="6" bodyfile="parser.c" bodystart="114" bodyend="120"/>
+      </memberdef>
+      <memberdef kind="function" id="parser_8c_1a954e9383095a145d1cb6a1a2d26aa451" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void decrementa</definition>
+        <argsstring>(STACK *s)</argsstring>
+        <name>decrementa</name>
+        <param>
+          <type><ref refid="stack_8h_1ade8bb1f37e07eb511f3873082665d739" kindref="member">STACK</ref> *</type>
+          <declname>s</declname>
+        </param>
+        <briefdescription>
+<para>Função que define a operação de decrementação para gerar um output adequado ao input e à operação correspondente. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="parser.c" line="125" column="6" bodyfile="parser.c" bodystart="125" bodyend="131"/>
+      </memberdef>
+      <memberdef kind="function" id="parser_8c_1ac47c510fef88bce38e48b07b6017c54e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void modulo</definition>
+        <argsstring>(STACK *s)</argsstring>
+        <name>modulo</name>
+        <param>
+          <type><ref refid="stack_8h_1ade8bb1f37e07eb511f3873082665d739" kindref="member">STACK</ref> *</type>
+          <declname>s</declname>
+        </param>
+        <briefdescription>
+<para>Função que define a operação de módulo para gerar um output adequado ao input e à operação correspondente. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="parser.c" line="136" column="6" bodyfile="parser.c" bodystart="136" bodyend="141"/>
+      </memberdef>
+      <memberdef kind="function" id="parser_8c_1a2018e1ff46f8973d959bc80a83bbd47d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void elevado</definition>
+        <argsstring>(STACK *s)</argsstring>
+        <name>elevado</name>
+        <param>
+          <type><ref refid="stack_8h_1ade8bb1f37e07eb511f3873082665d739" kindref="member">STACK</ref> *</type>
+          <declname>s</declname>
+        </param>
+        <briefdescription>
+<para>Função que define a operação de elevação da base para gerar um output adequado ao input e à operação correspondente. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="parser.c" line="146" column="6" bodyfile="parser.c" bodystart="146" bodyend="157"/>
+      </memberdef>
+      <memberdef kind="function" id="parser_8c_1ac431214cf5e5f8f4d7ca7183305d8689" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void rodaStack</definition>
+        <argsstring>(STACK *s)</argsstring>
+        <name>rodaStack</name>
+        <param>
+          <type><ref refid="stack_8h_1ade8bb1f37e07eb511f3873082665d739" kindref="member">STACK</ref> *</type>
+          <declname>s</declname>
+        </param>
+        <briefdescription>
+<para>Função que define a operação que roda a stack para gerar um output adequado ao input e à operação correspondente. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="parser.c" line="162" column="6" bodyfile="parser.c" bodystart="162" bodyend="167"/>
+      </memberdef>
+      <memberdef kind="function" id="parser_8c_1a16e11b0991e7e27883dd3feeb7b7542c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void topoStack</definition>
+        <argsstring>(STACK *s)</argsstring>
+        <name>topoStack</name>
+        <param>
+          <type><ref refid="stack_8h_1ade8bb1f37e07eb511f3873082665d739" kindref="member">STACK</ref> *</type>
+          <declname>s</declname>
+        </param>
+        <briefdescription>
+<para>Função que define a operação que altera o topo da stack para gerar um output adequado ao input e à operação correspondente. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="parser.c" line="172" column="6" bodyfile="parser.c" bodystart="172" bodyend="174"/>
+      </memberdef>
+      <memberdef kind="function" id="parser_8c_1a6fa63cab9d7d96acf78f8dff5d4f782f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void duplica</definition>
+        <argsstring>(STACK *s)</argsstring>
+        <name>duplica</name>
+        <param>
+          <type><ref refid="stack_8h_1ade8bb1f37e07eb511f3873082665d739" kindref="member">STACK</ref> *</type>
+          <declname>s</declname>
+        </param>
+        <briefdescription>
+<para>Função que define a operação que duplica um elemento para gerar um output adequado ao input e à operação correspondente. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="parser.c" line="179" column="6" bodyfile="parser.c" bodystart="179" bodyend="182"/>
+      </memberdef>
+      <memberdef kind="function" id="parser_8c_1a57d211b8e9a936de147036fa372acda2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void troca</definition>
+        <argsstring>(STACK *s)</argsstring>
+        <name>troca</name>
+        <param>
+          <type><ref refid="stack_8h_1ade8bb1f37e07eb511f3873082665d739" kindref="member">STACK</ref> *</type>
+          <declname>s</declname>
+        </param>
+        <briefdescription>
+<para>Função que define a operação de troca de elementos para gerar um output adequado ao input e à operação correspondente. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="parser.c" line="187" column="6" bodyfile="parser.c" bodystart="187" bodyend="191"/>
+      </memberdef>
+      <memberdef kind="function" id="parser_8c_1a8498db9760c39488016d653f66de90c0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void copiaelemento</definition>
+        <argsstring>(STACK *s)</argsstring>
+        <name>copiaelemento</name>
+        <param>
+          <type><ref refid="stack_8h_1ade8bb1f37e07eb511f3873082665d739" kindref="member">STACK</ref> *</type>
+          <declname>s</declname>
+        </param>
+        <briefdescription>
+<para>Função que define a operação que copia elementos para gerar um output adequado ao input e à operação correspondente. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="parser.c" line="196" column="6" bodyfile="parser.c" bodystart="196" bodyend="203"/>
+      </memberdef>
+      <memberdef kind="function" id="parser_8c_1ac8a22c308a7e937485bfa055227ac0f0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void paraLong</definition>
+        <argsstring>(STACK *s)</argsstring>
+        <name>paraLong</name>
+        <param>
+          <type><ref refid="stack_8h_1ade8bb1f37e07eb511f3873082665d739" kindref="member">STACK</ref> *</type>
+          <declname>s</declname>
+        </param>
+        <briefdescription>
+<para>Função que converte vários tipos de inputs para long. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>x.type = LONG </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="parser.c" line="210" column="6" bodyfile="parser.c" bodystart="210" bodyend="231"/>
+      </memberdef>
+      <memberdef kind="function" id="parser_8c_1a9dc8218d6a0e9086a131ef43e95edf05" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void paraDouble</definition>
+        <argsstring>(STACK *s)</argsstring>
+        <name>paraDouble</name>
+        <param>
+          <type><ref refid="stack_8h_1ade8bb1f37e07eb511f3873082665d739" kindref="member">STACK</ref> *</type>
+          <declname>s</declname>
+        </param>
+        <briefdescription>
+<para>Função que converte vários tipos de inputs para double. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>x.type = DOUBLE </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="parser.c" line="238" column="6" bodyfile="parser.c" bodystart="238" bodyend="259"/>
+      </memberdef>
+      <memberdef kind="function" id="parser_8c_1a405425b4730316e0d4d2eddcda3e9bf2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void paraChar</definition>
+        <argsstring>(STACK *s)</argsstring>
+        <name>paraChar</name>
+        <param>
+          <type><ref refid="stack_8h_1ade8bb1f37e07eb511f3873082665d739" kindref="member">STACK</ref> *</type>
+          <declname>s</declname>
+        </param>
+        <briefdescription>
+<para>Função que converte vários tipos de inputs para char. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>x.type = CHAR </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="parser.c" line="266" column="6" bodyfile="parser.c" bodystart="266" bodyend="283"/>
+      </memberdef>
+      <memberdef kind="function" id="parser_8c_1a1fd34b4c4b7a79e17514db2da4004359" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void leLinha</definition>
+        <argsstring>(STACK *s)</argsstring>
+        <name>leLinha</name>
+        <param>
+          <type><ref refid="stack_8h_1ade8bb1f37e07eb511f3873082665d739" kindref="member">STACK</ref> *</type>
+          <declname>s</declname>
+        </param>
+        <briefdescription>
+<para>Função que lê um input de uma string e devolve a mesma. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="parser.c" line="288" column="6" bodyfile="parser.c" bodystart="288" bodyend="292"/>
+      </memberdef>
+      <memberdef kind="function" id="parser_8c_1ae7e45a1b0f2ce3ff1c34eccdff425637" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void parse</definition>
+        <argsstring>(char *line)</argsstring>
+        <name>parse</name>
+        <param>
+          <type>char *</type>
+          <declname>line</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Esta função vai identificar todos os nossos tokens e realizar as operações correspondentes aos mesmos. Esta dá ainda print da stack final, stack esta que foi atualizada conforme as operações feitas nela. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="parser.c" line="300" column="6" bodyfile="parser.c" bodystart="300" bodyend="345"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>Module : Guião1 + Guião2 Description : Parser -&gt; (Guião1 e Guião2) - Trabalho de LI2 2020/2021</para>
+<para>Este ficheiro tem como objetivo criar programas capazes de ler inputs e devolver outputs adequados às operações implementadas no próprio programa e assim relacioná-las com a stack criada noutro ficheiro. </para>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="normal"></highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;stdio.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;stdlib.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;string.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="15"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;assert.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="16"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;math.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="17"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="stack_8h" kindref="compound">stack.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="18"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="parser_8h" kindref="compound">parser.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="19"><highlight class="normal"></highlight></codeline>
+<codeline lineno="23"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="parser_8c_1a2d3e743c974b5aff881f7b049874d97a" kindref="member">mais</ref><sp/>(<ref refid="structstack" kindref="compound">STACK</ref><sp/>*s)<sp/></highlight></codeline>
+<codeline lineno="24"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="25"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="structdata" kindref="compound">DATA</ref><sp/>x<sp/>=<sp/><ref refid="stack_8c_1a28bdc96407c992586646198197537cd1" kindref="member">pop</ref>(s);</highlight></codeline>
+<codeline lineno="26"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="structdata" kindref="compound">DATA</ref><sp/>y<sp/>=<sp/><ref refid="stack_8c_1a28bdc96407c992586646198197537cd1" kindref="member">pop</ref>(s);<sp/></highlight></codeline>
+<codeline lineno="27"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(<ref refid="stack_8c_1aae9dbe2826c50633f609d0a71b5fbcd3" kindref="member">has_type</ref>(x,<ref refid="stack_8h_1a0bc6723d5d4776ab7cdc646728b775f7aaee055c4a5aba7d55774e4f1c01dacea" kindref="member">LONG</ref>)<sp/>&amp;&amp;<sp/><ref refid="stack_8c_1aae9dbe2826c50633f609d0a71b5fbcd3" kindref="member">has_type</ref>(y,<ref refid="stack_8h_1a0bc6723d5d4776ab7cdc646728b775f7aaee055c4a5aba7d55774e4f1c01dacea" kindref="member">LONG</ref>))<sp/>{push_LONG<sp/>(s,x.<ref refid="structdata_1af3e6e49ca276f2a351f97bad4738368e" kindref="member">LONG</ref>+y.<ref refid="structdata_1af3e6e49ca276f2a351f97bad4738368e" kindref="member">LONG</ref>);}</highlight></codeline>
+<codeline lineno="28"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(<ref refid="stack_8c_1aae9dbe2826c50633f609d0a71b5fbcd3" kindref="member">has_type</ref>(x,<ref refid="stack_8h_1a0bc6723d5d4776ab7cdc646728b775f7a33465d1d419b1074fb259ef444609e92" kindref="member">DOUBLE</ref>)<sp/>&amp;&amp;<sp/><ref refid="stack_8c_1aae9dbe2826c50633f609d0a71b5fbcd3" kindref="member">has_type</ref>(y,<ref refid="stack_8h_1a0bc6723d5d4776ab7cdc646728b775f7aaee055c4a5aba7d55774e4f1c01dacea" kindref="member">LONG</ref>))<sp/>{push_DOUBLE<sp/>(s,x.<ref refid="structdata_1aecc3f36c8ad5b0d05fee3f3372aee7d8" kindref="member">DOUBLE</ref>+y.<ref refid="structdata_1af3e6e49ca276f2a351f97bad4738368e" kindref="member">LONG</ref>);}</highlight></codeline>
+<codeline lineno="29"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(<ref refid="stack_8c_1aae9dbe2826c50633f609d0a71b5fbcd3" kindref="member">has_type</ref>(x,<ref refid="stack_8h_1a0bc6723d5d4776ab7cdc646728b775f7aaee055c4a5aba7d55774e4f1c01dacea" kindref="member">LONG</ref>)<sp/>&amp;&amp;<sp/><ref refid="stack_8c_1aae9dbe2826c50633f609d0a71b5fbcd3" kindref="member">has_type</ref>(y,<ref refid="stack_8h_1a0bc6723d5d4776ab7cdc646728b775f7a33465d1d419b1074fb259ef444609e92" kindref="member">DOUBLE</ref>))<sp/>{push_DOUBLE<sp/>(s,x.<ref refid="structdata_1af3e6e49ca276f2a351f97bad4738368e" kindref="member">LONG</ref>+y.<ref refid="structdata_1aecc3f36c8ad5b0d05fee3f3372aee7d8" kindref="member">DOUBLE</ref>);}</highlight></codeline>
+<codeline lineno="30"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"><sp/>{push_DOUBLE<sp/>(s,x.<ref refid="structdata_1aecc3f36c8ad5b0d05fee3f3372aee7d8" kindref="member">DOUBLE</ref>+y.<ref refid="structdata_1aecc3f36c8ad5b0d05fee3f3372aee7d8" kindref="member">DOUBLE</ref>);}</highlight></codeline>
+<codeline lineno="31"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="32"><highlight class="normal"></highlight></codeline>
+<codeline lineno="36"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="parser_8c_1a6815ed3f8fe712c5bdb27f97d6a58092" kindref="member">menos</ref><sp/>(<ref refid="structstack" kindref="compound">STACK</ref><sp/>*s)</highlight></codeline>
+<codeline lineno="37"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="38"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="structdata" kindref="compound">DATA</ref><sp/>x<sp/>=<sp/><ref refid="stack_8c_1a28bdc96407c992586646198197537cd1" kindref="member">pop</ref>(s);</highlight></codeline>
+<codeline lineno="39"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="structdata" kindref="compound">DATA</ref><sp/>y<sp/>=<sp/><ref refid="stack_8c_1a28bdc96407c992586646198197537cd1" kindref="member">pop</ref>(s);</highlight></codeline>
+<codeline lineno="40"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(<ref refid="stack_8c_1aae9dbe2826c50633f609d0a71b5fbcd3" kindref="member">has_type</ref>(x,<ref refid="stack_8h_1a0bc6723d5d4776ab7cdc646728b775f7aaee055c4a5aba7d55774e4f1c01dacea" kindref="member">LONG</ref>)<sp/>&amp;&amp;<sp/><ref refid="stack_8c_1aae9dbe2826c50633f609d0a71b5fbcd3" kindref="member">has_type</ref>(y,<ref refid="stack_8h_1a0bc6723d5d4776ab7cdc646728b775f7aaee055c4a5aba7d55774e4f1c01dacea" kindref="member">LONG</ref>))<sp/>{push_LONG<sp/>(s,y.<ref refid="structdata_1af3e6e49ca276f2a351f97bad4738368e" kindref="member">LONG</ref>-x.<ref refid="structdata_1af3e6e49ca276f2a351f97bad4738368e" kindref="member">LONG</ref>);}</highlight></codeline>
+<codeline lineno="41"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(<ref refid="stack_8c_1aae9dbe2826c50633f609d0a71b5fbcd3" kindref="member">has_type</ref>(x,<ref refid="stack_8h_1a0bc6723d5d4776ab7cdc646728b775f7a33465d1d419b1074fb259ef444609e92" kindref="member">DOUBLE</ref>)<sp/>&amp;&amp;<sp/><ref refid="stack_8c_1aae9dbe2826c50633f609d0a71b5fbcd3" kindref="member">has_type</ref>(y,<ref refid="stack_8h_1a0bc6723d5d4776ab7cdc646728b775f7aaee055c4a5aba7d55774e4f1c01dacea" kindref="member">LONG</ref>))<sp/>{push_DOUBLE<sp/>(s,y.<ref refid="structdata_1af3e6e49ca276f2a351f97bad4738368e" kindref="member">LONG</ref>-x.<ref refid="structdata_1aecc3f36c8ad5b0d05fee3f3372aee7d8" kindref="member">DOUBLE</ref>);}</highlight></codeline>
+<codeline lineno="42"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(<ref refid="stack_8c_1aae9dbe2826c50633f609d0a71b5fbcd3" kindref="member">has_type</ref>(x,<ref refid="stack_8h_1a0bc6723d5d4776ab7cdc646728b775f7aaee055c4a5aba7d55774e4f1c01dacea" kindref="member">LONG</ref>)<sp/>&amp;&amp;<sp/><ref refid="stack_8c_1aae9dbe2826c50633f609d0a71b5fbcd3" kindref="member">has_type</ref>(y,<ref refid="stack_8h_1a0bc6723d5d4776ab7cdc646728b775f7a33465d1d419b1074fb259ef444609e92" kindref="member">DOUBLE</ref>))<sp/>{push_DOUBLE<sp/>(s,y.<ref refid="structdata_1aecc3f36c8ad5b0d05fee3f3372aee7d8" kindref="member">DOUBLE</ref>-x.<ref refid="structdata_1af3e6e49ca276f2a351f97bad4738368e" kindref="member">LONG</ref>);}</highlight></codeline>
+<codeline lineno="43"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"><sp/>{push_DOUBLE<sp/>(s,y.<ref refid="structdata_1aecc3f36c8ad5b0d05fee3f3372aee7d8" kindref="member">DOUBLE</ref>-x.<ref refid="structdata_1aecc3f36c8ad5b0d05fee3f3372aee7d8" kindref="member">DOUBLE</ref>);}</highlight></codeline>
+<codeline lineno="44"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="45"><highlight class="normal"></highlight></codeline>
+<codeline lineno="49"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="parser_8c_1a01f39a9be2db07a3342c585d8f11d745" kindref="member">divide</ref><sp/>(<ref refid="structstack" kindref="compound">STACK</ref><sp/>*s)</highlight></codeline>
+<codeline lineno="50"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="51"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="structdata" kindref="compound">DATA</ref><sp/>x<sp/>=<sp/><ref refid="stack_8c_1a28bdc96407c992586646198197537cd1" kindref="member">pop</ref>(s);</highlight></codeline>
+<codeline lineno="52"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="structdata" kindref="compound">DATA</ref><sp/>y<sp/>=<sp/><ref refid="stack_8c_1a28bdc96407c992586646198197537cd1" kindref="member">pop</ref>(s);</highlight></codeline>
+<codeline lineno="53"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(<ref refid="stack_8c_1aae9dbe2826c50633f609d0a71b5fbcd3" kindref="member">has_type</ref>(x,<ref refid="stack_8h_1a0bc6723d5d4776ab7cdc646728b775f7aaee055c4a5aba7d55774e4f1c01dacea" kindref="member">LONG</ref>)<sp/>&amp;&amp;<sp/><ref refid="stack_8c_1aae9dbe2826c50633f609d0a71b5fbcd3" kindref="member">has_type</ref>(y,<ref refid="stack_8h_1a0bc6723d5d4776ab7cdc646728b775f7aaee055c4a5aba7d55774e4f1c01dacea" kindref="member">LONG</ref>))<sp/>{push_LONG<sp/>(s,y.<ref refid="structdata_1af3e6e49ca276f2a351f97bad4738368e" kindref="member">LONG</ref>/x.<ref refid="structdata_1af3e6e49ca276f2a351f97bad4738368e" kindref="member">LONG</ref>);}</highlight></codeline>
+<codeline lineno="54"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(<ref refid="stack_8c_1aae9dbe2826c50633f609d0a71b5fbcd3" kindref="member">has_type</ref>(x,<ref refid="stack_8h_1a0bc6723d5d4776ab7cdc646728b775f7a33465d1d419b1074fb259ef444609e92" kindref="member">DOUBLE</ref>)<sp/>&amp;&amp;<sp/><ref refid="stack_8c_1aae9dbe2826c50633f609d0a71b5fbcd3" kindref="member">has_type</ref>(y,<ref refid="stack_8h_1a0bc6723d5d4776ab7cdc646728b775f7aaee055c4a5aba7d55774e4f1c01dacea" kindref="member">LONG</ref>))<sp/>{push_DOUBLE<sp/>(s,y.<ref refid="structdata_1af3e6e49ca276f2a351f97bad4738368e" kindref="member">LONG</ref>/x.<ref refid="structdata_1aecc3f36c8ad5b0d05fee3f3372aee7d8" kindref="member">DOUBLE</ref>);}</highlight></codeline>
+<codeline lineno="55"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(<ref refid="stack_8c_1aae9dbe2826c50633f609d0a71b5fbcd3" kindref="member">has_type</ref>(x,<ref refid="stack_8h_1a0bc6723d5d4776ab7cdc646728b775f7aaee055c4a5aba7d55774e4f1c01dacea" kindref="member">LONG</ref>)<sp/>&amp;&amp;<sp/><ref refid="stack_8c_1aae9dbe2826c50633f609d0a71b5fbcd3" kindref="member">has_type</ref>(y,<ref refid="stack_8h_1a0bc6723d5d4776ab7cdc646728b775f7a33465d1d419b1074fb259ef444609e92" kindref="member">DOUBLE</ref>))<sp/>{push_DOUBLE<sp/>(s,y.<ref refid="structdata_1aecc3f36c8ad5b0d05fee3f3372aee7d8" kindref="member">DOUBLE</ref>/x.<ref refid="structdata_1af3e6e49ca276f2a351f97bad4738368e" kindref="member">LONG</ref>);}</highlight></codeline>
+<codeline lineno="56"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"><sp/>{push_DOUBLE<sp/>(s,y.<ref refid="structdata_1aecc3f36c8ad5b0d05fee3f3372aee7d8" kindref="member">DOUBLE</ref>/x.<ref refid="structdata_1aecc3f36c8ad5b0d05fee3f3372aee7d8" kindref="member">DOUBLE</ref>);}</highlight></codeline>
+<codeline lineno="57"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="58"><highlight class="normal"></highlight></codeline>
+<codeline lineno="62"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="parser_8c_1a1a83e81a0989cfe6e96090f7fc2d2198" kindref="member">multiplica</ref><sp/>(<ref refid="structstack" kindref="compound">STACK</ref><sp/>*s)</highlight></codeline>
+<codeline lineno="63"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="64"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="structdata" kindref="compound">DATA</ref><sp/>x<sp/>=<sp/><ref refid="stack_8c_1a28bdc96407c992586646198197537cd1" kindref="member">pop</ref>(s);</highlight></codeline>
+<codeline lineno="65"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="structdata" kindref="compound">DATA</ref><sp/>y<sp/>=<sp/><ref refid="stack_8c_1a28bdc96407c992586646198197537cd1" kindref="member">pop</ref>(s);</highlight></codeline>
+<codeline lineno="66"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(<ref refid="stack_8c_1aae9dbe2826c50633f609d0a71b5fbcd3" kindref="member">has_type</ref>(x,<ref refid="stack_8h_1a0bc6723d5d4776ab7cdc646728b775f7aaee055c4a5aba7d55774e4f1c01dacea" kindref="member">LONG</ref>)<sp/>&amp;&amp;<sp/><ref refid="stack_8c_1aae9dbe2826c50633f609d0a71b5fbcd3" kindref="member">has_type</ref>(y,<ref refid="stack_8h_1a0bc6723d5d4776ab7cdc646728b775f7aaee055c4a5aba7d55774e4f1c01dacea" kindref="member">LONG</ref>))<sp/>{push_LONG<sp/>(s,x.<ref refid="structdata_1af3e6e49ca276f2a351f97bad4738368e" kindref="member">LONG</ref>*y.<ref refid="structdata_1af3e6e49ca276f2a351f97bad4738368e" kindref="member">LONG</ref>);}</highlight></codeline>
+<codeline lineno="67"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(<ref refid="stack_8c_1aae9dbe2826c50633f609d0a71b5fbcd3" kindref="member">has_type</ref>(x,<ref refid="stack_8h_1a0bc6723d5d4776ab7cdc646728b775f7a33465d1d419b1074fb259ef444609e92" kindref="member">DOUBLE</ref>)<sp/>&amp;&amp;<sp/><ref refid="stack_8c_1aae9dbe2826c50633f609d0a71b5fbcd3" kindref="member">has_type</ref>(y,<ref refid="stack_8h_1a0bc6723d5d4776ab7cdc646728b775f7aaee055c4a5aba7d55774e4f1c01dacea" kindref="member">LONG</ref>))<sp/>{push_DOUBLE<sp/>(s,x.<ref refid="structdata_1aecc3f36c8ad5b0d05fee3f3372aee7d8" kindref="member">DOUBLE</ref>*y.<ref refid="structdata_1af3e6e49ca276f2a351f97bad4738368e" kindref="member">LONG</ref>);}</highlight></codeline>
+<codeline lineno="68"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(<ref refid="stack_8c_1aae9dbe2826c50633f609d0a71b5fbcd3" kindref="member">has_type</ref>(x,<ref refid="stack_8h_1a0bc6723d5d4776ab7cdc646728b775f7aaee055c4a5aba7d55774e4f1c01dacea" kindref="member">LONG</ref>)<sp/>&amp;&amp;<sp/><ref refid="stack_8c_1aae9dbe2826c50633f609d0a71b5fbcd3" kindref="member">has_type</ref>(y,<ref refid="stack_8h_1a0bc6723d5d4776ab7cdc646728b775f7a33465d1d419b1074fb259ef444609e92" kindref="member">DOUBLE</ref>))<sp/>{push_DOUBLE<sp/>(s,x.<ref refid="structdata_1af3e6e49ca276f2a351f97bad4738368e" kindref="member">LONG</ref>*y.<ref refid="structdata_1aecc3f36c8ad5b0d05fee3f3372aee7d8" kindref="member">DOUBLE</ref>);}</highlight></codeline>
+<codeline lineno="69"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"><sp/>{push_DOUBLE<sp/>(s,x.<ref refid="structdata_1aecc3f36c8ad5b0d05fee3f3372aee7d8" kindref="member">DOUBLE</ref>*y.<ref refid="structdata_1aecc3f36c8ad5b0d05fee3f3372aee7d8" kindref="member">DOUBLE</ref>);}</highlight></codeline>
+<codeline lineno="70"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="71"><highlight class="normal"></highlight></codeline>
+<codeline lineno="75"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="parser_8c_1a75c6a0a9fe82a3362175dded8dbfc992" kindref="member">elogico</ref><sp/>(<ref refid="structstack" kindref="compound">STACK</ref><sp/>*s)</highlight></codeline>
+<codeline lineno="76"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="77"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">long</highlight><highlight class="normal"><sp/>y<sp/>=<sp/>pop_LONG(s);<sp/><sp/></highlight></codeline>
+<codeline lineno="78"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">long</highlight><highlight class="normal"><sp/>x<sp/>=<sp/>pop_LONG(s);<sp/><sp/></highlight></codeline>
+<codeline lineno="79"><highlight class="normal"><sp/><sp/><sp/><sp/>push_LONG<sp/>(s,<sp/>x<sp/>&amp;<sp/>y);</highlight></codeline>
+<codeline lineno="80"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="81"><highlight class="normal"></highlight></codeline>
+<codeline lineno="85"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="parser_8c_1af811a8cc8016b38c389fd710ff7f3bda" kindref="member">oulogico</ref><sp/>(<ref refid="structstack" kindref="compound">STACK</ref><sp/>*s)</highlight></codeline>
+<codeline lineno="86"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="87"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">long</highlight><highlight class="normal"><sp/>y<sp/>=<sp/>pop_LONG(s);<sp/><sp/></highlight></codeline>
+<codeline lineno="88"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">long</highlight><highlight class="normal"><sp/>x<sp/>=<sp/>pop_LONG(s);<sp/><sp/></highlight></codeline>
+<codeline lineno="89"><highlight class="normal"><sp/><sp/><sp/><sp/>push_LONG<sp/>(s,<sp/>x<sp/>|<sp/>y);<sp/><sp/></highlight></codeline>
+<codeline lineno="90"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="91"><highlight class="normal"></highlight></codeline>
+<codeline lineno="95"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="parser_8c_1a3e2167481212f6aa26ccf40bd072a01a" kindref="member">xorlogico</ref><sp/>(<ref refid="structstack" kindref="compound">STACK</ref>*s)</highlight></codeline>
+<codeline lineno="96"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="97"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">long</highlight><highlight class="normal"><sp/>y<sp/>=<sp/>pop_LONG(s);<sp/><sp/></highlight></codeline>
+<codeline lineno="98"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">long</highlight><highlight class="normal"><sp/>x<sp/>=<sp/>pop_LONG(s);<sp/><sp/></highlight></codeline>
+<codeline lineno="99"><highlight class="normal"><sp/><sp/><sp/><sp/>push_LONG<sp/>(s,<sp/>x<sp/>^<sp/>y);</highlight></codeline>
+<codeline lineno="100"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="101"><highlight class="normal"></highlight></codeline>
+<codeline lineno="105"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="parser_8c_1a70bedbe23516e3d15245991ddd83e45e" kindref="member">negacaologica</ref><sp/>(<ref refid="structstack" kindref="compound">STACK</ref><sp/>*s)</highlight></codeline>
+<codeline lineno="106"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="107"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">long</highlight><highlight class="normal"><sp/>X8<sp/>=<sp/>pop_LONG(s);<sp/><sp/></highlight></codeline>
+<codeline lineno="108"><highlight class="normal"><sp/><sp/><sp/><sp/>push_LONG<sp/>(s,<sp/>~<sp/>X8);</highlight></codeline>
+<codeline lineno="109"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="110"><highlight class="normal"></highlight></codeline>
+<codeline lineno="114"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="parser_8c_1a10508636af2171860e5d038a7d07f7e0" kindref="member">incrementa</ref><sp/>(<ref refid="structstack" kindref="compound">STACK</ref><sp/>*s)</highlight></codeline>
+<codeline lineno="115"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="116"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="structdata" kindref="compound">DATA</ref><sp/>X10<sp/>=<sp/><ref refid="stack_8c_1a28bdc96407c992586646198197537cd1" kindref="member">pop</ref>(s);</highlight></codeline>
+<codeline lineno="117"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(<ref refid="stack_8c_1aae9dbe2826c50633f609d0a71b5fbcd3" kindref="member">has_type</ref>(X10,<ref refid="stack_8h_1a0bc6723d5d4776ab7cdc646728b775f7aaee055c4a5aba7d55774e4f1c01dacea" kindref="member">LONG</ref>))<sp/>{push_LONG(s,<sp/>X10.<ref refid="structdata_1af3e6e49ca276f2a351f97bad4738368e" kindref="member">LONG</ref>+1);}</highlight></codeline>
+<codeline lineno="118"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(<ref refid="stack_8c_1aae9dbe2826c50633f609d0a71b5fbcd3" kindref="member">has_type</ref>(X10,<ref refid="stack_8h_1a0bc6723d5d4776ab7cdc646728b775f7a33465d1d419b1074fb259ef444609e92" kindref="member">DOUBLE</ref>))<sp/>{push_DOUBLE(s,<sp/>X10.<ref refid="structdata_1aecc3f36c8ad5b0d05fee3f3372aee7d8" kindref="member">DOUBLE</ref>+1);}</highlight></codeline>
+<codeline lineno="119"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"><sp/>{push_CHAR(s,<sp/>X10.<ref refid="structdata_1a26ec264014a6fcbcdbc5e69936e59724" kindref="member">CHAR</ref>+1);}</highlight></codeline>
+<codeline lineno="120"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="121"><highlight class="normal"></highlight></codeline>
+<codeline lineno="125"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="parser_8c_1a954e9383095a145d1cb6a1a2d26aa451" kindref="member">decrementa</ref><sp/>(<ref refid="structstack" kindref="compound">STACK</ref><sp/>*s)</highlight></codeline>
+<codeline lineno="126"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="127"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="structdata" kindref="compound">DATA</ref><sp/>X10<sp/>=<sp/><ref refid="stack_8c_1a28bdc96407c992586646198197537cd1" kindref="member">pop</ref>(s);</highlight></codeline>
+<codeline lineno="128"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(<ref refid="stack_8c_1aae9dbe2826c50633f609d0a71b5fbcd3" kindref="member">has_type</ref>(X10,<ref refid="stack_8h_1a0bc6723d5d4776ab7cdc646728b775f7aaee055c4a5aba7d55774e4f1c01dacea" kindref="member">LONG</ref>))<sp/>{push_LONG(s,<sp/>X10.<ref refid="structdata_1af3e6e49ca276f2a351f97bad4738368e" kindref="member">LONG</ref>-1);}</highlight></codeline>
+<codeline lineno="129"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(<ref refid="stack_8c_1aae9dbe2826c50633f609d0a71b5fbcd3" kindref="member">has_type</ref>(X10,<ref refid="stack_8h_1a0bc6723d5d4776ab7cdc646728b775f7a33465d1d419b1074fb259ef444609e92" kindref="member">DOUBLE</ref>))<sp/>{push_DOUBLE(s,<sp/>X10.<ref refid="structdata_1aecc3f36c8ad5b0d05fee3f3372aee7d8" kindref="member">DOUBLE</ref>-1);}</highlight></codeline>
+<codeline lineno="130"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"><sp/>{push_CHAR(s,<sp/>X10.<ref refid="structdata_1a26ec264014a6fcbcdbc5e69936e59724" kindref="member">CHAR</ref>-1);}</highlight></codeline>
+<codeline lineno="131"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="132"><highlight class="normal"></highlight></codeline>
+<codeline lineno="136"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="parser_8c_1ac47c510fef88bce38e48b07b6017c54e" kindref="member">modulo</ref><sp/>(<ref refid="structstack" kindref="compound">STACK</ref><sp/>*s)</highlight></codeline>
+<codeline lineno="137"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="138"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><ref refid="structdata" kindref="compound">DATA</ref><sp/>x<sp/>=<sp/><ref refid="stack_8c_1a28bdc96407c992586646198197537cd1" kindref="member">pop</ref>(s);</highlight></codeline>
+<codeline lineno="139"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><ref refid="structdata" kindref="compound">DATA</ref><sp/>y<sp/>=<sp/><ref refid="stack_8c_1a28bdc96407c992586646198197537cd1" kindref="member">pop</ref>(s);</highlight></codeline>
+<codeline lineno="140"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/>push_LONG<sp/>(s,y.<ref refid="structdata_1af3e6e49ca276f2a351f97bad4738368e" kindref="member">LONG</ref>%x.<ref refid="structdata_1af3e6e49ca276f2a351f97bad4738368e" kindref="member">LONG</ref>);</highlight></codeline>
+<codeline lineno="141"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="142"><highlight class="normal"></highlight></codeline>
+<codeline lineno="146"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="parser_8c_1a2018e1ff46f8973d959bc80a83bbd47d" kindref="member">elevado</ref><sp/>(<ref refid="structstack" kindref="compound">STACK</ref><sp/>*s)</highlight></codeline>
+<codeline lineno="147"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="148"><highlight class="normal"><sp/><sp/><sp/><ref refid="structdata" kindref="compound">DATA</ref><sp/>x<sp/>=<sp/><ref refid="stack_8c_1a28bdc96407c992586646198197537cd1" kindref="member">pop</ref>(s);</highlight></codeline>
+<codeline lineno="149"><highlight class="normal"><sp/><sp/><sp/><ref refid="structdata" kindref="compound">DATA</ref><sp/>y<sp/>=<sp/><ref refid="stack_8c_1a28bdc96407c992586646198197537cd1" kindref="member">pop</ref>(s);</highlight></codeline>
+<codeline lineno="150"><highlight class="normal"><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(<ref refid="stack_8c_1aae9dbe2826c50633f609d0a71b5fbcd3" kindref="member">has_type</ref>(x,<ref refid="stack_8h_1a0bc6723d5d4776ab7cdc646728b775f7aaee055c4a5aba7d55774e4f1c01dacea" kindref="member">LONG</ref>)<sp/>&amp;&amp;<sp/><ref refid="stack_8c_1aae9dbe2826c50633f609d0a71b5fbcd3" kindref="member">has_type</ref>(y,<ref refid="stack_8h_1a0bc6723d5d4776ab7cdc646728b775f7aaee055c4a5aba7d55774e4f1c01dacea" kindref="member">LONG</ref>))<sp/>{push_LONG<sp/>(s,pow(y.<ref refid="structdata_1af3e6e49ca276f2a351f97bad4738368e" kindref="member">LONG</ref>,x.<ref refid="structdata_1af3e6e49ca276f2a351f97bad4738368e" kindref="member">LONG</ref>));}</highlight></codeline>
+<codeline lineno="151"><highlight class="normal"><sp/><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(<ref refid="stack_8c_1aae9dbe2826c50633f609d0a71b5fbcd3" kindref="member">has_type</ref>(x,<ref refid="stack_8h_1a0bc6723d5d4776ab7cdc646728b775f7a33465d1d419b1074fb259ef444609e92" kindref="member">DOUBLE</ref>)<sp/>&amp;&amp;<sp/><ref refid="stack_8c_1aae9dbe2826c50633f609d0a71b5fbcd3" kindref="member">has_type</ref>(y,<ref refid="stack_8h_1a0bc6723d5d4776ab7cdc646728b775f7aaee055c4a5aba7d55774e4f1c01dacea" kindref="member">LONG</ref>))<sp/>{push_DOUBLE<sp/>(s,pow(y.<ref refid="structdata_1af3e6e49ca276f2a351f97bad4738368e" kindref="member">LONG</ref>,x.<ref refid="structdata_1aecc3f36c8ad5b0d05fee3f3372aee7d8" kindref="member">DOUBLE</ref>));}</highlight></codeline>
+<codeline lineno="152"><highlight class="normal"><sp/><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(<ref refid="stack_8c_1aae9dbe2826c50633f609d0a71b5fbcd3" kindref="member">has_type</ref>(x,<ref refid="stack_8h_1a0bc6723d5d4776ab7cdc646728b775f7a4618cf21306b3c647741afa7ebefcab8" kindref="member">CHAR</ref>)<sp/>&amp;&amp;<sp/><ref refid="stack_8c_1aae9dbe2826c50633f609d0a71b5fbcd3" kindref="member">has_type</ref>(y,<ref refid="stack_8h_1a0bc6723d5d4776ab7cdc646728b775f7aaee055c4a5aba7d55774e4f1c01dacea" kindref="member">LONG</ref>))<sp/>{push_DOUBLE<sp/>(s,pow(y.<ref refid="structdata_1af3e6e49ca276f2a351f97bad4738368e" kindref="member">LONG</ref>,x.<ref refid="structdata_1a26ec264014a6fcbcdbc5e69936e59724" kindref="member">CHAR</ref>));}</highlight></codeline>
+<codeline lineno="153"><highlight class="normal"><sp/><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(<ref refid="stack_8c_1aae9dbe2826c50633f609d0a71b5fbcd3" kindref="member">has_type</ref>(x,<ref refid="stack_8h_1a0bc6723d5d4776ab7cdc646728b775f7aaee055c4a5aba7d55774e4f1c01dacea" kindref="member">LONG</ref>)<sp/>&amp;&amp;<sp/><ref refid="stack_8c_1aae9dbe2826c50633f609d0a71b5fbcd3" kindref="member">has_type</ref>(y,<ref refid="stack_8h_1a0bc6723d5d4776ab7cdc646728b775f7a4618cf21306b3c647741afa7ebefcab8" kindref="member">CHAR</ref>))<sp/>{push_DOUBLE<sp/>(s,pow(y.<ref refid="structdata_1a26ec264014a6fcbcdbc5e69936e59724" kindref="member">CHAR</ref>,x.<ref refid="structdata_1af3e6e49ca276f2a351f97bad4738368e" kindref="member">LONG</ref>));}</highlight></codeline>
+<codeline lineno="154"><highlight class="normal"><sp/><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(<ref refid="stack_8c_1aae9dbe2826c50633f609d0a71b5fbcd3" kindref="member">has_type</ref>(x,<ref refid="stack_8h_1a0bc6723d5d4776ab7cdc646728b775f7a4618cf21306b3c647741afa7ebefcab8" kindref="member">CHAR</ref>)<sp/>&amp;&amp;<sp/><ref refid="stack_8c_1aae9dbe2826c50633f609d0a71b5fbcd3" kindref="member">has_type</ref>(y,<ref refid="stack_8h_1a0bc6723d5d4776ab7cdc646728b775f7a4618cf21306b3c647741afa7ebefcab8" kindref="member">CHAR</ref>))<sp/>{push_DOUBLE<sp/>(s,pow(y.<ref refid="structdata_1a26ec264014a6fcbcdbc5e69936e59724" kindref="member">CHAR</ref>,x.<ref refid="structdata_1a26ec264014a6fcbcdbc5e69936e59724" kindref="member">CHAR</ref>));}</highlight></codeline>
+<codeline lineno="155"><highlight class="normal"><sp/><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(<ref refid="stack_8c_1aae9dbe2826c50633f609d0a71b5fbcd3" kindref="member">has_type</ref>(x,<ref refid="stack_8h_1a0bc6723d5d4776ab7cdc646728b775f7aaee055c4a5aba7d55774e4f1c01dacea" kindref="member">LONG</ref>)<sp/>&amp;&amp;<sp/><ref refid="stack_8c_1aae9dbe2826c50633f609d0a71b5fbcd3" kindref="member">has_type</ref>(y,<ref refid="stack_8h_1a0bc6723d5d4776ab7cdc646728b775f7a33465d1d419b1074fb259ef444609e92" kindref="member">DOUBLE</ref>))<sp/>{push_DOUBLE<sp/>(s,pow(y.<ref refid="structdata_1aecc3f36c8ad5b0d05fee3f3372aee7d8" kindref="member">DOUBLE</ref>,x.<ref refid="structdata_1af3e6e49ca276f2a351f97bad4738368e" kindref="member">LONG</ref>));}</highlight></codeline>
+<codeline lineno="156"><highlight class="normal"><sp/><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"><sp/>{push_DOUBLE<sp/>(s,pow(y.<ref refid="structdata_1aecc3f36c8ad5b0d05fee3f3372aee7d8" kindref="member">DOUBLE</ref>,x.<ref refid="structdata_1aecc3f36c8ad5b0d05fee3f3372aee7d8" kindref="member">DOUBLE</ref>));}</highlight></codeline>
+<codeline lineno="157"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="158"><highlight class="normal"></highlight></codeline>
+<codeline lineno="162"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="parser_8c_1ac431214cf5e5f8f4d7ca7183305d8689" kindref="member">rodaStack</ref><sp/>(<ref refid="structstack" kindref="compound">STACK</ref><sp/>*s)<sp/>{</highlight></codeline>
+<codeline lineno="163"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><ref refid="structdata" kindref="compound">DATA</ref><sp/>x<sp/>=<sp/><ref refid="stack_8c_1a28bdc96407c992586646198197537cd1" kindref="member">pop</ref>(s);</highlight></codeline>
+<codeline lineno="164"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><ref refid="structdata" kindref="compound">DATA</ref><sp/>y<sp/>=<sp/><ref refid="stack_8c_1a28bdc96407c992586646198197537cd1" kindref="member">pop</ref>(s);</highlight></codeline>
+<codeline lineno="165"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><ref refid="structdata" kindref="compound">DATA</ref><sp/>z<sp/>=<sp/><ref refid="stack_8c_1a28bdc96407c992586646198197537cd1" kindref="member">pop</ref>(s);</highlight></codeline>
+<codeline lineno="166"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><ref refid="stack_8c_1a1e86b7a7ef501bffae1ec8c82a0220eb" kindref="member">push</ref>(s,y);<ref refid="stack_8c_1a1e86b7a7ef501bffae1ec8c82a0220eb" kindref="member">push</ref>(s,x);<ref refid="stack_8c_1a1e86b7a7ef501bffae1ec8c82a0220eb" kindref="member">push</ref>(s,z);</highlight></codeline>
+<codeline lineno="167"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="168"><highlight class="normal"></highlight></codeline>
+<codeline lineno="172"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="parser_8c_1a16e11b0991e7e27883dd3feeb7b7542c" kindref="member">topoStack</ref><sp/>(<ref refid="structstack" kindref="compound">STACK</ref><sp/>*s)<sp/>{</highlight></codeline>
+<codeline lineno="173"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/>pop_LONG(s);</highlight></codeline>
+<codeline lineno="174"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="175"><highlight class="normal"></highlight></codeline>
+<codeline lineno="179"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="parser_8c_1a6fa63cab9d7d96acf78f8dff5d4f782f" kindref="member">duplica</ref><sp/>(<ref refid="structstack" kindref="compound">STACK</ref><sp/>*s)<sp/>{</highlight></codeline>
+<codeline lineno="180"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><ref refid="structdata" kindref="compound">DATA</ref><sp/>x<sp/>=<sp/><ref refid="stack_8c_1a28bdc96407c992586646198197537cd1" kindref="member">pop</ref>(s);</highlight></codeline>
+<codeline lineno="181"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><ref refid="stack_8c_1a1e86b7a7ef501bffae1ec8c82a0220eb" kindref="member">push</ref>(s,x);<ref refid="stack_8c_1a1e86b7a7ef501bffae1ec8c82a0220eb" kindref="member">push</ref>(s,x);</highlight></codeline>
+<codeline lineno="182"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="183"><highlight class="normal"></highlight></codeline>
+<codeline lineno="187"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="parser_8c_1a57d211b8e9a936de147036fa372acda2" kindref="member">troca</ref><sp/>(<ref refid="structstack" kindref="compound">STACK</ref><sp/>*s)<sp/>{</highlight></codeline>
+<codeline lineno="188"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><ref refid="structdata" kindref="compound">DATA</ref><sp/>x<sp/>=<sp/><ref refid="stack_8c_1a28bdc96407c992586646198197537cd1" kindref="member">pop</ref>(s);</highlight></codeline>
+<codeline lineno="189"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><ref refid="structdata" kindref="compound">DATA</ref><sp/>y<sp/>=<sp/><ref refid="stack_8c_1a28bdc96407c992586646198197537cd1" kindref="member">pop</ref>(s);</highlight></codeline>
+<codeline lineno="190"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><ref refid="stack_8c_1a1e86b7a7ef501bffae1ec8c82a0220eb" kindref="member">push</ref>(s,x);<ref refid="stack_8c_1a1e86b7a7ef501bffae1ec8c82a0220eb" kindref="member">push</ref>(s,y);</highlight></codeline>
+<codeline lineno="191"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="192"><highlight class="normal"></highlight></codeline>
+<codeline lineno="196"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="parser_8c_1a8498db9760c39488016d653f66de90c0" kindref="member">copiaelemento</ref><sp/>(<ref refid="structstack" kindref="compound">STACK</ref><sp/>*s)<sp/>{</highlight></codeline>
+<codeline lineno="197"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>i;</highlight></codeline>
+<codeline lineno="198"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">long</highlight><highlight class="normal"><sp/>X15<sp/>=<sp/>pop_LONG(s);<sp/></highlight></codeline>
+<codeline lineno="199"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal"><sp/>(i=0;i&lt;=s-&gt;<ref refid="structstack_1a926a597bae913d1bf4772be35c14b71e" kindref="member">size</ref>;i++)</highlight></codeline>
+<codeline lineno="200"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="201"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(i==X15)<sp/><ref refid="stack_8c_1a1e86b7a7ef501bffae1ec8c82a0220eb" kindref="member">push</ref>(s,s-&gt;<ref refid="structstack_1ac18b7057f7be1bcabbfe91eaf98e071f" kindref="member">stack</ref>[s-&gt;<ref refid="structstack_1a1ed7f871b976cba29e4c5a5c6df401dd" kindref="member">n_elems</ref><sp/>-<sp/>X15<sp/>-<sp/>1]);</highlight></codeline>
+<codeline lineno="202"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="203"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="204"><highlight class="normal"></highlight></codeline>
+<codeline lineno="210"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="parser_8c_1ac8a22c308a7e937485bfa055227ac0f0" kindref="member">paraLong</ref><sp/>(<ref refid="structstack" kindref="compound">STACK</ref><sp/>*s)<sp/>{</highlight></codeline>
+<codeline lineno="211"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="structdata" kindref="compound">DATA</ref><sp/>x<sp/>=<sp/><ref refid="stack_8c_1a28bdc96407c992586646198197537cd1" kindref="member">pop</ref>(s);</highlight></codeline>
+<codeline lineno="212"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*nada;</highlight></codeline>
+<codeline lineno="213"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">switch</highlight><highlight class="normal"><sp/>(x.<ref refid="structdata_1a876bb066356bbdd8dbadc449e4caf33c" kindref="member">type</ref>)</highlight></codeline>
+<codeline lineno="214"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="215"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">case</highlight><highlight class="normal"><sp/><ref refid="stack_8h_1a0bc6723d5d4776ab7cdc646728b775f7aaee055c4a5aba7d55774e4f1c01dacea" kindref="member">LONG</ref>:</highlight></codeline>
+<codeline lineno="216"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>push_LONG<sp/>(s,x.<ref refid="structdata_1af3e6e49ca276f2a351f97bad4738368e" kindref="member">LONG</ref>);</highlight></codeline>
+<codeline lineno="217"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">break</highlight><highlight class="normal">;<sp/></highlight></codeline>
+<codeline lineno="218"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">case</highlight><highlight class="normal"><sp/><ref refid="stack_8h_1a0bc6723d5d4776ab7cdc646728b775f7a4618cf21306b3c647741afa7ebefcab8" kindref="member">CHAR</ref>:<sp/></highlight></codeline>
+<codeline lineno="219"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>push_LONG(s,(</highlight><highlight class="keywordtype">long</highlight><highlight class="normal">)x.<ref refid="structdata_1a26ec264014a6fcbcdbc5e69936e59724" kindref="member">CHAR</ref>);</highlight></codeline>
+<codeline lineno="220"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">break</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="221"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">case</highlight><highlight class="normal"><sp/><ref refid="stack_8h_1a0bc6723d5d4776ab7cdc646728b775f7a33465d1d419b1074fb259ef444609e92" kindref="member">DOUBLE</ref>:<sp/></highlight></codeline>
+<codeline lineno="222"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>push_LONG(s,(</highlight><highlight class="keywordtype">long</highlight><highlight class="normal">)x.<ref refid="structdata_1aecc3f36c8ad5b0d05fee3f3372aee7d8" kindref="member">DOUBLE</ref>);</highlight></codeline>
+<codeline lineno="223"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">break</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="224"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">case</highlight><highlight class="normal"><sp/><ref refid="stack_8h_1a0bc6723d5d4776ab7cdc646728b775f7aee847e634a4297b274316de8a8ca9921" kindref="member">STRING</ref>:</highlight></codeline>
+<codeline lineno="225"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>push_LONG(s,strtol(x.<ref refid="structdata_1a3beeb46678aaab2565d0a2669c03ea1f" kindref="member">STRING</ref>,&amp;nada,10));</highlight></codeline>
+<codeline lineno="226"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">break</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="227"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">default</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="228"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">break</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="229"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="230"><highlight class="normal"><sp/><sp/><sp/><sp/>x.<ref refid="structdata_1a876bb066356bbdd8dbadc449e4caf33c" kindref="member">type</ref><sp/>=<sp/><ref refid="stack_8h_1a0bc6723d5d4776ab7cdc646728b775f7aaee055c4a5aba7d55774e4f1c01dacea" kindref="member">LONG</ref>;</highlight></codeline>
+<codeline lineno="231"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="232"><highlight class="normal"></highlight></codeline>
+<codeline lineno="238"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="parser_8c_1a9dc8218d6a0e9086a131ef43e95edf05" kindref="member">paraDouble</ref><sp/>(<ref refid="structstack" kindref="compound">STACK</ref><sp/>*s)<sp/>{</highlight></codeline>
+<codeline lineno="239"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="structdata" kindref="compound">DATA</ref><sp/>x<sp/>=<sp/><ref refid="stack_8c_1a28bdc96407c992586646198197537cd1" kindref="member">pop</ref>(s);</highlight></codeline>
+<codeline lineno="240"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*nada;</highlight></codeline>
+<codeline lineno="241"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">switch</highlight><highlight class="normal"><sp/>(x.<ref refid="structdata_1a876bb066356bbdd8dbadc449e4caf33c" kindref="member">type</ref>)</highlight></codeline>
+<codeline lineno="242"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="243"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">case</highlight><highlight class="normal"><sp/><ref refid="stack_8h_1a0bc6723d5d4776ab7cdc646728b775f7a33465d1d419b1074fb259ef444609e92" kindref="member">DOUBLE</ref>:</highlight></codeline>
+<codeline lineno="244"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>push_DOUBLE<sp/>(s,x.<ref refid="structdata_1aecc3f36c8ad5b0d05fee3f3372aee7d8" kindref="member">DOUBLE</ref>);</highlight></codeline>
+<codeline lineno="245"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">break</highlight><highlight class="normal">;<sp/></highlight></codeline>
+<codeline lineno="246"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">case</highlight><highlight class="normal"><sp/><ref refid="stack_8h_1a0bc6723d5d4776ab7cdc646728b775f7a4618cf21306b3c647741afa7ebefcab8" kindref="member">CHAR</ref>:</highlight></codeline>
+<codeline lineno="247"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>push_DOUBLE(s,(</highlight><highlight class="keywordtype">double</highlight><highlight class="normal">)((</highlight><highlight class="keywordtype">long</highlight><highlight class="normal">)x.<ref refid="structdata_1a26ec264014a6fcbcdbc5e69936e59724" kindref="member">CHAR</ref>));</highlight></codeline>
+<codeline lineno="248"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">break</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="249"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">case</highlight><highlight class="normal"><sp/><ref refid="stack_8h_1a0bc6723d5d4776ab7cdc646728b775f7aaee055c4a5aba7d55774e4f1c01dacea" kindref="member">LONG</ref>:<sp/></highlight></codeline>
+<codeline lineno="250"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>push_DOUBLE(s,(</highlight><highlight class="keywordtype">double</highlight><highlight class="normal">)x.<ref refid="structdata_1af3e6e49ca276f2a351f97bad4738368e" kindref="member">LONG</ref>);</highlight></codeline>
+<codeline lineno="251"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">break</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="252"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">case</highlight><highlight class="normal"><sp/><ref refid="stack_8h_1a0bc6723d5d4776ab7cdc646728b775f7aee847e634a4297b274316de8a8ca9921" kindref="member">STRING</ref>:</highlight></codeline>
+<codeline lineno="253"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>push_DOUBLE(s,strtod(x.<ref refid="structdata_1a3beeb46678aaab2565d0a2669c03ea1f" kindref="member">STRING</ref>,&amp;nada));</highlight></codeline>
+<codeline lineno="254"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">break</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="255"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">default</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="256"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">break</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="257"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="258"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>x.<ref refid="structdata_1a876bb066356bbdd8dbadc449e4caf33c" kindref="member">type</ref><sp/>=<sp/><ref refid="stack_8h_1a0bc6723d5d4776ab7cdc646728b775f7a33465d1d419b1074fb259ef444609e92" kindref="member">DOUBLE</ref>;</highlight></codeline>
+<codeline lineno="259"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="260"><highlight class="normal"></highlight></codeline>
+<codeline lineno="266"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="parser_8c_1a405425b4730316e0d4d2eddcda3e9bf2" kindref="member">paraChar</ref><sp/>(<ref refid="structstack" kindref="compound">STACK</ref><sp/>*s)<sp/>{</highlight></codeline>
+<codeline lineno="267"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><ref refid="structdata" kindref="compound">DATA</ref><sp/>X16<sp/>=<sp/><ref refid="stack_8c_1a28bdc96407c992586646198197537cd1" kindref="member">pop</ref>(s);</highlight></codeline>
+<codeline lineno="268"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">switch</highlight><highlight class="normal"><sp/>(X16.<ref refid="structdata_1a876bb066356bbdd8dbadc449e4caf33c" kindref="member">type</ref>)</highlight></codeline>
+<codeline lineno="269"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="270"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">case</highlight><highlight class="normal"><sp/><ref refid="stack_8h_1a0bc6723d5d4776ab7cdc646728b775f7a4618cf21306b3c647741afa7ebefcab8" kindref="member">CHAR</ref>:</highlight></codeline>
+<codeline lineno="271"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>push_CHAR(s,X16.<ref refid="structdata_1a26ec264014a6fcbcdbc5e69936e59724" kindref="member">CHAR</ref>);</highlight></codeline>
+<codeline lineno="272"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">break</highlight><highlight class="normal">;<sp/></highlight></codeline>
+<codeline lineno="273"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">case</highlight><highlight class="normal"><sp/><ref refid="stack_8h_1a0bc6723d5d4776ab7cdc646728b775f7a33465d1d419b1074fb259ef444609e92" kindref="member">DOUBLE</ref>:</highlight></codeline>
+<codeline lineno="274"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>push_CHAR(s,(</highlight><highlight class="keywordtype">char</highlight><highlight class="normal">)X16.<ref refid="structdata_1aecc3f36c8ad5b0d05fee3f3372aee7d8" kindref="member">DOUBLE</ref>);</highlight></codeline>
+<codeline lineno="275"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">break</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="276"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">case</highlight><highlight class="normal"><sp/><ref refid="stack_8h_1a0bc6723d5d4776ab7cdc646728b775f7aaee055c4a5aba7d55774e4f1c01dacea" kindref="member">LONG</ref>:</highlight></codeline>
+<codeline lineno="277"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>push_CHAR(s,(</highlight><highlight class="keywordtype">char</highlight><highlight class="normal">)X16.<ref refid="structdata_1af3e6e49ca276f2a351f97bad4738368e" kindref="member">LONG</ref>);</highlight></codeline>
+<codeline lineno="278"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">break</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="279"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">default</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="280"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">break</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="281"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="282"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>X16.<ref refid="structdata_1a876bb066356bbdd8dbadc449e4caf33c" kindref="member">type</ref><sp/>=<sp/><ref refid="stack_8h_1a0bc6723d5d4776ab7cdc646728b775f7a4618cf21306b3c647741afa7ebefcab8" kindref="member">CHAR</ref>;</highlight></codeline>
+<codeline lineno="283"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="284"><highlight class="normal"></highlight></codeline>
+<codeline lineno="288"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="parser_8c_1a1fd34b4c4b7a79e17514db2da4004359" kindref="member">leLinha</ref><sp/>(<ref refid="structstack" kindref="compound">STACK</ref><sp/>*s)<sp/>{</highlight></codeline>
+<codeline lineno="289"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>buffer<sp/>[10240];</highlight></codeline>
+<codeline lineno="290"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/>assert(fgets(buffer,</highlight><highlight class="keyword">sizeof</highlight><highlight class="normal">(buffer),stdin));</highlight></codeline>
+<codeline lineno="291"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/>push_STRING(s,strdup(buffer));</highlight></codeline>
+<codeline lineno="292"><highlight class="normal">}<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="293"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="294"><highlight class="normal"></highlight></codeline>
+<codeline lineno="300"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="parser_8c_1ae7e45a1b0f2ce3ff1c34eccdff425637" kindref="member">parse</ref><sp/>(</highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*line)</highlight></codeline>
+<codeline lineno="301"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="302"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><ref refid="structstack" kindref="compound">STACK</ref><sp/>*s<sp/>=<sp/><ref refid="stack_8c_1ab37b0d083f873fbdc37d708bb9f40efc" kindref="member">create_stack</ref><sp/>();</highlight></codeline>
+<codeline lineno="303"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*delims<sp/>=<sp/></highlight><highlight class="stringliteral">&quot;<sp/>\t\n&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="304"><highlight class="normal"></highlight></codeline>
+<codeline lineno="305"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal"><sp/>(</highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*token<sp/>=<sp/>strtok(line,delims);token!=NULL;token<sp/>=<sp/>strtok(NULL,delims))</highlight></codeline>
+<codeline lineno="306"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="307"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*sobra;</highlight></codeline>
+<codeline lineno="308"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*sobrad;</highlight></codeline>
+<codeline lineno="309"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">long</highlight><highlight class="normal"><sp/>vi<sp/>=<sp/>strtol(token,<sp/>&amp;sobra,<sp/>10);</highlight></codeline>
+<codeline lineno="310"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>vd<sp/>=<sp/>strtod(token,<sp/>&amp;sobrad);</highlight></codeline>
+<codeline lineno="311"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(strlen(sobra)<sp/>==<sp/>0)<sp/>push_LONG(s,<sp/>vi);</highlight></codeline>
+<codeline lineno="312"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(strlen(sobrad)<sp/>==<sp/>0)<sp/>push_DOUBLE(s,vd);</highlight></codeline>
+<codeline lineno="313"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="314"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="315"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="316"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">switch</highlight><highlight class="normal"><sp/>(*token)</highlight></codeline>
+<codeline lineno="317"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="318"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">case</highlight><highlight class="normal"><sp/></highlight><highlight class="charliteral">&apos;+&apos;</highlight><highlight class="normal">:<sp/><ref refid="parser_8c_1a2d3e743c974b5aff881f7b049874d97a" kindref="member">mais</ref>(s);<sp/></highlight><highlight class="keywordflow">break</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="319"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">case</highlight><highlight class="normal"><sp/></highlight><highlight class="charliteral">&apos;-&apos;</highlight><highlight class="normal">:<sp/><ref refid="parser_8c_1a6815ed3f8fe712c5bdb27f97d6a58092" kindref="member">menos</ref>(s);<sp/></highlight><highlight class="keywordflow">break</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="320"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">case</highlight><highlight class="normal"><sp/></highlight><highlight class="charliteral">&apos;/&apos;</highlight><highlight class="normal">:<sp/><ref refid="parser_8c_1a01f39a9be2db07a3342c585d8f11d745" kindref="member">divide</ref>(s);<sp/></highlight><highlight class="keywordflow">break</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="321"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">case</highlight><highlight class="normal"><sp/></highlight><highlight class="charliteral">&apos;*&apos;</highlight><highlight class="normal">:<sp/><ref refid="parser_8c_1a1a83e81a0989cfe6e96090f7fc2d2198" kindref="member">multiplica</ref>(s);<sp/></highlight><highlight class="keywordflow">break</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="322"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">case</highlight><highlight class="normal"><sp/></highlight><highlight class="charliteral">&apos;&amp;&apos;</highlight><highlight class="normal">:<sp/><ref refid="parser_8c_1a75c6a0a9fe82a3362175dded8dbfc992" kindref="member">elogico</ref>(s);</highlight><highlight class="keywordflow">break</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="323"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">case</highlight><highlight class="normal"><sp/></highlight><highlight class="charliteral">&apos;|&apos;</highlight><highlight class="normal">:<sp/><ref refid="parser_8c_1af811a8cc8016b38c389fd710ff7f3bda" kindref="member">oulogico</ref>(s);</highlight><highlight class="keywordflow">break</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="324"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">case</highlight><highlight class="normal"><sp/></highlight><highlight class="charliteral">&apos;^&apos;</highlight><highlight class="normal">:<sp/><ref refid="parser_8c_1a3e2167481212f6aa26ccf40bd072a01a" kindref="member">xorlogico</ref>(s);</highlight><highlight class="keywordflow">break</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="325"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">case</highlight><highlight class="normal"><sp/></highlight><highlight class="charliteral">&apos;~&apos;</highlight><highlight class="normal">:<sp/><ref refid="parser_8c_1a70bedbe23516e3d15245991ddd83e45e" kindref="member">negacaologica</ref>(s);</highlight><highlight class="keywordflow">break</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="326"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">case</highlight><highlight class="normal"><sp/></highlight><highlight class="charliteral">&apos;)&apos;</highlight><highlight class="normal">:<sp/><ref refid="parser_8c_1a10508636af2171860e5d038a7d07f7e0" kindref="member">incrementa</ref>(s);</highlight><highlight class="keywordflow">break</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="327"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">case</highlight><highlight class="normal"><sp/></highlight><highlight class="charliteral">&apos;(&apos;</highlight><highlight class="normal">:<sp/><ref refid="parser_8c_1a954e9383095a145d1cb6a1a2d26aa451" kindref="member">decrementa</ref>(s);</highlight><highlight class="keywordflow">break</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="328"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">case</highlight><highlight class="normal"><sp/></highlight><highlight class="charliteral">&apos;%&apos;</highlight><highlight class="normal">:<sp/><ref refid="parser_8c_1ac47c510fef88bce38e48b07b6017c54e" kindref="member">modulo</ref>(s);</highlight><highlight class="keywordflow">break</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="329"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">case</highlight><highlight class="normal"><sp/></highlight><highlight class="charliteral">&apos;#&apos;</highlight><highlight class="normal">:<sp/><ref refid="parser_8c_1a2018e1ff46f8973d959bc80a83bbd47d" kindref="member">elevado</ref>(s);</highlight><highlight class="keywordflow">break</highlight><highlight class="normal">;<sp/></highlight></codeline>
+<codeline lineno="330"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">case</highlight><highlight class="normal"><sp/></highlight><highlight class="charliteral">&apos;@&apos;</highlight><highlight class="normal">:<sp/><ref refid="parser_8c_1ac431214cf5e5f8f4d7ca7183305d8689" kindref="member">rodaStack</ref>(s);</highlight><highlight class="keywordflow">break</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="331"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">case</highlight><highlight class="normal"><sp/></highlight><highlight class="charliteral">&apos;;&apos;</highlight><highlight class="normal">:<sp/><ref refid="parser_8c_1a16e11b0991e7e27883dd3feeb7b7542c" kindref="member">topoStack</ref>(s);</highlight><highlight class="keywordflow">break</highlight><highlight class="normal">;<sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="332"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">case</highlight><highlight class="normal"><sp/></highlight><highlight class="charliteral">&apos;_&apos;</highlight><highlight class="normal">:<sp/><ref refid="parser_8c_1a6fa63cab9d7d96acf78f8dff5d4f782f" kindref="member">duplica</ref>(s);</highlight><highlight class="keywordflow">break</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="333"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">case</highlight><highlight class="normal"><sp/></highlight><highlight class="charliteral">&apos;\\&apos;</highlight><highlight class="normal">:<sp/><ref refid="parser_8c_1a57d211b8e9a936de147036fa372acda2" kindref="member">troca</ref>(s);</highlight><highlight class="keywordflow">break</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="334"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">case</highlight><highlight class="normal"><sp/></highlight><highlight class="charliteral">&apos;$&apos;</highlight><highlight class="normal">:<sp/><ref refid="parser_8c_1a8498db9760c39488016d653f66de90c0" kindref="member">copiaelemento</ref>(s);</highlight><highlight class="keywordflow">break</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="335"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">case</highlight><highlight class="normal"><sp/></highlight><highlight class="charliteral">&apos;i&apos;</highlight><highlight class="normal">:<sp/><ref refid="parser_8c_1ac8a22c308a7e937485bfa055227ac0f0" kindref="member">paraLong</ref>(s);</highlight><highlight class="keywordflow">break</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="336"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">case</highlight><highlight class="normal"><sp/></highlight><highlight class="charliteral">&apos;f&apos;</highlight><highlight class="normal">:<sp/><ref refid="parser_8c_1a9dc8218d6a0e9086a131ef43e95edf05" kindref="member">paraDouble</ref>(s);</highlight><highlight class="keywordflow">break</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="337"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">case</highlight><highlight class="normal"><sp/></highlight><highlight class="charliteral">&apos;c&apos;</highlight><highlight class="normal">:<sp/><ref refid="parser_8c_1a405425b4730316e0d4d2eddcda3e9bf2" kindref="member">paraChar</ref>(s);</highlight><highlight class="keywordflow">break</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="338"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">case</highlight><highlight class="normal"><sp/></highlight><highlight class="charliteral">&apos;l&apos;</highlight><highlight class="normal">:<sp/><ref refid="parser_8c_1a1fd34b4c4b7a79e17514db2da4004359" kindref="member">leLinha</ref>(s);</highlight><highlight class="keywordflow">break</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="339"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="340"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="341"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="342"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="343"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="stack_8c_1a42b87bab2d601cb02900935c9b80fc23" kindref="member">print_stack</ref>(s);</highlight></codeline>
+<codeline lineno="344"><highlight class="normal"><sp/><sp/><sp/><sp/>putchar<sp/>(</highlight><highlight class="charliteral">&apos;\n&apos;</highlight><highlight class="normal">);<sp/></highlight></codeline>
+<codeline lineno="345"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="parser.c"/>
+  </compounddef>
+</doxygen>
