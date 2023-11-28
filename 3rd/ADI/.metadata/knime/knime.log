@@ -2003,3 +2003,1293 @@ org.knime.core.node.InvalidSettingsException: Decimal and thousands separator mu
 2023-05-11 12:22:11,438 : WARN  : KNIME-Worker-195-Linear Correlation 3:11 :  : Node : Linear Correlation : 3:11 : Some numeric column(s) contained missing values: "Critic_Score", "Critic_Count", "User_Score", "User_Count", <1 more>...
 2023-05-11 12:22:55,612 : WARN  : KNIME-Worker-197-Scatter Plot 3:20 :  : Node : Scatter Plot : 3:20 : Only the first 2500 rows are displayed.
 2023-05-11 16:18:49,904 : WARN  : KNIME-Worker-220-Missing Value 3:23 :  : Node : Missing Value : 3:23 : The current settings use missing value handling methods that cannot be represented in PMML 4.2
+2023-05-11 23:59:45,532 : WARN  : ModalContext :  : WorkflowManager :  :  : Unable to insert connection "[41(0) -> 39( 1)]"
+2023-05-11 23:59:45,596 : WARN  : ModalContext :  : Node : MISSING DL4J Model Initializer : 4:41:1 : Node can't be executed - Node "DL4J Model Initializer" not available from extension "KNIME Deeplearning4J Integration (64bit only)" (provided by "KNIME AG, Zurich, Switzerland"; plugin "org.knime.ext.dl4j.base" is not installed)
+2023-05-11 23:59:45,864 : ERROR : ModalContext :  : LoadWorkflowRunnable :  :  : Errors during load: Status: DataLoadError: TAREFAAA2.knwf 4 loaded with error during data load
+2023-05-11 23:59:45,864 : ERROR : ModalContext :  : LoadWorkflowRunnable :  :  :   Status: DataLoadError: TAREFAAA2.knwf 4
+2023-05-11 23:59:45,864 : ERROR : ModalContext :  : LoadWorkflowRunnable :  :  :     Status: Error: Node "DL4J Feedforward Learner (Regression)" not available from extension "KNIME Deeplearning4J Integration (64bit only)" (provided by "KNIME AG, Zurich, Switzerland"; plugin "org.knime.ext.dl4j.base" is not installed)
+2023-05-11 23:59:45,865 : ERROR : ModalContext :  : LoadWorkflowRunnable :  :  :     Status: Error: Node "DL4J Feedforward Predictor (Regression)" not available from extension "KNIME Deeplearning4J Integration (64bit only)" (provided by "KNIME AG, Zurich, Switzerland"; plugin "org.knime.ext.dl4j.base" is not installed)
+2023-05-11 23:59:45,865 : ERROR : ModalContext :  : LoadWorkflowRunnable :  :  :     Status: Error: metanode with ID suffix 41
+2023-05-11 23:59:45,865 : ERROR : ModalContext :  : LoadWorkflowRunnable :  :  :       Status: Error: Can't load workflow outport (internal ID "outport_0", skipping it: Unable to restore port type, can't load class "org.knime.ext.dl4j.base.DLModelPortObject"
+2023-05-11 23:59:45,865 : ERROR : ModalContext :  : LoadWorkflowRunnable :  :  :       Status: Error: Assigning fallback port type for missing output port 0
+2023-05-11 23:59:45,865 : ERROR : ModalContext :  : LoadWorkflowRunnable :  :  :     Status: Error: Unable to insert connection "[41(0) -> 39( 1)]"
+2023-05-11 23:59:45,865 : ERROR : ModalContext :  : LoadWorkflowRunnable :  :  :     Status: DataLoadError: CSV Reader 4:1
+2023-05-11 23:59:45,865 : ERROR : ModalContext :  : LoadWorkflowRunnable :  :  :       Status: DataLoadError: Unable to load port content for node "CSV Reader": No such data file: /private/var/folders/y_/6t7hqdp11ms35dkk7dkjvd100000gn/T/knime_temp_space_goncalofreitas_65884/TAREFAAA2.knwf65885/Users/goncalofreitas/Downloads/TAREFAAA2.knwf/CSV Reader (#1)/port_1/data.xml
+2023-05-11 23:59:45,865 : ERROR : ModalContext :  : LoadWorkflowRunnable :  :  :       Status: DataLoadError: State has changed from EXECUTED to CONFIGURED
+2023-05-11 23:59:45,865 : ERROR : ModalContext :  : LoadWorkflowRunnable :  :  :     Status: DataLoadError: Metanode 4:41
+2023-05-11 23:59:45,865 : ERROR : ModalContext :  : LoadWorkflowRunnable :  :  :       Status: Error: Node "DL4J Model Initializer" not available from extension "KNIME Deeplearning4J Integration (64bit only)" (provided by "KNIME AG, Zurich, Switzerland"; plugin "org.knime.ext.dl4j.base" is not installed)
+2023-05-11 23:59:45,865 : ERROR : ModalContext :  : LoadWorkflowRunnable :  :  :       Status: Error: Node "Dense Layer" not available from extension "KNIME Deeplearning4J Integration (64bit only)" (provided by "KNIME AG, Zurich, Switzerland"; plugin "org.knime.ext.dl4j.base" is not installed)
+2023-05-11 23:59:45,865 : ERROR : ModalContext :  : LoadWorkflowRunnable :  :  :       Status: Error: Node "Dense Layer" not available from extension "KNIME Deeplearning4J Integration (64bit only)" (provided by "KNIME AG, Zurich, Switzerland"; plugin "org.knime.ext.dl4j.base" is not installed)
+2023-05-11 23:59:45,865 : ERROR : ModalContext :  : LoadWorkflowRunnable :  :  :       Status: Error: Node "Dense Layer" not available from extension "KNIME Deeplearning4J Integration (64bit only)" (provided by "KNIME AG, Zurich, Switzerland"; plugin "org.knime.ext.dl4j.base" is not installed)
+2023-05-11 23:59:45,865 : ERROR : ModalContext :  : LoadWorkflowRunnable :  :  :       Status: DataLoadError: MISSING DL4J Model Initializer 4:41:1
+2023-05-11 23:59:45,865 : ERROR : ModalContext :  : LoadWorkflowRunnable :  :  :         Status: DataLoadError: Unable to load port content for node "MISSING DL4J Model Initializer": Invalid spec class "org.knime.ext.dl4j.base.DLModelPortObjectSpec"
+2023-05-11 23:59:45,865 : ERROR : ModalContext :  : LoadWorkflowRunnable :  :  :         Status: DataLoadError: State has changed from EXECUTED to IDLE
+2023-05-11 23:59:45,865 : ERROR : ModalContext :  : LoadWorkflowRunnable :  :  :       Status: DataLoadError: MISSING Dense Layer 4:41:2
+2023-05-11 23:59:45,865 : ERROR : ModalContext :  : LoadWorkflowRunnable :  :  :         Status: DataLoadError: Unable to load port content for node "MISSING Dense Layer": Invalid spec class "org.knime.ext.dl4j.base.DLModelPortObjectSpec"
+2023-05-11 23:59:45,865 : ERROR : ModalContext :  : LoadWorkflowRunnable :  :  :       Status: DataLoadError: MISSING Dense Layer 4:41:3
+2023-05-11 23:59:45,865 : ERROR : ModalContext :  : LoadWorkflowRunnable :  :  :         Status: DataLoadError: Unable to load port content for node "MISSING Dense Layer": Invalid spec class "org.knime.ext.dl4j.base.DLModelPortObjectSpec"
+2023-05-11 23:59:45,865 : ERROR : ModalContext :  : LoadWorkflowRunnable :  :  :       Status: DataLoadError: MISSING Dense Layer 4:41:4
+2023-05-11 23:59:45,865 : ERROR : ModalContext :  : LoadWorkflowRunnable :  :  :         Status: DataLoadError: Unable to load port content for node "MISSING Dense Layer": Invalid spec class "org.knime.ext.dl4j.base.DLModelPortObjectSpec"
+2023-05-11 23:59:45,865 : ERROR : ModalContext :  : LoadWorkflowRunnable :  :  :       Status: DataLoadError: State has changed from EXECUTED to IDLE
+2023-05-11 23:59:45,865 : ERROR : ModalContext :  : LoadWorkflowRunnable :  :  :     Status: DataLoadError: String Replacer 4:33
+2023-05-11 23:59:45,865 : ERROR : ModalContext :  : LoadWorkflowRunnable :  :  :       Status: DataLoadError: Unable to load port content for node "String Replacer": No such data file: /private/var/folders/y_/6t7hqdp11ms35dkk7dkjvd100000gn/T/knime_temp_space_goncalofreitas_65884/TAREFAAA2.knwf65885/Users/goncalofreitas/Downloads/TAREFAAA2.knwf/String Replacer (#33)/port_1/data.xml
+2023-05-11 23:59:45,867 : ERROR : ModalContext :  : LoadWorkflowRunnable :  :  :     Status: DataLoadError: String To Number 4:32
+2023-05-11 23:59:45,867 : ERROR : ModalContext :  : LoadWorkflowRunnable :  :  :       Status: DataLoadError: Unable to load port content for node "String To Number": No such data file: /private/var/folders/y_/6t7hqdp11ms35dkk7dkjvd100000gn/T/knime_temp_space_goncalofreitas_65884/TAREFAAA2.knwf65885/Users/goncalofreitas/Downloads/TAREFAAA2.knwf/String To Number (#32)/port_1/data.xml
+2023-05-11 23:59:45,867 : ERROR : ModalContext :  : LoadWorkflowRunnable :  :  :     Status: DataLoadError: Column Filter 4:21
+2023-05-11 23:59:45,867 : ERROR : ModalContext :  : LoadWorkflowRunnable :  :  :       Status: DataLoadError: Unable to load port content for node "Column Filter": No such data file: /private/var/folders/y_/6t7hqdp11ms35dkk7dkjvd100000gn/T/knime_temp_space_goncalofreitas_65884/TAREFAAA2.knwf65885/Users/goncalofreitas/Downloads/TAREFAAA2.knwf/Column Filter (#21)/port_1/data.xml
+2023-05-11 23:59:45,867 : ERROR : ModalContext :  : LoadWorkflowRunnable :  :  :     Status: DataLoadError: Numeric Outliers 4:22
+2023-05-11 23:59:45,867 : ERROR : ModalContext :  : LoadWorkflowRunnable :  :  :       Status: DataLoadError: Unable to load port content for node "Numeric Outliers": No such data file: /private/var/folders/y_/6t7hqdp11ms35dkk7dkjvd100000gn/T/knime_temp_space_goncalofreitas_65884/TAREFAAA2.knwf65885/Users/goncalofreitas/Downloads/TAREFAAA2.knwf/Numeric Outliers (#22)/port_1/data.xml
+2023-05-11 23:59:45,867 : ERROR : ModalContext :  : LoadWorkflowRunnable :  :  :     Status: DataLoadError: Missing Value 4:23
+2023-05-11 23:59:45,867 : ERROR : ModalContext :  : LoadWorkflowRunnable :  :  :       Status: DataLoadError: Unable to load port content for node "Missing Value": No such data file: /private/var/folders/y_/6t7hqdp11ms35dkk7dkjvd100000gn/T/knime_temp_space_goncalofreitas_65884/TAREFAAA2.knwf65885/Users/goncalofreitas/Downloads/TAREFAAA2.knwf/Missing Value (#23)/port_1/data.xml
+2023-05-11 23:59:45,867 : ERROR : ModalContext :  : LoadWorkflowRunnable :  :  :     Status: DataLoadError: Missing Value 4:37
+2023-05-11 23:59:45,867 : ERROR : ModalContext :  : LoadWorkflowRunnable :  :  :       Status: DataLoadError: Unable to load port content for node "Missing Value": No such data file: /private/var/folders/y_/6t7hqdp11ms35dkk7dkjvd100000gn/T/knime_temp_space_goncalofreitas_65884/TAREFAAA2.knwf65885/Users/goncalofreitas/Downloads/TAREFAAA2.knwf/Missing Value (#37)/port_1/data.xml
+2023-05-11 23:59:45,867 : ERROR : ModalContext :  : LoadWorkflowRunnable :  :  :     Status: DataLoadError: Partitioning 4:36
+2023-05-11 23:59:45,867 : ERROR : ModalContext :  : LoadWorkflowRunnable :  :  :       Status: DataLoadError: Unable to load port content for node "Partitioning": No such data file: /private/var/folders/y_/6t7hqdp11ms35dkk7dkjvd100000gn/T/knime_temp_space_goncalofreitas_65884/TAREFAAA2.knwf65885/Users/goncalofreitas/Downloads/TAREFAAA2.knwf/Partitioning (#36)/port_1/data.xml
+2023-05-11 23:59:45,868 : ERROR : ModalContext :  : LoadWorkflowRunnable :  :  :     Status: DataLoadError: Partitioning 4:28
+2023-05-11 23:59:45,868 : ERROR : ModalContext :  : LoadWorkflowRunnable :  :  :       Status: DataLoadError: Unable to load port content for node "Partitioning": No such data file: /private/var/folders/y_/6t7hqdp11ms35dkk7dkjvd100000gn/T/knime_temp_space_goncalofreitas_65884/TAREFAAA2.knwf65885/Users/goncalofreitas/Downloads/TAREFAAA2.knwf/Partitioning (#28)/port_1/data.xml
+2023-05-11 23:59:45,869 : ERROR : ModalContext :  : LoadWorkflowRunnable :  :  :     Status: DataLoadError: Linear Regression Learner 4:25
+2023-05-11 23:59:45,869 : ERROR : ModalContext :  : LoadWorkflowRunnable :  :  :       Status: DataLoadError: Unable to load port content for node "Linear Regression Learner": Can't read spec file /private/var/folders/y_/6t7hqdp11ms35dkk7dkjvd100000gn/T/knime_temp_space_goncalofreitas_65884/TAREFAAA2.knwf65885/Users/goncalofreitas/Downloads/TAREFAAA2.knwf/Linear Regression Learner (#25)/port_1/spec/spec.zip
+2023-05-11 23:59:45,869 : ERROR : ModalContext :  : LoadWorkflowRunnable :  :  :       Status: DataLoadError: Loading model internals failed: /private/var/folders/y_/6t7hqdp11ms35dkk7dkjvd100000gn/T/knime_temp_space_goncalofreitas_65884/TAREFAAA2.knwf65885/Users/goncalofreitas/Downloads/TAREFAAA2.knwf/Linear Regression Learner (#25)/internal/model.xml.gz (No such file or directory)
+2023-05-11 23:59:45,869 : ERROR : ModalContext :  : LoadWorkflowRunnable :  :  :     Status: DataLoadError: Regression Predictor 4:26
+2023-05-11 23:59:45,869 : ERROR : ModalContext :  : LoadWorkflowRunnable :  :  :       Status: DataLoadError: Unable to load port content for node "Regression Predictor": No such data file: /private/var/folders/y_/6t7hqdp11ms35dkk7dkjvd100000gn/T/knime_temp_space_goncalofreitas_65884/TAREFAAA2.knwf65885/Users/goncalofreitas/Downloads/TAREFAAA2.knwf/Regression Predictor (#26)/port_1/data.xml
+2023-05-11 23:59:45,869 : ERROR : ModalContext :  : LoadWorkflowRunnable :  :  :     Status: DataLoadError: Linear Regression Learner 4:29
+2023-05-11 23:59:45,869 : ERROR : ModalContext :  : LoadWorkflowRunnable :  :  :       Status: DataLoadError: Unable to load port content for node "Linear Regression Learner": Can't read spec file /private/var/folders/y_/6t7hqdp11ms35dkk7dkjvd100000gn/T/knime_temp_space_goncalofreitas_65884/TAREFAAA2.knwf65885/Users/goncalofreitas/Downloads/TAREFAAA2.knwf/Linear Regression Learner (#29)/port_1/spec/spec.zip
+2023-05-11 23:59:45,869 : ERROR : ModalContext :  : LoadWorkflowRunnable :  :  :       Status: DataLoadError: Loading model internals failed: /private/var/folders/y_/6t7hqdp11ms35dkk7dkjvd100000gn/T/knime_temp_space_goncalofreitas_65884/TAREFAAA2.knwf65885/Users/goncalofreitas/Downloads/TAREFAAA2.knwf/Linear Regression Learner (#29)/internal/model.xml.gz (No such file or directory)
+2023-05-11 23:59:45,869 : ERROR : ModalContext :  : LoadWorkflowRunnable :  :  :     Status: DataLoadError: Regression Predictor 4:30
+2023-05-11 23:59:45,869 : ERROR : ModalContext :  : LoadWorkflowRunnable :  :  :       Status: DataLoadError: Unable to load port content for node "Regression Predictor": No such data file: /private/var/folders/y_/6t7hqdp11ms35dkk7dkjvd100000gn/T/knime_temp_space_goncalofreitas_65884/TAREFAAA2.knwf65885/Users/goncalofreitas/Downloads/TAREFAAA2.knwf/Regression Predictor (#30)/port_1/data.xml
+2023-05-11 23:59:45,869 : ERROR : ModalContext :  : LoadWorkflowRunnable :  :  :     Status: DataLoadError: Numeric Scorer 4:27
+2023-05-11 23:59:45,869 : ERROR : ModalContext :  : LoadWorkflowRunnable :  :  :       Status: DataLoadError: Unable to load port content for node "Numeric Scorer": No such data file: /private/var/folders/y_/6t7hqdp11ms35dkk7dkjvd100000gn/T/knime_temp_space_goncalofreitas_65884/TAREFAAA2.knwf65885/Users/goncalofreitas/Downloads/TAREFAAA2.knwf/Numeric Scorer (#27)/port_1/data.xml
+2023-05-11 23:59:45,870 : ERROR : ModalContext :  : LoadWorkflowRunnable :  :  :       Status: DataLoadError: Loading model internals failed: /private/var/folders/y_/6t7hqdp11ms35dkk7dkjvd100000gn/T/knime_temp_space_goncalofreitas_65884/TAREFAAA2.knwf65885/Users/goncalofreitas/Downloads/TAREFAAA2.knwf/Numeric Scorer (#27)/internal/internals.xml.gz (No such file or directory)
+2023-05-11 23:59:45,870 : ERROR : ModalContext :  : LoadWorkflowRunnable :  :  :     Status: DataLoadError: Numeric Scorer 4:31
+2023-05-11 23:59:45,870 : ERROR : ModalContext :  : LoadWorkflowRunnable :  :  :       Status: DataLoadError: Unable to load port content for node "Numeric Scorer": No such data file: /private/var/folders/y_/6t7hqdp11ms35dkk7dkjvd100000gn/T/knime_temp_space_goncalofreitas_65884/TAREFAAA2.knwf65885/Users/goncalofreitas/Downloads/TAREFAAA2.knwf/Numeric Scorer (#31)/port_1/data.xml
+2023-05-11 23:59:45,870 : ERROR : ModalContext :  : LoadWorkflowRunnable :  :  :       Status: DataLoadError: Loading model internals failed: /private/var/folders/y_/6t7hqdp11ms35dkk7dkjvd100000gn/T/knime_temp_space_goncalofreitas_65884/TAREFAAA2.knwf65885/Users/goncalofreitas/Downloads/TAREFAAA2.knwf/Numeric Scorer (#31)/internal/internals.xml.gz (No such file or directory)
+2023-05-12 00:24:06,982 : WARN  : ModalContext :  : Node : Scorer : 5:16 : No columns selected yet.
+2023-05-12 00:24:06,985 : WARN  : ModalContext :  : Node : Scorer : 5:15 : No columns selected yet.
+2023-05-12 00:26:17,289 : WARN  : ModalContext :  : Node : Scorer (JavaScript) : 6:45 : The columns selected don't contain any values.
+2023-05-12 00:43:02,808 : ERROR : KNIME-Worker-12-CSV Reader 6:1 :  : Node : CSV Reader : 6:1 : Execute failed: The specified file C:\Users\Samuel Lira\ADI\fase2\salary_classification.csv does not exist.
+org.knime.core.node.InvalidSettingsException: The specified file C:\Users\Samuel Lira\ADI\fase2\salary_classification.csv does not exist.
+	at org.knime.core.node.util.CheckUtils.checkSetting(CheckUtils.java:272)
+	at org.knime.core.node.util.CheckUtils.checkSetting(CheckUtils.java:222)
+	at org.knime.filehandling.core.defaultnodesettings.filechooser.FileChooserPathAccessor.getRootPath(FileChooserPathAccessor.java:297)
+	at org.knime.filehandling.core.defaultnodesettings.filechooser.FileChooserPathAccessor.getFSPaths(FileChooserPathAccessor.java:204)
+	at org.knime.filehandling.core.node.table.reader.paths.PathSettings$1.getItems(PathSettings.java:105)
+	at org.knime.filehandling.core.node.table.reader.TableReaderNodeModel.getPaths(TableReaderNodeModel.java:195)
+	at org.knime.filehandling.core.node.table.reader.TableReaderNodeModel.execute(TableReaderNodeModel.java:158)
+	at org.knime.core.node.NodeModel.executeModel(NodeModel.java:549)
+	at org.knime.core.node.Node.invokeFullyNodeModelExecute(Node.java:1267)
+	at org.knime.core.node.Node.execute(Node.java:1041)
+	at org.knime.core.node.workflow.NativeNodeContainer.performExecuteNode(NativeNodeContainer.java:595)
+	at org.knime.core.node.exec.LocalNodeExecutionJob.mainExecute(LocalNodeExecutionJob.java:98)
+	at org.knime.core.node.workflow.NodeExecutionJob.internalRun(NodeExecutionJob.java:201)
+	at org.knime.core.node.workflow.NodeExecutionJob.run(NodeExecutionJob.java:117)
+	at org.knime.core.util.ThreadUtils$RunnableWithContextImpl.runWithContext(ThreadUtils.java:367)
+	at org.knime.core.util.ThreadUtils$RunnableWithContext.run(ThreadUtils.java:221)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.base/java.util.concurrent.FutureTask.run(Unknown Source)
+	at org.knime.core.util.ThreadPool$MyFuture.run(ThreadPool.java:123)
+	at org.knime.core.util.ThreadPool$Worker.run(ThreadPool.java:246)
+2023-05-12 00:49:34,628 : ERROR : KNIME-Worker-13-CSV Reader 4:1 :  : Node : CSV Reader : 4:1 : Execute failed: The specified file C:\Users\eduar\Downloads\archive\Raw Data.csv does not exist.
+org.knime.core.node.InvalidSettingsException: The specified file C:\Users\eduar\Downloads\archive\Raw Data.csv does not exist.
+	at org.knime.core.node.util.CheckUtils.checkSetting(CheckUtils.java:272)
+	at org.knime.core.node.util.CheckUtils.checkSetting(CheckUtils.java:222)
+	at org.knime.filehandling.core.defaultnodesettings.filechooser.FileChooserPathAccessor.getRootPath(FileChooserPathAccessor.java:297)
+	at org.knime.filehandling.core.defaultnodesettings.filechooser.FileChooserPathAccessor.getFSPaths(FileChooserPathAccessor.java:204)
+	at org.knime.filehandling.core.node.table.reader.paths.PathSettings$1.getItems(PathSettings.java:105)
+	at org.knime.filehandling.core.node.table.reader.TableReaderNodeModel.getPaths(TableReaderNodeModel.java:195)
+	at org.knime.filehandling.core.node.table.reader.TableReaderNodeModel.execute(TableReaderNodeModel.java:158)
+	at org.knime.core.node.NodeModel.executeModel(NodeModel.java:549)
+	at org.knime.core.node.Node.invokeFullyNodeModelExecute(Node.java:1267)
+	at org.knime.core.node.Node.execute(Node.java:1041)
+	at org.knime.core.node.workflow.NativeNodeContainer.performExecuteNode(NativeNodeContainer.java:595)
+	at org.knime.core.node.exec.LocalNodeExecutionJob.mainExecute(LocalNodeExecutionJob.java:98)
+	at org.knime.core.node.workflow.NodeExecutionJob.internalRun(NodeExecutionJob.java:201)
+	at org.knime.core.node.workflow.NodeExecutionJob.run(NodeExecutionJob.java:117)
+	at org.knime.core.util.ThreadUtils$RunnableWithContextImpl.runWithContext(ThreadUtils.java:367)
+	at org.knime.core.util.ThreadUtils$RunnableWithContext.run(ThreadUtils.java:221)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.base/java.util.concurrent.FutureTask.run(Unknown Source)
+	at org.knime.core.util.ThreadPool$MyFuture.run(ThreadPool.java:123)
+	at org.knime.core.util.ThreadPool$Worker.run(ThreadPool.java:246)
+2023-05-12 00:49:38,039 : ERROR : KNIME-Worker-14-CSV Reader 4:1 :  : Node : CSV Reader : 4:1 : Execute failed: The specified file C:\Users\eduar\Downloads\archive\Raw Data.csv does not exist.
+org.knime.core.node.InvalidSettingsException: The specified file C:\Users\eduar\Downloads\archive\Raw Data.csv does not exist.
+	at org.knime.core.node.util.CheckUtils.checkSetting(CheckUtils.java:272)
+	at org.knime.core.node.util.CheckUtils.checkSetting(CheckUtils.java:222)
+	at org.knime.filehandling.core.defaultnodesettings.filechooser.FileChooserPathAccessor.getRootPath(FileChooserPathAccessor.java:297)
+	at org.knime.filehandling.core.defaultnodesettings.filechooser.FileChooserPathAccessor.getFSPaths(FileChooserPathAccessor.java:204)
+	at org.knime.filehandling.core.node.table.reader.paths.PathSettings$1.getItems(PathSettings.java:105)
+	at org.knime.filehandling.core.node.table.reader.TableReaderNodeModel.getPaths(TableReaderNodeModel.java:195)
+	at org.knime.filehandling.core.node.table.reader.TableReaderNodeModel.execute(TableReaderNodeModel.java:158)
+	at org.knime.core.node.NodeModel.executeModel(NodeModel.java:549)
+	at org.knime.core.node.Node.invokeFullyNodeModelExecute(Node.java:1267)
+	at org.knime.core.node.Node.execute(Node.java:1041)
+	at org.knime.core.node.workflow.NativeNodeContainer.performExecuteNode(NativeNodeContainer.java:595)
+	at org.knime.core.node.exec.LocalNodeExecutionJob.mainExecute(LocalNodeExecutionJob.java:98)
+	at org.knime.core.node.workflow.NodeExecutionJob.internalRun(NodeExecutionJob.java:201)
+	at org.knime.core.node.workflow.NodeExecutionJob.run(NodeExecutionJob.java:117)
+	at org.knime.core.util.ThreadUtils$RunnableWithContextImpl.runWithContext(ThreadUtils.java:367)
+	at org.knime.core.util.ThreadUtils$RunnableWithContext.run(ThreadUtils.java:221)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.base/java.util.concurrent.FutureTask.run(Unknown Source)
+	at org.knime.core.util.ThreadPool$MyFuture.run(ThreadPool.java:123)
+	at org.knime.core.util.ThreadPool$Worker.run(ThreadPool.java:246)
+2023-05-12 01:06:41,180 : WARN  : main :  : Node : RProp MLP Learner : 4:43 : Only double columns for input
+2023-05-12 01:21:06,073 : WARN  : main :  : Node : RProp MLP Learner : 4:43 : Only double columns for input
+2023-05-12 01:21:07,605 : WARN  : main :  : Node : RProp MLP Learner : 4:43 : Only double columns for input
+2023-05-12 01:21:20,358 : WARN  : main :  : Node : RProp MLP Learner : 4:43 : Only double columns for input
+2023-05-12 01:21:20,887 : WARN  : main :  : Node : RProp MLP Learner : 4:43 : Only double columns for input
+2023-05-12 01:22:54,471 : WARN  : ModalContext :  : Node : Decision Tree Predictor : 7:13 : Learning column "quality_bin" not found in input data to be predicted
+2023-05-12 01:26:44,182 : WARN  : main :  : Node : Scorer (JavaScript) : 6:45 : The columns selected don't contain any values.
+2023-05-12 01:27:17,653 : WARN  : main :  : Node : RProp MLP Learner : 4:43 : Only double columns for input
+2023-05-12 01:27:18,243 : WARN  : main :  : Node : RProp MLP Learner : 4:43 : Only double columns for input
+2023-05-12 01:27:20,536 : ERROR : KNIME-Worker-15-CSV Reader 4:1 :  : Node : CSV Reader : 4:1 : Execute failed: The specified file C:\Users\eduar\Downloads\archive\Raw Data.csv does not exist.
+org.knime.core.node.InvalidSettingsException: The specified file C:\Users\eduar\Downloads\archive\Raw Data.csv does not exist.
+	at org.knime.core.node.util.CheckUtils.checkSetting(CheckUtils.java:272)
+	at org.knime.core.node.util.CheckUtils.checkSetting(CheckUtils.java:222)
+	at org.knime.filehandling.core.defaultnodesettings.filechooser.FileChooserPathAccessor.getRootPath(FileChooserPathAccessor.java:297)
+	at org.knime.filehandling.core.defaultnodesettings.filechooser.FileChooserPathAccessor.getFSPaths(FileChooserPathAccessor.java:204)
+	at org.knime.filehandling.core.node.table.reader.paths.PathSettings$1.getItems(PathSettings.java:105)
+	at org.knime.filehandling.core.node.table.reader.TableReaderNodeModel.getPaths(TableReaderNodeModel.java:195)
+	at org.knime.filehandling.core.node.table.reader.TableReaderNodeModel.execute(TableReaderNodeModel.java:158)
+	at org.knime.core.node.NodeModel.executeModel(NodeModel.java:549)
+	at org.knime.core.node.Node.invokeFullyNodeModelExecute(Node.java:1267)
+	at org.knime.core.node.Node.execute(Node.java:1041)
+	at org.knime.core.node.workflow.NativeNodeContainer.performExecuteNode(NativeNodeContainer.java:595)
+	at org.knime.core.node.exec.LocalNodeExecutionJob.mainExecute(LocalNodeExecutionJob.java:98)
+	at org.knime.core.node.workflow.NodeExecutionJob.internalRun(NodeExecutionJob.java:201)
+	at org.knime.core.node.workflow.NodeExecutionJob.run(NodeExecutionJob.java:117)
+	at org.knime.core.util.ThreadUtils$RunnableWithContextImpl.runWithContext(ThreadUtils.java:367)
+	at org.knime.core.util.ThreadUtils$RunnableWithContext.run(ThreadUtils.java:221)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.base/java.util.concurrent.FutureTask.run(Unknown Source)
+	at org.knime.core.util.ThreadPool$MyFuture.run(ThreadPool.java:123)
+	at org.knime.core.util.ThreadPool$Worker.run(ThreadPool.java:246)
+2023-05-12 01:27:51,006 : WARN  : main :  : Node : RProp MLP Learner : 4:43 : Only double columns for input
+2023-05-12 01:27:51,917 : WARN  : main :  : Node : RProp MLP Learner : 4:43 : Only double columns for input
+2023-05-12 01:27:54,067 : ERROR : KNIME-Worker-16-CSV Reader 4:1 :  : Node : CSV Reader : 4:1 : Execute failed: The specified file C:\Users\eduar\Downloads\archive\Raw Data.csv does not exist.
+org.knime.core.node.InvalidSettingsException: The specified file C:\Users\eduar\Downloads\archive\Raw Data.csv does not exist.
+	at org.knime.core.node.util.CheckUtils.checkSetting(CheckUtils.java:272)
+	at org.knime.core.node.util.CheckUtils.checkSetting(CheckUtils.java:222)
+	at org.knime.filehandling.core.defaultnodesettings.filechooser.FileChooserPathAccessor.getRootPath(FileChooserPathAccessor.java:297)
+	at org.knime.filehandling.core.defaultnodesettings.filechooser.FileChooserPathAccessor.getFSPaths(FileChooserPathAccessor.java:204)
+	at org.knime.filehandling.core.node.table.reader.paths.PathSettings$1.getItems(PathSettings.java:105)
+	at org.knime.filehandling.core.node.table.reader.TableReaderNodeModel.getPaths(TableReaderNodeModel.java:195)
+	at org.knime.filehandling.core.node.table.reader.TableReaderNodeModel.execute(TableReaderNodeModel.java:158)
+	at org.knime.core.node.NodeModel.executeModel(NodeModel.java:549)
+	at org.knime.core.node.Node.invokeFullyNodeModelExecute(Node.java:1267)
+	at org.knime.core.node.Node.execute(Node.java:1041)
+	at org.knime.core.node.workflow.NativeNodeContainer.performExecuteNode(NativeNodeContainer.java:595)
+	at org.knime.core.node.exec.LocalNodeExecutionJob.mainExecute(LocalNodeExecutionJob.java:98)
+	at org.knime.core.node.workflow.NodeExecutionJob.internalRun(NodeExecutionJob.java:201)
+	at org.knime.core.node.workflow.NodeExecutionJob.run(NodeExecutionJob.java:117)
+	at org.knime.core.util.ThreadUtils$RunnableWithContextImpl.runWithContext(ThreadUtils.java:367)
+	at org.knime.core.util.ThreadUtils$RunnableWithContext.run(ThreadUtils.java:221)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.base/java.util.concurrent.FutureTask.run(Unknown Source)
+	at org.knime.core.util.ThreadPool$MyFuture.run(ThreadPool.java:123)
+	at org.knime.core.util.ThreadPool$Worker.run(ThreadPool.java:246)
+2023-05-12 01:27:56,796 : ERROR : KNIME-Worker-17-CSV Reader 4:1 :  : Node : CSV Reader : 4:1 : Execute failed: The specified file C:\Users\eduar\Downloads\archive\Raw Data.csv does not exist.
+org.knime.core.node.InvalidSettingsException: The specified file C:\Users\eduar\Downloads\archive\Raw Data.csv does not exist.
+	at org.knime.core.node.util.CheckUtils.checkSetting(CheckUtils.java:272)
+	at org.knime.core.node.util.CheckUtils.checkSetting(CheckUtils.java:222)
+	at org.knime.filehandling.core.defaultnodesettings.filechooser.FileChooserPathAccessor.getRootPath(FileChooserPathAccessor.java:297)
+	at org.knime.filehandling.core.defaultnodesettings.filechooser.FileChooserPathAccessor.getFSPaths(FileChooserPathAccessor.java:204)
+	at org.knime.filehandling.core.node.table.reader.paths.PathSettings$1.getItems(PathSettings.java:105)
+	at org.knime.filehandling.core.node.table.reader.TableReaderNodeModel.getPaths(TableReaderNodeModel.java:195)
+	at org.knime.filehandling.core.node.table.reader.TableReaderNodeModel.execute(TableReaderNodeModel.java:158)
+	at org.knime.core.node.NodeModel.executeModel(NodeModel.java:549)
+	at org.knime.core.node.Node.invokeFullyNodeModelExecute(Node.java:1267)
+	at org.knime.core.node.Node.execute(Node.java:1041)
+	at org.knime.core.node.workflow.NativeNodeContainer.performExecuteNode(NativeNodeContainer.java:595)
+	at org.knime.core.node.exec.LocalNodeExecutionJob.mainExecute(LocalNodeExecutionJob.java:98)
+	at org.knime.core.node.workflow.NodeExecutionJob.internalRun(NodeExecutionJob.java:201)
+	at org.knime.core.node.workflow.NodeExecutionJob.run(NodeExecutionJob.java:117)
+	at org.knime.core.util.ThreadUtils$RunnableWithContextImpl.runWithContext(ThreadUtils.java:367)
+	at org.knime.core.util.ThreadUtils$RunnableWithContext.run(ThreadUtils.java:221)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.base/java.util.concurrent.FutureTask.run(Unknown Source)
+	at org.knime.core.util.ThreadPool$MyFuture.run(ThreadPool.java:123)
+	at org.knime.core.util.ThreadPool$Worker.run(ThreadPool.java:246)
+2023-05-12 01:43:07,176 : WARN  : main :  : Node : RProp MLP Learner : 4:43 : Only double columns for input
+2023-05-12 01:43:07,991 : WARN  : main :  : Node : RProp MLP Learner : 4:43 : Only double columns for input
+2023-05-12 01:43:13,043 : ERROR : KNIME-Worker-18-CSV Reader 4:1 :  : Node : CSV Reader : 4:1 : Execute failed: The specified file C:\Users\eduar\Downloads\archive\Raw Data.csv does not exist.
+org.knime.core.node.InvalidSettingsException: The specified file C:\Users\eduar\Downloads\archive\Raw Data.csv does not exist.
+	at org.knime.core.node.util.CheckUtils.checkSetting(CheckUtils.java:272)
+	at org.knime.core.node.util.CheckUtils.checkSetting(CheckUtils.java:222)
+	at org.knime.filehandling.core.defaultnodesettings.filechooser.FileChooserPathAccessor.getRootPath(FileChooserPathAccessor.java:297)
+	at org.knime.filehandling.core.defaultnodesettings.filechooser.FileChooserPathAccessor.getFSPaths(FileChooserPathAccessor.java:204)
+	at org.knime.filehandling.core.node.table.reader.paths.PathSettings$1.getItems(PathSettings.java:105)
+	at org.knime.filehandling.core.node.table.reader.TableReaderNodeModel.getPaths(TableReaderNodeModel.java:195)
+	at org.knime.filehandling.core.node.table.reader.TableReaderNodeModel.execute(TableReaderNodeModel.java:158)
+	at org.knime.core.node.NodeModel.executeModel(NodeModel.java:549)
+	at org.knime.core.node.Node.invokeFullyNodeModelExecute(Node.java:1267)
+	at org.knime.core.node.Node.execute(Node.java:1041)
+	at org.knime.core.node.workflow.NativeNodeContainer.performExecuteNode(NativeNodeContainer.java:595)
+	at org.knime.core.node.exec.LocalNodeExecutionJob.mainExecute(LocalNodeExecutionJob.java:98)
+	at org.knime.core.node.workflow.NodeExecutionJob.internalRun(NodeExecutionJob.java:201)
+	at org.knime.core.node.workflow.NodeExecutionJob.run(NodeExecutionJob.java:117)
+	at org.knime.core.util.ThreadUtils$RunnableWithContextImpl.runWithContext(ThreadUtils.java:367)
+	at org.knime.core.util.ThreadUtils$RunnableWithContext.run(ThreadUtils.java:221)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.base/java.util.concurrent.FutureTask.run(Unknown Source)
+	at org.knime.core.util.ThreadPool$MyFuture.run(ThreadPool.java:123)
+	at org.knime.core.util.ThreadPool$Worker.run(ThreadPool.java:246)
+2023-05-12 01:43:30,598 : WARN  : main :  : Node : RProp MLP Learner : 4:43 : Only double columns for input
+2023-05-12 01:43:31,652 : WARN  : main :  : Node : RProp MLP Learner : 4:43 : Only double columns for input
+2023-05-12 01:44:27,268 : WARN  : main :  : Node : RProp MLP Learner : 4:43 : Only double columns for input
+2023-05-12 01:44:28,259 : WARN  : main :  : Node : RProp MLP Learner : 4:43 : Only double columns for input
+2023-05-12 01:44:30,455 : ERROR : KNIME-Worker-19-CSV Reader 4:1 :  : Node : CSV Reader : 4:1 : Execute failed: The specified file C:\Users\eduar\Downloads\archive\Raw Data.csv does not exist.
+org.knime.core.node.InvalidSettingsException: The specified file C:\Users\eduar\Downloads\archive\Raw Data.csv does not exist.
+	at org.knime.core.node.util.CheckUtils.checkSetting(CheckUtils.java:272)
+	at org.knime.core.node.util.CheckUtils.checkSetting(CheckUtils.java:222)
+	at org.knime.filehandling.core.defaultnodesettings.filechooser.FileChooserPathAccessor.getRootPath(FileChooserPathAccessor.java:297)
+	at org.knime.filehandling.core.defaultnodesettings.filechooser.FileChooserPathAccessor.getFSPaths(FileChooserPathAccessor.java:204)
+	at org.knime.filehandling.core.node.table.reader.paths.PathSettings$1.getItems(PathSettings.java:105)
+	at org.knime.filehandling.core.node.table.reader.TableReaderNodeModel.getPaths(TableReaderNodeModel.java:195)
+	at org.knime.filehandling.core.node.table.reader.TableReaderNodeModel.execute(TableReaderNodeModel.java:158)
+	at org.knime.core.node.NodeModel.executeModel(NodeModel.java:549)
+	at org.knime.core.node.Node.invokeFullyNodeModelExecute(Node.java:1267)
+	at org.knime.core.node.Node.execute(Node.java:1041)
+	at org.knime.core.node.workflow.NativeNodeContainer.performExecuteNode(NativeNodeContainer.java:595)
+	at org.knime.core.node.exec.LocalNodeExecutionJob.mainExecute(LocalNodeExecutionJob.java:98)
+	at org.knime.core.node.workflow.NodeExecutionJob.internalRun(NodeExecutionJob.java:201)
+	at org.knime.core.node.workflow.NodeExecutionJob.run(NodeExecutionJob.java:117)
+	at org.knime.core.util.ThreadUtils$RunnableWithContextImpl.runWithContext(ThreadUtils.java:367)
+	at org.knime.core.util.ThreadUtils$RunnableWithContext.run(ThreadUtils.java:221)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.base/java.util.concurrent.FutureTask.run(Unknown Source)
+	at org.knime.core.util.ThreadPool$MyFuture.run(ThreadPool.java:123)
+	at org.knime.core.util.ThreadPool$Worker.run(ThreadPool.java:246)
+2023-05-12 01:44:35,549 : ERROR : KNIME-Worker-20-CSV Reader 4:1 :  : Node : CSV Reader : 4:1 : Execute failed: The specified file C:\Users\eduar\Downloads\archive\Raw Data.csv does not exist.
+org.knime.core.node.InvalidSettingsException: The specified file C:\Users\eduar\Downloads\archive\Raw Data.csv does not exist.
+	at org.knime.core.node.util.CheckUtils.checkSetting(CheckUtils.java:272)
+	at org.knime.core.node.util.CheckUtils.checkSetting(CheckUtils.java:222)
+	at org.knime.filehandling.core.defaultnodesettings.filechooser.FileChooserPathAccessor.getRootPath(FileChooserPathAccessor.java:297)
+	at org.knime.filehandling.core.defaultnodesettings.filechooser.FileChooserPathAccessor.getFSPaths(FileChooserPathAccessor.java:204)
+	at org.knime.filehandling.core.node.table.reader.paths.PathSettings$1.getItems(PathSettings.java:105)
+	at org.knime.filehandling.core.node.table.reader.TableReaderNodeModel.getPaths(TableReaderNodeModel.java:195)
+	at org.knime.filehandling.core.node.table.reader.TableReaderNodeModel.execute(TableReaderNodeModel.java:158)
+	at org.knime.core.node.NodeModel.executeModel(NodeModel.java:549)
+	at org.knime.core.node.Node.invokeFullyNodeModelExecute(Node.java:1267)
+	at org.knime.core.node.Node.execute(Node.java:1041)
+	at org.knime.core.node.workflow.NativeNodeContainer.performExecuteNode(NativeNodeContainer.java:595)
+	at org.knime.core.node.exec.LocalNodeExecutionJob.mainExecute(LocalNodeExecutionJob.java:98)
+	at org.knime.core.node.workflow.NodeExecutionJob.internalRun(NodeExecutionJob.java:201)
+	at org.knime.core.node.workflow.NodeExecutionJob.run(NodeExecutionJob.java:117)
+	at org.knime.core.util.ThreadUtils$RunnableWithContextImpl.runWithContext(ThreadUtils.java:367)
+	at org.knime.core.util.ThreadUtils$RunnableWithContext.run(ThreadUtils.java:221)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.base/java.util.concurrent.FutureTask.run(Unknown Source)
+	at org.knime.core.util.ThreadPool$MyFuture.run(ThreadPool.java:123)
+	at org.knime.core.util.ThreadPool$Worker.run(ThreadPool.java:246)
+2023-05-12 01:45:05,231 : WARN  : main :  : Node : Normalizer : 4:39 : Auto-configure: [0, 1] normalization on all numeric columns: "NA_Sales", "EU_Sales", "JP_Sales",  ... <6 more>
+2023-05-12 01:45:23,160 : ERROR : KNIME-Worker-21-CSV Reader 4:1 :  : Node : CSV Reader : 4:1 : Execute failed: The specified file C:\Users\eduar\Downloads\archive\Raw Data.csv does not exist.
+org.knime.core.node.InvalidSettingsException: The specified file C:\Users\eduar\Downloads\archive\Raw Data.csv does not exist.
+	at org.knime.core.node.util.CheckUtils.checkSetting(CheckUtils.java:272)
+	at org.knime.core.node.util.CheckUtils.checkSetting(CheckUtils.java:222)
+	at org.knime.filehandling.core.defaultnodesettings.filechooser.FileChooserPathAccessor.getRootPath(FileChooserPathAccessor.java:297)
+	at org.knime.filehandling.core.defaultnodesettings.filechooser.FileChooserPathAccessor.getFSPaths(FileChooserPathAccessor.java:204)
+	at org.knime.filehandling.core.node.table.reader.paths.PathSettings$1.getItems(PathSettings.java:105)
+	at org.knime.filehandling.core.node.table.reader.TableReaderNodeModel.getPaths(TableReaderNodeModel.java:195)
+	at org.knime.filehandling.core.node.table.reader.TableReaderNodeModel.execute(TableReaderNodeModel.java:158)
+	at org.knime.core.node.NodeModel.executeModel(NodeModel.java:549)
+	at org.knime.core.node.Node.invokeFullyNodeModelExecute(Node.java:1267)
+	at org.knime.core.node.Node.execute(Node.java:1041)
+	at org.knime.core.node.workflow.NativeNodeContainer.performExecuteNode(NativeNodeContainer.java:595)
+	at org.knime.core.node.exec.LocalNodeExecutionJob.mainExecute(LocalNodeExecutionJob.java:98)
+	at org.knime.core.node.workflow.NodeExecutionJob.internalRun(NodeExecutionJob.java:201)
+	at org.knime.core.node.workflow.NodeExecutionJob.run(NodeExecutionJob.java:117)
+	at org.knime.core.util.ThreadUtils$RunnableWithContextImpl.runWithContext(ThreadUtils.java:367)
+	at org.knime.core.util.ThreadUtils$RunnableWithContext.run(ThreadUtils.java:221)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.base/java.util.concurrent.FutureTask.run(Unknown Source)
+	at org.knime.core.util.ThreadPool$MyFuture.run(ThreadPool.java:123)
+	at org.knime.core.util.ThreadPool$Worker.run(ThreadPool.java:246)
+2023-05-12 01:45:26,656 : ERROR : KNIME-Worker-22-CSV Reader 4:1 :  : Node : CSV Reader : 4:1 : Execute failed: The specified file C:\Users\eduar\Downloads\archive\Raw Data.csv does not exist.
+org.knime.core.node.InvalidSettingsException: The specified file C:\Users\eduar\Downloads\archive\Raw Data.csv does not exist.
+	at org.knime.core.node.util.CheckUtils.checkSetting(CheckUtils.java:272)
+	at org.knime.core.node.util.CheckUtils.checkSetting(CheckUtils.java:222)
+	at org.knime.filehandling.core.defaultnodesettings.filechooser.FileChooserPathAccessor.getRootPath(FileChooserPathAccessor.java:297)
+	at org.knime.filehandling.core.defaultnodesettings.filechooser.FileChooserPathAccessor.getFSPaths(FileChooserPathAccessor.java:204)
+	at org.knime.filehandling.core.node.table.reader.paths.PathSettings$1.getItems(PathSettings.java:105)
+	at org.knime.filehandling.core.node.table.reader.TableReaderNodeModel.getPaths(TableReaderNodeModel.java:195)
+	at org.knime.filehandling.core.node.table.reader.TableReaderNodeModel.execute(TableReaderNodeModel.java:158)
+	at org.knime.core.node.NodeModel.executeModel(NodeModel.java:549)
+	at org.knime.core.node.Node.invokeFullyNodeModelExecute(Node.java:1267)
+	at org.knime.core.node.Node.execute(Node.java:1041)
+	at org.knime.core.node.workflow.NativeNodeContainer.performExecuteNode(NativeNodeContainer.java:595)
+	at org.knime.core.node.exec.LocalNodeExecutionJob.mainExecute(LocalNodeExecutionJob.java:98)
+	at org.knime.core.node.workflow.NodeExecutionJob.internalRun(NodeExecutionJob.java:201)
+	at org.knime.core.node.workflow.NodeExecutionJob.run(NodeExecutionJob.java:117)
+	at org.knime.core.util.ThreadUtils$RunnableWithContextImpl.runWithContext(ThreadUtils.java:367)
+	at org.knime.core.util.ThreadUtils$RunnableWithContext.run(ThreadUtils.java:221)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.base/java.util.concurrent.FutureTask.run(Unknown Source)
+	at org.knime.core.util.ThreadPool$MyFuture.run(ThreadPool.java:123)
+	at org.knime.core.util.ThreadPool$Worker.run(ThreadPool.java:246)
+2023-05-12 01:45:35,184 : WARN  : main :  : Node : RProp MLP Learner : 4:43 : Only double columns for input
+2023-05-12 01:46:04,130 : WARN  : main :  : Node : RProp MLP Learner : 4:43 : Only double columns for input
+2023-05-12 01:46:04,864 : WARN  : main :  : Node : RProp MLP Learner : 4:43 : Only double columns for input
+2023-05-12 01:46:07,043 : WARN  : KNIME-Worker-23-CSV Reader 4:1 :  : Node : RProp MLP Learner : 4:43 : Only double columns for input
+2023-05-12 01:46:07,282 : WARN  : KNIME-Worker-25-String To Number 4:32 :  : Node : RProp MLP Learner : 4:43 : Only double columns for input
+2023-05-12 01:46:08,043 : WARN  : KNIME-Worker-22-Missing Value 4:23 :  : Node : Missing Value : 4:23 : The current settings use missing value handling methods that cannot be represented in PMML 4.2
+2023-05-12 01:46:08,576 : WARN  : KNIME-Worker-22-X-Partitioner 4:38 :  : Node : RProp MLP Learner : 4:43 : Only double columns for input
+2023-05-12 01:46:08,899 : WARN  : KNIME-Worker-35-Normalizer 4:41 :  : Node : RProp MLP Learner : 4:43 : Only double columns for input
+2023-05-12 01:46:27,292 : WARN  : main :  : Node : RProp MLP Learner : 4:43 : Only double columns for input
+2023-05-12 01:46:27,862 : WARN  : main :  : Node : RProp MLP Learner : 4:43 : Only double columns for input
+2023-05-12 01:51:53,274 : WARN  : main :  : Node : RProp MLP Learner : 4:43 : Only double columns for input
+2023-05-12 01:51:54,505 : WARN  : main :  : Node : RProp MLP Learner : 4:43 : Only double columns for input
+2023-05-12 01:52:36,153 : WARN  : main :  : Node : RProp MLP Learner : 4:43 : Only double columns for input
+2023-05-12 01:53:01,048 : WARN  : main :  : Node : RProp MLP Learner : 4:43 : Input data not normalized. Please consider using the Normalizer Node first.
+2023-05-12 01:53:01,053 : WARN  : main :  : Node : RProp MLP Learner : 4:43 : Input data not normalized. Please consider using the Normalizer Node first.
+2023-05-12 01:53:01,053 : WARN  : main :  : Node : RProp MLP Learner : 4:43 : Input data not normalized. Please consider using the Normalizer Node first.
+2023-05-12 01:53:01,053 : WARN  : main :  : Node : RProp MLP Learner : 4:43 : Input data not normalized. Please consider using the Normalizer Node first.
+2023-05-12 01:53:01,054 : WARN  : main :  : Node : RProp MLP Learner : 4:43 : Domain range for regression in column Global_Sales not in range [0,1]
+2023-05-12 01:53:01,592 : WARN  : main :  : Node : RProp MLP Learner : 4:43 : Input data not normalized. Please consider using the Normalizer Node first.
+2023-05-12 01:53:01,592 : WARN  : main :  : Node : RProp MLP Learner : 4:43 : Input data not normalized. Please consider using the Normalizer Node first.
+2023-05-12 01:53:01,593 : WARN  : main :  : Node : RProp MLP Learner : 4:43 : Input data not normalized. Please consider using the Normalizer Node first.
+2023-05-12 01:53:01,593 : WARN  : main :  : Node : RProp MLP Learner : 4:43 : Input data not normalized. Please consider using the Normalizer Node first.
+2023-05-12 01:53:01,593 : WARN  : main :  : Node : RProp MLP Learner : 4:43 : Domain range for regression in column Global_Sales not in range [0,1]
+2023-05-12 01:53:08,675 : WARN  : KNIME-Worker-40-X-Partitioner 4:38 :  : Node : RProp MLP Learner : 4:43 : Input data not normalized. Please consider using the Normalizer Node first.
+2023-05-12 01:53:08,679 : WARN  : KNIME-Worker-40-X-Partitioner 4:38 :  : Node : RProp MLP Learner : 4:43 : Input data not normalized. Please consider using the Normalizer Node first.
+2023-05-12 01:53:08,680 : WARN  : KNIME-Worker-40-X-Partitioner 4:38 :  : Node : RProp MLP Learner : 4:43 : Input data not normalized. Please consider using the Normalizer Node first.
+2023-05-12 01:53:08,680 : WARN  : KNIME-Worker-40-X-Partitioner 4:38 :  : Node : RProp MLP Learner : 4:43 : Input data not normalized. Please consider using the Normalizer Node first.
+2023-05-12 01:53:08,680 : WARN  : KNIME-Worker-40-X-Partitioner 4:38 :  : Node : RProp MLP Learner : 4:43 : Domain range for regression in column Global_Sales not in range [0,1]
+2023-05-12 01:53:08,709 : WARN  : KNIME-Worker-41-Normalizer 4:41 :  : Node : RProp MLP Learner : 4:43 : Input data not normalized. Please consider using the Normalizer Node first.
+2023-05-12 01:53:08,711 : WARN  : KNIME-Worker-41-Normalizer 4:41 :  : Node : RProp MLP Learner : 4:43 : Input data not normalized. Please consider using the Normalizer Node first.
+2023-05-12 01:53:08,711 : WARN  : KNIME-Worker-41-Normalizer 4:41 :  : Node : RProp MLP Learner : 4:43 : Input data not normalized. Please consider using the Normalizer Node first.
+2023-05-12 01:53:08,711 : WARN  : KNIME-Worker-41-Normalizer 4:41 :  : Node : RProp MLP Learner : 4:43 : Input data not normalized. Please consider using the Normalizer Node first.
+2023-05-12 01:53:08,711 : WARN  : KNIME-Worker-41-Normalizer 4:41 :  : Node : RProp MLP Learner : 4:43 : Domain range for regression in column Global_Sales not in range [0,1]
+2023-05-12 01:53:25,212 : WARN  : main :  : Node : RProp MLP Learner : 4:43 : Input data not normalized. Please consider using the Normalizer Node first.
+2023-05-12 01:53:25,216 : WARN  : main :  : Node : RProp MLP Learner : 4:43 : Input data not normalized. Please consider using the Normalizer Node first.
+2023-05-12 01:53:25,216 : WARN  : main :  : Node : RProp MLP Learner : 4:43 : Input data not normalized. Please consider using the Normalizer Node first.
+2023-05-12 01:53:25,216 : WARN  : main :  : Node : RProp MLP Learner : 4:43 : Input data not normalized. Please consider using the Normalizer Node first.
+2023-05-12 01:53:25,216 : WARN  : main :  : Node : RProp MLP Learner : 4:43 : Domain range for regression in column Global_Sales not in range [0,1]
+2023-05-12 01:53:26,676 : WARN  : main :  : Node : RProp MLP Learner : 4:43 : Input data not normalized. Please consider using the Normalizer Node first.
+2023-05-12 01:53:26,678 : WARN  : main :  : Node : RProp MLP Learner : 4:43 : Input data not normalized. Please consider using the Normalizer Node first.
+2023-05-12 01:53:26,678 : WARN  : main :  : Node : RProp MLP Learner : 4:43 : Input data not normalized. Please consider using the Normalizer Node first.
+2023-05-12 01:53:26,678 : WARN  : main :  : Node : RProp MLP Learner : 4:43 : Input data not normalized. Please consider using the Normalizer Node first.
+2023-05-12 01:53:26,679 : WARN  : main :  : Node : RProp MLP Learner : 4:43 : Domain range for regression in column Global_Sales not in range [0,1]
+2023-05-12 01:53:43,552 : WARN  : main :  : Node : RProp MLP Learner : 4:43 : Input data not normalized. Please consider using the Normalizer Node first.
+2023-05-12 01:53:43,553 : WARN  : main :  : Node : RProp MLP Learner : 4:43 : Input data not normalized. Please consider using the Normalizer Node first.
+2023-05-12 01:53:43,553 : WARN  : main :  : Node : RProp MLP Learner : 4:43 : Input data not normalized. Please consider using the Normalizer Node first.
+2023-05-12 01:53:43,553 : WARN  : main :  : Node : RProp MLP Learner : 4:43 : Input data not normalized. Please consider using the Normalizer Node first.
+2023-05-12 01:53:43,554 : WARN  : main :  : Node : RProp MLP Learner : 4:43 : Domain range for regression in column Global_Sales not in range [0,1]
+2023-05-12 01:53:44,328 : WARN  : main :  : Node : RProp MLP Learner : 4:43 : Input data not normalized. Please consider using the Normalizer Node first.
+2023-05-12 01:53:44,329 : WARN  : main :  : Node : RProp MLP Learner : 4:43 : Input data not normalized. Please consider using the Normalizer Node first.
+2023-05-12 01:53:44,329 : WARN  : main :  : Node : RProp MLP Learner : 4:43 : Input data not normalized. Please consider using the Normalizer Node first.
+2023-05-12 01:53:44,329 : WARN  : main :  : Node : RProp MLP Learner : 4:43 : Input data not normalized. Please consider using the Normalizer Node first.
+2023-05-12 01:53:44,329 : WARN  : main :  : Node : RProp MLP Learner : 4:43 : Domain range for regression in column Global_Sales not in range [0,1]
+2023-05-12 01:53:49,911 : WARN  : main :  : Node : RProp MLP Learner : 4:43 : Input data not normalized. Please consider using the Normalizer Node first.
+2023-05-12 01:53:49,917 : WARN  : main :  : Node : RProp MLP Learner : 4:43 : Input data not normalized. Please consider using the Normalizer Node first.
+2023-05-12 01:53:49,918 : WARN  : main :  : Node : RProp MLP Learner : 4:43 : Input data not normalized. Please consider using the Normalizer Node first.
+2023-05-12 01:53:49,918 : WARN  : main :  : Node : RProp MLP Learner : 4:43 : Input data not normalized. Please consider using the Normalizer Node first.
+2023-05-12 01:53:49,918 : WARN  : main :  : Node : RProp MLP Learner : 4:43 : Domain range for regression in column Global_Sales not in range [0,1]
+2023-05-12 01:53:50,390 : WARN  : main :  : Node : RProp MLP Learner : 4:43 : Input data not normalized. Please consider using the Normalizer Node first.
+2023-05-12 01:53:50,390 : WARN  : main :  : Node : RProp MLP Learner : 4:43 : Input data not normalized. Please consider using the Normalizer Node first.
+2023-05-12 01:53:50,390 : WARN  : main :  : Node : RProp MLP Learner : 4:43 : Input data not normalized. Please consider using the Normalizer Node first.
+2023-05-12 01:53:50,390 : WARN  : main :  : Node : RProp MLP Learner : 4:43 : Input data not normalized. Please consider using the Normalizer Node first.
+2023-05-12 01:53:50,390 : WARN  : main :  : Node : RProp MLP Learner : 4:43 : Domain range for regression in column Global_Sales not in range [0,1]
+2023-05-12 02:02:38,296 : WARN  : ModalContext :  : Node : GroupBy : 8:26 : No grouping column included. Aggregate complete table.
+2023-05-12 02:02:38,299 : WARN  : ModalContext :  : Node : GroupBy : 8:26 : No aggregation column defined
+2023-05-12 02:02:38,300 : WARN  : ModalContext :  : Node : GroupBy : 8:26 : No aggregation column defined
+2023-05-12 02:02:38,300 : WARN  : ModalContext :  : Node : GroupBy : 8:26 : Please select at least one group or aggregation column
+2023-05-12 02:03:09,214 : WARN  : ModalContext :  : Node : MISSING Column Expressions : 8:7 : Node can't be executed - Node "Column Expressions" not available from extension "KNIME Expressions" (provided by "KNIME AG, Zurich, Switzerland"; plugin "org.knime.expressions.base" is not installed)
+2023-05-12 02:03:09,271 : ERROR : ModalContext :  : LoadWorkflowRunnable :  :  : Errors during load: Status: DataLoadError: TAREFAB 8 loaded with error during data load
+2023-05-12 02:03:09,272 : ERROR : ModalContext :  : LoadWorkflowRunnable :  :  :   Status: DataLoadError: TAREFAB 8
+2023-05-12 02:03:09,272 : ERROR : ModalContext :  : LoadWorkflowRunnable :  :  :     Status: Error: Node "Column Expressions" not available from extension "KNIME Expressions" (provided by "KNIME AG, Zurich, Switzerland"; plugin "org.knime.expressions.base" is not installed)
+2023-05-12 02:03:09,272 : ERROR : ModalContext :  : LoadWorkflowRunnable :  :  :     Status: DataLoadError: CSV Reader 8:1
+2023-05-12 02:03:09,272 : ERROR : ModalContext :  : LoadWorkflowRunnable :  :  :       Status: DataLoadError: Unable to load port content for node "CSV Reader": No such data file: /Users/goncalofreitas/Desktop/LEI/3rd/ADI/TAREFAB/CSV Reader (#1)/port_1/data.xml
+2023-05-12 02:03:09,272 : ERROR : ModalContext :  : LoadWorkflowRunnable :  :  :       Status: DataLoadError: State has changed from EXECUTED to CONFIGURED
+2023-05-12 02:03:09,272 : ERROR : ModalContext :  : LoadWorkflowRunnable :  :  :     Status: DataLoadError: MISSING Column Expressions 8:7
+2023-05-12 02:03:09,272 : ERROR : ModalContext :  : LoadWorkflowRunnable :  :  :       Status: DataLoadError: Unable to load port content for node "MISSING Column Expressions": No such data file: /Users/goncalofreitas/Desktop/LEI/3rd/ADI/TAREFAB/Column Expressions (#7)/port_1/data.xml
+2023-05-12 02:03:09,272 : ERROR : ModalContext :  : LoadWorkflowRunnable :  :  :     Status: DataLoadError: String To Number 8:8
+2023-05-12 02:03:09,272 : ERROR : ModalContext :  : LoadWorkflowRunnable :  :  :       Status: DataLoadError: Unable to load port content for node "String To Number": No such data file: /Users/goncalofreitas/Desktop/LEI/3rd/ADI/TAREFAB/String To Number (#8)/port_1/data.xml
+2023-05-12 02:03:09,272 : ERROR : ModalContext :  : LoadWorkflowRunnable :  :  :     Status: DataLoadError: Partitioning 8:2
+2023-05-12 02:03:09,272 : ERROR : ModalContext :  : LoadWorkflowRunnable :  :  :       Status: DataLoadError: Unable to load port content for node "Partitioning": No such data file: /Users/goncalofreitas/Desktop/LEI/3rd/ADI/TAREFAB/Partitioning (#2)/port_1/data.xml
+2023-05-12 02:04:42,437 : ERROR : main :  : NodeContainerEditPart :  :  : The dialog pane for node 'MISSING Column Expressions 8:7' has thrown a 'SWTException'. That is most likely an implementation error.
+org.eclipse.swt.SWTException: Widget is disposed
+	at org.eclipse.swt.SWT.error(SWT.java:4918)
+	at org.eclipse.swt.SWT.error(SWT.java:4833)
+	at org.eclipse.swt.SWT.error(SWT.java:4804)
+	at org.eclipse.swt.widgets.Widget.error(Widget.java:811)
+	at org.eclipse.swt.widgets.Widget.checkWidget(Widget.java:597)
+	at org.eclipse.swt.widgets.Shell.setEnabled(Shell.java:1730)
+	at org.knime.workbench.ui.wrapper.WrappedNodeDialog.open(WrappedNodeDialog.java:207)
+	at org.knime.workbench.editor2.editparts.NodeContainerEditPart.openDialog(NodeContainerEditPart.java:957)
+	at org.knime.workbench.editor2.editparts.NodeContainerEditPart.openNodeDialog(NodeContainerEditPart.java:864)
+	at org.knime.workbench.editor2.editparts.NodeContainerEditPart.openNodeDialog(NodeContainerEditPart.java:846)
+	at org.knime.workbench.editor2.editparts.NodeContainerEditPart.openDialog(NodeContainerEditPart.java:835)
+	at org.knime.workbench.editor2.editparts.NodeContainerEditPart.performRequest(NodeContainerEditPart.java:399)
+	at org.eclipse.gef.tools.SelectEditPartTracker.performOpen(SelectEditPartTracker.java:194)
+	at org.eclipse.gef.tools.SelectEditPartTracker.handleDoubleClick(SelectEditPartTracker.java:137)
+	at org.knime.workbench.editor2.WorkflowSelectionDragEditPartsTracker.handleDoubleClick(WorkflowSelectionDragEditPartsTracker.java:126)
+	at org.eclipse.gef.tools.AbstractTool.mouseDoubleClick(AbstractTool.java:1069)
+	at org.eclipse.gef.tools.SelectionTool.mouseDoubleClick(SelectionTool.java:527)
+	at org.eclipse.gef.EditDomain.mouseDoubleClick(EditDomain.java:231)
+	at org.eclipse.gef.ui.parts.DomainEventDispatcher.dispatchMouseDoubleClicked(DomainEventDispatcher.java:291)
+	at org.eclipse.draw2d.LightweightSystem$EventHandler.mouseDoubleClick(LightweightSystem.java:518)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:200)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4604)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1524)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1547)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1532)
+	at org.eclipse.swt.widgets.Widget.notifyListeners(Widget.java:1325)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4390)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3966)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1155)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1046)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:644)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:551)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:156)
+	at org.knime.product.rcp.KNIMEApplication.start(KNIMEApplication.java:191)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:136)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:402)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.base/java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:659)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:596)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1467)
+2023-05-12 02:04:42,535 : ERROR : KNIME Sync Exec Dispatcher-1 :  : SyncExecQueueDispatcher :  :  : Uncaught exception while queuing events into main thread
+org.eclipse.swt.SWTException: Invalid thread access
+	at org.eclipse.swt.SWT.error(SWT.java:4918)
+	at org.eclipse.swt.SWT.error(SWT.java:4833)
+	at org.eclipse.swt.SWT.error(SWT.java:4804)
+	at org.eclipse.swt.widgets.Display.error(Display.java:1191)
+	at org.eclipse.swt.widgets.Display.createDisplay(Display.java:942)
+	at org.eclipse.swt.widgets.Display.create(Display.java:926)
+	at org.eclipse.swt.graphics.Device.<init>(Device.java:132)
+	at org.eclipse.swt.widgets.Display.<init>(Display.java:753)
+	at org.eclipse.swt.widgets.Display.<init>(Display.java:744)
+	at org.eclipse.swt.widgets.Display.getDefault(Display.java:1525)
+	at org.knime.workbench.ui.SyncExecQueueDispatcher$2.run(SyncExecQueueDispatcher.java:120)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.base/java.lang.Thread.run(Unknown Source)
+2023-05-12 02:04:42,536 : ERROR : KNIME Sync Exec Dispatcher-5 :  : SyncExecQueueDispatcher :  :  : Uncaught exception while queuing events into main thread
+org.eclipse.swt.SWTException: Invalid thread access
+	at org.eclipse.swt.SWT.error(SWT.java:4918)
+	at org.eclipse.swt.SWT.error(SWT.java:4833)
+	at org.eclipse.swt.SWT.error(SWT.java:4804)
+	at org.eclipse.swt.widgets.Display.error(Display.java:1191)
+	at org.eclipse.swt.widgets.Display.createDisplay(Display.java:942)
+	at org.eclipse.swt.widgets.Display.create(Display.java:926)
+	at org.eclipse.swt.graphics.Device.<init>(Device.java:132)
+	at org.eclipse.swt.widgets.Display.<init>(Display.java:753)
+	at org.eclipse.swt.widgets.Display.<init>(Display.java:744)
+	at org.eclipse.swt.widgets.Display.getDefault(Display.java:1525)
+	at org.knime.workbench.ui.SyncExecQueueDispatcher$2.run(SyncExecQueueDispatcher.java:120)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.base/java.lang.Thread.run(Unknown Source)
+2023-05-12 02:04:42,536 : ERROR : KNIME Sync Exec Dispatcher-4 :  : SyncExecQueueDispatcher :  :  : Uncaught exception while queuing events into main thread
+org.eclipse.swt.SWTException: Invalid thread access
+	at org.eclipse.swt.SWT.error(SWT.java:4918)
+	at org.eclipse.swt.SWT.error(SWT.java:4833)
+	at org.eclipse.swt.SWT.error(SWT.java:4804)
+	at org.eclipse.swt.widgets.Display.error(Display.java:1191)
+	at org.eclipse.swt.widgets.Display.createDisplay(Display.java:942)
+	at org.eclipse.swt.widgets.Display.create(Display.java:926)
+	at org.eclipse.swt.graphics.Device.<init>(Device.java:132)
+	at org.eclipse.swt.widgets.Display.<init>(Display.java:753)
+	at org.eclipse.swt.widgets.Display.<init>(Display.java:744)
+	at org.eclipse.swt.widgets.Display.getDefault(Display.java:1525)
+	at org.knime.workbench.ui.SyncExecQueueDispatcher$2.run(SyncExecQueueDispatcher.java:120)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.base/java.lang.Thread.run(Unknown Source)
+2023-05-12 02:04:42,536 : ERROR : KNIME Sync Exec Dispatcher-3 :  : SyncExecQueueDispatcher :  :  : Uncaught exception while queuing events into main thread
+org.eclipse.swt.SWTException: Invalid thread access
+	at org.eclipse.swt.SWT.error(SWT.java:4918)
+	at org.eclipse.swt.SWT.error(SWT.java:4833)
+	at org.eclipse.swt.SWT.error(SWT.java:4804)
+	at org.eclipse.swt.widgets.Display.error(Display.java:1191)
+	at org.eclipse.swt.widgets.Display.createDisplay(Display.java:942)
+	at org.eclipse.swt.widgets.Display.create(Display.java:926)
+	at org.eclipse.swt.graphics.Device.<init>(Device.java:132)
+	at org.eclipse.swt.widgets.Display.<init>(Display.java:753)
+	at org.eclipse.swt.widgets.Display.<init>(Display.java:744)
+	at org.eclipse.swt.widgets.Display.getDefault(Display.java:1525)
+	at org.knime.workbench.ui.SyncExecQueueDispatcher$2.run(SyncExecQueueDispatcher.java:120)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.base/java.lang.Thread.run(Unknown Source)
+2023-05-12 02:04:42,535 : ERROR : KNIME Sync Exec Dispatcher-2 :  : SyncExecQueueDispatcher :  :  : Uncaught exception while queuing events into main thread
+org.eclipse.swt.SWTException: Invalid thread access
+	at org.eclipse.swt.SWT.error(SWT.java:4918)
+	at org.eclipse.swt.SWT.error(SWT.java:4833)
+	at org.eclipse.swt.SWT.error(SWT.java:4804)
+	at org.eclipse.swt.widgets.Display.error(Display.java:1191)
+	at org.eclipse.swt.widgets.Display.createDisplay(Display.java:942)
+	at org.eclipse.swt.widgets.Display.create(Display.java:926)
+	at org.eclipse.swt.graphics.Device.<init>(Device.java:132)
+	at org.eclipse.swt.widgets.Display.<init>(Display.java:753)
+	at org.eclipse.swt.widgets.Display.<init>(Display.java:744)
+	at org.eclipse.swt.widgets.Display.getDefault(Display.java:1525)
+	at org.knime.workbench.ui.SyncExecQueueDispatcher$2.run(SyncExecQueueDispatcher.java:120)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.base/java.lang.Thread.run(Unknown Source)
+2023-05-12 02:05:03,539 : WARN  : ModalContext :  : Node : RProp MLP Learner : 3:43 : Input data not normalized. Please consider using the Normalizer Node first.
+2023-05-12 02:05:03,542 : WARN  : ModalContext :  : Node : RProp MLP Learner : 3:43 : Input data not normalized. Please consider using the Normalizer Node first.
+2023-05-12 02:05:03,542 : WARN  : ModalContext :  : Node : RProp MLP Learner : 3:43 : Input data not normalized. Please consider using the Normalizer Node first.
+2023-05-12 02:05:03,542 : WARN  : ModalContext :  : Node : RProp MLP Learner : 3:43 : Input data not normalized. Please consider using the Normalizer Node first.
+2023-05-12 02:05:03,543 : WARN  : ModalContext :  : Node : RProp MLP Learner : 3:43 : Domain range for regression in column Global_Sales not in range [0,1]
+2023-05-12 02:05:10,604 : WARN  : ModalContext :  : Node : Scorer (JavaScript) : 4:9 : Column actual_productivity is not string compatible, its type is Number (double)
+2023-05-12 02:05:10,629 : WARN  : ModalContext :  : LoadWorkflowRunnable :  :  : Warnings during load: Status: Warning: TAREFAB 4 loaded with warnings
+2023-05-12 02:05:10,629 : WARN  : ModalContext :  : LoadWorkflowRunnable :  :  :   Status: Warning: TAREFAB 4
+2023-05-12 02:05:10,629 : WARN  : ModalContext :  : LoadWorkflowRunnable :  :  :     Status: Warning: Column Expressions 4:7
+2023-05-12 02:05:10,629 : WARN  : ModalContext :  : LoadWorkflowRunnable :  :  :       Status: Warning: State has changed from IDLE to CONFIGURED
+2023-05-12 02:05:10,629 : WARN  : ModalContext :  : LoadWorkflowRunnable :  :  :     Status: Warning: String To Number 4:8
+2023-05-12 02:05:10,629 : WARN  : ModalContext :  : LoadWorkflowRunnable :  :  :       Status: Warning: State has changed from IDLE to CONFIGURED
+2023-05-12 02:05:10,629 : WARN  : ModalContext :  : LoadWorkflowRunnable :  :  :     Status: Warning: Partitioning 4:2
+2023-05-12 02:05:10,629 : WARN  : ModalContext :  : LoadWorkflowRunnable :  :  :       Status: Warning: State has changed from IDLE to CONFIGURED
+2023-05-12 02:05:10,629 : WARN  : ModalContext :  : LoadWorkflowRunnable :  :  :     Status: Warning: Linear Regression Learner 4:3
+2023-05-12 02:05:10,629 : WARN  : ModalContext :  : LoadWorkflowRunnable :  :  :       Status: Warning: State has changed from IDLE to CONFIGURED
+2023-05-12 02:05:10,630 : WARN  : ModalContext :  : LoadWorkflowRunnable :  :  :     Status: Warning: Regression Predictor 4:4
+2023-05-12 02:05:10,630 : WARN  : ModalContext :  : LoadWorkflowRunnable :  :  :       Status: Warning: State has changed from IDLE to CONFIGURED
+2023-05-12 02:07:15,080 : WARN  : main :  : Node : Scorer (JavaScript) : 4:9 : Column actual_productivity is not string compatible, its type is Number (double)
+2023-05-12 02:07:27,638 : WARN  : main :  : Node : Scorer (JavaScript) : 4:9 : Column actual_productivity is not string compatible, its type is Number (double)
+2023-05-12 02:07:28,807 : WARN  : main :  : Node : Scorer (JavaScript) : 4:9 : Column actual_productivity is not string compatible, its type is Number (double)
+2023-05-12 02:07:32,456 : WARN  : KNIME-Worker-11-CSV Reader 4:1 :  : Node : Scorer (JavaScript) : 4:9 : Column actual_productivity is not string compatible, its type is Number (double)
+2023-05-12 02:07:33,414 : WARN  : KNIME-Worker-13-String To Number 4:8 :  : Node : Scorer (JavaScript) : 4:9 : Column actual_productivity is not string compatible, its type is Number (double)
+2023-05-12 02:07:33,694 : ERROR : KNIME-Worker-15-Linear Regression Learner 4:3 :  : Node : Linear Regression Learner : 4:3 : Execute failed: Index: -1, Size: 13
+java.lang.IndexOutOfBoundsException: Index: -1, Size: 13
+	at java.base/java.util.LinkedList.checkElementIndex(Unknown Source)
+	at java.base/java.util.LinkedList.get(Unknown Source)
+	at java.base/java.util.Collections$UnmodifiableList.get(Unknown Source)
+	at org.knime.base.node.mine.regression.RegressionContent.init(RegressionContent.java:728)
+	at org.knime.base.node.mine.regression.linear2.learner.LinearRegressionContent.<init>(LinearRegressionContent.java:158)
+	at org.knime.base.node.mine.regression.linear2.learner.Learner.perform(Learner.java:127)
+	at org.knime.base.node.mine.regression.linear2.learner.LinReg2Learner.execute(LinReg2Learner.java:150)
+	at org.knime.base.node.mine.regression.linear2.learner.LinReg2LearnerNodeModel.execute(LinReg2LearnerNodeModel.java:169)
+	at org.knime.core.node.NodeModel.executeModel(NodeModel.java:549)
+	at org.knime.core.node.Node.invokeFullyNodeModelExecute(Node.java:1267)
+	at org.knime.core.node.Node.execute(Node.java:1041)
+	at org.knime.core.node.workflow.NativeNodeContainer.performExecuteNode(NativeNodeContainer.java:595)
+	at org.knime.core.node.exec.LocalNodeExecutionJob.mainExecute(LocalNodeExecutionJob.java:98)
+	at org.knime.core.node.workflow.NodeExecutionJob.internalRun(NodeExecutionJob.java:201)
+	at org.knime.core.node.workflow.NodeExecutionJob.run(NodeExecutionJob.java:117)
+	at org.knime.core.util.ThreadUtils$RunnableWithContextImpl.runWithContext(ThreadUtils.java:367)
+	at org.knime.core.util.ThreadUtils$RunnableWithContext.run(ThreadUtils.java:221)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.base/java.util.concurrent.FutureTask.run(Unknown Source)
+	at org.knime.core.util.ThreadPool$MyFuture.run(ThreadPool.java:123)
+	at org.knime.core.util.ThreadPool$Worker.run(ThreadPool.java:246)
+2023-05-12 02:10:43,697 : WARN  : ModalContext :  : Node : Decision Tree Predictor : 5:13 : Learning column "quality_bin" not found in input data to be predicted
+2023-05-12 02:10:54,451 : ERROR : KNIME Sync Exec Dispatcher-1 :  : SyncExecQueueDispatcher :  :  : Uncaught exception while queuing events into main thread
+org.eclipse.swt.SWTException: Invalid thread access
+	at org.eclipse.swt.SWT.error(SWT.java:4918)
+	at org.eclipse.swt.SWT.error(SWT.java:4833)
+	at org.eclipse.swt.SWT.error(SWT.java:4804)
+	at org.eclipse.swt.widgets.Display.error(Display.java:1191)
+	at org.eclipse.swt.widgets.Display.createDisplay(Display.java:942)
+	at org.eclipse.swt.widgets.Display.create(Display.java:926)
+	at org.eclipse.swt.graphics.Device.<init>(Device.java:132)
+	at org.eclipse.swt.widgets.Display.<init>(Display.java:753)
+	at org.eclipse.swt.widgets.Display.<init>(Display.java:744)
+	at org.eclipse.swt.widgets.Display.getDefault(Display.java:1525)
+	at org.knime.workbench.ui.SyncExecQueueDispatcher$2.run(SyncExecQueueDispatcher.java:120)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.base/java.lang.Thread.run(Unknown Source)
+2023-05-12 02:10:54,451 : ERROR : KNIME Sync Exec Dispatcher-2 :  : SyncExecQueueDispatcher :  :  : Uncaught exception while queuing events into main thread
+org.eclipse.swt.SWTException: Invalid thread access
+	at org.eclipse.swt.SWT.error(SWT.java:4918)
+	at org.eclipse.swt.SWT.error(SWT.java:4833)
+	at org.eclipse.swt.SWT.error(SWT.java:4804)
+	at org.eclipse.swt.widgets.Display.error(Display.java:1191)
+	at org.eclipse.swt.widgets.Display.createDisplay(Display.java:942)
+	at org.eclipse.swt.widgets.Display.create(Display.java:926)
+	at org.eclipse.swt.graphics.Device.<init>(Device.java:132)
+	at org.eclipse.swt.widgets.Display.<init>(Display.java:753)
+	at org.eclipse.swt.widgets.Display.<init>(Display.java:744)
+	at org.eclipse.swt.widgets.Display.getDefault(Display.java:1525)
+	at org.knime.workbench.ui.SyncExecQueueDispatcher$2.run(SyncExecQueueDispatcher.java:120)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.base/java.lang.Thread.run(Unknown Source)
+2023-05-12 14:08:08,943 : WARN  : ModalContext :  : Node : RProp MLP Learner : 3:43 : Input data not normalized. Please consider using the Normalizer Node first.
+2023-05-12 14:08:08,945 : WARN  : ModalContext :  : Node : RProp MLP Learner : 3:43 : Input data not normalized. Please consider using the Normalizer Node first.
+2023-05-12 14:08:08,946 : WARN  : ModalContext :  : Node : RProp MLP Learner : 3:43 : Input data not normalized. Please consider using the Normalizer Node first.
+2023-05-12 14:08:08,946 : WARN  : ModalContext :  : Node : RProp MLP Learner : 3:43 : Input data not normalized. Please consider using the Normalizer Node first.
+2023-05-12 14:08:08,946 : WARN  : ModalContext :  : Node : RProp MLP Learner : 3:43 : Domain range for regression in column Global_Sales not in range [0,1]
+2023-05-12 14:08:15,431 : WARN  : ModalContext :  : Node : Scorer : 4:16 : No columns selected yet.
+2023-05-12 14:08:15,434 : WARN  : ModalContext :  : Node : Scorer : 4:15 : No columns selected yet.
+2023-05-12 14:08:16,917 : WARN  : ModalContext :  : Node : Decision Tree Predictor : 5:13 : Learning column "quality_bin" not found in input data to be predicted
+2023-05-12 14:08:17,428 : WARN  : ModalContext :  : Node : Scorer (JavaScript) : 6:9 : Column actual_productivity is not string compatible, its type is Number (double)
+2023-05-12 14:27:19,639 : WARN  : main :  : Node : Rank Correlation : 6:10 : Auto configuration: Using all suitable columns (in total 14)
+2023-05-12 14:27:28,776 : WARN  : main :  : Node : Linear Correlation : 6:11 : Auto configuration: Using all suitable columns (in total 14)
+2023-05-12 14:40:08,278 : WARN  : main :  : Node : Rank Correlation : 6:11 : Auto configuration: Using all suitable columns (in total 14)
+2023-05-12 14:44:08,673 : WARN  : main :  : Node : Scorer (JavaScript) : 6:9 : Column actual_productivity is not string compatible, its type is Number (double)
+2023-05-12 14:44:10,393 : WARN  : main :  : Node : Scorer (JavaScript) : 6:9 : Column actual_productivity is not string compatible, its type is Number (double)
+2023-05-12 14:44:18,529 : WARN  : KNIME-Worker-16-String To Number 6:8 :  : Node : Scorer (JavaScript) : 6:9 : Column actual_productivity is not string compatible, its type is Number (double)
+2023-05-12 14:49:35,217 : WARN  : KNIME-Worker-18-Statistics 6:12 :  : Node : Statistics : 6:12 : Maximum number of unique possible values (1000) exceeds for column(s): "ï»¿rowID"
+2023-05-12 15:15:55,535 : WARN  : KNIME-Worker-44-Scatter Plot 6:13 :  : Node : Scatter Plot : 6:13 : Table contains missing or unsupported values - these values will be omitted.
+2023-05-12 15:16:29,220 : WARN  : KNIME-Worker-46-Scatter Plot 6:13 :  : Node : Scatter Plot : 6:13 : Table contains missing or unsupported values - these values will be omitted.
+2023-05-12 15:17:38,048 : WARN  : KNIME-Worker-47-Scatter Plot 6:13 :  : Node : Scatter Plot : 6:13 : Table contains missing or unsupported values - these values will be omitted.
+2023-05-12 15:18:24,879 : WARN  : KNIME-Worker-48-Scatter Plot 6:13 :  : Node : Scatter Plot : 6:13 : Table contains missing or unsupported values - these values will be omitted.
+2023-05-12 15:43:57,472 : WARN  : KNIME-Worker-52-Scatter Plot 6:17 :  : Node : Scatter Plot : 6:17 : Table contains missing or unsupported values - these values will be omitted.
+2023-05-12 15:43:57,472 : WARN  : KNIME-Worker-50-Scatter Plot 6:16 :  : Node : Scatter Plot : 6:16 : Table contains missing or unsupported values - these values will be omitted.
+2023-05-12 15:43:57,472 : WARN  : KNIME-Worker-51-Scatter Plot 6:13 :  : Node : Scatter Plot : 6:13 : Table contains missing or unsupported values - these values will be omitted.
+2023-05-12 15:43:57,472 : WARN  : KNIME-Worker-49-Scatter Plot 6:15 :  : Node : Scatter Plot : 6:15 : Table contains missing or unsupported values - these values will be omitted.
+2023-05-12 15:45:25,768 : WARN  : KNIME-Worker-53-Scatter Plot 6:16 :  : Node : Scatter Plot : 6:16 : Table contains missing or unsupported values - these values will be omitted.
+2023-05-12 15:46:08,016 : WARN  : KNIME-Worker-54-Scatter Plot 6:17 :  : Node : Scatter Plot : 6:17 : Table contains missing or unsupported values - these values will be omitted.
+2023-05-12 16:47:15,313 : ERROR : KNIME-Worker-60-Linear Regression Learner 6:3 :  : Node : Linear Regression Learner : 6:3 : Execute failed: Index: -1, Size: 13
+java.lang.IndexOutOfBoundsException: Index: -1, Size: 13
+	at java.base/java.util.LinkedList.checkElementIndex(Unknown Source)
+	at java.base/java.util.LinkedList.get(Unknown Source)
+	at java.base/java.util.Collections$UnmodifiableList.get(Unknown Source)
+	at org.knime.base.node.mine.regression.RegressionContent.init(RegressionContent.java:728)
+	at org.knime.base.node.mine.regression.linear2.learner.LinearRegressionContent.<init>(LinearRegressionContent.java:158)
+	at org.knime.base.node.mine.regression.linear2.learner.Learner.perform(Learner.java:127)
+	at org.knime.base.node.mine.regression.linear2.learner.LinReg2Learner.execute(LinReg2Learner.java:150)
+	at org.knime.base.node.mine.regression.linear2.learner.LinReg2LearnerNodeModel.execute(LinReg2LearnerNodeModel.java:169)
+	at org.knime.core.node.NodeModel.executeModel(NodeModel.java:549)
+	at org.knime.core.node.Node.invokeFullyNodeModelExecute(Node.java:1267)
+	at org.knime.core.node.Node.execute(Node.java:1041)
+	at org.knime.core.node.workflow.NativeNodeContainer.performExecuteNode(NativeNodeContainer.java:595)
+	at org.knime.core.node.exec.LocalNodeExecutionJob.mainExecute(LocalNodeExecutionJob.java:98)
+	at org.knime.core.node.workflow.NodeExecutionJob.internalRun(NodeExecutionJob.java:201)
+	at org.knime.core.node.workflow.NodeExecutionJob.run(NodeExecutionJob.java:117)
+	at org.knime.core.util.ThreadUtils$RunnableWithContextImpl.runWithContext(ThreadUtils.java:367)
+	at org.knime.core.util.ThreadUtils$RunnableWithContext.run(ThreadUtils.java:221)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.base/java.util.concurrent.FutureTask.run(Unknown Source)
+	at org.knime.core.util.ThreadPool$MyFuture.run(ThreadPool.java:123)
+	at org.knime.core.util.ThreadPool$Worker.run(ThreadPool.java:246)
+2023-05-12 17:18:50,452 : WARN  : main :  : Node : Scorer (JavaScript) : 6:9 : Column actual_productivity is not string compatible, its type is Number (double)
+2023-05-12 17:18:54,665 : WARN  : KNIME-Worker-61-X-Partitioner 6:18 :  : Node : Scorer (JavaScript) : 6:9 : Column actual_productivity is not string compatible, its type is Number (double)
+2023-05-12 17:18:57,599 : ERROR : KNIME-Worker-62-Linear Regression Learner 6:3 :  : Node : Linear Regression Learner : 6:3 : Execute failed: Index: -1, Size: 13
+java.lang.IndexOutOfBoundsException: Index: -1, Size: 13
+	at java.base/java.util.LinkedList.checkElementIndex(Unknown Source)
+	at java.base/java.util.LinkedList.get(Unknown Source)
+	at java.base/java.util.Collections$UnmodifiableList.get(Unknown Source)
+	at org.knime.base.node.mine.regression.RegressionContent.init(RegressionContent.java:728)
+	at org.knime.base.node.mine.regression.linear2.learner.LinearRegressionContent.<init>(LinearRegressionContent.java:158)
+	at org.knime.base.node.mine.regression.linear2.learner.Learner.perform(Learner.java:127)
+	at org.knime.base.node.mine.regression.linear2.learner.LinReg2Learner.execute(LinReg2Learner.java:150)
+	at org.knime.base.node.mine.regression.linear2.learner.LinReg2LearnerNodeModel.execute(LinReg2LearnerNodeModel.java:169)
+	at org.knime.core.node.NodeModel.executeModel(NodeModel.java:549)
+	at org.knime.core.node.Node.invokeFullyNodeModelExecute(Node.java:1267)
+	at org.knime.core.node.Node.execute(Node.java:1041)
+	at org.knime.core.node.workflow.NativeNodeContainer.performExecuteNode(NativeNodeContainer.java:595)
+	at org.knime.core.node.exec.LocalNodeExecutionJob.mainExecute(LocalNodeExecutionJob.java:98)
+	at org.knime.core.node.workflow.NodeExecutionJob.internalRun(NodeExecutionJob.java:201)
+	at org.knime.core.node.workflow.NodeExecutionJob.run(NodeExecutionJob.java:117)
+	at org.knime.core.util.ThreadUtils$RunnableWithContextImpl.runWithContext(ThreadUtils.java:367)
+	at org.knime.core.util.ThreadUtils$RunnableWithContext.run(ThreadUtils.java:221)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.base/java.util.concurrent.FutureTask.run(Unknown Source)
+	at org.knime.core.util.ThreadPool$MyFuture.run(ThreadPool.java:123)
+	at org.knime.core.util.ThreadPool$Worker.run(ThreadPool.java:246)
+2023-05-12 17:24:35,823 : WARN  : main :  : Node : Numeric Outliers : 6:20 : Auto configuration: Outlier Selection uses all suitable columns (in total 12).
+2023-05-12 17:24:40,098 : WARN  : main :  : Node : Scorer (JavaScript) : 6:9 : Column actual_productivity is not string compatible, its type is Number (double)
+2023-05-12 17:25:10,216 : WARN  : main :  : Node : Scorer (JavaScript) : 6:9 : Column actual_productivity is not string compatible, its type is Number (double)
+2023-05-12 17:25:11,928 : WARN  : main :  : Node : Scorer (JavaScript) : 6:9 : Column actual_productivity is not string compatible, its type is Number (double)
+2023-05-12 17:26:03,752 : WARN  : KNIME-Worker-68-X-Partitioner 6:18 :  : Node : Scorer (JavaScript) : 6:9 : Column actual_productivity is not string compatible, its type is Number (double)
+2023-05-12 17:26:17,824 : WARN  : main :  : Node : RProp MLP Learner : 3:43 : Input data not normalized. Please consider using the Normalizer Node first.
+2023-05-12 17:26:17,824 : WARN  : main :  : Node : RProp MLP Learner : 3:43 : Input data not normalized. Please consider using the Normalizer Node first.
+2023-05-12 17:26:17,825 : WARN  : main :  : Node : RProp MLP Learner : 3:43 : Input data not normalized. Please consider using the Normalizer Node first.
+2023-05-12 17:26:17,825 : WARN  : main :  : Node : RProp MLP Learner : 3:43 : Input data not normalized. Please consider using the Normalizer Node first.
+2023-05-12 17:26:17,825 : WARN  : main :  : Node : RProp MLP Learner : 3:43 : Domain range for regression in column Global_Sales not in range [0,1]
+2023-05-12 17:26:18,500 : WARN  : main :  : Node : RProp MLP Learner : 3:43 : Input data not normalized. Please consider using the Normalizer Node first.
+2023-05-12 17:26:18,500 : WARN  : main :  : Node : RProp MLP Learner : 3:43 : Input data not normalized. Please consider using the Normalizer Node first.
+2023-05-12 17:26:18,500 : WARN  : main :  : Node : RProp MLP Learner : 3:43 : Input data not normalized. Please consider using the Normalizer Node first.
+2023-05-12 17:26:18,500 : WARN  : main :  : Node : RProp MLP Learner : 3:43 : Input data not normalized. Please consider using the Normalizer Node first.
+2023-05-12 17:26:18,501 : WARN  : main :  : Node : RProp MLP Learner : 3:43 : Domain range for regression in column Global_Sales not in range [0,1]
+2023-05-12 17:26:27,297 : WARN  : KNIME-Worker-70-Missing Value 3:23 :  : Node : Missing Value : 3:23 : The current settings use missing value handling methods that cannot be represented in PMML 4.2
+2023-05-12 17:26:27,438 : WARN  : KNIME-Worker-75-X-Partitioner 3:38 :  : Node : RProp MLP Learner : 3:43 : Input data not normalized. Please consider using the Normalizer Node first.
+2023-05-12 17:26:27,439 : WARN  : KNIME-Worker-75-X-Partitioner 3:38 :  : Node : RProp MLP Learner : 3:43 : Input data not normalized. Please consider using the Normalizer Node first.
+2023-05-12 17:26:27,439 : WARN  : KNIME-Worker-75-X-Partitioner 3:38 :  : Node : RProp MLP Learner : 3:43 : Input data not normalized. Please consider using the Normalizer Node first.
+2023-05-12 17:26:27,439 : WARN  : KNIME-Worker-75-X-Partitioner 3:38 :  : Node : RProp MLP Learner : 3:43 : Input data not normalized. Please consider using the Normalizer Node first.
+2023-05-12 17:26:27,439 : WARN  : KNIME-Worker-75-X-Partitioner 3:38 :  : Node : RProp MLP Learner : 3:43 : Domain range for regression in column Global_Sales not in range [0,1]
+2023-05-12 17:26:27,506 : WARN  : KNIME-Worker-78-Normalizer 3:41 :  : Node : RProp MLP Learner : 3:43 : Input data not normalized. Please consider using the Normalizer Node first.
+2023-05-12 17:26:27,506 : WARN  : KNIME-Worker-78-Normalizer 3:41 :  : Node : RProp MLP Learner : 3:43 : Input data not normalized. Please consider using the Normalizer Node first.
+2023-05-12 17:26:27,507 : WARN  : KNIME-Worker-78-Normalizer 3:41 :  : Node : RProp MLP Learner : 3:43 : Input data not normalized. Please consider using the Normalizer Node first.
+2023-05-12 17:26:27,507 : WARN  : KNIME-Worker-78-Normalizer 3:41 :  : Node : RProp MLP Learner : 3:43 : Input data not normalized. Please consider using the Normalizer Node first.
+2023-05-12 17:26:27,507 : WARN  : KNIME-Worker-78-Normalizer 3:41 :  : Node : RProp MLP Learner : 3:43 : Domain range for regression in column Global_Sales not in range [0,1]
+2023-05-12 17:26:45,446 : ERROR : KNIME-Worker-82-Linear Regression Learner 6:3 :  : Node : Linear Regression Learner : 6:3 : Execute failed: Missing value support disabled, see node configuration dialog.
+java.lang.IllegalStateException: Missing value support disabled, see node configuration dialog.
+	at org.knime.base.node.mine.regression.RegressionTrainingRow$MissingHandling.isMissing(RegressionTrainingRow.java:93)
+	at org.knime.base.node.mine.regression.RegressionTrainingRow.<init>(RegressionTrainingRow.java:184)
+	at org.knime.base.node.mine.regression.RegressionTrainingDataIterator.next(RegressionTrainingDataIterator.java:138)
+	at org.knime.base.node.mine.regression.RegressionTrainingDataIterator.next(RegressionTrainingDataIterator.java:1)
+	at org.knime.base.node.mine.regression.linear2.learner.Learner.processTable(Learner.java:176)
+	at org.knime.base.node.mine.regression.linear2.learner.Learner.perform(Learner.java:114)
+	at org.knime.base.node.mine.regression.linear2.learner.LinReg2Learner.execute(LinReg2Learner.java:150)
+	at org.knime.base.node.mine.regression.linear2.learner.LinReg2LearnerNodeModel.execute(LinReg2LearnerNodeModel.java:169)
+	at org.knime.core.node.NodeModel.executeModel(NodeModel.java:549)
+	at org.knime.core.node.Node.invokeFullyNodeModelExecute(Node.java:1267)
+	at org.knime.core.node.Node.execute(Node.java:1041)
+	at org.knime.core.node.workflow.NativeNodeContainer.performExecuteNode(NativeNodeContainer.java:595)
+	at org.knime.core.node.exec.LocalNodeExecutionJob.mainExecute(LocalNodeExecutionJob.java:98)
+	at org.knime.core.node.workflow.NodeExecutionJob.internalRun(NodeExecutionJob.java:201)
+	at org.knime.core.node.workflow.NodeExecutionJob.run(NodeExecutionJob.java:117)
+	at org.knime.core.util.ThreadUtils$RunnableWithContextImpl.runWithContext(ThreadUtils.java:367)
+	at org.knime.core.util.ThreadUtils$RunnableWithContext.run(ThreadUtils.java:221)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.base/java.util.concurrent.FutureTask.run(Unknown Source)
+	at org.knime.core.util.ThreadPool$MyFuture.run(ThreadPool.java:123)
+	at org.knime.core.util.ThreadPool$Worker.run(ThreadPool.java:246)
+2023-05-12 17:27:41,235 : WARN  : main :  : Node : Scorer (JavaScript) : 6:9 : Column actual_productivity is not string compatible, its type is Number (double)
+2023-05-12 17:27:41,815 : WARN  : main :  : Node : Scorer (JavaScript) : 6:9 : Column actual_productivity is not string compatible, its type is Number (double)
+2023-05-12 17:27:44,758 : ERROR : KNIME-Worker-84-Linear Regression Learner 6:3 :  : Node : Linear Regression Learner : 6:3 : Execute failed: Missing value support disabled, see node configuration dialog.
+java.lang.IllegalStateException: Missing value support disabled, see node configuration dialog.
+	at org.knime.base.node.mine.regression.RegressionTrainingRow$MissingHandling.isMissing(RegressionTrainingRow.java:93)
+	at org.knime.base.node.mine.regression.RegressionTrainingRow.<init>(RegressionTrainingRow.java:184)
+	at org.knime.base.node.mine.regression.RegressionTrainingDataIterator.next(RegressionTrainingDataIterator.java:138)
+	at org.knime.base.node.mine.regression.RegressionTrainingDataIterator.next(RegressionTrainingDataIterator.java:1)
+	at org.knime.base.node.mine.regression.linear2.learner.Learner.processTable(Learner.java:176)
+	at org.knime.base.node.mine.regression.linear2.learner.Learner.perform(Learner.java:114)
+	at org.knime.base.node.mine.regression.linear2.learner.LinReg2Learner.execute(LinReg2Learner.java:150)
+	at org.knime.base.node.mine.regression.linear2.learner.LinReg2LearnerNodeModel.execute(LinReg2LearnerNodeModel.java:169)
+	at org.knime.core.node.NodeModel.executeModel(NodeModel.java:549)
+	at org.knime.core.node.Node.invokeFullyNodeModelExecute(Node.java:1267)
+	at org.knime.core.node.Node.execute(Node.java:1041)
+	at org.knime.core.node.workflow.NativeNodeContainer.performExecuteNode(NativeNodeContainer.java:595)
+	at org.knime.core.node.exec.LocalNodeExecutionJob.mainExecute(LocalNodeExecutionJob.java:98)
+	at org.knime.core.node.workflow.NodeExecutionJob.internalRun(NodeExecutionJob.java:201)
+	at org.knime.core.node.workflow.NodeExecutionJob.run(NodeExecutionJob.java:117)
+	at org.knime.core.util.ThreadUtils$RunnableWithContextImpl.runWithContext(ThreadUtils.java:367)
+	at org.knime.core.util.ThreadUtils$RunnableWithContext.run(ThreadUtils.java:221)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.base/java.util.concurrent.FutureTask.run(Unknown Source)
+	at org.knime.core.util.ThreadPool$MyFuture.run(ThreadPool.java:123)
+	at org.knime.core.util.ThreadPool$Worker.run(ThreadPool.java:246)
+2023-05-12 17:30:07,391 : WARN  : main :  : Node : Scorer (JavaScript) : 6:9 : Column actual_productivity is not string compatible, its type is Number (double)
+2023-05-12 17:30:11,156 : WARN  : KNIME-Worker-87-X-Partitioner 6:18 :  : Node : Scorer (JavaScript) : 6:9 : Column actual_productivity is not string compatible, its type is Number (double)
+2023-05-12 17:30:11,176 : ERROR : KNIME-Worker-88-Linear Regression Learner 6:3 :  : Node : Linear Regression Learner : 6:3 : Execute failed: Missing value support disabled, see node configuration dialog.
+java.lang.IllegalStateException: Missing value support disabled, see node configuration dialog.
+	at org.knime.base.node.mine.regression.RegressionTrainingRow$MissingHandling.isMissing(RegressionTrainingRow.java:93)
+	at org.knime.base.node.mine.regression.RegressionTrainingRow.<init>(RegressionTrainingRow.java:184)
+	at org.knime.base.node.mine.regression.RegressionTrainingDataIterator.next(RegressionTrainingDataIterator.java:138)
+	at org.knime.base.node.mine.regression.RegressionTrainingDataIterator.next(RegressionTrainingDataIterator.java:1)
+	at org.knime.base.node.mine.regression.linear2.learner.Learner.processTable(Learner.java:176)
+	at org.knime.base.node.mine.regression.linear2.learner.Learner.perform(Learner.java:114)
+	at org.knime.base.node.mine.regression.linear2.learner.LinReg2Learner.execute(LinReg2Learner.java:150)
+	at org.knime.base.node.mine.regression.linear2.learner.LinReg2LearnerNodeModel.execute(LinReg2LearnerNodeModel.java:169)
+	at org.knime.core.node.NodeModel.executeModel(NodeModel.java:549)
+	at org.knime.core.node.Node.invokeFullyNodeModelExecute(Node.java:1267)
+	at org.knime.core.node.Node.execute(Node.java:1041)
+	at org.knime.core.node.workflow.NativeNodeContainer.performExecuteNode(NativeNodeContainer.java:595)
+	at org.knime.core.node.exec.LocalNodeExecutionJob.mainExecute(LocalNodeExecutionJob.java:98)
+	at org.knime.core.node.workflow.NodeExecutionJob.internalRun(NodeExecutionJob.java:201)
+	at org.knime.core.node.workflow.NodeExecutionJob.run(NodeExecutionJob.java:117)
+	at org.knime.core.util.ThreadUtils$RunnableWithContextImpl.runWithContext(ThreadUtils.java:367)
+	at org.knime.core.util.ThreadUtils$RunnableWithContext.run(ThreadUtils.java:221)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.base/java.util.concurrent.FutureTask.run(Unknown Source)
+	at org.knime.core.util.ThreadPool$MyFuture.run(ThreadPool.java:123)
+	at org.knime.core.util.ThreadPool$Worker.run(ThreadPool.java:246)
+2023-05-12 17:30:19,955 : WARN  : main :  : Node : Scorer (JavaScript) : 6:9 : Column actual_productivity is not string compatible, its type is Number (double)
+2023-05-12 17:30:20,871 : WARN  : main :  : Node : Scorer (JavaScript) : 6:9 : Column actual_productivity is not string compatible, its type is Number (double)
+2023-05-12 17:30:23,219 : ERROR : KNIME-Worker-89-Linear Regression Learner 6:3 :  : Node : Linear Regression Learner : 6:3 : Execute failed: Index: -1, Size: 13
+java.lang.IndexOutOfBoundsException: Index: -1, Size: 13
+	at java.base/java.util.LinkedList.checkElementIndex(Unknown Source)
+	at java.base/java.util.LinkedList.get(Unknown Source)
+	at java.base/java.util.Collections$UnmodifiableList.get(Unknown Source)
+	at org.knime.base.node.mine.regression.RegressionContent.init(RegressionContent.java:728)
+	at org.knime.base.node.mine.regression.linear2.learner.LinearRegressionContent.<init>(LinearRegressionContent.java:158)
+	at org.knime.base.node.mine.regression.linear2.learner.Learner.perform(Learner.java:127)
+	at org.knime.base.node.mine.regression.linear2.learner.LinReg2Learner.execute(LinReg2Learner.java:150)
+	at org.knime.base.node.mine.regression.linear2.learner.LinReg2LearnerNodeModel.execute(LinReg2LearnerNodeModel.java:169)
+	at org.knime.core.node.NodeModel.executeModel(NodeModel.java:549)
+	at org.knime.core.node.Node.invokeFullyNodeModelExecute(Node.java:1267)
+	at org.knime.core.node.Node.execute(Node.java:1041)
+	at org.knime.core.node.workflow.NativeNodeContainer.performExecuteNode(NativeNodeContainer.java:595)
+	at org.knime.core.node.exec.LocalNodeExecutionJob.mainExecute(LocalNodeExecutionJob.java:98)
+	at org.knime.core.node.workflow.NodeExecutionJob.internalRun(NodeExecutionJob.java:201)
+	at org.knime.core.node.workflow.NodeExecutionJob.run(NodeExecutionJob.java:117)
+	at org.knime.core.util.ThreadUtils$RunnableWithContextImpl.runWithContext(ThreadUtils.java:367)
+	at org.knime.core.util.ThreadUtils$RunnableWithContext.run(ThreadUtils.java:221)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.base/java.util.concurrent.FutureTask.run(Unknown Source)
+	at org.knime.core.util.ThreadPool$MyFuture.run(ThreadPool.java:123)
+	at org.knime.core.util.ThreadPool$Worker.run(ThreadPool.java:246)
+2023-05-12 17:31:29,617 : WARN  : main :  : Node : Scorer (JavaScript) : 6:9 : The chosen columns are not available anymore.
+2023-05-12 17:31:30,247 : WARN  : main :  : Node : Scorer (JavaScript) : 6:9 : The chosen columns are not available anymore.
+2023-05-12 17:31:33,015 : ERROR : KNIME-Worker-90-Linear Regression Learner 6:3 :  : Node : Linear Regression Learner : 6:3 : Execute failed: Index: -1, Size: 13
+java.lang.IndexOutOfBoundsException: Index: -1, Size: 13
+	at java.base/java.util.LinkedList.checkElementIndex(Unknown Source)
+	at java.base/java.util.LinkedList.get(Unknown Source)
+	at java.base/java.util.Collections$UnmodifiableList.get(Unknown Source)
+	at org.knime.base.node.mine.regression.RegressionContent.init(RegressionContent.java:728)
+	at org.knime.base.node.mine.regression.linear2.learner.LinearRegressionContent.<init>(LinearRegressionContent.java:158)
+	at org.knime.base.node.mine.regression.linear2.learner.Learner.perform(Learner.java:127)
+	at org.knime.base.node.mine.regression.linear2.learner.LinReg2Learner.execute(LinReg2Learner.java:150)
+	at org.knime.base.node.mine.regression.linear2.learner.LinReg2LearnerNodeModel.execute(LinReg2LearnerNodeModel.java:169)
+	at org.knime.core.node.NodeModel.executeModel(NodeModel.java:549)
+	at org.knime.core.node.Node.invokeFullyNodeModelExecute(Node.java:1267)
+	at org.knime.core.node.Node.execute(Node.java:1041)
+	at org.knime.core.node.workflow.NativeNodeContainer.performExecuteNode(NativeNodeContainer.java:595)
+	at org.knime.core.node.exec.LocalNodeExecutionJob.mainExecute(LocalNodeExecutionJob.java:98)
+	at org.knime.core.node.workflow.NodeExecutionJob.internalRun(NodeExecutionJob.java:201)
+	at org.knime.core.node.workflow.NodeExecutionJob.run(NodeExecutionJob.java:117)
+	at org.knime.core.util.ThreadUtils$RunnableWithContextImpl.runWithContext(ThreadUtils.java:367)
+	at org.knime.core.util.ThreadUtils$RunnableWithContext.run(ThreadUtils.java:221)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.base/java.util.concurrent.FutureTask.run(Unknown Source)
+	at org.knime.core.util.ThreadPool$MyFuture.run(ThreadPool.java:123)
+	at org.knime.core.util.ThreadPool$Worker.run(ThreadPool.java:246)
+2023-05-12 17:31:41,723 : WARN  : main :  : Node : Scorer (JavaScript) : 6:9 : The chosen columns are not available anymore.
+2023-05-12 17:31:42,496 : WARN  : main :  : Node : Scorer (JavaScript) : 6:9 : The chosen columns are not available anymore.
+2023-05-12 17:31:44,677 : ERROR : KNIME-Worker-91-Linear Regression Learner 6:3 :  : Node : Linear Regression Learner : 6:3 : Execute failed: Index: -1, Size: 13
+java.lang.IndexOutOfBoundsException: Index: -1, Size: 13
+	at java.base/java.util.LinkedList.checkElementIndex(Unknown Source)
+	at java.base/java.util.LinkedList.get(Unknown Source)
+	at java.base/java.util.Collections$UnmodifiableList.get(Unknown Source)
+	at org.knime.base.node.mine.regression.RegressionContent.init(RegressionContent.java:728)
+	at org.knime.base.node.mine.regression.linear2.learner.LinearRegressionContent.<init>(LinearRegressionContent.java:158)
+	at org.knime.base.node.mine.regression.linear2.learner.Learner.perform(Learner.java:127)
+	at org.knime.base.node.mine.regression.linear2.learner.LinReg2Learner.execute(LinReg2Learner.java:150)
+	at org.knime.base.node.mine.regression.linear2.learner.LinReg2LearnerNodeModel.execute(LinReg2LearnerNodeModel.java:169)
+	at org.knime.core.node.NodeModel.executeModel(NodeModel.java:549)
+	at org.knime.core.node.Node.invokeFullyNodeModelExecute(Node.java:1267)
+	at org.knime.core.node.Node.execute(Node.java:1041)
+	at org.knime.core.node.workflow.NativeNodeContainer.performExecuteNode(NativeNodeContainer.java:595)
+	at org.knime.core.node.exec.LocalNodeExecutionJob.mainExecute(LocalNodeExecutionJob.java:98)
+	at org.knime.core.node.workflow.NodeExecutionJob.internalRun(NodeExecutionJob.java:201)
+	at org.knime.core.node.workflow.NodeExecutionJob.run(NodeExecutionJob.java:117)
+	at org.knime.core.util.ThreadUtils$RunnableWithContextImpl.runWithContext(ThreadUtils.java:367)
+	at org.knime.core.util.ThreadUtils$RunnableWithContext.run(ThreadUtils.java:221)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.base/java.util.concurrent.FutureTask.run(Unknown Source)
+	at org.knime.core.util.ThreadPool$MyFuture.run(ThreadPool.java:123)
+	at org.knime.core.util.ThreadPool$Worker.run(ThreadPool.java:246)
+2023-05-12 17:32:06,441 : WARN  : ModalContext :  : Node : GroupBy : 7:23 : No aggregation column defined
+2023-05-12 17:32:06,443 : WARN  : ModalContext :  : Node : GroupBy : 7:23 : No aggregation column defined
+2023-05-12 17:32:06,445 : WARN  : ModalContext :  : Node : GroupBy : 7:22 : No aggregation column defined
+2023-05-12 17:32:06,445 : WARN  : ModalContext :  : Node : GroupBy : 7:22 : No aggregation column defined
+2023-05-12 17:32:06,445 : WARN  : ModalContext :  : Node : GroupBy : 7:25 : No aggregation column defined
+2023-05-12 17:32:06,445 : WARN  : ModalContext :  : Node : GroupBy : 7:25 : No aggregation column defined
+2023-05-12 17:32:06,446 : WARN  : ModalContext :  : Node : GroupBy : 7:24 : No aggregation column defined
+2023-05-12 17:32:06,446 : WARN  : ModalContext :  : Node : GroupBy : 7:24 : No aggregation column defined
+2023-05-12 17:32:06,450 : WARN  : ModalContext :  : Node : GroupBy : 7:26 : No aggregation column defined
+2023-05-12 17:32:06,450 : WARN  : ModalContext :  : Node : GroupBy : 7:26 : No aggregation column defined
+2023-05-12 17:32:21,817 : WARN  : ModalContext :  : Node : Decision Tree Predictor : 8:28 : Internal model could not be loaded.
+2023-05-12 17:32:21,840 : WARN  : ModalContext :  : Node : Decision Tree Predictor : 8:27 : Internal model could not be loaded.
+2023-05-12 17:32:21,847 : WARN  : ModalContext :  : Node : Color Manager : 8:12 : Column "Cluster" has no nominal values set: execute predecessor or add Binner.
+2023-05-12 17:33:47,790 : WARN  : main :  : Node : RProp MLP Learner : 3:43 : Input data not normalized. Please consider using the Normalizer Node first.
+2023-05-12 17:33:47,795 : WARN  : main :  : Node : RProp MLP Learner : 3:43 : Input data not normalized. Please consider using the Normalizer Node first.
+2023-05-12 17:33:47,795 : WARN  : main :  : Node : RProp MLP Learner : 3:43 : Input data not normalized. Please consider using the Normalizer Node first.
+2023-05-12 17:33:47,795 : WARN  : main :  : Node : RProp MLP Learner : 3:43 : Input data not normalized. Please consider using the Normalizer Node first.
+2023-05-12 17:33:47,795 : WARN  : main :  : Node : RProp MLP Learner : 3:43 : Domain range for regression in column Global_Sales not in range [0,1]
+2023-05-12 17:33:48,181 : WARN  : main :  : Node : RProp MLP Learner : 3:43 : Input data not normalized. Please consider using the Normalizer Node first.
+2023-05-12 17:33:48,181 : WARN  : main :  : Node : RProp MLP Learner : 3:43 : Input data not normalized. Please consider using the Normalizer Node first.
+2023-05-12 17:33:48,181 : WARN  : main :  : Node : RProp MLP Learner : 3:43 : Input data not normalized. Please consider using the Normalizer Node first.
+2023-05-12 17:33:48,181 : WARN  : main :  : Node : RProp MLP Learner : 3:43 : Input data not normalized. Please consider using the Normalizer Node first.
+2023-05-12 17:33:48,181 : WARN  : main :  : Node : RProp MLP Learner : 3:43 : Domain range for regression in column Global_Sales not in range [0,1]
+2023-05-12 17:33:53,912 : WARN  : KNIME-Worker-93-X-Partitioner 3:38 :  : Node : RProp MLP Learner : 3:43 : Input data not normalized. Please consider using the Normalizer Node first.
+2023-05-12 17:33:53,913 : WARN  : KNIME-Worker-93-X-Partitioner 3:38 :  : Node : RProp MLP Learner : 3:43 : Input data not normalized. Please consider using the Normalizer Node first.
+2023-05-12 17:33:53,913 : WARN  : KNIME-Worker-93-X-Partitioner 3:38 :  : Node : RProp MLP Learner : 3:43 : Input data not normalized. Please consider using the Normalizer Node first.
+2023-05-12 17:33:53,913 : WARN  : KNIME-Worker-93-X-Partitioner 3:38 :  : Node : RProp MLP Learner : 3:43 : Input data not normalized. Please consider using the Normalizer Node first.
+2023-05-12 17:33:53,913 : WARN  : KNIME-Worker-93-X-Partitioner 3:38 :  : Node : RProp MLP Learner : 3:43 : Domain range for regression in column Global_Sales not in range [0,1]
+2023-05-12 17:33:53,951 : WARN  : KNIME-Worker-94-Normalizer 3:41 :  : Node : RProp MLP Learner : 3:43 : Input data not normalized. Please consider using the Normalizer Node first.
+2023-05-12 17:33:53,951 : WARN  : KNIME-Worker-94-Normalizer 3:41 :  : Node : RProp MLP Learner : 3:43 : Input data not normalized. Please consider using the Normalizer Node first.
+2023-05-12 17:33:53,952 : WARN  : KNIME-Worker-94-Normalizer 3:41 :  : Node : RProp MLP Learner : 3:43 : Input data not normalized. Please consider using the Normalizer Node first.
+2023-05-12 17:33:53,952 : WARN  : KNIME-Worker-94-Normalizer 3:41 :  : Node : RProp MLP Learner : 3:43 : Input data not normalized. Please consider using the Normalizer Node first.
+2023-05-12 17:33:53,952 : WARN  : KNIME-Worker-94-Normalizer 3:41 :  : Node : RProp MLP Learner : 3:43 : Domain range for regression in column Global_Sales not in range [0,1]
+2023-05-12 17:34:24,046 : WARN  : ModalContext :  : Node : Scorer (JavaScript) : 9:45 : The columns selected don't contain any values.
+2023-05-12 17:48:58,537 : WARN  : main :  : Node : X-Partitioner : 3:24 : Class column 'estacao' does not exist in input table
+2023-05-12 17:49:02,963 : WARN  : main :  : Node : Partitioning : 3:50 : Column 'estacao' for stratified sampling does not exist
+2023-05-12 17:51:35,167 : WARN  : main :  : Node : Decision Tree Learner : 3:52 : Class column "estacao" not found or incompatible
+2023-05-12 17:51:35,646 : WARN  : main :  : Node : Decision Tree Learner : 3:52 : Class column "estacao" not found or incompatible
+2023-05-12 17:51:46,659 : WARN  : main :  : Node : Scorer : 3:51 : Column 'estacao' not found.
+2023-05-12 17:51:47,516 : WARN  : main :  : Node : Scorer : 3:51 : Column 'estacao' not found.
+2023-05-12 17:51:51,402 : WARN  : KNIME-Worker-95-X-Partitioner 3:24 :  : Node : Scorer : 3:51 : Column 'estacao' not found.
+2023-05-12 17:51:52,545 : WARN  : KNIME-Worker-97-Decision Tree Predictor 3:48 :  : Node : Scorer : 3:51 : Column 'estacao' not found.
+2023-05-12 17:52:32,732 : WARN  : main :  : Node : Scorer : 3:51 : Column 'estacao' not found.
+2023-05-12 18:02:11,363 : ERROR : KNIME Sync Exec Dispatcher-1 :  : SyncExecQueueDispatcher :  :  : Uncaught exception while queuing events into main thread
+org.eclipse.swt.SWTException: Invalid thread access
+	at org.eclipse.swt.SWT.error(SWT.java:4918)
+	at org.eclipse.swt.SWT.error(SWT.java:4833)
+	at org.eclipse.swt.SWT.error(SWT.java:4804)
+	at org.eclipse.swt.widgets.Display.error(Display.java:1191)
+	at org.eclipse.swt.widgets.Display.createDisplay(Display.java:942)
+	at org.eclipse.swt.widgets.Display.create(Display.java:926)
+	at org.eclipse.swt.graphics.Device.<init>(Device.java:132)
+	at org.eclipse.swt.widgets.Display.<init>(Display.java:753)
+	at org.eclipse.swt.widgets.Display.<init>(Display.java:744)
+	at org.eclipse.swt.widgets.Display.getDefault(Display.java:1525)
+	at org.knime.workbench.ui.SyncExecQueueDispatcher$2.run(SyncExecQueueDispatcher.java:120)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.base/java.lang.Thread.run(Unknown Source)
+2023-05-12 18:02:11,366 : ERROR : KNIME Sync Exec Dispatcher-3 :  : SyncExecQueueDispatcher :  :  : Uncaught exception while queuing events into main thread
+org.eclipse.swt.SWTException: Invalid thread access
+	at org.eclipse.swt.SWT.error(SWT.java:4918)
+	at org.eclipse.swt.SWT.error(SWT.java:4833)
+	at org.eclipse.swt.SWT.error(SWT.java:4804)
+	at org.eclipse.swt.widgets.Display.error(Display.java:1191)
+	at org.eclipse.swt.widgets.Display.createDisplay(Display.java:942)
+	at org.eclipse.swt.widgets.Display.create(Display.java:926)
+	at org.eclipse.swt.graphics.Device.<init>(Device.java:132)
+	at org.eclipse.swt.widgets.Display.<init>(Display.java:753)
+	at org.eclipse.swt.widgets.Display.<init>(Display.java:744)
+	at org.eclipse.swt.widgets.Display.getDefault(Display.java:1525)
+	at org.knime.workbench.ui.SyncExecQueueDispatcher$2.run(SyncExecQueueDispatcher.java:120)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.base/java.lang.Thread.run(Unknown Source)
+2023-05-12 18:02:11,366 : ERROR : KNIME Sync Exec Dispatcher-2 :  : SyncExecQueueDispatcher :  :  : Uncaught exception while queuing events into main thread
+org.eclipse.swt.SWTException: Invalid thread access
+	at org.eclipse.swt.SWT.error(SWT.java:4918)
+	at org.eclipse.swt.SWT.error(SWT.java:4833)
+	at org.eclipse.swt.SWT.error(SWT.java:4804)
+	at org.eclipse.swt.widgets.Display.error(Display.java:1191)
+	at org.eclipse.swt.widgets.Display.createDisplay(Display.java:942)
+	at org.eclipse.swt.widgets.Display.create(Display.java:926)
+	at org.eclipse.swt.graphics.Device.<init>(Device.java:132)
+	at org.eclipse.swt.widgets.Display.<init>(Display.java:753)
+	at org.eclipse.swt.widgets.Display.<init>(Display.java:744)
+	at org.eclipse.swt.widgets.Display.getDefault(Display.java:1525)
+	at org.knime.workbench.ui.SyncExecQueueDispatcher$2.run(SyncExecQueueDispatcher.java:120)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.base/java.lang.Thread.run(Unknown Source)
+2023-05-13 15:27:14,539 : WARN  : ModalContext :  : Node : Partitioning : 3:50 : Column 'estacao' for stratified sampling does not exist
+2023-05-13 15:27:16,299 : WARN  : ModalContext :  : Node : Scorer : 3:51 : Column 'estacao' not found.
+2023-05-13 15:27:16,309 : WARN  : ModalContext :  : Node : RProp MLP Learner : 3:43 : Input data not normalized. Please consider using the Normalizer Node first.
+2023-05-13 15:27:16,310 : WARN  : ModalContext :  : Node : RProp MLP Learner : 3:43 : Input data not normalized. Please consider using the Normalizer Node first.
+2023-05-13 15:27:16,310 : WARN  : ModalContext :  : Node : RProp MLP Learner : 3:43 : Input data not normalized. Please consider using the Normalizer Node first.
+2023-05-13 15:27:16,310 : WARN  : ModalContext :  : Node : RProp MLP Learner : 3:43 : Input data not normalized. Please consider using the Normalizer Node first.
+2023-05-13 15:27:16,310 : WARN  : ModalContext :  : Node : RProp MLP Learner : 3:43 : Domain range for regression in column Global_Sales not in range [0,1]
+2023-05-13 15:27:21,760 : WARN  : ModalContext :  : Node : Scorer (JavaScript) : 4:9 : The chosen columns are not available anymore.
+2023-05-13 15:27:21,764 : ERROR : ModalContext :  : LoadWorkflowRunnable :  :  : Errors during load: Status: DataLoadError: TAREFAB 4 loaded with error during data load
+2023-05-13 15:27:21,764 : ERROR : ModalContext :  : LoadWorkflowRunnable :  :  :   Status: DataLoadError: TAREFAB 4
+2023-05-13 15:27:21,764 : ERROR : ModalContext :  : LoadWorkflowRunnable :  :  :     Status: DataLoadError: Data Explorer 4:19
+2023-05-13 15:27:21,765 : ERROR : ModalContext :  : LoadWorkflowRunnable :  :  :       Status: DataLoadError: Loading model internals failed: Means could not be retrieved from representation: null values were saved as mean values.
+2023-05-13 15:29:11,927 : WARN  : main :  : Node : Number To String : 3:34 : No columns selected
+2023-05-13 15:29:13,153 : WARN  : main :  : Node : Number To String : 3:34 : No columns selected
+2023-05-13 15:29:15,872 : WARN  : KNIME-Worker-12-CSV Reader 3:1 :  : Node : Number To String : 3:34 : No columns selected
+2023-05-13 15:29:16,210 : WARN  : KNIME-Worker-13-Number To String 3:34 :  : Node : Number To String : 3:34 : No columns selected, returning input DataTable.
+2023-05-13 15:29:16,660 : ERROR : KNIME-Worker-14-Column Expressions 3:7 :  : Node : Column Expressions : 3:7 : Execute failed: An error occurred in script 1:
+Column 'actual_productivity' is unknown.
+java.lang.RuntimeException: An error occurred in script 1:
+Column 'actual_productivity' is unknown.
+	at org.knime.expressions.base.node.formulas.MultiExpressionCellFactory.getCells(MultiExpressionCellFactory.java:204)
+	at org.knime.core.data.container.RearrangeColumnsTable.calcNewCellsForRow(RearrangeColumnsTable.java:575)
+	at org.knime.core.data.container.RearrangeColumnsTable.calcNewColsSynchronously(RearrangeColumnsTable.java:495)
+	at org.knime.core.data.container.RearrangeColumnsTable.create(RearrangeColumnsTable.java:412)
+	at org.knime.core.data.container.BufferedTableBackend.rearrange(BufferedTableBackend.java:153)
+	at org.knime.core.node.ExecutionContext.createColumnRearrangeTable(ExecutionContext.java:432)
+	at org.knime.expressions.base.node.formulas.FormulasNodeModel.execute(FormulasNodeModel.java:141)
+	at org.knime.core.node.NodeModel.execute(NodeModel.java:758)
+	at org.knime.core.node.NodeModel.executeModel(NodeModel.java:549)
+	at org.knime.core.node.Node.invokeFullyNodeModelExecute(Node.java:1267)
+	at org.knime.core.node.Node.execute(Node.java:1041)
+	at org.knime.core.node.workflow.NativeNodeContainer.performExecuteNode(NativeNodeContainer.java:595)
+	at org.knime.core.node.exec.LocalNodeExecutionJob.mainExecute(LocalNodeExecutionJob.java:98)
+	at org.knime.core.node.workflow.NodeExecutionJob.internalRun(NodeExecutionJob.java:201)
+	at org.knime.core.node.workflow.NodeExecutionJob.run(NodeExecutionJob.java:117)
+	at org.knime.core.util.ThreadUtils$RunnableWithContextImpl.runWithContext(ThreadUtils.java:367)
+	at org.knime.core.util.ThreadUtils$RunnableWithContext.run(ThreadUtils.java:221)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.base/java.util.concurrent.FutureTask.run(Unknown Source)
+	at org.knime.core.util.ThreadPool$MyFuture.run(ThreadPool.java:123)
+	at org.knime.core.util.ThreadPool$Worker.run(ThreadPool.java:246)
+Caused by: org.knime.expressions.core.exceptions.InvalidAccessException: Column 'actual_productivity' is unknown.
+	at org.knime.expressions.core.columnaccess.AccessUtils.getColumnContent(AccessUtils.java:277)
+	at org.knime.expressions.core.columnaccess.AccessUtils.getColumn(AccessUtils.java:124)
+	at org.openjdk.nashorn.internal.scripts.Script$Recompilation$72$48A$\^eval\_.column(<eval>:4)
+	at org.openjdk.nashorn.internal.scripts.Script$61$\^eval\_.:program(<eval>:1)
+	at org.openjdk.nashorn.internal.runtime.ScriptFunctionData.invoke(ScriptFunctionData.java:646)
+	at org.openjdk.nashorn.internal.runtime.ScriptFunction.invoke(ScriptFunction.java:513)
+	at org.openjdk.nashorn.internal.runtime.ScriptRuntime.apply(ScriptRuntime.java:520)
+	at org.openjdk.nashorn.api.scripting.NashornScriptEngine.evalImpl(NashornScriptEngine.java:442)
+	at org.openjdk.nashorn.api.scripting.NashornScriptEngine$1.eval(NashornScriptEngine.java:503)
+	at java.scripting/javax.script.CompiledScript.eval(Unknown Source)
+	at org.knime.expressions.core.DefaultFunctionScript.apply(DefaultFunctionScript.java:122)
+	at org.knime.expressions.core.DefaultFunctionScript.apply(DefaultFunctionScript.java:1)
+	at org.knime.expressions.base.node.formulas.MultiExpressionCellFactory.getCells(MultiExpressionCellFactory.java:191)
+	... 20 more
+2023-05-13 15:29:20,906 : ERROR : KNIME-Worker-15-Column Expressions 3:7 :  : Node : Column Expressions : 3:7 : Execute failed: An error occurred in script 1:
+Column 'actual_productivity' is unknown.
+java.lang.RuntimeException: An error occurred in script 1:
+Column 'actual_productivity' is unknown.
+	at org.knime.expressions.base.node.formulas.MultiExpressionCellFactory.getCells(MultiExpressionCellFactory.java:204)
+	at org.knime.core.data.container.RearrangeColumnsTable.calcNewCellsForRow(RearrangeColumnsTable.java:575)
+	at org.knime.core.data.container.RearrangeColumnsTable.calcNewColsSynchronously(RearrangeColumnsTable.java:495)
+	at org.knime.core.data.container.RearrangeColumnsTable.create(RearrangeColumnsTable.java:412)
+	at org.knime.core.data.container.BufferedTableBackend.rearrange(BufferedTableBackend.java:153)
+	at org.knime.core.node.ExecutionContext.createColumnRearrangeTable(ExecutionContext.java:432)
+	at org.knime.expressions.base.node.formulas.FormulasNodeModel.execute(FormulasNodeModel.java:141)
+	at org.knime.core.node.NodeModel.execute(NodeModel.java:758)
+	at org.knime.core.node.NodeModel.executeModel(NodeModel.java:549)
+	at org.knime.core.node.Node.invokeFullyNodeModelExecute(Node.java:1267)
+	at org.knime.core.node.Node.execute(Node.java:1041)
+	at org.knime.core.node.workflow.NativeNodeContainer.performExecuteNode(NativeNodeContainer.java:595)
+	at org.knime.core.node.exec.LocalNodeExecutionJob.mainExecute(LocalNodeExecutionJob.java:98)
+	at org.knime.core.node.workflow.NodeExecutionJob.internalRun(NodeExecutionJob.java:201)
+	at org.knime.core.node.workflow.NodeExecutionJob.run(NodeExecutionJob.java:117)
+	at org.knime.core.util.ThreadUtils$RunnableWithContextImpl.runWithContext(ThreadUtils.java:367)
+	at org.knime.core.util.ThreadUtils$RunnableWithContext.run(ThreadUtils.java:221)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.base/java.util.concurrent.FutureTask.run(Unknown Source)
+	at org.knime.core.util.ThreadPool$MyFuture.run(ThreadPool.java:123)
+	at org.knime.core.util.ThreadPool$Worker.run(ThreadPool.java:246)
+Caused by: org.knime.expressions.core.exceptions.InvalidAccessException: Column 'actual_productivity' is unknown.
+	at org.knime.expressions.core.columnaccess.AccessUtils.getColumnContent(AccessUtils.java:277)
+	at org.knime.expressions.core.columnaccess.AccessUtils.getColumn(AccessUtils.java:124)
+	at org.openjdk.nashorn.internal.scripts.Script$Recompilation$97$48A$\^eval\_.column(<eval>:4)
+	at org.openjdk.nashorn.internal.scripts.Script$86$\^eval\_.:program(<eval>:1)
+	at org.openjdk.nashorn.internal.runtime.ScriptFunctionData.invoke(ScriptFunctionData.java:646)
+	at org.openjdk.nashorn.internal.runtime.ScriptFunction.invoke(ScriptFunction.java:513)
+	at org.openjdk.nashorn.internal.runtime.ScriptRuntime.apply(ScriptRuntime.java:520)
+	at org.openjdk.nashorn.api.scripting.NashornScriptEngine.evalImpl(NashornScriptEngine.java:442)
+	at org.openjdk.nashorn.api.scripting.NashornScriptEngine$1.eval(NashornScriptEngine.java:503)
+	at java.scripting/javax.script.CompiledScript.eval(Unknown Source)
+	at org.knime.expressions.core.DefaultFunctionScript.apply(DefaultFunctionScript.java:122)
+	at org.knime.expressions.core.DefaultFunctionScript.apply(DefaultFunctionScript.java:1)
+	at org.knime.expressions.base.node.formulas.MultiExpressionCellFactory.getCells(MultiExpressionCellFactory.java:191)
+	... 20 more
+2023-05-13 15:30:23,070 : WARN  : KNIME-Worker-20-Rank Correlation 3:11 :  : Node : Rank Correlation : 3:11 : Rows containing missing values are filtered. Please resolve them with the Missing Value node.
+2023-05-13 15:30:23,086 : WARN  : KNIME-Worker-22-Missing Value 3:14 :  : Node : Missing Value : 3:14 : Column "wip" still contains missing values.
+2023-05-13 15:30:24,381 : WARN  : KNIME-Worker-16-Normalizer (Apply) 3:23 :  : Node : Normalizer (Apply) : 3:23 : Normalized value is out of bounds. Original value: 1.1204375 Transformed value: 1.0162489913935546 Upper Bound: 1.0
+2023-05-13 15:30:25,303 : WARN  : KNIME-Worker-13-Denormalizer 3:26 :  : Node : Denormalizer : 3:26 : Normalized value is out of bounds. Original value: 1.0162489913935546 Transformed value: 1.1204375 Upper Bound: 1.108125
+2023-05-13 15:43:28,120 : WARN  : ModalContext :  : Node : Partitioning : 4:50 : Column 'estacao' for stratified sampling does not exist
+2023-05-13 15:43:29,520 : WARN  : ModalContext :  : Node : Scorer : 4:51 : Column 'estacao' not found.
+2023-05-13 15:43:29,522 : WARN  : ModalContext :  : Node : RProp MLP Learner : 4:43 : Input data not normalized. Please consider using the Normalizer Node first.
+2023-05-13 15:43:29,522 : WARN  : ModalContext :  : Node : RProp MLP Learner : 4:43 : Input data not normalized. Please consider using the Normalizer Node first.
+2023-05-13 15:43:29,523 : WARN  : ModalContext :  : Node : RProp MLP Learner : 4:43 : Input data not normalized. Please consider using the Normalizer Node first.
+2023-05-13 15:43:29,523 : WARN  : ModalContext :  : Node : RProp MLP Learner : 4:43 : Input data not normalized. Please consider using the Normalizer Node first.
+2023-05-13 15:43:29,523 : WARN  : ModalContext :  : Node : RProp MLP Learner : 4:43 : Domain range for regression in column Global_Sales not in range [0,1]
+2023-05-13 15:47:17,230 : WARN  : ModalContext :  : Node : Decision Tree Predictor : 5:28 : Internal model could not be loaded.
+2023-05-13 15:47:17,232 : WARN  : ModalContext :  : Node : Decision Tree Predictor : 5:27 : Internal model could not be loaded.
+2023-05-13 15:47:17,237 : WARN  : ModalContext :  : Node : Color Manager : 5:12 : Column "Cluster" has no nominal values set: execute predecessor or add Binner.
+2023-05-13 15:51:17,744 : WARN  : main :  : Node : Partitioning : 4:55 : No sampling method selected
+2023-05-13 15:54:13,155 : WARN  : main :  : Node : Scorer : 4:51 : Column 'estacao' not found.
+2023-05-13 15:54:17,958 : WARN  : main :  : Node : Partitioning : 4:55 : No sampling method selected
+2023-05-13 16:07:03,015 : WARN  : main :  : Node : Partitioning : 4:55 : No sampling method selected
+2023-05-13 16:07:03,022 : WARN  : main :  : Node : Scorer : 4:51 : Column 'estacao' not found.
+2023-05-13 16:07:03,554 : WARN  : main :  : Node : Partitioning : 4:55 : No sampling method selected
+2023-05-13 16:07:03,554 : WARN  : main :  : Node : Scorer : 4:51 : Column 'estacao' not found.
+2023-05-13 16:07:16,131 : WARN  : main :  : Node : Scorer : 4:51 : Column 'estacao' not found.
+2023-05-13 16:07:17,214 : WARN  : main :  : Node : Scorer : 4:51 : Column 'estacao' not found.
+2023-05-13 16:07:56,006 : WARN  : main :  : Node : Scorer : 4:51 : Column 'estacao' not found.
+2023-05-13 16:07:56,633 : WARN  : main :  : Node : Scorer : 4:51 : Column 'estacao' not found.
+2023-05-13 16:08:31,793 : WARN  : main :  : Node : Decision Tree Learner : 4:54 : Class column "estacao" not found or incompatible
+2023-05-13 16:08:33,094 : WARN  : main :  : Node : Decision Tree Learner : 4:54 : Class column "estacao" not found or incompatible
+2023-05-13 16:08:37,280 : WARN  : KNIME-Worker-30-Normalizer (Apply) 4:42 :  : NodeContainer : Normalizer (Apply) : 4:42 : Can't continue loop as the workflow was restored with the loop being partially executed. Reset loop start and execute entire loop again.
+org.knime.core.node.workflow.IllegalFlowObjectStackException: Can't continue loop as the workflow was restored with the loop being partially executed. Reset loop start and execute entire loop again.
+	at org.knime.core.node.workflow.WorkflowManager.doBeforeExecution(WorkflowManager.java:3296)
+	at org.knime.core.node.workflow.NodeContainer.notifyParentExecuteStart(NodeContainer.java:659)
+	at org.knime.core.node.workflow.NodeExecutionJob.internalRun(NodeExecutionJob.java:171)
+	at org.knime.core.node.workflow.NodeExecutionJob.run(NodeExecutionJob.java:117)
+	at org.knime.core.util.ThreadUtils$RunnableWithContextImpl.runWithContext(ThreadUtils.java:367)
+	at org.knime.core.util.ThreadUtils$RunnableWithContext.run(ThreadUtils.java:221)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.base/java.util.concurrent.FutureTask.run(Unknown Source)
+	at org.knime.core.util.ThreadPool$MyFuture.run(ThreadPool.java:123)
+	at org.knime.core.util.ThreadPool$Worker.run(ThreadPool.java:246)
+2023-05-13 16:08:37,526 : WARN  : KNIME-Worker-32-Partitioning 4:55 :  : Node : Decision Tree Learner : 4:54 : Class column "estacao" not found or incompatible
+2023-05-13 16:08:37,532 : WARN  : KNIME-Worker-31-X-Partitioner 4:24 :  : Node : Scorer : 4:51 : Column 'estacao' not found.
+2023-05-13 16:08:39,386 : WARN  : KNIME-Worker-34-Decision Tree Predictor 4:48 :  : Node : Scorer : 4:51 : Column 'estacao' not found.
+2023-05-13 16:09:23,249 : WARN  : main :  : Node : Scorer : 4:49 : Column 'estacao' not found.
+2023-05-13 16:09:24,036 : WARN  : main :  : Node : Scorer : 4:49 : Column 'estacao' not found.
+2023-05-13 16:09:35,866 : WARN  : main :  : Node : Scorer : 4:51 : Column 'estacao' not found.
+2023-05-13 16:09:36,287 : WARN  : main :  : Node : Scorer : 4:51 : Column 'estacao' not found.
+2023-05-13 16:09:38,485 : WARN  : KNIME-Worker-37-Normalizer (Apply) 4:42 :  : NodeContainer : Normalizer (Apply) : 4:42 : Can't continue loop as the workflow was restored with the loop being partially executed. Reset loop start and execute entire loop again.
+org.knime.core.node.workflow.IllegalFlowObjectStackException: Can't continue loop as the workflow was restored with the loop being partially executed. Reset loop start and execute entire loop again.
+	at org.knime.core.node.workflow.WorkflowManager.doBeforeExecution(WorkflowManager.java:3296)
+	at org.knime.core.node.workflow.NodeContainer.notifyParentExecuteStart(NodeContainer.java:659)
+	at org.knime.core.node.workflow.NodeExecutionJob.internalRun(NodeExecutionJob.java:171)
+	at org.knime.core.node.workflow.NodeExecutionJob.run(NodeExecutionJob.java:117)
+	at org.knime.core.util.ThreadUtils$RunnableWithContextImpl.runWithContext(ThreadUtils.java:367)
+	at org.knime.core.util.ThreadUtils$RunnableWithContext.run(ThreadUtils.java:221)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.base/java.util.concurrent.FutureTask.run(Unknown Source)
+	at org.knime.core.util.ThreadPool$MyFuture.run(ThreadPool.java:123)
+	at org.knime.core.util.ThreadPool$Worker.run(ThreadPool.java:246)
+2023-05-13 16:09:38,877 : WARN  : KNIME-Worker-36-Decision Tree Learner 4:52 :  : Node : Decision Tree Learner : 4:52 : 4513 rows removed due to missing class value;
+2023-05-13 16:09:38,878 : WARN  : KNIME-Worker-35-Decision Tree Learner 4:54 :  : Node : Decision Tree Learner : 4:54 : 4738 rows removed due to missing class value;
+2023-05-13 16:09:39,339 : WARN  : KNIME-Worker-38-Decision Tree Predictor 4:48 :  : Node : Scorer : 4:51 : Column 'estacao' not found.
+2023-05-13 16:09:39,343 : WARN  : KNIME-Worker-39-Decision Tree Predictor 4:53 :  : Node : Scorer : 4:49 : Column 'estacao' not found.
+2023-05-13 16:10:16,065 : WARN  : main :  : Node : Scorer : 4:51 : Column 'estacao' not found.
+2023-05-13 16:10:20,551 : WARN  : main :  : Node : Scorer : 4:49 : Column 'estacao' not found.
+2023-05-13 16:10:33,594 : WARN  : main :  : Node : Scorer : 4:49 : Column 'estacao' not found.
+2023-05-13 16:10:33,595 : WARN  : main :  : Node : Scorer : 4:51 : Column 'estacao' not found.
+2023-05-13 16:10:33,937 : WARN  : main :  : Node : Scorer : 4:49 : Column 'estacao' not found.
+2023-05-13 16:10:33,938 : WARN  : main :  : Node : Scorer : 4:51 : Column 'estacao' not found.
+2023-05-13 16:10:35,924 : WARN  : KNIME-Worker-41-Normalizer (Apply) 4:42 :  : NodeContainer : Normalizer (Apply) : 4:42 : Can't continue loop as the workflow was restored with the loop being partially executed. Reset loop start and execute entire loop again.
+org.knime.core.node.workflow.IllegalFlowObjectStackException: Can't continue loop as the workflow was restored with the loop being partially executed. Reset loop start and execute entire loop again.
+	at org.knime.core.node.workflow.WorkflowManager.doBeforeExecution(WorkflowManager.java:3296)
+	at org.knime.core.node.workflow.NodeContainer.notifyParentExecuteStart(NodeContainer.java:659)
+	at org.knime.core.node.workflow.NodeExecutionJob.internalRun(NodeExecutionJob.java:171)
+	at org.knime.core.node.workflow.NodeExecutionJob.run(NodeExecutionJob.java:117)
+	at org.knime.core.util.ThreadUtils$RunnableWithContextImpl.runWithContext(ThreadUtils.java:367)
+	at org.knime.core.util.ThreadUtils$RunnableWithContext.run(ThreadUtils.java:221)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.base/java.util.concurrent.FutureTask.run(Unknown Source)
+	at org.knime.core.util.ThreadPool$MyFuture.run(ThreadPool.java:123)
+	at org.knime.core.util.ThreadPool$Worker.run(ThreadPool.java:246)
+2023-05-13 16:10:36,075 : WARN  : KNIME-Worker-42-X-Partitioner 4:24 :  : Node : Scorer : 4:51 : Column 'estacao' not found.
+2023-05-13 16:10:36,630 : WARN  : KNIME-Worker-47-Decision Tree Predictor 4:53 :  : Node : Scorer : 4:49 : Column 'estacao' not found.
+2023-05-13 16:10:36,631 : WARN  : KNIME-Worker-46-Decision Tree Predictor 4:48 :  : Node : Scorer : 4:51 : Column 'estacao' not found.
+2023-05-13 16:11:42,578 : WARN  : KNIME-Worker-50-Normalizer (Apply) 4:42 :  : NodeContainer : Normalizer (Apply) : 4:42 : Can't continue loop as the workflow was restored with the loop being partially executed. Reset loop start and execute entire loop again.
+org.knime.core.node.workflow.IllegalFlowObjectStackException: Can't continue loop as the workflow was restored with the loop being partially executed. Reset loop start and execute entire loop again.
+	at org.knime.core.node.workflow.WorkflowManager.doBeforeExecution(WorkflowManager.java:3296)
+	at org.knime.core.node.workflow.NodeContainer.notifyParentExecuteStart(NodeContainer.java:659)
+	at org.knime.core.node.workflow.NodeExecutionJob.internalRun(NodeExecutionJob.java:171)
+	at org.knime.core.node.workflow.NodeExecutionJob.run(NodeExecutionJob.java:117)
+	at org.knime.core.util.ThreadUtils$RunnableWithContextImpl.runWithContext(ThreadUtils.java:367)
+	at org.knime.core.util.ThreadUtils$RunnableWithContext.run(ThreadUtils.java:221)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.base/java.util.concurrent.FutureTask.run(Unknown Source)
+	at org.knime.core.util.ThreadPool$MyFuture.run(ThreadPool.java:123)
+	at org.knime.core.util.ThreadPool$Worker.run(ThreadPool.java:246)
+2023-05-13 16:44:25,760 : WARN  : main :  : Node : Numeric Outliers : 3:39 : Auto configuration: Outlier Selection uses all suitable columns (in total 12).
+2023-05-13 17:05:49,541 : WARN  : ModalContext :  : Node : RProp MLP Learner : 3:43 : Input data not normalized. Please consider using the Normalizer Node first.
+2023-05-13 17:05:49,543 : WARN  : ModalContext :  : Node : RProp MLP Learner : 3:43 : Input data not normalized. Please consider using the Normalizer Node first.
+2023-05-13 17:05:49,544 : WARN  : ModalContext :  : Node : RProp MLP Learner : 3:43 : Input data not normalized. Please consider using the Normalizer Node first.
+2023-05-13 17:05:49,544 : WARN  : ModalContext :  : Node : RProp MLP Learner : 3:43 : Input data not normalized. Please consider using the Normalizer Node first.
+2023-05-13 17:05:49,544 : WARN  : ModalContext :  : Node : RProp MLP Learner : 3:43 : Domain range for regression in column Global_Sales not in range [0,1]
+2023-05-13 17:19:41,446 : WARN  : main :  : Node : RProp MLP Learner : 3:43 : Only double columns for input
+2023-05-13 17:20:05,938 : WARN  : main :  : Node : RProp MLP Learner : 3:43 : Only double columns for input
+2023-05-13 17:20:35,704 : WARN  : main :  : Node : RProp MLP Learner : 3:43 : Only double columns for input
+2023-05-13 17:21:03,819 : WARN  : main :  : Node : RProp MLP Learner : 3:43 : Only double columns for input
+2023-05-13 17:21:05,013 : WARN  : main :  : Node : RProp MLP Learner : 3:43 : Only double columns for input
+2023-05-13 17:21:18,073 : WARN  : main :  : Node : RProp MLP Learner : 3:43 : Only double columns for input
+2023-05-13 17:21:25,121 : WARN  : main :  : Node : RProp MLP Learner : 3:43 : Only double columns for input
+2023-05-13 17:21:25,844 : WARN  : main :  : Node : RProp MLP Learner : 3:43 : Only double columns for input
+2023-05-13 17:22:00,907 : WARN  : main :  : Node : RProp MLP Learner : 3:43 : Only double columns for input
+2023-05-13 17:22:01,740 : WARN  : main :  : Node : RProp MLP Learner : 3:43 : Only double columns for input
+2023-05-13 17:23:36,044 : WARN  : KNIME-Worker-56-X-Partitioner 3:38 :  : Node : RProp MLP Learner : 3:43 : Only double columns for input
+2023-05-13 17:23:36,080 : WARN  : KNIME-Worker-57-Normalizer 3:41 :  : Node : RProp MLP Learner : 3:43 : Only double columns for input
+2023-05-13 19:42:51,694 : WARN  : KNIME-Worker-72-Missing Value 4:38 :  : Node : Missing Value : 4:38 : Column "wip" still contains missing values.
+Column "smv" still contains missing values.
+Column "actual_productivity" still contains missing values.
+Column "targeted_productivity" still contains missing values.
+Column "over_time" still contains missing values.
+Column "idle_time" still contains missing values.
+Column "idle_men" still contains missing values.
+Column "no_of_style_change" still contains missing values.
+Column "incentive" still contains missing values.
+2023-05-13 19:42:51,750 : ERROR : KNIME-Worker-74-Linear Regression Learner 4:3 :  : Node : Linear Regression Learner : 4:3 : Execute failed: Missing value support disabled, see node configuration dialog.
+java.lang.IllegalStateException: Missing value support disabled, see node configuration dialog.
+	at org.knime.base.node.mine.regression.RegressionTrainingRow$MissingHandling.isMissing(RegressionTrainingRow.java:93)
+	at org.knime.base.node.mine.regression.RegressionTrainingRow.<init>(RegressionTrainingRow.java:184)
+	at org.knime.base.node.mine.regression.RegressionTrainingDataIterator.next(RegressionTrainingDataIterator.java:138)
+	at org.knime.base.node.mine.regression.RegressionTrainingDataIterator.next(RegressionTrainingDataIterator.java:1)
+	at org.knime.base.node.mine.regression.linear2.learner.Learner.processTable(Learner.java:176)
+	at org.knime.base.node.mine.regression.linear2.learner.Learner.perform(Learner.java:114)
+	at org.knime.base.node.mine.regression.linear2.learner.LinReg2Learner.execute(LinReg2Learner.java:150)
+	at org.knime.base.node.mine.regression.linear2.learner.LinReg2LearnerNodeModel.execute(LinReg2LearnerNodeModel.java:169)
+	at org.knime.core.node.NodeModel.executeModel(NodeModel.java:549)
+	at org.knime.core.node.Node.invokeFullyNodeModelExecute(Node.java:1267)
+	at org.knime.core.node.Node.execute(Node.java:1041)
+	at org.knime.core.node.workflow.NativeNodeContainer.performExecuteNode(NativeNodeContainer.java:595)
+	at org.knime.core.node.exec.LocalNodeExecutionJob.mainExecute(LocalNodeExecutionJob.java:98)
+	at org.knime.core.node.workflow.NodeExecutionJob.internalRun(NodeExecutionJob.java:201)
+	at org.knime.core.node.workflow.NodeExecutionJob.run(NodeExecutionJob.java:117)
+	at org.knime.core.util.ThreadUtils$RunnableWithContextImpl.runWithContext(ThreadUtils.java:367)
+	at org.knime.core.util.ThreadUtils$RunnableWithContext.run(ThreadUtils.java:221)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.base/java.util.concurrent.FutureTask.run(Unknown Source)
+	at org.knime.core.util.ThreadPool$MyFuture.run(ThreadPool.java:123)
+	at org.knime.core.util.ThreadPool$Worker.run(ThreadPool.java:246)
+2023-05-13 20:06:41,917 : ERROR : KNIME Sync Exec Dispatcher-1 :  : SyncExecQueueDispatcher :  :  : Uncaught exception while queuing events into main thread
+org.eclipse.swt.SWTException: Invalid thread access
+	at org.eclipse.swt.SWT.error(SWT.java:4918)
+	at org.eclipse.swt.SWT.error(SWT.java:4833)
+	at org.eclipse.swt.SWT.error(SWT.java:4804)
+	at org.eclipse.swt.widgets.Display.error(Display.java:1191)
+	at org.eclipse.swt.widgets.Display.createDisplay(Display.java:942)
+	at org.eclipse.swt.widgets.Display.create(Display.java:926)
+	at org.eclipse.swt.graphics.Device.<init>(Device.java:132)
+	at org.eclipse.swt.widgets.Display.<init>(Display.java:753)
+	at org.eclipse.swt.widgets.Display.<init>(Display.java:744)
+	at org.eclipse.swt.widgets.Display.getDefault(Display.java:1525)
+	at org.knime.workbench.ui.SyncExecQueueDispatcher$2.run(SyncExecQueueDispatcher.java:120)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.base/java.lang.Thread.run(Unknown Source)
+2023-05-13 20:06:41,919 : ERROR : KNIME Sync Exec Dispatcher-3 :  : SyncExecQueueDispatcher :  :  : Uncaught exception while queuing events into main thread
+org.eclipse.swt.SWTException: Invalid thread access
+	at org.eclipse.swt.SWT.error(SWT.java:4918)
+	at org.eclipse.swt.SWT.error(SWT.java:4833)
+	at org.eclipse.swt.SWT.error(SWT.java:4804)
+	at org.eclipse.swt.widgets.Display.error(Display.java:1191)
+	at org.eclipse.swt.widgets.Display.createDisplay(Display.java:942)
+	at org.eclipse.swt.widgets.Display.create(Display.java:926)
+	at org.eclipse.swt.graphics.Device.<init>(Device.java:132)
+	at org.eclipse.swt.widgets.Display.<init>(Display.java:753)
+	at org.eclipse.swt.widgets.Display.<init>(Display.java:744)
+	at org.eclipse.swt.widgets.Display.getDefault(Display.java:1525)
+	at org.knime.workbench.ui.SyncExecQueueDispatcher$2.run(SyncExecQueueDispatcher.java:120)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.base/java.lang.Thread.run(Unknown Source)
+2023-05-13 20:06:41,919 : ERROR : KNIME Sync Exec Dispatcher-2 :  : SyncExecQueueDispatcher :  :  : Uncaught exception while queuing events into main thread
+org.eclipse.swt.SWTException: Invalid thread access
+	at org.eclipse.swt.SWT.error(SWT.java:4918)
+	at org.eclipse.swt.SWT.error(SWT.java:4833)
+	at org.eclipse.swt.SWT.error(SWT.java:4804)
+	at org.eclipse.swt.widgets.Display.error(Display.java:1191)
+	at org.eclipse.swt.widgets.Display.createDisplay(Display.java:942)
+	at org.eclipse.swt.widgets.Display.create(Display.java:926)
+	at org.eclipse.swt.graphics.Device.<init>(Device.java:132)
+	at org.eclipse.swt.widgets.Display.<init>(Display.java:753)
+	at org.eclipse.swt.widgets.Display.<init>(Display.java:744)
+	at org.eclipse.swt.widgets.Display.getDefault(Display.java:1525)
+	at org.knime.workbench.ui.SyncExecQueueDispatcher$2.run(SyncExecQueueDispatcher.java:120)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.base/java.lang.Thread.run(Unknown Source)
+2023-05-17 16:26:32,446 : ERROR : KNIME Sync Exec Dispatcher-1 :  : SyncExecQueueDispatcher :  :  : Uncaught exception while queuing events into main thread
+org.eclipse.swt.SWTException: Invalid thread access
+	at org.eclipse.swt.SWT.error(SWT.java:4918)
+	at org.eclipse.swt.SWT.error(SWT.java:4833)
+	at org.eclipse.swt.SWT.error(SWT.java:4804)
+	at org.eclipse.swt.widgets.Display.error(Display.java:1191)
+	at org.eclipse.swt.widgets.Display.createDisplay(Display.java:942)
+	at org.eclipse.swt.widgets.Display.create(Display.java:926)
+	at org.eclipse.swt.graphics.Device.<init>(Device.java:132)
+	at org.eclipse.swt.widgets.Display.<init>(Display.java:753)
+	at org.eclipse.swt.widgets.Display.<init>(Display.java:744)
+	at org.eclipse.swt.widgets.Display.getDefault(Display.java:1525)
+	at org.knime.workbench.ui.SyncExecQueueDispatcher$2.run(SyncExecQueueDispatcher.java:120)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.base/java.lang.Thread.run(Unknown Source)
+2023-05-17 23:46:01,068 : ERROR : KNIME Sync Exec Dispatcher-1 :  : SyncExecQueueDispatcher :  :  : Uncaught exception while queuing events into main thread
+org.eclipse.swt.SWTException: Invalid thread access
+	at org.eclipse.swt.SWT.error(SWT.java:4918)
+	at org.eclipse.swt.SWT.error(SWT.java:4833)
+	at org.eclipse.swt.SWT.error(SWT.java:4804)
+	at org.eclipse.swt.widgets.Display.error(Display.java:1191)
+	at org.eclipse.swt.widgets.Display.createDisplay(Display.java:942)
+	at org.eclipse.swt.widgets.Display.create(Display.java:926)
+	at org.eclipse.swt.graphics.Device.<init>(Device.java:132)
+	at org.eclipse.swt.widgets.Display.<init>(Display.java:753)
+	at org.eclipse.swt.widgets.Display.<init>(Display.java:744)
+	at org.eclipse.swt.widgets.Display.getDefault(Display.java:1525)
+	at org.knime.workbench.ui.SyncExecQueueDispatcher$2.run(SyncExecQueueDispatcher.java:120)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.base/java.lang.Thread.run(Unknown Source)
+2023-05-18 14:56:00,103 : ERROR : KNIME Sync Exec Dispatcher-1 :  : SyncExecQueueDispatcher :  :  : Uncaught exception while queuing events into main thread
+org.eclipse.swt.SWTException: Invalid thread access
+	at org.eclipse.swt.SWT.error(SWT.java:4918)
+	at org.eclipse.swt.SWT.error(SWT.java:4833)
+	at org.eclipse.swt.SWT.error(SWT.java:4804)
+	at org.eclipse.swt.widgets.Display.error(Display.java:1191)
+	at org.eclipse.swt.widgets.Display.createDisplay(Display.java:942)
+	at org.eclipse.swt.widgets.Display.create(Display.java:926)
+	at org.eclipse.swt.graphics.Device.<init>(Device.java:132)
+	at org.eclipse.swt.widgets.Display.<init>(Display.java:753)
+	at org.eclipse.swt.widgets.Display.<init>(Display.java:744)
+	at org.eclipse.swt.widgets.Display.getDefault(Display.java:1525)
+	at org.knime.workbench.ui.SyncExecQueueDispatcher$2.run(SyncExecQueueDispatcher.java:120)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.base/java.lang.Thread.run(Unknown Source)

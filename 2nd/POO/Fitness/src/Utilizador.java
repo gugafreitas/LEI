@@ -182,5 +182,10 @@ public class Utilizador {
 
     /*public boolean existeUtilizador(String email){
         List<String> emails = new ArrayList<>();
+    }
+
+    public int quantos(){
     }*/
+
+
 }
